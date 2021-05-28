@@ -1,0 +1,36 @@
+/* Copyright 2010-2018 Jesse McGrew
+ * 
+ * This file is part of ZILF.
+ * 
+ * ZILF is free software: you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * ZILF is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with ZILF.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+namespace Zilf.ZModel
+{
+    enum GlobalStorageType
+    {
+        /// <summary>
+        /// The global can be stored in a Z-machine global or a table.
+        /// </summary>
+        Any,
+        /// <summary>
+        /// The global is (or must be) stored in a Z-machine global.
+        /// </summary>
+        Hard,
+        /// <summary>
+        /// The global is stored in a table.
+        /// </summary>
+        Soft
+    }
+}

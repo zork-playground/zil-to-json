@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Zilf": {
+      "commandName": "Project",
+      "commandLineArgs": "-c C:\\opt\\zork-playground\\historicalsource\\zork1\\zork1.zil C:\\opt\\zork-playground\\zil-to-json\\data\\zork1\\zork1.zap"
+    }
+  }
+}

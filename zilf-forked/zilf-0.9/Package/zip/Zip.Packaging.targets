@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--EXTERNAL_PROPERTIES: PackageDir-->
+<!--EXTERNAL_PROPERTIES: StageDir-->
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="16.0">
+  <PropertyGroup>
+    <ZipOutputFile>$(PackageDir)\$(PackageName).zip</ZipOutputFile>
+    <ZipStageDir>$(PackageDir)\zip_temp_$(PackageName)</ZipStageDir>
+  </PropertyGroup>
+
+  <Target Name="ZipPackage"
+          DependsOnTargets="Stage"
+          AfterTargets="Package"
+          Outputs="$(ZipOutputFile)"
+          Condition="$(WindowsTarget) OR $(PortableTarget)">
+    <MakeDir Directories="$(PackageDir)" Condition="!Exists('$(PackageDir)')" />
+    <MakeDir Directories="$(ZipStageDir)" Condition="!Exists('$(ZipStageDir)')" />
+
+    <ItemGroup>
+      <ZipFiles Include="$(StageDir)\**\*.*" Exclude="$(StageDir)\**\*.Tests.*;$(StageDir)\**\*.pdb" />
+    </ItemGroup>
+
+    <Copy SourceFiles="@(ZipFiles)" DestinationFolder="$(ZipStageDir)\%(RecursiveDir)" />
+
+    <!--
+    The ZipDirectory task doesn't set file permissions. Linux's unzip command checks the OS the ZIP was
+    created on, so if we use ZipDirectory to build a ZIP on Linux, they'll be extracted with mode 000.
+    https://github.com/Microsoft/msbuild/issues/3924
+    -->
+    <ZipDirectory Condition=" '$(OS)' != 'Unix' "
+                  SourceDirectory="$(ZipStageDir)"
+                  DestinationFile="$(ZipOutputFile)"
+                  Overwrite="true" />
+    <Exec Condition=" '$(OS)' == 'Unix' "
+          WorkingDirectory="$(ZipStageDir)"
+          Command="chmod -R u=rwX,go=rX .; chmod -R a+x bin; zip -r $(ZipOutputFile) ." />
+
+    <RemoveDir Directories="$(ZipStageDir)" />
+  </Target>
+</Project>

@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Product>ZILF</Product>
+    <Version>0.8</Version>
+    <Authors>Jesse McGrew</Authors>
+    <Company />
+    <Description>Tests for Dezapf.</Description>
+    <Copyright>Copyright 2010-2019 Jesse McGrew</Copyright>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2018.3.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.1" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.4.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Zilf.licenseheader">
+      <Link>Zilf.licenseheader</Link>
+    </None>
+    <EmbeddedResource Include="Resources\hello.z3" />
+    <EmbeddedResource Include="Resources\name.z3" />
+  </ItemGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
