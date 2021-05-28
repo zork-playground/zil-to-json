@@ -4,7 +4,7 @@ Translates games like Zork from ZIL to JSON format.
 
 Why? To inspire and jumpstart developers like **you** to write creative apps with the data.
 
-Built on top of [Zilf](https://foss.heptapod.net/zilf/zilf) by Jesse McGraw. (Thanks, Jesse!)
+Built on top of [Zilf](https://foss.heptapod.net/zilf/zilf) by Jesse McGrew. (Thanks, Jesse!)
 
 ## What's here
 
