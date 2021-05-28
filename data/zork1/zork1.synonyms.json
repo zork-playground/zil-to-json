@@ -1,0 +1,293 @@
+{
+  "WITH": [
+    "USING",
+    "THROUGH",
+    "THRU"
+  ],
+  "IN": [
+    "INSIDE",
+    "INTO"
+  ],
+  "ON": [
+    "ONTO"
+  ],
+  "UNDER": [
+    "UNDERNEATH",
+    "BENEATH",
+    "BELOW"
+  ],
+  "NORTH": [
+    "N"
+  ],
+  "SOUTH": [
+    "S"
+  ],
+  "EAST": [
+    "E"
+  ],
+  "WEST": [
+    "W"
+  ],
+  "DOWN": [
+    "D"
+  ],
+  "UP": [
+    "U"
+  ],
+  "NW": [
+    "NORTHWEST"
+  ],
+  "NE": [
+    "NORTHE"
+  ],
+  "SW": [
+    "SOUTHWEST"
+  ],
+  "SE": [
+    "SOUTHE"
+  ],
+  "SUPER": [
+    "SUPERBRIEF"
+  ],
+  "INVENTORY": [
+    "I"
+  ],
+  "QUIT": [
+    "Q"
+  ],
+  "ANSWER": [
+    "REPLY"
+  ],
+  "ATTACK": [
+    "FIGHT",
+    "HURT",
+    "INJURE",
+    "HIT"
+  ],
+  "BRUSH": [
+    "CLEAN"
+  ],
+  "BURN": [
+    "INCINERATE",
+    "IGNITE"
+  ],
+  "CHOMP": [
+    "LOSE",
+    "BARF"
+  ],
+  "CLIMB": [
+    "SIT"
+  ],
+  "CROSS": [
+    "FORD"
+  ],
+  "CUT": [
+    "SLICE",
+    "PIERCE"
+  ],
+  "CURSE": [
+    "SHIT",
+    "FUCK",
+    "DAMN"
+  ],
+  "DESTROY": [
+    "DAMAGE",
+    "BREAK",
+    "BLOCK",
+    "SMASH"
+  ],
+  "DRINK": [
+    "IMBIBE",
+    "SWALLOW"
+  ],
+  "EAT": [
+    "CONSUME",
+    "TASTE",
+    "BITE"
+  ],
+  "EXAMINE": [
+    "DESCRIBE",
+    "WHAT",
+    "WHATS"
+  ],
+  "EXORCISE": [
+    "BANISH",
+    "CAST",
+    "DRIVE",
+    "BEGONE"
+  ],
+  "EXTINGUISH": [
+    "DOUSE"
+  ],
+  "FIND": [
+    "WHERE",
+    "SEEK",
+    "SEE"
+  ],
+  "FOLLOW": [
+    "PURSUE",
+    "CHASE",
+    "COME"
+  ],
+  "GIVE": [
+    "DONATE",
+    "OFFER",
+    "FEED",
+    "HAND"
+  ],
+  "HELLO": [
+    "HI"
+  ],
+  "INCANT": [
+    "CHANT"
+  ],
+  "JUMP": [
+    "LEAP",
+    "DIVE"
+  ],
+  "KICK": [
+    "TAUNT"
+  ],
+  "KILL": [
+    "MURDER",
+    "SLAY",
+    "DISPATCH"
+  ],
+  "KNOCK": [
+    "RAP"
+  ],
+  "LOOK": [
+    "L",
+    "STARE",
+    "GAZE"
+  ],
+  "LUBRICATE": [
+    "OIL",
+    "GREASE"
+  ],
+  "MELT": [
+    "LIQUIFY"
+  ],
+  "MUMBLE": [
+    "SIGH"
+  ],
+  "ODYSSEUS": [
+    "ULYSSES"
+  ],
+  "PLUG": [
+    "GLUE",
+    "PATCH",
+    "REPAIR",
+    "FIX"
+  ],
+  "PLUGH": [
+    "XYZZY"
+  ],
+  "POUR": [
+    "SPILL"
+  ],
+  "PULL": [
+    "TUG",
+    "YANK"
+  ],
+  "PUSH": [
+    "PRESS"
+  ],
+  "PUT": [
+    "STUFF",
+    "INSERT",
+    "PLACE",
+    "HIDE"
+  ],
+  "RAISE": [
+    "LIFT"
+  ],
+  "RAPE": [
+    "MOLEST"
+  ],
+  "READ": [
+    "SKIM"
+  ],
+  "RING": [
+    "PEAL"
+  ],
+  "RUB": [
+    "TOUCH",
+    "FEEL",
+    "PAT",
+    "PET"
+  ],
+  "SKIP": [
+    "HOP"
+  ],
+  "SMELL": [
+    "SNIFF"
+  ],
+  "SWIM": [
+    "BATHE",
+    "WADE"
+  ],
+  "SWING": [
+    "THRUST"
+  ],
+  "TAKE": [
+    "GET",
+    "HOLD",
+    "CARRY",
+    "REMOVE",
+    "GRAB",
+    "CATCH"
+  ],
+  "TELL": [
+    "ASK"
+  ],
+  "THROW": [
+    "HURL",
+    "CHUCK",
+    "TOSS"
+  ],
+  "TIE": [
+    "FASTEN",
+    "SECURE",
+    "ATTACH"
+  ],
+  "TREASURE": [
+    "TEMPLE"
+  ],
+  "TURN": [
+    "SET",
+    "FLIP",
+    "SHUT"
+  ],
+  "UNTIE": [
+    "FREE",
+    "RELEASE",
+    "UNFASTEN",
+    "UNATTACH",
+    "UNHOOK"
+  ],
+  "WAIT": [
+    "Z"
+  ],
+  "WAKE": [
+    "AWAKE",
+    "SURPRISE",
+    "STARTLE"
+  ],
+  "WALK": [
+    "GO",
+    "RUN",
+    "PROCEED",
+    "STEP"
+  ],
+  "WAVE": [
+    "BRANDISH"
+  ],
+  "WIN": [
+    "WINNAGE"
+  ],
+  "YELL": [
+    "SCREAM",
+    "SHOUT"
+  ]
+}

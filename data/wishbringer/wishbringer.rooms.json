@@ -1,0 +1,4552 @@
+[
+  {
+    "Name": "HILLTOP",
+    "Exits": {
+      "NORTH": {
+        "PER": "TUMBLE",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "ENTER-TOWER?",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "ENTER-OUTSIDE-COTTAGE",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "TO": "OUTSIDE-CEMETERY",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "MESSAGE": "(Which way to you want to go down the hill, east or west?)",
+        "TYPE": "NEXIT"
+      },
+      "IN": {
+        "PER": "ENTER-TOWER?",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Hilltop"
+      ],
+      "GLOBAL": [
+        {
+          "A": "POST-OFFICE"
+        },
+        {
+          "A": "POST-DOOR"
+        },
+        {
+          "A": "HILL"
+        },
+        {
+          "A": "SIGN"
+        },
+        {
+          "A": "TOWER"
+        },
+        {
+          "A": "DRAWBRIDGE"
+        },
+        {
+          "A": "WINDOW"
+        }
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TUMBLE"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-TOWER?"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-OUTSIDE-COTTAGE"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "OUTSIDE-CEMETERY"
+        }
+      ],
+      "DOWN": [
+        "(Which way to you want to go down the hill, east or west?)"
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-TOWER?"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "HILLTOP-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "INSIDE-POST-OFFICE",
+    "Exits": {
+      "NORTH": {
+        "PER": "EXIT-POST-OFFICE",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "PER": "EXIT-POST-OFFICE",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Post Office"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "POST-OFFICE"
+        },
+        {
+          "A": "POST-DOOR"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-POST-OFFICE"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-POST-OFFICE"
+        }
+      ],
+      "PSEUDO": [
+        "POSTCARD",
+        {
+          "A": "POSTCARD-PSEUDO"
+        },
+        "LOBBY",
+        {
+          "A": "HERE-F"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "INSIDE-POST-OFFICE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "OUTSIDE-CEMETERY",
+    "Exits": {
+      "EAST": {
+        "TO": "HILLTOP",
+        "TYPE": "UEXIT"
+      },
+      "UP": {
+        "TO": "HILLTOP",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "PER": "ARE-YOU-SURE?",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "ARE-YOU-SURE?",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Outside Cemetery"
+      ],
+      "GLOBAL": [
+        {
+          "A": "SOUTH-GATE"
+        },
+        {
+          "A": "HILL"
+        },
+        {
+          "A": "CEMETERY"
+        }
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "HILLTOP"
+        }
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "HILLTOP"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ARE-YOU-SURE?"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ARE-YOU-SURE?"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "OUTSIDE-CEMETERY-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "OUTSIDE-COTTAGE",
+    "Exits": {
+      "NORTH": {
+        "PER": "NORTH-PAST-DOG?",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "ENTER-VOSS?",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "WEST-PAST-DOG?",
+        "TYPE": "FEXIT"
+      },
+      "UP": {
+        "PER": "WEST-PAST-DOG?",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "ENTER-VOSS?",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Outside Cottage"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "HILL"
+        },
+        {
+          "A": "COTTAGE"
+        },
+        {
+          "A": "COTTAGE-DOOR"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "NORTH-PAST-DOG?"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-VOSS?"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "WEST-PAST-DOG?"
+        }
+      ],
+      "UP": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "WEST-PAST-DOG?"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-VOSS?"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "OUTSIDE-COTTAGE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "INSIDE-COTTAGE",
+    "Exits": {
+      "WEST": {
+        "TO": "OUTSIDE-COTTAGE",
+        "DOOR": "COTTAGE-DOOR",
+        "TYPE": "DEXIT"
+      },
+      "OUT": {
+        "TO": "OUTSIDE-COTTAGE",
+        "DOOR": "COTTAGE-DOOR",
+        "TYPE": "DEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Cottage"
+      ],
+      "GLOBAL": [
+        {
+          "A": "COTTAGE"
+        },
+        {
+          "A": "COTTAGE-DOOR"
+        }
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "OUTSIDE-COTTAGE"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "COTTAGE-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "OUTSIDE-COTTAGE"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "COTTAGE-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "INSIDE-COTTAGE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "ROTARY-EAST",
+    "Exits": {
+      "NORTH": {
+        "TO": "ROTARY-NORTH",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "PER": "ENTER-PLEASURE-WHARF",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "ENTER-ROTARY-SOUTH",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "TO": "PARK",
+        "TYPE": "UEXIT"
+      },
+      "IN": {
+        "PER": "ENTER-THEATER?",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Rotary East"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "MOVIE-THEATER"
+        },
+        {
+          "A": "ENTRANCE"
+        },
+        {
+          "A": "CORNER"
+        },
+        {
+          "A": "GLOBBY"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROTARY-NORTH"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-PLEASURE-WHARF"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-ROTARY-SOUTH"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "PARK"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-THEATER?"
+        }
+      ],
+      "PSEUDO": [
+        "ROTARY",
+        {
+          "A": "HERE-F"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "ROTARY-EAST-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "LOBBY",
+    "Exits": {
+      "NORTH": {
+        "PER": "ENTER-AUDITORIUM?",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "PER": "EXIT-LOBBY",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "ENTER-AUDITORIUM?",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Theater Lobby"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "MOVIE-THEATER"
+        },
+        {
+          "A": "ENTRANCE"
+        },
+        {
+          "A": "CORNER"
+        },
+        {
+          "A": "CORRIDOR"
+        },
+        {
+          "A": "GLOBBY"
+        },
+        {
+          "A": "SCREEN"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-AUDITORIUM?"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-LOBBY"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-AUDITORIUM?"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "LOBBY-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "INSIDE-THEATER",
+    "Exits": {
+      "OUT": {
+        "PER": "EXIT-AUDITORIUM?",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "EXIT-AUDITORIUM?",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Inside Theater"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "MOVIE-THEATER"
+        },
+        {
+          "A": "CORRIDOR"
+        },
+        {
+          "A": "GLOBBY"
+        },
+        {
+          "A": "AISLE"
+        },
+        {
+          "A": "SCREEN"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-AUDITORIUM?"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-AUDITORIUM?"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "INSIDE-THEATER-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "PARK",
+    "Exits": {
+      "NORTH": {
+        "TO": "ROTARY-NORTH",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "ROTARY-EAST",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "PER": "ENTER-ROTARY-SOUTH",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "TO": "ROTARY-WEST",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Park"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "WETBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "TREE"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROTARY-NORTH"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROTARY-EAST"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-ROTARY-SOUTH"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROTARY-WEST"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "PARK-F"
+        }
+      ],
+      "PSEUDO": [
+        "WALKS",
+        {
+          "A": "HERE-F"
+        },
+        "ROTARY",
+        {
+          "A": "HERE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "ROTARY-WEST",
+    "Exits": {
+      "NORTH": {
+        "TO": "ROTARY-NORTH",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "PARK",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "PER": "ENTER-ROTARY-SOUTH",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "TO": "EDGE-OF-LAKE",
+        "TYPE": "UEXIT"
+      },
+      "IN": {
+        "PER": "ENTER-POLICE-STATION",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Rotary West"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "POLICE-STATION"
+        },
+        {
+          "A": "SIGN"
+        },
+        {
+          "A": "POLICE-DOOR"
+        },
+        {
+          "A": "CORNER"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROTARY-NORTH"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "PARK"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-ROTARY-SOUTH"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EDGE-OF-LAKE"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-POLICE-STATION"
+        }
+      ],
+      "PSEUDO": [
+        "ROTARY",
+        {
+          "A": "HERE-F"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "ROTARY-WEST-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "INSIDE-POLICE-STATION",
+    "Exits": {
+      "OUT": {
+        "PER": "EXIT-STATION?",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Police Station"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "POLICE-STATION"
+        },
+        {
+          "A": "CELL"
+        },
+        {
+          "A": "CELL-DOOR"
+        },
+        {
+          "A": "POLICE-DOOR"
+        },
+        {
+          "A": "CORNER"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-STATION?"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "INSIDE-POLICE-STATION-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "ROTARY-SOUTH",
+    "Exits": {
+      "NORTH": {
+        "PER": "TO-NORTH",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "TO-EAST",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "ENTER-OUTSIDE-COTTAGE",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "TO-WEST",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "ENTER-LIBRARY?",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Rotary South"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "LIBRARY"
+        },
+        {
+          "A": "LIBRARY-DOOR"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TO-NORTH"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TO-EAST"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-OUTSIDE-COTTAGE"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TO-WEST"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-LIBRARY?"
+        }
+      ],
+      "PSEUDO": [
+        "ROTARY",
+        {
+          "A": "HERE-F"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "ROTARY-SOUTH-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "CIRCULATION-DESK",
+    "Exits": {
+      "SOUTH": {
+        "PER": "ENTER-MUSEUM",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "ENTER-MUSEUM",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "PER": "EXIT-DESK",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Circulation Desk"
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "INDOORSBIT",
+        "ONBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "LIBRARY"
+        },
+        {
+          "A": "LIBRARY-DOOR"
+        },
+        {
+          "A": "GMUSEUM"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-MUSEUM"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-MUSEUM"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-DESK"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "CIRCULATION-DESK-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MUSEUM",
+    "Exits": {
+      "NORTH": {
+        "PER": "EXIT-MUSEUM",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "PER": "EXIT-MUSEUM",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Museum"
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "LIBRARY"
+        },
+        {
+          "A": "GMUSEUM"
+        },
+        {
+          "A": "SIGN"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-MUSEUM"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-MUSEUM"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "MUSEUM-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "ROTARY-NORTH",
+    "Exits": {
+      "NORTH": {
+        "TO": "SOUTH-OF-BRIDGE",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "ROTARY-EAST",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "PARK",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "ROTARY-WEST",
+        "TYPE": "UEXIT"
+      },
+      "IN": {
+        "PER": "ENTER-CHURCH",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Rotary North"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "CHURCH"
+        },
+        {
+          "A": "CHURCH-DOOR"
+        },
+        {
+          "A": "WINDOW"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SOUTH-OF-BRIDGE"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROTARY-EAST"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "PARK"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROTARY-WEST"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-CHURCH"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "ROTARY-NORTH-F"
+        }
+      ],
+      "PSEUDO": [
+        "ROTARY",
+        {
+          "A": "HERE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "INSIDE-CHURCH",
+    "Exits": {
+      "OUT": {
+        "TO": "ROTARY-NORTH",
+        "DOOR": "CHURCH-DOOR",
+        "TYPE": "DEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Church"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "CHURCH"
+        },
+        {
+          "A": "CHURCH-DOOR"
+        },
+        {
+          "A": "WINDOW"
+        },
+        {
+          "A": "AISLE"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROTARY-NORTH"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "CHURCH-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "INSIDE-CHURCH-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "JAIL-CELL",
+    "Exits": {
+      "DOWN": {
+        "PER": "THROUGH-HATCH?",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "THROUGH-HATCH?",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "MESSAGE": "You're locked inside!",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Jail Cell"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "POLICE-STATION"
+        },
+        {
+          "A": "CELL"
+        },
+        {
+          "A": "CELL-DOOR"
+        },
+        {
+          "A": "HIDDEN-HATCH"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "THROUGH-HATCH?"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "THROUGH-HATCH?"
+        }
+      ],
+      "OUT": [
+        "You're locked inside!"
+      ],
+      "ACTION": [
+        {
+          "A": "JAIL-CELL-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "EDGE-OF-LAKE",
+    "Exits": {
+      "NORTH": {
+        "TO": "RIVER-OUTLET",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "ROTARY-WEST",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "PER": "ARE-YOU-SURE?",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "PROBABLY-DROWN",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "ENTER-PIT?",
+        "TYPE": "FEXIT"
+      },
+      "DOWN": {
+        "PER": "ENTER-PIT?",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Lake Edge"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "WETBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "LAKE"
+        },
+        {
+          "A": "NORTH-GATE"
+        },
+        {
+          "A": "ISLE"
+        },
+        {
+          "A": "CEMETERY"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "RIVER-OUTLET"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROTARY-WEST"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ARE-YOU-SURE?"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PROBABLY-DROWN"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-PIT?"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-PIT?"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "EDGE-OF-LAKE-F"
+        }
+      ],
+      "PSEUDO": [
+        "SHORE",
+        {
+          "A": "HERE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "RIVER-OUTLET",
+    "Exits": {
+      "NORTH": {
+        "PER": "PROBABLY-DROWN-IN-RIVER",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "TO": "SOUTH-OF-BRIDGE",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "EDGE-OF-LAKE",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "PER": "PROBABLY-DROWN",
+        "TYPE": "FEXIT"
+      },
+      "UP": {
+        "TO": "LOOKOUT-HILL",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "River Outlet"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "WETBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "LAKE"
+        },
+        {
+          "A": "RIVER"
+        },
+        {
+          "A": "HILL"
+        },
+        {
+          "A": "TRAIL"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PROBABLY-DROWN-IN-RIVER"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SOUTH-OF-BRIDGE"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EDGE-OF-LAKE"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PROBABLY-DROWN"
+        }
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "LOOKOUT-HILL"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "RIVER-OUTLET-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "LOOKOUT-HILL",
+    "Exits": {
+      "NORTH": {
+        "PER": "NORTH-DOWN-HILL",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "TUMBLE",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "TUMBLE",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "TUMBLE",
+        "TYPE": "FEXIT"
+      },
+      "DOWN": {
+        "PER": "DOWN-THE-HILL",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "TO": "UNDER-HILL",
+        "DOOR": "STUMP",
+        "TYPE": "DEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Lookout Hill"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "TRAIL"
+        },
+        {
+          "A": "HILL"
+        },
+        {
+          "A": "HOLE"
+        },
+        {
+          "A": "STUMP"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "NORTH-DOWN-HILL"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TUMBLE"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TUMBLE"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TUMBLE"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "DOWN-THE-HILL"
+        }
+      ],
+      "IN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "UNDER-HILL"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "STUMP"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "LOOKOUT-HILL-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "PLEASURE-WHARF",
+    "Exits": {
+      "NORTH": {
+        "PER": "ENTER-POOL?",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "ENTER-WHARF",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "TO": "VIDEO-ARCADE",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "ROTARY-EAST",
+        "TYPE": "UEXIT"
+      },
+      "IN": {
+        "TO": "VIDEO-ARCADE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Pleasure Wharf"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "WETBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "BAY"
+        },
+        {
+          "A": "ARCADE"
+        },
+        {
+          "A": "SIGN"
+        },
+        {
+          "A": "SAND"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-POOL?"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-WHARF"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "VIDEO-ARCADE"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROTARY-EAST"
+        }
+      ],
+      "IN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "VIDEO-ARCADE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "PLEASURE-WHARF-F"
+        }
+      ],
+      "PSEUDO": [
+        "WHARF",
+        {
+          "A": "HERE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "WHARF",
+    "Exits": {
+      "NORTH": {
+        "PER": "FALL-OFF-WHARF",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "FALL-OFF-WHARF",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "FALL-OFF-WHARF",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "ENTER-PLEASURE-WHARF",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Wharf's End"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "WETBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "BAY"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "FALL-OFF-WHARF"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "FALL-OFF-WHARF"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "FALL-OFF-WHARF"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-PLEASURE-WHARF"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "WHARF-F"
+        }
+      ],
+      "PSEUDO": [
+        "PLANKS",
+        {
+          "A": "HERE-F"
+        },
+        "WHARF",
+        {
+          "A": "HERE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "VIDEO-ARCADE",
+    "Exits": {
+      "NORTH": {
+        "PER": "EXIT-ARCADE",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "PER": "EXIT-ARCADE",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Video Arcade"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "ARCADE"
+        },
+        {
+          "A": "SIGN"
+        },
+        {
+          "A": "CORNER"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-ARCADE"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-ARCADE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "VIDEO-ARCADE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "TIDAL-POOL",
+    "Exits": {
+      "NORTH": {
+        "TO": "FESTERON-POINT",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "PER": "PROBABLY-DROWN",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "TO": "PLEASURE-WHARF",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "MESSAGE": "There's nothing but sand that way.",
+        "TYPE": "NEXIT"
+      },
+      "DOWN": {
+        "MESSAGE": "There's nothing but sand that way.",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Tidal Pool"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "WETBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "BAY"
+        },
+        {
+          "A": "SAND"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "FESTERON-POINT"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PROBABLY-DROWN"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "PLEASURE-WHARF"
+        }
+      ],
+      "WEST": [
+        "There's nothing but sand that way."
+      ],
+      "DOWN": [
+        "There's nothing but sand that way."
+      ],
+      "ACTION": [
+        {
+          "A": "TIDAL-POOL-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "FESTERON-POINT",
+    "Exits": {
+      "NORTH": {
+        "PER": "PROBABLY-DROWN-IN-RIVER",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "PROBABLY-DROWN",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "ENTER-POOL?",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "TO": "ROCKY-PATH",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Lighthouse"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "WETBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "BAY"
+        },
+        {
+          "A": "RIVER"
+        },
+        {
+          "A": "SAND"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PROBABLY-DROWN-IN-RIVER"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PROBABLY-DROWN"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-POOL?"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROCKY-PATH"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "FESTERON-POINT-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "WEST-OF-HOUSE",
+    "Exits": {
+      "NORTH": {
+        "PER": "BACK-TO-ROCKY-PATH",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "UNWILLING-TO-MOVE",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "BOARDS-ARE-SECURE",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "UNWILLING-TO-MOVE",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "BOARDS-ARE-SECURE",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "West of House"
+      ],
+      "LDESC": [
+        "You are standing in an open field west of a white house, with a boarded front door."
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "TREE"
+        },
+        {
+          "A": "TRAIL"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "BACK-TO-ROCKY-PATH"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "UNWILLING-TO-MOVE"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "BOARDS-ARE-SECURE"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "UNWILLING-TO-MOVE"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "BOARDS-ARE-SECURE"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "ROCKY-PATH",
+    "Exits": {
+      "NORTH": {
+        "PER": "PROBABLY-DROWN",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "TO": "FESTERON-POINT",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "PER": "ENTER-HOUSE?",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "TO": "SOUTH-OF-BRIDGE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Rocky Path"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "WETBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "RIVER"
+        },
+        {
+          "A": "TREE"
+        },
+        {
+          "A": "TRAIL"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PROBABLY-DROWN"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "FESTERON-POINT"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-HOUSE?"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SOUTH-OF-BRIDGE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "ROCKY-PATH-F"
+        }
+      ],
+      "PSEUDO": [
+        "FOREST",
+        {
+          "A": "FOREST-PSEUDO"
+        },
+        "WOODS",
+        {
+          "A": "FOREST-PSEUDO"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "SOUTH-OF-BRIDGE",
+    "Exits": {
+      "NORTH": {
+        "PER": "GO-ON-BRIDGE",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "TO": "ROCKY-PATH",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "ROTARY-NORTH",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "RIVER-OUTLET",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "South of Bridge"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "WETBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "RIVER"
+        },
+        {
+          "A": "BRIDGE"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GO-ON-BRIDGE"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROCKY-PATH"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROTARY-NORTH"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "RIVER-OUTLET"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "SOUTH-OF-BRIDGE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "ON-BRIDGE",
+    "Exits": {
+      "NORTH": {
+        "PER": "OFF-BRIDGE",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "PROBABLY-DROWN",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "TO": "SOUTH-OF-BRIDGE",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "PER": "PROBABLY-DROWN",
+        "TYPE": "FEXIT"
+      },
+      "DOWN": {
+        "PER": "PROBABLY-DROWN",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Bridge"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "INDOORSBIT",
+        "WETBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "RIVER"
+        },
+        {
+          "A": "BRIDGE"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "OFF-BRIDGE"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PROBABLY-DROWN"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SOUTH-OF-BRIDGE"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PROBABLY-DROWN"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PROBABLY-DROWN"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "ON-BRIDGE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "NORTH-OF-BRIDGE",
+    "Exits": {
+      "NORTH": {
+        "PER": "BUMP-CLIFF",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "TO": "CLIFF-BOTTOM",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "PER": "ENTER-BRIDGE?",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "BUMP-CLIFF",
+        "TYPE": "FEXIT"
+      },
+      "UP": {
+        "MESSAGE": "The cliff is much too steep to climb.",
+        "TYPE": "NEXIT"
+      },
+      "IN": {
+        "PER": "ENTER-BRIDGE?",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "North of Bridge"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "WETBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "BRIDGE"
+        },
+        {
+          "A": "RIVER"
+        },
+        {
+          "A": "CLIFF"
+        },
+        {
+          "A": "SIGN"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "BUMP-CLIFF"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CLIFF-BOTTOM"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-BRIDGE?"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "BUMP-CLIFF"
+        }
+      ],
+      "UP": [
+        "The cliff is much too steep to climb."
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-BRIDGE?"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "NORTH-OF-BRIDGE-F"
+        }
+      ],
+      "PSEUDO": [
+        "SHORE",
+        {
+          "A": "HERE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "CLIFF-BOTTOM",
+    "Exits": {
+      "NORTH": {
+        "PER": "BUMP-CLIFF",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "BUMP-CLIFF",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "PROBABLY-DROWN",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "LIFT-VULTURE",
+        "TYPE": "FEXIT"
+      },
+      "UP": {
+        "PER": "ENTER-TRAIL?",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "BUMP-CLIFF",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Cliff Bottom"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "WETBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "RIVER"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "CLIFF"
+        },
+        {
+          "A": "TRAIL"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "BUMP-CLIFF"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "BUMP-CLIFF"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PROBABLY-DROWN"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "LIFT-VULTURE"
+        }
+      ],
+      "UP": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-TRAIL?"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "BUMP-CLIFF"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "CLIFF-BOTTOM-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "FOG",
+    "Exits": {
+      "NORTH": {
+        "PER": "N-TRAIL",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "E-TRAIL",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "S-TRAIL",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "W-TRAIL",
+        "TYPE": "FEXIT"
+      },
+      "UP": {
+        "PER": "U-TRAIL",
+        "TYPE": "FEXIT"
+      },
+      "DOWN": {
+        "PER": "D-TRAIL",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Fog"
+      ],
+      "LDESC": [
+        "You're lost in a thick cloud of fog."
+      ],
+      "GLOBAL": [
+        {
+          "A": "TRAIL"
+        },
+        {
+          "A": "CLIFF"
+        }
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "N-TRAIL"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "E-TRAIL"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "S-TRAIL"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "W-TRAIL"
+        }
+      ],
+      "UP": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "U-TRAIL"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "D-TRAIL"
+        }
+      ],
+      "PSEUDO": [
+        "FOG",
+        {
+          "A": "FOG-PSEUDO"
+        },
+        "CLOUD",
+        {
+          "A": "FOG-PSEUDO"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "STEEP-TRAIL",
+    "Exits": {
+      "NORTH": {
+        "PER": "N-TRAIL",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "E-TRAIL",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "S-TRAIL",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "W-TRAIL",
+        "TYPE": "FEXIT"
+      },
+      "UP": {
+        "PER": "U-TRAIL",
+        "TYPE": "FEXIT"
+      },
+      "DOWN": {
+        "PER": "D-TRAIL",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Steep Trail"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "RMUNGBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "TRAIL"
+        },
+        {
+          "A": "CLIFF"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "N-TRAIL"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "E-TRAIL"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "S-TRAIL"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "W-TRAIL"
+        }
+      ],
+      "UP": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "U-TRAIL"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "D-TRAIL"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "STEEP-TRAIL-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "CLIFF-EDGE",
+    "Exits": {
+      "NORTH": {
+        "PER": "BUMP-CLIFF",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "TUMBLE",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "TUMBLE",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "ENTER-SHOPPE",
+        "TYPE": "FEXIT"
+      },
+      "DOWN": {
+        "PER": "ENTER-FOG?",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "ENTER-SHOPPE",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Cliff Edge"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "RMUNGBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "CLIFF"
+        },
+        {
+          "A": "MAGICK-SHOPPE"
+        },
+        {
+          "A": "SHOPPE-DOOR"
+        },
+        {
+          "A": "TOWER"
+        },
+        {
+          "A": "SIGN"
+        },
+        {
+          "A": "POST-OFFICE"
+        },
+        {
+          "A": "TRAIL"
+        },
+        {
+          "A": "HILL"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "BUMP-CLIFF"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TUMBLE"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TUMBLE"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-SHOPPE"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-FOG?"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-SHOPPE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "CLIFF-EDGE-F"
+        }
+      ],
+      "PSEUDO": [
+        "FOG",
+        {
+          "A": "CLIFF-FOG-PSEUDO"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "INSIDE-SHOPPE",
+    "Exits": {
+      "EAST": {
+        "PER": "MOBILE?",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "APPROACH-CURTAIN",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "APPROACH-CURTAIN",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "PER": "MOBILE?",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Magick Shoppe"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "MAGICK-SHOPPE"
+        },
+        {
+          "A": "SHOPPE-DOOR"
+        },
+        {
+          "A": "CORNER"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MOBILE?"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "APPROACH-CURTAIN"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "APPROACH-CURTAIN"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MOBILE?"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "INSIDE-SHOPPE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "END-ROOM",
+    "Exits": {},
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "End of Story"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "CREEPY-CORNER",
+    "Exits": {
+      "NORTH": {
+        "PER": "ENTER-SPOOKY-COPSE",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "EXIT-TO-OUTSIDE",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "TOMBS-BLOCK",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "TOMBS-BLOCK",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "PER": "EXIT-TO-OUTSIDE",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Creepy Corner"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "MONUMENTS"
+        },
+        {
+          "A": "TREE"
+        },
+        {
+          "A": "VAPORS"
+        },
+        {
+          "A": "SOUTH-GATE"
+        },
+        {
+          "A": "CORNER"
+        },
+        {
+          "A": "CEMETERY"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-SPOOKY-COPSE"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-TO-OUTSIDE"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TOMBS-BLOCK"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TOMBS-BLOCK"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-TO-OUTSIDE"
+        }
+      ],
+      "PSEUDO": [
+        "LANE",
+        {
+          "A": "HERE-F"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "CREEPY-CORNER-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "SPOOKY-COPSE",
+    "Exits": {
+      "NORTH": {
+        "PER": "TOMBS-BLOCK",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "TOMBS-BLOCK",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "COPSE-TO-CORNER",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "COPSE-TO-GLEN",
+        "TYPE": "FEXIT"
+      },
+      "DOWN": {
+        "PER": "ENTER-GRAVE",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "ENTER-GRAVE",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Spooky Copse"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "MONUMENTS"
+        },
+        {
+          "A": "VAPORS"
+        },
+        {
+          "A": "CEMETERY"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TOMBS-BLOCK"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TOMBS-BLOCK"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "COPSE-TO-CORNER"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "COPSE-TO-GLEN"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-GRAVE"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-GRAVE"
+        }
+      ],
+      "PSEUDO": [
+        "LANE",
+        {
+          "A": "HERE-F"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "SPOOKY-COPSE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "TWILIGHT-GLEN",
+    "Exits": {
+      "NORTH": {
+        "PER": "EXIT-TO-LAKE",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "RETURN-TO-COPSE",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "TOMBS-BLOCK",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "TOMBS-BLOCK",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "PER": "EXIT-TO-LAKE",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Twilight Glen"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "MONUMENTS"
+        },
+        {
+          "A": "TREE"
+        },
+        {
+          "A": "VAPORS"
+        },
+        {
+          "A": "NORTH-GATE"
+        },
+        {
+          "A": "CEMETERY"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-TO-LAKE"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "RETURN-TO-COPSE"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TOMBS-BLOCK"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TOMBS-BLOCK"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-TO-LAKE"
+        }
+      ],
+      "PSEUDO": [
+        "LANE",
+        {
+          "A": "HERE-F"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "TWILIGHT-GLEN-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "INSIDE-GRAVE",
+    "Exits": {
+      "NORTH": {
+        "PER": "ENTER-HOLE?",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "WALL-OF-DIRT",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "WALL-OF-DIRT",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "WALL-OF-DIRT",
+        "TYPE": "FEXIT"
+      },
+      "UP": {
+        "PER": "GRAVE-TO-COPSE",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "ENTER-HOLE?",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "PER": "GRAVE-TO-COPSE",
+        "TYPE": "FEXIT"
+      },
+      "DOWN": {
+        "PER": "ENTER-HOLE?",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Open Grave"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "HOLE"
+        },
+        {
+          "A": "VAPORS"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-HOLE?"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "WALL-OF-DIRT"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "WALL-OF-DIRT"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "WALL-OF-DIRT"
+        }
+      ],
+      "UP": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GRAVE-TO-COPSE"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-HOLE?"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GRAVE-TO-COPSE"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-HOLE?"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "INSIDE-GRAVE-F"
+        }
+      ],
+      "PSEUDO": [
+        "DIRT",
+        {
+          "A": "WALLS-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "TUNNEL-FORK",
+    "Exits": {
+      "NORTH": {
+        "TO": "UNDER-HILL",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "UNDER-CELL",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "PER": "INTO-GRAVE",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "MESSAGE": "Which way do you want to go in?",
+        "TYPE": "NEXIT"
+      },
+      "OUT": {
+        "MESSAGE": "Which way do you want to go out?",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Underground"
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "HOLE"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "UNDER-HILL"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "UNDER-CELL"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "INTO-GRAVE"
+        }
+      ],
+      "IN": [
+        "Which way do you want to go in?"
+      ],
+      "OUT": [
+        "Which way do you want to go out?"
+      ],
+      "PSEUDO": [
+        "TUNNEL",
+        {
+          "A": "HERE-F"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "TUNNEL-FORK-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "TUNNEL-CORNER",
+    "Exits": {
+      "EAST": {
+        "PER": "ENTER-GRUE-NEST",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "TO": "UNDER-CELL",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "UNDER-HILL",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "MESSAGE": "Which way do you want to go out?",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Underground"
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-GRUE-NEST"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "UNDER-CELL"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "UNDER-HILL"
+        }
+      ],
+      "OUT": [
+        "Which way do you want to go out?"
+      ],
+      "PSEUDO": [
+        "TUNNEL",
+        {
+          "A": "HERE-F"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "TUNNEL-CORNER-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "UNDER-HILL",
+    "Exits": {
+      "EAST": {
+        "TO": "TUNNEL-CORNER",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "TUNNEL-FORK",
+        "TYPE": "UEXIT"
+      },
+      "UP": {
+        "TO": "LOOKOUT-HILL",
+        "DOOR": "STUMP",
+        "TYPE": "DEXIT"
+      },
+      "OUT": {
+        "MESSAGE": "Which way do you want to go out?",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Underground"
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "STUMP"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TUNNEL-CORNER"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TUNNEL-FORK"
+        }
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "LOOKOUT-HILL"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "STUMP"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        }
+      ],
+      "OUT": [
+        "Which way do you want to go out?"
+      ],
+      "PSEUDO": [
+        "TUNNEL",
+        {
+          "A": "HERE-F"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "UNDER-HILL-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "GRUE-NEST",
+    "Exits": {
+      "WEST": {
+        "PER": "EXIT-NEST",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "PER": "EXIT-NEST",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Grue's Nest"
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "SIGN"
+        },
+        {
+          "A": "CORNER"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-NEST"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-NEST"
+        }
+      ],
+      "PSEUDO": [
+        "TUNNEL",
+        {
+          "A": "HERE-F"
+        },
+        "NEST",
+        {
+          "A": "HERE-F"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "GRUE-NEST-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "UNDER-CELL",
+    "Exits": {
+      "NORTH": {
+        "TO": "TUNNEL-CORNER",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "TUNNEL-FORK",
+        "TYPE": "UEXIT"
+      },
+      "UP": {
+        "PER": "THROUGH-HATCH?",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "MESSAGE": "Which way do you want to go out?",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Underground"
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "CELL"
+        },
+        {
+          "A": "HIDDEN-HATCH"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TUNNEL-CORNER"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TUNNEL-FORK"
+        }
+      ],
+      "UP": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "THROUGH-HATCH?"
+        }
+      ],
+      "OUT": [
+        "Which way do you want to go out?"
+      ],
+      "PSEUDO": [
+        "TUNNEL",
+        {
+          "A": "HERE-F"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "UNDER-CELL-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "ROUND-CHAMBER",
+    "Exits": {
+      "NORTH": {
+        "TO": "VESTIBULE",
+        "TYPE": "UEXIT"
+      },
+      "UP": {
+        "PER": "ENTER-LAB",
+        "TYPE": "FEXIT"
+      },
+      "DOWN": {
+        "PER": "DOWN-LADDER?",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "TO": "VESTIBULE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Round Chamber"
+      ],
+      "GLOBAL": [
+        {
+          "A": "TOWER"
+        },
+        {
+          "A": "CORRIDOR"
+        },
+        {
+          "A": "STAIRWAY"
+        },
+        {
+          "A": "HATCH"
+        },
+        {
+          "A": "LADDER"
+        }
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "INDOORSBIT",
+        "NARTICLEBIT"
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "VESTIBULE"
+        }
+      ],
+      "UP": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-LAB"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "DOWN-LADDER?"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "VESTIBULE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "ROUND-CHAMBER-F"
+        }
+      ],
+      "PSEUDO": [
+        "CHAMBER",
+        {
+          "A": "HERE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "VESTIBULE",
+    "Exits": {
+      "NORTH": {
+        "PER": "EXIT-TOWER?",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "INTO-ROUND-CHAMBER",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "INTO-ROUND-CHAMBER",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "PER": "EXIT-TOWER?",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Vestibule"
+      ],
+      "GLOBAL": [
+        {
+          "A": "TOWER"
+        },
+        {
+          "A": "DRAWBRIDGE"
+        },
+        {
+          "A": "CORRIDOR"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-TOWER?"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "INTO-ROUND-CHAMBER"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "INTO-ROUND-CHAMBER"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-TOWER?"
+        }
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "INDOORSBIT",
+        "WETBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "VESTIBULE-F"
+        }
+      ],
+      "PSEUDO": [
+        "VESTIBULE",
+        {
+          "A": "HERE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "TORTURE-CHAMBER",
+    "Exits": {
+      "UP": {
+        "PER": "EXIT-TORTURE?",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "PER": "EXIT-TORTURE?",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Torture Chamber"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "TOWER"
+        },
+        {
+          "A": "HATCH"
+        },
+        {
+          "A": "LADDER"
+        }
+      ],
+      "UP": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-TORTURE?"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-TORTURE?"
+        }
+      ],
+      "PSEUDO": [
+        "CHAMBER",
+        {
+          "A": "HERE-F"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "TORTURE-CHAMBER-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "FUZZY",
+    "Exits": {
+      "NORTH": {
+        "PER": "TOO-FUZZY",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "TOO-FUZZY",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "TOO-FUZZY",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "TOO-FUZZY",
+        "TYPE": "FEXIT"
+      },
+      "UP": {
+        "PER": "TOO-FUZZY",
+        "TYPE": "FEXIT"
+      },
+      "DOWN": {
+        "PER": "TOO-FUZZY",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "TOO-FUZZY",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "PER": "TOO-FUZZY",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Fuzziness"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TOO-FUZZY"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TOO-FUZZY"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TOO-FUZZY"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TOO-FUZZY"
+        }
+      ],
+      "UP": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TOO-FUZZY"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TOO-FUZZY"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TOO-FUZZY"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TOO-FUZZY"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "FUZZY-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "LABORATORY",
+    "Exits": {
+      "NORTH": {
+        "MESSAGE": "The only north exit is through the window.",
+        "TYPE": "NEXIT"
+      },
+      "OUT": {
+        "PER": "EXIT-LAB",
+        "TYPE": "FEXIT"
+      },
+      "DOWN": {
+        "PER": "EXIT-LAB",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Laboratory"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "INDOORSBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "TOWER"
+        },
+        {
+          "A": "STAIRWAY"
+        },
+        {
+          "A": "WINDOW"
+        },
+        {
+          "A": "FESTERON"
+        }
+      ],
+      "NORTH": [
+        "The only north exit is through the window."
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-LAB"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-LAB"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "LABORATORY-F"
+        }
+      ],
+      "PSEUDO": [
+        "LABORA",
+        {
+          "A": "HERE-F"
+        },
+        "LAB",
+        {
+          "A": "HERE-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "ISLAND",
+    "Exits": {
+      "NORTH": {
+        "PER": "BUMP-CLIFF",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "PROBABLY-DROWN",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "BUMP-CLIFF",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "ENTER-THRONE-ROOM",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "ENTER-THRONE-ROOM",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Misty Island"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "WETBIT",
+        "RLANDBIT",
+        "NARTICLEBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "CASTLE"
+        },
+        {
+          "A": "CLIFF"
+        },
+        {
+          "A": "LAKE"
+        },
+        {
+          "A": "ISLE"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "BUMP-CLIFF"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PROBABLY-DROWN"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "BUMP-CLIFF"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-THRONE-ROOM"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ENTER-THRONE-ROOM"
+        }
+      ],
+      "PSEUDO": [
+        "BEACH",
+        {
+          "A": "HERE-F"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "ISLAND-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "THRONE-ROOM",
+    "Exits": {
+      "NORTH": {
+        "PER": "PLATS-BLOCK",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "EXIT-THRONE-ROOM",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "PLATS-BLOCK",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "PLATS-BLOCK",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "PER": "EXIT-THRONE-ROOM",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Throne Room"
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT",
+        "INDOORSBIT",
+        "NARTICLEBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "CASTLE"
+        },
+        {
+          "A": "ISLE"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PLATS-BLOCK"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-THRONE-ROOM"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PLATS-BLOCK"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PLATS-BLOCK"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EXIT-THRONE-ROOM"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "THRONE-ROOM-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  }
+]

@@ -1,0 +1,3420 @@
+[
+  {
+    "Source": "MISC.zil:710",
+    "Name": "T?C-TABLE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:24",
+    "Name": "T?P-CCTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "PARSER.zil:37",
+    "Name": "T?P-LEXV",
+    "Flags": "Lexv",
+    "Data": [
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]"
+    ]
+  },
+  {
+    "Source": "PARSER.zil:39",
+    "Name": "T?AGAIN-LEXV",
+    "Flags": "Lexv",
+    "Data": [
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]"
+    ]
+  },
+  {
+    "Source": "PARSER.zil:41",
+    "Name": "T?RESERVE-LEXV",
+    "Flags": "Lexv",
+    "Data": [
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]"
+    ]
+  },
+  {
+    "Source": "PARSER.zil:45",
+    "Name": "T?P-INBUF",
+    "Flags": "Byte, ByteLength",
+    "Data": [
+      120,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "PARSER.zil:48",
+    "Name": "T?OOPS-INBUF",
+    "Flags": "Byte, ByteLength",
+    "Data": [
+      120,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "PARSER.zil:50",
+    "Name": "T?OOPS-TABLE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:86",
+    "Name": "T?P-ITBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "PARSER.zil:89",
+    "Name": "T?P-OTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "PARSER.zil:92",
+    "Name": "T?P-VTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]"
+    ]
+  },
+  {
+    "Source": "PARSER.zil:95",
+    "Name": "T?P-OVTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]"
+    ]
+  },
+  {
+    "Source": "PARSER.zil:697",
+    "Name": "T?P-QBUF",
+    "Flags": "0",
+    "Data": [
+      "[Zilf.Interpreter.Values.ZilHash]",
+      2,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      2,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      2,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      2,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      2,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      2,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      2,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      2,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      2,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "PARSER.zil:1211",
+    "Name": "T?P-PRSO",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:1213",
+    "Name": "T?P-PRSI",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:1215",
+    "Name": "T?P-BUTS",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:1217",
+    "Name": "T?P-MERGE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:1219",
+    "Name": "T?P-OCLAUSE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "INTERRUPTS.zil:975",
+    "Name": "T?ROC-DESCS",
+    "Flags": "Pure",
+    "Data": [
+      "tiny black dot silhouetted against the clouds.",
+      "large object silhouetted against the clouds.",
+      "large bird approaching.",
+      "large bird circling the tower and eyeing you suspiciously."
+    ]
+  },
+  {
+    "Source": "VERBS.zil:147",
+    "Name": "T?TIRED-TELL",
+    "Flags": "Pure",
+    "Data": [
+      "beginning to tire",
+      "feeling tired",
+      "getting more and more tired",
+      "worn out",
+      "dead tired",
+      "so tired you can barely concentrate",
+      "moving on your last reserves of strength",
+      "practically asleep",
+      "barely able to keep your eyes open",
+      "about to keel over from exhaustion"
+    ]
+  },
+  {
+    "Source": "VERBS.zil:249",
+    "Name": "T?RANKINGS",
+    "Flags": "Pure",
+    "Data": [
+      "Charlatan",
+      "Parlor Magician",
+      "Magician",
+      "Novice Enchanter",
+      "Enchanter",
+      "Expert Enchanter",
+      "Novice Sorcerer",
+      "Sorcerer",
+      "Expert Sorcerer",
+      "Novice Mage",
+      "Mage",
+      "Archimage",
+      "Scientist"
+    ]
+  },
+  {
+    "Source": "VERBS.zil:1350",
+    "Name": "T?DREAMS",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      0,
+      "a group of mages clustered around a magic mirror in which\r\nscenes of terrible violence are visible.",
+      "a great hard-eyed monster, its insectile arms dipping and\r\nturning to the commands of a sorcerer who stands fearless in front of\r\nit.",
+      "an alchemist bent over his retorts, alembics, stinks and\r\nsmokes.",
+      "strangely garbed magicians floating in midair."
+    ]
+  },
+  {
+    "Source": "VERBS.zil:2067",
+    "Name": "T?DEATH-SPEECHES",
+    "Flags": "Pure",
+    "Data": [
+      "How nice to see you again.\r\nUnfortunately, I still have need of you, so this foolishness can't be\r\nallowed. You'll have to go back.",
+      "You really don't seem to\r\nbe able to take care of yourself, do you? A little more circumspection and\r\nprudence might be in order, don't you think?",
+      "I think I may have chosen improperly after all. I warn you, this is\r\nyour last chance.",
+      "You're obviously not the right choice. What a waste. I'll have to\r\nstart all over with someone else. All this effort, too."
+    ]
+  },
+  {
+    "Source": "VERBS.zil:2216",
+    "Name": "T?YUKS",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      0,
+      "Not likely!",
+      "That would never work!",
+      "You can't be serious.",
+      "You must have had a silliness spell cast upon you."
+    ]
+  },
+  {
+    "Source": "MAGIC.zil:486",
+    "Name": "T?FORGET-TBL",
+    "Flags": "WordLength",
+    "Data": [
+      15,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "MAGIC.zil:630",
+    "Name": "T?FIZZLES",
+    "Flags": "WordLength",
+    "Data": [
+      7,
+      0,
+      "nothing happens.",
+      "a huge ball of green light appears, then dissipates.",
+      "your fingers grow numb.",
+      "you are momentarily blinded.",
+      "there is a distant rumble of thunder.",
+      "your whole body feels as if your funny bone has been struck."
+    ]
+  },
+  {
+    "Source": "MAGIC.zil:743",
+    "Name": "T?ALL-SPELLS",
+    "Flags": "WordLength, Pure",
+    "Data": [
+      15,
+      {
+        "A": "GNUSTO-SPELL"
+      },
+      {
+        "A": "FROTZ-SPELL"
+      },
+      {
+        "A": "REZROV-SPELL"
+      },
+      {
+        "A": "YOMIN-SPELL"
+      },
+      {
+        "A": "LESOCH-SPELL"
+      },
+      {
+        "A": "BLORPLE-SPELL"
+      },
+      {
+        "A": "SNAVIG-SPELL"
+      },
+      {
+        "A": "GIRGOL-SPELL"
+      },
+      {
+        "A": "JINDAK-SPELL"
+      },
+      {
+        "A": "MALYON-SPELL"
+      },
+      {
+        "A": "ESPNIS-SPELL"
+      },
+      {
+        "A": "CASKLY-SPELL"
+      },
+      {
+        "A": "LISKON-SPELL"
+      },
+      {
+        "A": "THROCK-SPELL"
+      },
+      {
+        "A": "TINSOT-SPELL"
+      }
+    ]
+  },
+  {
+    "Source": "MAGIC.zil:811",
+    "Name": "T?COUNTERS",
+    "Flags": "Pure",
+    "Data": [
+      "once",
+      "twice",
+      "thrice",
+      "four times",
+      "many times"
+    ]
+  },
+  {
+    "Source": "GLOBALS.zil:28",
+    "Name": "T?INDENTS",
+    "Flags": "Pure",
+    "Data": [
+      "",
+      "  ",
+      "    ",
+      "      ",
+      "        ",
+      "          "
+    ]
+  },
+  {
+    "Source": "GLOBALS.zil:36",
+    "Name": "T?DIR-TABLE",
+    "Flags": "WordLength, Pure",
+    "Data": [
+      24,
+      1,
+      {
+        "A": "P?NORTH"
+      },
+      "north",
+      2,
+      {
+        "A": "P?EAST"
+      },
+      "east",
+      4,
+      {
+        "A": "P?WEST"
+      },
+      "west",
+      8,
+      {
+        "A": "P?SOUTH"
+      },
+      "south",
+      16,
+      {
+        "A": "P?NE"
+      },
+      "northeast",
+      32,
+      {
+        "A": "P?NW"
+      },
+      "northwest",
+      64,
+      {
+        "A": "P?SE"
+      },
+      "southeast",
+      128,
+      {
+        "A": "P?SW"
+      },
+      "southwest"
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      36,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MOUNTAIN-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "ANSWER-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "ANSWER-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "ANSWER-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "ANSWER-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "ANSWER-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "ANSWER-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "ANSWER-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "ANSWER-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "ANSWER-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "ANSWER-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "GLOBALS.zil:1041",
+    "Name": "T?QUESTIONS",
+    "Flags": "WordLength, Pure",
+    "Data": [
+      6,
+      "Which mage had the motto, 'The hardest trick is making it look easy.'",
+      "Who invented the golmac spell",
+      "Who wrote of the Coconut of Quendor",
+      "In Borphee, who was famed for his skill with fireworks displays",
+      "Which of our esteemed colleagues was fabled for his skill at Double Fanucci",
+      "Of the necromancers, who other than (harumph) myself is best-known"
+    ]
+  },
+  {
+    "Source": "GLOBALS.zil:1050",
+    "Name": "T?ANSWERS",
+    "Flags": "WordLength, Pure",
+    "Data": [
+      6,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]"
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      30,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "FROG-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "AMPHIBIAN-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "TOAD-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "AMPHIBIAN-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "SALAMANDER-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "NEWT-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "AMPHIBIAN-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "HELLBENDER-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "AMPHIBIAN-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "AMPHIBIAN-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      12,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "GUARD-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MANSE-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "GUILD-HALL-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RANDOM-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      12,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RANDOM-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      15,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "PLURAL-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      9,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      18,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "SNAKE-EYE-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "SNAKE-EYE-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "SNAKE-SCALES-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "SNAKE-SCALES-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      18,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "SNAKE-EYE-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "SNAKE-EYE-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "SNAKE-SCALES-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "SNAKE-SCALES-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      27,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "PLURAL-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      24,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "MOUNTAIN-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "MOUNTAIN-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      12,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "KEYSTONE-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "MOUNTAIN-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "MOUNTAIN-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      15,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "MOUNTAIN-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "PLURAL-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "PLURAL-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "PLANTS-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      6,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      15,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "PLURAL-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "PLURAL-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      15,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RANDOM-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "C2.zil:524",
+    "Name": "T?WATER-HEIGHTS",
+    "Flags": "WordLength, Pure",
+    "Data": [
+      4,
+      "one-quarter",
+      "half",
+      "three-quarters",
+      "completely"
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      6,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MOSS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "MOSS-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      6,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MOSS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "MOSS-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      9,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "MOSS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "MOSS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "MOSS-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "CELL-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      9,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "CELL-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "PLURAL-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "PLURAL-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      21,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "MOUNTAIN-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MOUNTAIN-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "PLURAL-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "PLURAL-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      18,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "MOUNTAIN-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "NEST-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      6,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CLOUD-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CLOUD-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      15,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "GLACIER-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "GLACIER-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "GLACIER-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "GLACIER-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MOUNTAIN-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      18,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "SIGN-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "SIGN-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "CARPET-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "CARPET-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CARPET-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CARPET-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "C3.zil:469",
+    "Name": "T?MERCHANT-SAYS",
+    "Flags": "WordLength, Pure",
+    "Data": [
+      4,
+      "\"These carpets are the epitome of the weaver's art, woven\r\nby skilled native craftsmen with pride in their work. The Flatheads themselves\r\nhave carpets like these. Their worth is nearly incalculable, but because\r\ntoday is my aged mother's birthday, we are offering them at an absurdly low\r\nprice. A mere eight hundred zorkmids each!\"",
+      "\"You obviously didn't hear me. I didn't say we were giving them away.\r\nBut my father is also hard of hearing and\r\nthus I have a warm spot in my heart for those similarly afflicted, so I will\r\naccept a pittance, as charity: seven hundred zorkmids.\"",
+      "\"My word! Let me see your teeth... No, not shark's teeth after all. Perhaps\r\nyour rapaciousness has led you astray. Down the block you may find old rags\r\nand such to make a fine floor covering for your hovel. Here you must pay what\r\nthe product is worth. Six hundred, or I send you down the street.\"",
+      "\"This grows tedious. Because I am a busy man and my lunch is growing cold,\r\nI will sell you a rug below my own cost. These rugs are imported at great\r\nexpense over burning deserts, steep mountains and bandit-infested plains.\r\nMy own cousin, who was watching out for the family interests in the caravan,\r\nwas lost bringing this very shipment here. The caravan master, in his\r\nabsence, no doubt robbed us blind, as you propose to do. Done at five hundred,\r\nthen!\" He reaches toward you expectantly."
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      9,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "SIGN-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "SHOP-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "SHOP-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      15,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MOUNTAIN-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "CLOUD-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "NEST-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      6,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "CLOUD-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "CLOUD-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      6,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "VOLCANO-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "LAVA-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      6,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "VOLCANO-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "LAVA-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      12,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "SOLID-GROUND-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "VOLCANO-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "LAVA-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "VOLCANO-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "POOL-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "POOL-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "POOL-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      12,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "FAKE-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "FAKE-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "FAKE-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "FAKE-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CASTLE-GUARDS-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "C3.zil:1864",
+    "Name": "T?FAKE-CUBE-LIST",
+    "Flags": "WordLength",
+    "Data": [
+      13,
+      0,
+      {
+        "A": "CUBE-1"
+      },
+      {
+        "A": "CUBE-2"
+      },
+      {
+        "A": "CUBE-3"
+      },
+      {
+        "A": "CUBE-4"
+      },
+      {
+        "A": "CUBE-5"
+      },
+      {
+        "A": "CUBE-6"
+      },
+      {
+        "A": "CUBE-7"
+      },
+      {
+        "A": "CUBE-8"
+      },
+      {
+        "A": "CUBE-9"
+      },
+      {
+        "A": "CUBE-10"
+      },
+      {
+        "A": "CUBE-11"
+      },
+      {
+        "A": "TIME-CUBE"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      6,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "PLAIN-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MOUNTAIN-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "C4.zil:109",
+    "Name": "T?PLAIN-WALLS",
+    "Flags": "0",
+    "Data": [
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]"
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      27,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RABBIT-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "GRASS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "FLOWERS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "FLOWERS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CLOUD-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CLOUD-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "PLURAL-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "PLURAL-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "PLURAL-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MARBLE-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MARBLE-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MARBLE-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MARBLE-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MARBLE-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MARBLE-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MARBLE-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MARBLE-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MARBLE-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MARBLE-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MARBLE-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      21,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "MIRROR-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "PLURAL-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "PLANTS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "PLANTS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "PLANTS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "PLURAL-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "SAND-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      15,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "CHANNEL-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RUINS-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "C4.zil:1653",
+    "Name": "T?WATER-TABLE",
+    "Flags": "Pure",
+    "Data": [
+      "You are in a small area not yet flooded.",
+      "The water has left only a tiny area dry.",
+      "The water has covered the entire floor. Your feet are wet.",
+      "The water is up to your waist.",
+      "You are in water over your head."
+    ]
+  },
+  {
+    "Source": "MISC.zil:822",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      12,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      false,
+      {
+        "A": "CELL-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CASTLE-GUARDS-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "PLURAL-PSEUDO"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "RANDOM-PSEUDO"
+      }
+    ]
+  },
+  {
+    "Source": "C4.zil:1811",
+    "Name": "T?CUBE-LIST",
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "EARTH-CUBE"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "WATER-CUBE"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "AIR-CUBE"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "FIRE-CUBE"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "DARK-CUBE"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MIND-CUBE"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "LIGHT-CUBE"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "LIFE-CUBE"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "DEATH-CUBE"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CHANGE-CUBE"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "TIME-CUBE"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CONNECTIVITY-CUBE"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "MAGIC-CUBE"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CUBE-1"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CUBE-2"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CUBE-3"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CUBE-4"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CUBE-5"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CUBE-6"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CUBE-7"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CUBE-8"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CUBE-9"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CUBE-10"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]",
+      {
+        "A": "CUBE-11"
+      },
+      "[Zilf.Interpreter.Values.ZilHash]"
+    ]
+  }
+]

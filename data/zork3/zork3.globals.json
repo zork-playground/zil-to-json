@@ -1,0 +1,325 @@
+{
+  "C-TABLE": {
+    "T": "T?C-TABLE"
+  },
+  "C-DEMONS": 180,
+  "C-INTS": 180,
+  "CLOCK-WAIT": false,
+  "PLAYER": false,
+  "P-WON": false,
+  "P-MULT": false,
+  "P-NOT-HERE": 0,
+  "PRSA": false,
+  "PRSI": false,
+  "PRSO": false,
+  "P-TABLE": 0,
+  "P-ONEOBJ": 0,
+  "P-SYNTAX": 0,
+  "P-CCTBL": {
+    "T": "T?P-CCTBL"
+  },
+  "P-LEN": 0,
+  "P-DIR": 0,
+  "HERE": 0,
+  "WINNER": 0,
+  "P-LEXV": {
+    "T": "T?P-LEXV"
+  },
+  "AGAIN-LEXV": {
+    "T": "T?AGAIN-LEXV"
+  },
+  "RESERVE-LEXV": {
+    "T": "T?RESERVE-LEXV"
+  },
+  "RESERVE-PTR": false,
+  "P-INBUF": {
+    "T": "T?P-INBUF"
+  },
+  "OOPS-INBUF": {
+    "T": "T?OOPS-INBUF"
+  },
+  "OOPS-TABLE": {
+    "T": "T?OOPS-TABLE"
+  },
+  "P-CONT": false,
+  "P-IT-OBJECT": false,
+  "P-OFLAG": false,
+  "P-MERGED": false,
+  "P-ACLAUSE": false,
+  "P-ANAM": false,
+  "P-AADJ": false,
+  "P-ITBL": {
+    "T": "T?P-ITBL"
+  },
+  "P-OTBL": {
+    "T": "T?P-OTBL"
+  },
+  "P-VTBL": {
+    "T": "T?P-VTBL"
+  },
+  "P-OVTBL": {
+    "T": "T?P-OVTBL"
+  },
+  "P-NCN": 0,
+  "QUOTE-FLAG": false,
+  "P-END-ON-PREP": false,
+  "P-ACT": false,
+  "P-WALK-DIR": false,
+  "AGAIN-DIR": false,
+  "P-NUMBER": 0,
+  "P-DIRECTION": 0,
+  "P-SLOCBITS": 0,
+  "P-GWIMBIT": 0,
+  "P-NAM": false,
+  "P-ADJ": false,
+  "P-ADVERB": false,
+  "P-ADJN": false,
+  "P-PRSO": {
+    "T": "T?P-PRSO"
+  },
+  "P-PRSI": {
+    "T": "T?P-PRSI"
+  },
+  "P-BUTS": {
+    "T": "T?P-BUTS"
+  },
+  "P-MERGE": {
+    "T": "T?P-MERGE"
+  },
+  "P-OCLAUSE": {
+    "T": "T?P-OCLAUSE"
+  },
+  "P-MATCHLEN": 0,
+  "P-GETFLAGS": 0,
+  "P-AND": false,
+  "P-XNAM": false,
+  "P-XADJ": false,
+  "P-XADJN": false,
+  "ALWAYS-LIT": false,
+  "CP-FLAG": false,
+  "CLEFT-QUEUED?": false,
+  "LOAD-MAX": 100,
+  "LOAD-ALLOWED": 100,
+  "VERBOSE": false,
+  "SUPER-BRIEF": false,
+  "HS": 0,
+  "JUMPLOSS": {
+    "T": "T?JUMPLOSS"
+  },
+  "WHEEEEE": {
+    "T": "T?WHEEEEE"
+  },
+  "LIT": false,
+  "SPRAYED?": false,
+  "DESC-OBJECT": false,
+  "MOVES": 0,
+  "SCORE": 0,
+  "BASE-SCORE": 0,
+  "WON-FLAG": false,
+  "DEAD": false,
+  "DEATHS": 0,
+  "LUCKY": 1,
+  "FUMBLE-NUMBER": 7,
+  "FUMBLE-PROB": 8,
+  "INDENTS": {
+    "T": "T?INDENTS"
+  },
+  "HO-HUM": {
+    "T": "T?HO-HUM"
+  },
+  "HELLOS": {
+    "T": "T?HELLOS"
+  },
+  "DUMMY": {
+    "T": "T?DUMMY"
+  },
+  "SWORD-STATE": 0,
+  "YUKS": {
+    "T": "T?YUKS"
+  },
+  "LAMP-TABLE": {
+    "T": "T?LAMP-TABLE"
+  },
+  "CPHERE": 1,
+  "CPOBJS": {
+    "T": "T?CPOBJS"
+  },
+  "CPTABLE": {
+    "T": "T?CPTABLE"
+  },
+  "CPWALLS": {
+    "T": "T?CPWALLS"
+  },
+  "CPEXITS": {
+    "T": "T?CPEXITS"
+  },
+  "CP-MOVED": false,
+  "MINUS-SEVEN": -7,
+  "MINUS-FIVE": -5,
+  "MINUS-FOUR": -4,
+  "MINUS-ONE": -1,
+  "CPPUSH-FLAG": false,
+  "CPSOLVE-FLAG": false,
+  "CPBLOCK-FLAG": false,
+  "MLOC": false,
+  "MR1-FLAG": {
+    "A": "T"
+  },
+  "MR2-FLAG": {
+    "A": "T"
+  },
+  "MIRROR-OPEN-FLAG": false,
+  "WOOD-OPEN-FLAG": false,
+  "MRSWPUSH-FLAG": false,
+  "R-SOUTHS": {
+    "T": "T?R-SOUTHS"
+  },
+  "R-NORTHS": {
+    "T": "T?R-NORTHS"
+  },
+  "R-EASTS": {
+    "T": "T?R-EASTS"
+  },
+  "R-WESTS": {
+    "T": "T?R-WESTS"
+  },
+  "GUARDIANS-SEEN": false,
+  "GUARDSTR": ", identical stone statues face each other from\r\npedestals on opposite sides of the corridor. The statues represent\r\nGuardians of Zork, a military order of ancient lineage. They are\r\nportrayed as heavily armored warriors clasping formidable bludgeons.",
+  "MIRROR-FIRST": "To break the panel you would have to break the mirror first.",
+  "DIRVEC": {
+    "T": "T?DIRVEC"
+  },
+  "BEAM-BREAKER": false,
+  "MIRROR-OPENED": false,
+  "MDIR": 270,
+  "POLEUP-FLAG": 0,
+  "LONGDIRS": {
+    "T": "T?LONGDIRS"
+  },
+  "DM-SEEN": false,
+  "IN-DUNGEON": false,
+  "DM-REASONS": {
+    "T": "T?DM-REASONS"
+  },
+  "FOLFLAG": {
+    "A": "T"
+  },
+  "LCELL": 1,
+  "PNUMB": 1,
+  "CELLOBJS": {
+    "T": "T?CELLOBJS"
+  },
+  "BRONZE-DOOR-LOCKED": {
+    "A": "T"
+  },
+  "OLD-MAN-GONE": false,
+  "OLD-MAN-FED": false,
+  "SECRET-DOOR-DESC": "Beyond the secret door are dark, forbidding stairs leading down to\r\na passage below. Flickering torchlight illuminates the passage.",
+  "OLD-MAN-AWAKE": false,
+  "DIAG": {
+    "T": "T?DIAG"
+  },
+  "DEAD-OBJ-LOCS": {
+    "T": "T?DEAD-OBJ-LOCS"
+  },
+  "SCORE-MAX": 7,
+  "MACHINE-DAMAGED": false,
+  "YEAR": 948,
+  "YEAR-CLOSED": 883,
+  "CLEFT-FLAG": false,
+  "TM-YEAR": 948,
+  "RING-CONCEALED": false,
+  "TM-POINT": false,
+  "SURROUNDINGS-CHANGED": "your surroundings appear to have changed. From outside the door\r\nyou hear the sounds of guards talking.",
+  "SNAP-LOC": false,
+  "GUARD-KILLERS": {
+    "T": "T?GUARD-KILLERS"
+  },
+  "FLATHEAD-HEARD": false,
+  "RING-STOLEN": false,
+  "CLUMSY-ROBBERY": false,
+  "MYSTERY": false,
+  "GUARDS-PRESENT": {
+    "A": "T"
+  },
+  "HEAR-VOICES": "Through the door you can hear voices which, from their\r\nsound, belong to military or police personnel.",
+  "BLATHER": {
+    "T": "T?BLATHER"
+  },
+  "DIRS": {
+    "T": "T?DIRS"
+  },
+  "DIR-TBL": {
+    "T": "T?DIR-TBL"
+  },
+  "SHADOW-DIAG": {
+    "T": "T?SHADOW-DIAG"
+  },
+  "P-STRENGTH": 5,
+  "S-STRENGTH": 5,
+  "ATTACK-MODE": false,
+  "SHADOW-GONE": false,
+  "P-HITS": {
+    "T": "T?P-HITS"
+  },
+  "P-MISSES": {
+    "T": "T?P-MISSES"
+  },
+  "S-HITS": {
+    "T": "T?S-HITS"
+  },
+  "S-MISSES": {
+    "T": "T?S-MISSES"
+  },
+  "BLOCKED-DIR": false,
+  "SHADOW-POINT-1": false,
+  "SHADOW-POINT-2": false,
+  "CHEST-LIFTED": false,
+  "MAN-SEEN": false,
+  "MAN-WAITS": {
+    "T": "T?MAN-WAITS"
+  },
+  "MAN-WAITING": 0,
+  "MAN-FLAG": false,
+  "MAN-POINT": false,
+  "MAN-GONE": false,
+  "CHEST-TIED": false,
+  "HOLDING-ROPE": false,
+  "LIFT-WAIT": 0,
+  "CHEST-OPENED": false,
+  "ROPE-FLAG": {
+    "A": "T"
+  },
+  "LAST-MOVES": 0,
+  "LAKE-POINT": false,
+  "CURRENT-LAMP": {
+    "A": "LAMP"
+  },
+  "LAKE-TIME": false,
+  "VIEW-POINT": 1,
+  "VIEW-ROMANS": {
+    "T": "T?VIEW-ROMANS"
+  },
+  "ACTIVE-VIEW": 1,
+  "VIEW-ROOMS": {
+    "T": "T?VIEW-ROOMS"
+  },
+  "VIEWS": {
+    "T": "T?VIEWS"
+  },
+  "EMPTY-HANDED": false,
+  "SPRAY-USED?": false,
+  "AQ-FLAG": {
+    "A": "T"
+  },
+  "COVER-MOVED": false,
+  "KEY-DESCS": {
+    "T": "T?KEY-DESCS"
+  },
+  "BOAT-SEEN": false,
+  "SHIP-GONE": false,
+  "INVIS": false,
+  "SWORD-IN-STONE?": {
+    "A": "T"
+  }
+}

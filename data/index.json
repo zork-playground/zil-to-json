@@ -1,0 +1,51 @@
+{
+    "zork-1": {
+        "name": "ZORK I: The Great Underground Empire",
+        "genre": "fantasy",
+        "series": "ZORK",
+        "rank": 1,
+        "src": "zork1/zork1.all.json"
+    },
+    "zork-2": {
+        "name": "ZORK II: The Wizard of Frobozz",
+        "genre": "fantasy",
+        "series": "ZORK",
+        "rank": 2,
+        "src": "zork2/zork2.all.json"
+    },
+    "zork-3": {
+        "name": "ZORK III: The Dungeon Master",
+        "genre": "fantasy",
+        "series": "ZORK",
+        "rank": 3,
+        "src": "zork3/zork3.all.json"
+    },
+    "enchanter": {
+        "name": "ENCHANTER: a fantasy story",
+        "genre": "fantasy",
+        "series": "MAGE",
+        "rank": 4,
+        "src": "enchanter/enchanter.all.json"
+    },
+    "sorcerer": {
+        "name": "SORCERER: a fantasy story",
+        "genre": "fantasy",
+        "series": "MAGE",
+        "rank": 5,
+        "src": "sorcerer/sorcerer.all.json"
+    },
+    "spellbreaker": {
+        "name": "SPELLBREAKER: a fantasy story",
+        "genre": "fantasy",
+        "series": "MAGE",
+        "rank": 6,
+        "src": "spellbreaker/spellbreaker.all.json"
+    },
+    "wishbringer": {
+        "name": "WISHBRINGER: The Magick Stone of Dreams",
+        "genre": "fantasy",
+        "series": "WISHBRINGER",
+        "rank": 7,
+        "src": "wishbringer/wishbringer.all.json"
+    }
+}

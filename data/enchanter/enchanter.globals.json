@@ -1,0 +1,359 @@
+{
+  "C-TABLE": {
+    "T": "T?C-TABLE"
+  },
+  "C-DEMONS": 180,
+  "C-INTS": 180,
+  "CLOCK-WAIT": false,
+  "P-WON": false,
+  "DEBUG": false,
+  "L-PRSA": false,
+  "L-PRSO": false,
+  "L-PRSI": false,
+  "P-MULT": false,
+  "P-NOT-HERE": 0,
+  "TOD": 0,
+  "DAWN": 0,
+  "SUNRISE": 10,
+  "DUSK": 81,
+  "NIGHTFALL": 97,
+  "PRSA": false,
+  "PRSI": false,
+  "PRSO": false,
+  "P-TABLE": 0,
+  "P-ONEOBJ": 0,
+  "P-SYNTAX": 0,
+  "P-CCTBL": {
+    "T": "T?P-CCTBL"
+  },
+  "P-LEN": 0,
+  "P-DIR": 0,
+  "WINNER": 0,
+  "P-LEXV": {
+    "T": "T?P-LEXV"
+  },
+  "AGAIN-LEXV": {
+    "T": "T?AGAIN-LEXV"
+  },
+  "RESERVE-LEXV": {
+    "T": "T?RESERVE-LEXV"
+  },
+  "RESERVE-PTR": false,
+  "P-INBUF": {
+    "T": "T?P-INBUF"
+  },
+  "OOPS-INBUF": {
+    "T": "T?OOPS-INBUF"
+  },
+  "OOPS-TABLE": {
+    "T": "T?OOPS-TABLE"
+  },
+  "P-CONT": false,
+  "P-IT-OBJECT": false,
+  "P-OFLAG": false,
+  "P-MERGED": false,
+  "P-ACLAUSE": false,
+  "P-ANAM": false,
+  "P-AADJ": false,
+  "P-ITBL": {
+    "T": "T?P-ITBL"
+  },
+  "P-OTBL": {
+    "T": "T?P-OTBL"
+  },
+  "P-VTBL": {
+    "T": "T?P-VTBL"
+  },
+  "P-OVTBL": {
+    "T": "T?P-OVTBL"
+  },
+  "P-NCN": 0,
+  "QUOTE-FLAG": false,
+  "P-END-ON-PREP": false,
+  "TRY-FLY": false,
+  "P-ACT": false,
+  "P-WALK-DIR": false,
+  "AGAIN-DIR": false,
+  "P-NUMBER": 0,
+  "P-SLOCBITS": 0,
+  "P-GWIMBIT": 0,
+  "P-NAM": false,
+  "P-ADJ": false,
+  "P-ADVERB": false,
+  "P-ADJN": false,
+  "P-PRSO": {
+    "T": "T?P-PRSO"
+  },
+  "P-PRSI": {
+    "T": "T?P-PRSI"
+  },
+  "P-BUTS": {
+    "T": "T?P-BUTS"
+  },
+  "P-MERGE": {
+    "T": "T?P-MERGE"
+  },
+  "P-OCLAUSE": {
+    "T": "T?P-OCLAUSE"
+  },
+  "P-MATCHLEN": 0,
+  "P-GETFLAGS": 0,
+  "P-AND": false,
+  "P-MOBY-FOUND": false,
+  "P-XNAM": false,
+  "P-XADJ": false,
+  "P-XADJN": false,
+  "LAST-PSEUDO-LOC": false,
+  "ALWAYS-LIT": false,
+  "VERBOSE": false,
+  "SUPER-BRIEF": false,
+  "LIT": false,
+  "DESC-OBJECT": false,
+  "RANKINGS": {
+    "T": "T?RANKINGS"
+  },
+  "DEATHS": 0,
+  "INDENTS": {
+    "T": "T?INDENTS"
+  },
+  "FUMBLE-NUMBER": 7,
+  "FUMBLE-PROB": 8,
+  "COPR-NOTICE": " a transcript of interaction with ENCHANTER|\r\nENCHANTER is a registered trademark of Infocom, Inc.|\r\nCopyright (c) 1983 Infocom, Inc. All rights reserved.|",
+  "JUG-FILLS": {
+    "T": "T?JUG-FILLS"
+  },
+  "HELLOS": {
+    "T": "T?HELLOS"
+  },
+  "JUMPLOSS": {
+    "T": "T?JUMPLOSS"
+  },
+  "HO-HUM": {
+    "T": "T?HO-HUM"
+  },
+  "YUKS": {
+    "T": "T?YUKS"
+  },
+  "HERE": false,
+  "LOAD-ALLOWED": 100,
+  "LOAD-MAX": 100,
+  "MOVES": 0,
+  "SCORE": 0,
+  "JUG-AMTS": {
+    "T": "T?JUG-AMTS"
+  },
+  "PENCIL-COUNT": 2,
+  "ERASER-COUNT": 2,
+  "PENCIL-TBL": {
+    "T": "T?PENCIL-TBL"
+  },
+  "ERASER-TBL": {
+    "T": "T?ERASER-TBL"
+  },
+  "T-DIR-TABLE": {
+    "T": "T?T-DIR-TABLE"
+  },
+  "TMAZE-DIRS": {
+    "T": "T?TMAZE-DIRS"
+  },
+  "TWAIT": 0,
+  "TERROR-ARRIVES": "An evil presence, borne on a cold blast of air, seems to move beside\r\nyou, weighing you down with emanations of malice and hatred. A cold fear\r\ncovers you like fog.",
+  "TERROR-MOVED": false,
+  "TERROR-TRAPPED": false,
+  "TWALK-PATHS": {
+    "T": "T?TWALK-PATHS"
+  },
+  "TMAZE-ROOMS": {
+    "T": "T?TMAZE-ROOMS"
+  },
+  "TTRIES": 0,
+  "PSTART": false,
+  "PATH-TBL": {
+    "T": "T?PATH-TBL"
+  },
+  "TWALK-LEVEL": 0,
+  "STAIR-SOLVED?": false,
+  "DROPPED-SOME?": false,
+  "STAIR-LOC": 10000,
+  "STAIR-TABLE": {
+    "T": "T?STAIR-TABLE"
+  },
+  "FALL-COUNT": 0,
+  "NO-LONGER-PROTECTED": "Krill looks your way and spits: \"You were fortunate, wizard-worm, to have\r\nsurvived our last encounter. But your trivial spells of protection will not\r\nsave you now!\"",
+  "KRILL-KILL": false,
+  "ALL-SPELLS": {
+    "T": "T?ALL-SPELLS"
+  },
+  "COUNTERS": {
+    "T": "T?COUNTERS"
+  },
+  "FORGET-TBL": {
+    "T": "T?FORGET-TBL"
+  },
+  "REAL-SPELL-MAX": 4,
+  "SPELL-MAX": 4,
+  "SPELL-ROOM": 1,
+  "BELBOZ-WARNING": false,
+  "LOSSAGE": 0,
+  "PROBE": 0,
+  "PROBE-TBL": {
+    "T": "T?PROBE-TBL"
+  },
+  "ENTRY-POINT": 20,
+  "LIGHT-POINT": 20,
+  "QUENCH-POINT": 25,
+  "EGG-POINT": 5,
+  "REPAIR-POINT": 10,
+  "GALLERY-POINT": 25,
+  "TEMPLE-POINT": 35,
+  "BOX-POINT": 25,
+  "CHARM-POINT": 20,
+  "SUMMON-POINT": 10,
+  "DOOR-POINT": 35,
+  "TERROR-POINT": 50,
+  "TURTLE-POINT": 25,
+  "EAT-POINT": 10,
+  "DRINK-POINT": 15,
+  "STAIR-POINT": 10,
+  "FLY-POINT": 10,
+  "WARLOCK-POINT": 50,
+  "SCORE-MAX": 400,
+  "DEATH-CHEATED": false,
+  "IMP-SEEN": false,
+  "TALK-TO-ANIMAL?": false,
+  "HASTED?": false,
+  "PROTECTED-FROM-EVIL": false,
+  "STRONG-BOX-FLAG": false,
+  "FLYING?": false,
+  "ROPE-MAGIC?": {
+    "A": "T"
+  },
+  "DOOR-ILLUSION-GONE": false,
+  "BEATEN-UP": 0,
+  "DOOR-KULCAD": false,
+  "SIGN-TEXTS": {
+    "T": "T?SIGN-TEXTS"
+  },
+  "ILLUSION-HACKS": {
+    "T": "T?ILLUSION-HACKS"
+  },
+  "MIRROR-HALL-TBL1": {
+    "T": "T?MIRROR-HALL-TBL1"
+  },
+  "ADVENTURER-SEEN": false,
+  "ADVENTURER-LOC": false,
+  "ADVENTURER-SUMMONED": false,
+  "ADVENTURER-FEEBLES": {
+    "T": "T?ADVENTURER-FEEBLES"
+  },
+  "ADVENTURER-MOVE": -1,
+  "ADVENTURER-LOITERS": {
+    "T": "T?ADVENTURER-LOITERS"
+  },
+  "ADV-HASTE": false,
+  "SAILOR?": false,
+  "ADVENTURER-NICE": {
+    "T": "T?ADVENTURER-NICE"
+  },
+  "ADVENTURER-QUIPS": {
+    "T": "T?ADVENTURER-QUIPS"
+  },
+  "ADV-NEW-LOC": false,
+  "ADV-OLD-LOC": false,
+  "DIR-STRINGS": {
+    "T": "T?DIR-STRINGS"
+  },
+  "ADV-POSS": {
+    "T": "T?ADV-POSS"
+  },
+  "HALL-TBL": {
+    "T": "T?HALL-TBL"
+  },
+  "ADVENTURER-CHARMED": false,
+  "ADVENTURER-STAY": false,
+  "ADVENTURER-NOTES-DOOR": false,
+  "CASTLE-ENTER": false,
+  "POPS-OPEN": "The bedpost pops open, revealing a small compartment and, nestled\r\ninside, a gold leaf scroll!",
+  "NORTH-BLOCK-FLAG": false,
+  "GANG-FOLLOWS": 0,
+  "FROG-TALKS": {
+    "T": "T?FROG-TALKS"
+  },
+  "FROGGERS": {
+    "T": "T?FROGGERS"
+  },
+  "MUNG-ROOM-TABLE": {
+    "T": "T?MUNG-ROOM-TABLE"
+  },
+  "GUARDS-HEARD": false,
+  "LOCKED-IN-TOWER": false,
+  "ANYTHING-TAKEN": false,
+  "SCROLLS-TAKEN": false,
+  "SACRIFICED?": false,
+  "DAGGER-SEEN": false,
+  "LETTER-OF-TRANSIT": false,
+  "PORTRAIT-COMMENT": false,
+  "VISITED-GALLERY?": false,
+  "LAST-SLEEP": 0,
+  "TIME-TABLE": {
+    "T": "T?TIME-TABLE"
+  },
+  "THIRST-COUNT": 0,
+  "THIRST-TABLE": {
+    "T": "T?THIRST-TABLE"
+  },
+  "HUNGER-COUNT": 0,
+  "HUNGER-TABLE": {
+    "T": "T?HUNGER-TABLE"
+  },
+  "AWAKE": -1,
+  "HUNGER-TELL": {
+    "T": "T?HUNGER-TELL"
+  },
+  "THIRST-TELL": {
+    "T": "T?THIRST-TELL"
+  },
+  "TIRED-TELL": {
+    "T": "T?TIRED-TELL"
+  },
+  "BED-WARNING": false,
+  "DOOR-DREAM-2": false,
+  "DOOR-DREAM": false,
+  "GALLERY-DREAM": false,
+  "MOLESTED": 20,
+  "MUNCHED": 45,
+  "DREAMS": {
+    "T": "T?DREAMS"
+  },
+  "FAST?": false,
+  "CRASH?": false,
+  "HAMMER-EXEX": false,
+  "TURTLE-FOLLOWS": false,
+  "TF-COUNT": 0,
+  "TURTLE-REMARKS": {
+    "T": "T?TURTLE-REMARKS"
+  },
+  "TURTLE-REPORT?": false,
+  "TURTLE-TIRED?": false,
+  "TURTLE-TIRED-TELL": false,
+  "BREAD-EXAMINES": {
+    "T": "T?BREAD-EXAMINES"
+  },
+  "BREAD-AMTS": {
+    "T": "T?BREAD-AMTS"
+  },
+  "CRONE-MOVE": 0,
+  "SIGN-TBL": {
+    "T": "T?SIGN-TBL"
+  },
+  "ROAD-LOC": 10000,
+  "ROAD-TABLE": {
+    "T": "T?ROAD-TABLE"
+  },
+  "GLIMPSES": {
+    "T": "T?GLIMPSES"
+  },
+  "NIGHT-GLIMPSES": {
+    "T": "T?NIGHT-GLIMPSES"
+  }
+}

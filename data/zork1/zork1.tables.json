@@ -1,0 +1,5898 @@
+[
+  {
+    "Source": "1DUNGEON.zil:2621",
+    "Name": "T?HOUSE-AROUND",
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      {
+        "A": "WEST-OF-HOUSE"
+      },
+      {
+        "A": "NORTH-OF-HOUSE"
+      },
+      {
+        "A": "EAST-OF-HOUSE"
+      },
+      {
+        "A": "SOUTH-OF-HOUSE"
+      },
+      {
+        "A": "WEST-OF-HOUSE"
+      }
+    ]
+  },
+  {
+    "Source": "1DUNGEON.zil:2625",
+    "Name": "T?FOREST-AROUND",
+    "Flags": "WordLength, Pure",
+    "Data": [
+      6,
+      {
+        "A": "FOREST-1"
+      },
+      {
+        "A": "FOREST-2"
+      },
+      {
+        "A": "FOREST-3"
+      },
+      {
+        "A": "PATH"
+      },
+      {
+        "A": "CLEARING"
+      },
+      {
+        "A": "FOREST-1"
+      }
+    ]
+  },
+  {
+    "Source": "1DUNGEON.zil:2628",
+    "Name": "T?IN-HOUSE-AROUND",
+    "Flags": "WordLength, Pure",
+    "Data": [
+      4,
+      {
+        "A": "LIVING-ROOM"
+      },
+      {
+        "A": "KITCHEN"
+      },
+      {
+        "A": "ATTIC"
+      },
+      {
+        "A": "KITCHEN"
+      }
+    ]
+  },
+  {
+    "Source": "1DUNGEON.zil:2631",
+    "Name": "T?ABOVE-GROUND",
+    "Flags": "WordLength, Pure",
+    "Data": [
+      11,
+      {
+        "A": "WEST-OF-HOUSE"
+      },
+      {
+        "A": "NORTH-OF-HOUSE"
+      },
+      {
+        "A": "EAST-OF-HOUSE"
+      },
+      {
+        "A": "SOUTH-OF-HOUSE"
+      },
+      {
+        "A": "FOREST-1"
+      },
+      {
+        "A": "FOREST-2"
+      },
+      {
+        "A": "FOREST-3"
+      },
+      {
+        "A": "PATH"
+      },
+      {
+        "A": "CLEARING"
+      },
+      {
+        "A": "GRATING-CLEARING"
+      },
+      {
+        "A": "CANYON-VIEW"
+      }
+    ]
+  },
+  {
+    "Source": "GCLOCK.zil:7",
+    "Name": "T?C-TABLE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:22",
+    "Name": "T?P-CCTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:35",
+    "Name": "T?P-LEXV",
+    "Flags": "Lexv",
+    "Data": [
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]"
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:37",
+    "Name": "T?AGAIN-LEXV",
+    "Flags": "Lexv",
+    "Data": [
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]"
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:39",
+    "Name": "T?RESERVE-LEXV",
+    "Flags": "Lexv",
+    "Data": [
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]"
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:45",
+    "Name": "T?P-INBUF",
+    "Flags": "Byte, ByteLength",
+    "Data": [
+      120,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:48",
+    "Name": "T?OOPS-INBUF",
+    "Flags": "Byte, ByteLength",
+    "Data": [
+      120,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:50",
+    "Name": "T?OOPS-TABLE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:83",
+    "Name": "T?P-ITBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:84",
+    "Name": "T?P-OTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:85",
+    "Name": "T?P-VTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:86",
+    "Name": "T?P-OVTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]"
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:964",
+    "Name": "T?P-PRSO",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:965",
+    "Name": "T?P-PRSI",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:966",
+    "Name": "T?P-BUTS",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:967",
+    "Name": "T?P-MERGE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:968",
+    "Name": "T?P-OCLAUSE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "GVERBS.zil:845",
+    "Name": "T?JUMPLOSS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "You should have looked before you leaped.",
+      "In the movies, your life would be passing before your eyes.",
+      "Geronimo..."
+    ]
+  },
+  {
+    "Source": "GVERBS.zil:1273",
+    "Name": "T?WHEEEEE",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      0,
+      "Very good. Now you can go to the second grade.",
+      "Are you enjoying yourself?",
+      "Wheeeeeeeeee!!!!!",
+      "Do you expect me to applaud?"
+    ]
+  },
+  {
+    "Source": "GVERBS.zil:2016",
+    "Name": "T?INDENTS",
+    "Flags": "Pure",
+    "Data": [
+      "",
+      "  ",
+      "    ",
+      "      ",
+      "        ",
+      "          "
+    ]
+  },
+  {
+    "Source": "GVERBS.zil:2032",
+    "Name": "T?HO-HUM",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      " doesn't seem to work.",
+      " isn't notably helpful.",
+      " has no effect."
+    ]
+  },
+  {
+    "Source": "GVERBS.zil:2196",
+    "Name": "T?SWIMYUKS",
+    "Flags": "WordLength",
+    "Data": [
+      2,
+      0,
+      "You can't swim in the dungeon."
+    ]
+  },
+  {
+    "Source": "GVERBS.zil:2199",
+    "Name": "T?HELLOS",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      0,
+      "Hello.",
+      "Good day.",
+      "Nice weather we've been having lately.",
+      "Goodbye."
+    ]
+  },
+  {
+    "Source": "GVERBS.zil:2205",
+    "Name": "T?YUKS",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      0,
+      "A valiant attempt.",
+      "You can't be serious.",
+      "An interesting idea...",
+      "What a concept!"
+    ]
+  },
+  {
+    "Source": "GVERBS.zil:2214",
+    "Name": "T?DUMMY",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "Look around.",
+      "Too late for that.",
+      "Have your eyes checked."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:333",
+    "Name": "T?BAT-DROPS",
+    "Flags": "WordLength",
+    "Data": [
+      9,
+      0,
+      {
+        "A": "MINE-1"
+      },
+      {
+        "A": "MINE-2"
+      },
+      {
+        "A": "MINE-3"
+      },
+      {
+        "A": "MINE-4"
+      },
+      {
+        "A": "LADDER-TOP"
+      },
+      {
+        "A": "LADDER-BOTTOM"
+      },
+      {
+        "A": "SQUEEKY-ROOM"
+      },
+      {
+        "A": "MINE-ENTRANCE"
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:1261",
+    "Name": "T?LOUD-RUNS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      {
+        "A": "DAMP-CAVE"
+      },
+      {
+        "A": "ROUND-ROOM"
+      },
+      {
+        "A": "DEEP-CANYON"
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:1285",
+    "Name": "T?DROWNINGS",
+    "Flags": "Pure",
+    "Data": [
+      "up to your ankles.",
+      "up to your shin.",
+      "up to your knees.",
+      "up to your hips.",
+      "up to your waist.",
+      "up to your chest.",
+      "up to your neck.",
+      "over your head.",
+      "high in your lungs."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:1645",
+    "Name": "T?CYCLOMAD",
+    "Flags": "Pure",
+    "Data": [
+      "The cyclops seems somewhat agitated.",
+      "The cyclops appears to be getting more agitated.",
+      "The cyclops is moving about the room, looking for something.",
+      "The cyclops was looking for salt and pepper. No doubt they are\r\ncondiments for his upcoming snack.",
+      "The cyclops is moving toward you in an unfriendly manner.",
+      "You have two choices: 1. Leave  2. Become dinner."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:2221",
+    "Name": "T?LAMP-TABLE",
+    "Flags": "Pure",
+    "Data": [
+      100,
+      "The lamp appears a bit dimmer.",
+      70,
+      "The lamp is definitely dimmer now.",
+      15,
+      "The lamp is nearly out.",
+      0
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:2407",
+    "Name": "T?CANDLE-TABLE",
+    "Flags": "Pure",
+    "Data": [
+      20,
+      "The candles grow shorter.",
+      10,
+      "The candles are becoming quite short.",
+      5,
+      "The candles won't last long now.",
+      0
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:2693",
+    "Name": "T?RIVER-SPEEDS",
+    "Flags": "WordLength, Pure",
+    "Data": [
+      10,
+      {
+        "A": "RIVER-1"
+      },
+      4,
+      {
+        "A": "RIVER-2"
+      },
+      4,
+      {
+        "A": "RIVER-3"
+      },
+      3,
+      {
+        "A": "RIVER-4"
+      },
+      2,
+      {
+        "A": "RIVER-5"
+      },
+      1
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:2696",
+    "Name": "T?RIVER-NEXT",
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      {
+        "A": "RIVER-1"
+      },
+      {
+        "A": "RIVER-2"
+      },
+      {
+        "A": "RIVER-3"
+      },
+      {
+        "A": "RIVER-4"
+      },
+      {
+        "A": "RIVER-5"
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:2699",
+    "Name": "T?RIVER-LAUNCH",
+    "Flags": "WordLength, Pure",
+    "Data": [
+      16,
+      {
+        "A": "DAM-BASE"
+      },
+      {
+        "A": "RIVER-1"
+      },
+      {
+        "A": "WHITE-CLIFFS-NORTH"
+      },
+      {
+        "A": "RIVER-3"
+      },
+      {
+        "A": "WHITE-CLIFFS-SOUTH"
+      },
+      {
+        "A": "RIVER-4"
+      },
+      {
+        "A": "SHORE"
+      },
+      {
+        "A": "RIVER-5"
+      },
+      {
+        "A": "SANDY-BEACH"
+      },
+      {
+        "A": "RIVER-4"
+      },
+      {
+        "A": "RESERVOIR-SOUTH"
+      },
+      {
+        "A": "RESERVOIR"
+      },
+      {
+        "A": "RESERVOIR-NORTH"
+      },
+      {
+        "A": "RESERVOIR"
+      },
+      {
+        "A": "STREAM-VIEW"
+      },
+      {
+        "A": "IN-STREAM"
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:2872",
+    "Name": "T?BDIGS",
+    "Flags": "Pure",
+    "Data": [
+      "You seem to be digging a hole here.",
+      "The hole is getting deeper, but that's about it.",
+      "You are surrounded by a wall of sand on all sides."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3259",
+    "Name": "T?DEF1",
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "STAGGER"
+      },
+      {
+        "A": "STAGGER"
+      },
+      {
+        "A": "UNCONSCIOUS"
+      },
+      {
+        "A": "UNCONSCIOUS"
+      },
+      {
+        "A": "KILLED"
+      },
+      {
+        "A": "KILLED"
+      },
+      {
+        "A": "KILLED"
+      },
+      {
+        "A": "KILLED"
+      },
+      {
+        "A": "KILLED"
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3266",
+    "Name": "T?DEF2A",
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "STAGGER"
+      },
+      {
+        "A": "STAGGER"
+      },
+      {
+        "A": "LIGHT-WOUND"
+      },
+      {
+        "A": "LIGHT-WOUND"
+      },
+      {
+        "A": "UNCONSCIOUS"
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3273",
+    "Name": "T?DEF2B",
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "STAGGER"
+      },
+      {
+        "A": "STAGGER"
+      },
+      {
+        "A": "LIGHT-WOUND"
+      },
+      {
+        "A": "LIGHT-WOUND"
+      },
+      {
+        "A": "LIGHT-WOUND"
+      },
+      {
+        "A": "UNCONSCIOUS"
+      },
+      {
+        "A": "KILLED"
+      },
+      {
+        "A": "KILLED"
+      },
+      {
+        "A": "KILLED"
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3281",
+    "Name": "T?DEF3A",
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "STAGGER"
+      },
+      {
+        "A": "STAGGER"
+      },
+      {
+        "A": "LIGHT-WOUND"
+      },
+      {
+        "A": "LIGHT-WOUND"
+      },
+      {
+        "A": "SERIOUS-WOUND"
+      },
+      {
+        "A": "SERIOUS-WOUND"
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3288",
+    "Name": "T?DEF3B",
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "STAGGER"
+      },
+      {
+        "A": "STAGGER"
+      },
+      {
+        "A": "LIGHT-WOUND"
+      },
+      {
+        "A": "LIGHT-WOUND"
+      },
+      {
+        "A": "LIGHT-WOUND"
+      },
+      {
+        "A": "SERIOUS-WOUND"
+      },
+      {
+        "A": "SERIOUS-WOUND"
+      },
+      {
+        "A": "SERIOUS-WOUND"
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3295",
+    "Name": "T?DEF3C",
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "MISSED"
+      },
+      {
+        "A": "STAGGER"
+      },
+      {
+        "A": "STAGGER"
+      },
+      {
+        "A": "LIGHT-WOUND"
+      },
+      {
+        "A": "LIGHT-WOUND"
+      },
+      {
+        "A": "LIGHT-WOUND"
+      },
+      {
+        "A": "LIGHT-WOUND"
+      },
+      {
+        "A": "SERIOUS-WOUND"
+      },
+      {
+        "A": "SERIOUS-WOUND"
+      },
+      {
+        "A": "SERIOUS-WOUND"
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3302",
+    "Name": "T?DEF1-RES",
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "DEF1"
+      },
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3307",
+    "Name": "T?DEF2-RES",
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "DEF2A"
+      },
+      {
+        "A": "DEF2B"
+      },
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3313",
+    "Name": "T?DEF3-RES",
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "DEF3A"
+      },
+      0,
+      {
+        "A": "DEF3B"
+      },
+      0,
+      {
+        "A": "DEF3C"
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3614",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      "Your ",
+      {
+        "A": "F-WEP"
+      },
+      " misses the ",
+      {
+        "A": "F-DEF"
+      },
+      " by an inch."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3615",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "A good slash, but it misses the ",
+      {
+        "A": "F-DEF"
+      },
+      " by a mile."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3616",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "You charge, but the ",
+      {
+        "A": "F-DEF"
+      },
+      " jumps nimbly aside."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3617",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "Clang! Crash! The ",
+      {
+        "A": "F-DEF"
+      },
+      " parries."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3618",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "A quick stroke, but the ",
+      {
+        "A": "F-DEF"
+      },
+      " is on guard."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3619",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "A good stroke, but it's too slow; the ",
+      {
+        "A": "F-DEF"
+      },
+      " dodges."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3613",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      6,
+      {
+        "Source": "1ACTIONS.zil:3614",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          5,
+          "Your ",
+          {
+            "A": "F-WEP"
+          },
+          " misses the ",
+          {
+            "A": "F-DEF"
+          },
+          " by an inch."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3615",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "A good slash, but it misses the ",
+          {
+            "A": "F-DEF"
+          },
+          " by a mile."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3616",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "You charge, but the ",
+          {
+            "A": "F-DEF"
+          },
+          " jumps nimbly aside."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3617",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "Clang! Crash! The ",
+          {
+            "A": "F-DEF"
+          },
+          " parries."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3618",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "A quick stroke, but the ",
+          {
+            "A": "F-DEF"
+          },
+          " is on guard."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3619",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "A good stroke, but it's too slow; the ",
+          {
+            "A": "F-DEF"
+          },
+          " dodges."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3621",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      "Your ",
+      {
+        "A": "F-WEP"
+      },
+      " crashes down, knocking the ",
+      {
+        "A": "F-DEF"
+      },
+      " into dreamland."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3622",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The ",
+      {
+        "A": "F-DEF"
+      },
+      " is battered into unconsciousness."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3623",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "A furious exchange, and the ",
+      {
+        "A": "F-DEF"
+      },
+      " is knocked out!"
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3624",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      "The haft of your ",
+      {
+        "A": "F-WEP"
+      },
+      " knocks out the ",
+      {
+        "A": "F-DEF"
+      },
+      "."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3625",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The ",
+      {
+        "A": "F-DEF"
+      },
+      " is knocked out!"
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3620",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      {
+        "Source": "1ACTIONS.zil:3621",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          5,
+          "Your ",
+          {
+            "A": "F-WEP"
+          },
+          " crashes down, knocking the ",
+          {
+            "A": "F-DEF"
+          },
+          " into dreamland."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3622",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The ",
+          {
+            "A": "F-DEF"
+          },
+          " is battered into unconsciousness."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3623",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "A furious exchange, and the ",
+          {
+            "A": "F-DEF"
+          },
+          " is knocked out!"
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3624",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          5,
+          "The haft of your ",
+          {
+            "A": "F-WEP"
+          },
+          " knocks out the ",
+          {
+            "A": "F-DEF"
+          },
+          "."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3625",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The ",
+          {
+            "A": "F-DEF"
+          },
+          " is knocked out!"
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3627",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      "It's curtains for the ",
+      {
+        "A": "F-DEF"
+      },
+      " as your ",
+      {
+        "A": "F-WEP"
+      },
+      " removes his head."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3628",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The fatal blow strikes the ",
+      {
+        "A": "F-DEF"
+      },
+      " square in the heart: He dies."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3629",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The ",
+      {
+        "A": "F-DEF"
+      },
+      " takes a fatal blow and slumps to the floor dead."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3626",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      {
+        "Source": "1ACTIONS.zil:3627",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          5,
+          "It's curtains for the ",
+          {
+            "A": "F-DEF"
+          },
+          " as your ",
+          {
+            "A": "F-WEP"
+          },
+          " removes his head."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3628",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The fatal blow strikes the ",
+          {
+            "A": "F-DEF"
+          },
+          " square in the heart: He dies."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3629",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The ",
+          {
+            "A": "F-DEF"
+          },
+          " takes a fatal blow and slumps to the floor dead."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3631",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The ",
+      {
+        "A": "F-DEF"
+      },
+      " is struck on the arm; blood begins to trickle down."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3632",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      "Your ",
+      {
+        "A": "F-WEP"
+      },
+      " pinks the ",
+      {
+        "A": "F-DEF"
+      },
+      " on the wrist, but it's not serious."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3633",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "Your stroke lands, but it was only the flat of the blade."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3634",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The blow lands, making a shallow gash in the ",
+      {
+        "A": "F-DEF"
+      },
+      "'s arm!"
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3630",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      4,
+      {
+        "Source": "1ACTIONS.zil:3631",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The ",
+          {
+            "A": "F-DEF"
+          },
+          " is struck on the arm; blood begins to trickle down."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3632",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          5,
+          "Your ",
+          {
+            "A": "F-WEP"
+          },
+          " pinks the ",
+          {
+            "A": "F-DEF"
+          },
+          " on the wrist, but it's not serious."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3633",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "Your stroke lands, but it was only the flat of the blade."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3634",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The blow lands, making a shallow gash in the ",
+          {
+            "A": "F-DEF"
+          },
+          "'s arm!"
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3636",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The ",
+      {
+        "A": "F-DEF"
+      },
+      " receives a deep gash in his side."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3637",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "A savage blow on the thigh! The ",
+      {
+        "A": "F-DEF"
+      },
+      " is stunned but can still fight!"
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3638",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "Slash! Your blow lands! That one hit an artery, it could be serious!"
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3639",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "Slash! Your stroke connects! This could be serious!"
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3635",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      4,
+      {
+        "Source": "1ACTIONS.zil:3636",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The ",
+          {
+            "A": "F-DEF"
+          },
+          " receives a deep gash in his side."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3637",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "A savage blow on the thigh! The ",
+          {
+            "A": "F-DEF"
+          },
+          " is stunned but can still fight!"
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3638",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "Slash! Your blow lands! That one hit an artery, it could be serious!"
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3639",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "Slash! Your stroke connects! This could be serious!"
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3641",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The ",
+      {
+        "A": "F-DEF"
+      },
+      " is staggered, and drops to his knees."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3642",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The ",
+      {
+        "A": "F-DEF"
+      },
+      " is momentarily disoriented and can't fight back."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3643",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The force of your blow knocks the ",
+      {
+        "A": "F-DEF"
+      },
+      " back, stunned."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3644",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The ",
+      {
+        "A": "F-DEF"
+      },
+      " is confused and can't fight back."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3645",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The quickness of your thrust knocks the ",
+      {
+        "A": "F-DEF"
+      },
+      " back, stunned."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3640",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      {
+        "Source": "1ACTIONS.zil:3641",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The ",
+          {
+            "A": "F-DEF"
+          },
+          " is staggered, and drops to his knees."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3642",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The ",
+          {
+            "A": "F-DEF"
+          },
+          " is momentarily disoriented and can't fight back."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3643",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The force of your blow knocks the ",
+          {
+            "A": "F-DEF"
+          },
+          " back, stunned."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3644",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The ",
+          {
+            "A": "F-DEF"
+          },
+          " is confused and can't fight back."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3645",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The quickness of your thrust knocks the ",
+          {
+            "A": "F-DEF"
+          },
+          " back, stunned."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3647",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The ",
+      {
+        "A": "F-DEF"
+      },
+      "'s weapon is knocked to the floor, leaving him unarmed."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3648",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The ",
+      {
+        "A": "F-DEF"
+      },
+      " is disarmed by a subtle feint past his guard."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3646",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      2,
+      {
+        "Source": "1ACTIONS.zil:3647",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The ",
+          {
+            "A": "F-DEF"
+          },
+          "'s weapon is knocked to the floor, leaving him unarmed."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3648",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The ",
+          {
+            "A": "F-DEF"
+          },
+          " is disarmed by a subtle feint past his guard."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3612",
+    "Name": "T?HERO-MELEE",
+    "Flags": "Pure",
+    "Data": [
+      {
+        "Source": "1ACTIONS.zil:3613",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          6,
+          {
+            "Source": "1ACTIONS.zil:3614",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              5,
+              "Your ",
+              {
+                "A": "F-WEP"
+              },
+              " misses the ",
+              {
+                "A": "F-DEF"
+              },
+              " by an inch."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3615",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "A good slash, but it misses the ",
+              {
+                "A": "F-DEF"
+              },
+              " by a mile."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3616",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "You charge, but the ",
+              {
+                "A": "F-DEF"
+              },
+              " jumps nimbly aside."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3617",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "Clang! Crash! The ",
+              {
+                "A": "F-DEF"
+              },
+              " parries."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3618",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "A quick stroke, but the ",
+              {
+                "A": "F-DEF"
+              },
+              " is on guard."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3619",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "A good stroke, but it's too slow; the ",
+              {
+                "A": "F-DEF"
+              },
+              " dodges."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3620",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          5,
+          {
+            "Source": "1ACTIONS.zil:3621",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              5,
+              "Your ",
+              {
+                "A": "F-WEP"
+              },
+              " crashes down, knocking the ",
+              {
+                "A": "F-DEF"
+              },
+              " into dreamland."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3622",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The ",
+              {
+                "A": "F-DEF"
+              },
+              " is battered into unconsciousness."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3623",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "A furious exchange, and the ",
+              {
+                "A": "F-DEF"
+              },
+              " is knocked out!"
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3624",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              5,
+              "The haft of your ",
+              {
+                "A": "F-WEP"
+              },
+              " knocks out the ",
+              {
+                "A": "F-DEF"
+              },
+              "."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3625",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The ",
+              {
+                "A": "F-DEF"
+              },
+              " is knocked out!"
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3626",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          {
+            "Source": "1ACTIONS.zil:3627",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              5,
+              "It's curtains for the ",
+              {
+                "A": "F-DEF"
+              },
+              " as your ",
+              {
+                "A": "F-WEP"
+              },
+              " removes his head."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3628",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The fatal blow strikes the ",
+              {
+                "A": "F-DEF"
+              },
+              " square in the heart: He dies."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3629",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The ",
+              {
+                "A": "F-DEF"
+              },
+              " takes a fatal blow and slumps to the floor dead."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3630",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          4,
+          {
+            "Source": "1ACTIONS.zil:3631",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The ",
+              {
+                "A": "F-DEF"
+              },
+              " is struck on the arm; blood begins to trickle down."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3632",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              5,
+              "Your ",
+              {
+                "A": "F-WEP"
+              },
+              " pinks the ",
+              {
+                "A": "F-DEF"
+              },
+              " on the wrist, but it's not serious."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3633",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "Your stroke lands, but it was only the flat of the blade."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3634",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The blow lands, making a shallow gash in the ",
+              {
+                "A": "F-DEF"
+              },
+              "'s arm!"
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3635",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          4,
+          {
+            "Source": "1ACTIONS.zil:3636",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The ",
+              {
+                "A": "F-DEF"
+              },
+              " receives a deep gash in his side."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3637",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "A savage blow on the thigh! The ",
+              {
+                "A": "F-DEF"
+              },
+              " is stunned but can still fight!"
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3638",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "Slash! Your blow lands! That one hit an artery, it could be serious!"
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3639",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "Slash! Your stroke connects! This could be serious!"
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3640",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          5,
+          {
+            "Source": "1ACTIONS.zil:3641",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The ",
+              {
+                "A": "F-DEF"
+              },
+              " is staggered, and drops to his knees."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3642",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The ",
+              {
+                "A": "F-DEF"
+              },
+              " is momentarily disoriented and can't fight back."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3643",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The force of your blow knocks the ",
+              {
+                "A": "F-DEF"
+              },
+              " back, stunned."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3644",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The ",
+              {
+                "A": "F-DEF"
+              },
+              " is confused and can't fight back."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3645",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The quickness of your thrust knocks the ",
+              {
+                "A": "F-DEF"
+              },
+              " back, stunned."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3646",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          2,
+          {
+            "Source": "1ACTIONS.zil:3647",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The ",
+              {
+                "A": "F-DEF"
+              },
+              "'s weapon is knocked to the floor, leaving him unarmed."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3648",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The ",
+              {
+                "A": "F-DEF"
+              },
+              " is disarmed by a subtle feint past his guard."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3657",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The Cyclops misses, but the backwash almost knocks you over."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3658",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The Cyclops rushes you, but runs into the wall."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3656",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      2,
+      {
+        "Source": "1ACTIONS.zil:3657",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The Cyclops misses, but the backwash almost knocks you over."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3658",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The Cyclops rushes you, but runs into the wall."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3660",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The Cyclops sends you crashing to the floor, unconscious."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3659",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      {
+        "Source": "1ACTIONS.zil:3660",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The Cyclops sends you crashing to the floor, unconscious."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3662",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The Cyclops breaks your neck with a massive smash."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3661",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      {
+        "Source": "1ACTIONS.zil:3662",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The Cyclops breaks your neck with a massive smash."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3664",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "A quick punch, but it was only a glancing blow."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3665",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "A glancing blow from the Cyclops' fist."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3663",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      2,
+      {
+        "Source": "1ACTIONS.zil:3664",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "A quick punch, but it was only a glancing blow."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3665",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "A glancing blow from the Cyclops' fist."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3667",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The monster smashes his huge fist into your chest, breaking several\r\nribs."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3669",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The Cyclops almost knocks the wind out of you with a quick punch."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3666",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      2,
+      {
+        "Source": "1ACTIONS.zil:3667",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The monster smashes his huge fist into your chest, breaking several\r\nribs."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3669",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The Cyclops almost knocks the wind out of you with a quick punch."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3671",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The Cyclops lands a punch that knocks the wind out of you."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3672",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "Heedless of your weapons, the Cyclops tosses you against the rock\r\nwall of the room."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3670",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      2,
+      {
+        "Source": "1ACTIONS.zil:3671",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The Cyclops lands a punch that knocks the wind out of you."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3672",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "Heedless of your weapons, the Cyclops tosses you against the rock\r\nwall of the room."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3675",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The Cyclops grabs your ",
+      {
+        "A": "F-WEP"
+      },
+      ", tastes it, and throws it to the\r\nground in disgust."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3677",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The monster grabs you on the wrist, squeezes, and you drop your\r\n",
+      {
+        "A": "F-WEP"
+      },
+      " in pain."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3674",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      2,
+      {
+        "Source": "1ACTIONS.zil:3675",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The Cyclops grabs your ",
+          {
+            "A": "F-WEP"
+          },
+          ", tastes it, and throws it to the\r\nground in disgust."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3677",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The monster grabs you on the wrist, squeezes, and you drop your\r\n",
+          {
+            "A": "F-WEP"
+          },
+          " in pain."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3680",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The Cyclops seems unable to decide whether to broil or stew his\r\ndinner."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3679",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      {
+        "Source": "1ACTIONS.zil:3680",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The Cyclops seems unable to decide whether to broil or stew his\r\ndinner."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3683",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The Cyclops, no sportsman, dispatches his unconscious victim."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3682",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      {
+        "Source": "1ACTIONS.zil:3683",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The Cyclops, no sportsman, dispatches his unconscious victim."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3655",
+    "Name": "T?CYCLOPS-MELEE",
+    "Flags": "Pure",
+    "Data": [
+      {
+        "Source": "1ACTIONS.zil:3656",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          2,
+          {
+            "Source": "1ACTIONS.zil:3657",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The Cyclops misses, but the backwash almost knocks you over."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3658",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The Cyclops rushes you, but runs into the wall."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3659",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          {
+            "Source": "1ACTIONS.zil:3660",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The Cyclops sends you crashing to the floor, unconscious."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3661",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          {
+            "Source": "1ACTIONS.zil:3662",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The Cyclops breaks your neck with a massive smash."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3663",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          2,
+          {
+            "Source": "1ACTIONS.zil:3664",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "A quick punch, but it was only a glancing blow."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3665",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "A glancing blow from the Cyclops' fist."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3666",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          2,
+          {
+            "Source": "1ACTIONS.zil:3667",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The monster smashes his huge fist into your chest, breaking several\r\nribs."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3669",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The Cyclops almost knocks the wind out of you with a quick punch."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3670",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          2,
+          {
+            "Source": "1ACTIONS.zil:3671",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The Cyclops lands a punch that knocks the wind out of you."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3672",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "Heedless of your weapons, the Cyclops tosses you against the rock\r\nwall of the room."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3674",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          2,
+          {
+            "Source": "1ACTIONS.zil:3675",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The Cyclops grabs your ",
+              {
+                "A": "F-WEP"
+              },
+              ", tastes it, and throws it to the\r\nground in disgust."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3677",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The monster grabs you on the wrist, squeezes, and you drop your\r\n",
+              {
+                "A": "F-WEP"
+              },
+              " in pain."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3679",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          {
+            "Source": "1ACTIONS.zil:3680",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The Cyclops seems unable to decide whether to broil or stew his\r\ndinner."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3682",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          {
+            "Source": "1ACTIONS.zil:3683",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The Cyclops, no sportsman, dispatches his unconscious victim."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3692",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The troll swings his axe, but it misses."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3693",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The troll's axe barely misses your ear."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3694",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The axe sweeps past as you jump aside."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3695",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The axe crashes against the rock, throwing sparks!"
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3691",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      4,
+      {
+        "Source": "1ACTIONS.zil:3692",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The troll swings his axe, but it misses."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3693",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The troll's axe barely misses your ear."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3694",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The axe sweeps past as you jump aside."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3695",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The axe crashes against the rock, throwing sparks!"
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3697",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The flat of the troll's axe hits you delicately on the head, knocking\r\nyou out."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3696",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      {
+        "Source": "1ACTIONS.zil:3697",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The flat of the troll's axe hits you delicately on the head, knocking\r\nyou out."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3700",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The troll neatly removes your head."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3701",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The troll's axe stroke cleaves you from the nave to the chops."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3702",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The troll's axe removes your head."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3699",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      {
+        "Source": "1ACTIONS.zil:3700",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The troll neatly removes your head."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3701",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The troll's axe stroke cleaves you from the nave to the chops."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3702",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The troll's axe removes your head."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3704",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The axe gets you right in the side. Ouch!"
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3705",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The flat of the troll's axe skins across your forearm."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3706",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The troll's swing almost knocks you over as you barely parry\r\nin time."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3708",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The troll swings his axe, and it nicks your arm as you dodge."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3703",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      4,
+      {
+        "Source": "1ACTIONS.zil:3704",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The axe gets you right in the side. Ouch!"
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3705",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The flat of the troll's axe skins across your forearm."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3706",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The troll's swing almost knocks you over as you barely parry\r\nin time."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3708",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The troll swings his axe, and it nicks your arm as you dodge."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3710",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The troll charges, and his axe slashes you on your ",
+      {
+        "A": "F-WEP"
+      },
+      " arm."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3711",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "An axe stroke makes a deep wound in your leg."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3712",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The troll's axe swings down, gashing your shoulder."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3709",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      {
+        "Source": "1ACTIONS.zil:3710",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The troll charges, and his axe slashes you on your ",
+          {
+            "A": "F-WEP"
+          },
+          " arm."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3711",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "An axe stroke makes a deep wound in your leg."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3712",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The troll's axe swings down, gashing your shoulder."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3714",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The troll hits you with a glancing blow, and you are momentarily\r\nstunned."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3716",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The troll swings; the blade turns on your armor but crashes\r\nbroadside into your head."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3718",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "You stagger back under a hail of axe strokes."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3719",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The troll's mighty blow drops you to your knees."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3713",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      4,
+      {
+        "Source": "1ACTIONS.zil:3714",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The troll hits you with a glancing blow, and you are momentarily\r\nstunned."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3716",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The troll swings; the blade turns on your armor but crashes\r\nbroadside into your head."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3718",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "You stagger back under a hail of axe strokes."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3719",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The troll's mighty blow drops you to your knees."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3721",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The axe hits your ",
+      {
+        "A": "F-WEP"
+      },
+      " and knocks it spinning."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3722",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The troll swings, you parry, but the force of his blow knocks your ",
+      {
+        "A": "F-WEP"
+      },
+      " away."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3723",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The axe knocks your ",
+      {
+        "A": "F-WEP"
+      },
+      " out of your hand. It falls to the floor."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3720",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      {
+        "Source": "1ACTIONS.zil:3721",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The axe hits your ",
+          {
+            "A": "F-WEP"
+          },
+          " and knocks it spinning."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3722",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The troll swings, you parry, but the force of his blow knocks your ",
+          {
+            "A": "F-WEP"
+          },
+          " away."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3723",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The axe knocks your ",
+          {
+            "A": "F-WEP"
+          },
+          " out of your hand. It falls to the floor."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3725",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The troll hesitates, fingering his axe."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3726",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The troll scratches his head ruminatively:  Might you be magically\r\nprotected, he wonders?"
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3724",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      2,
+      {
+        "Source": "1ACTIONS.zil:3725",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The troll hesitates, fingering his axe."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3726",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The troll scratches his head ruminatively:  Might you be magically\r\nprotected, he wonders?"
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3729",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "Conquering his fears, the troll puts you to death."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3728",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      {
+        "Source": "1ACTIONS.zil:3729",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "Conquering his fears, the troll puts you to death."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3690",
+    "Name": "T?TROLL-MELEE",
+    "Flags": "Pure",
+    "Data": [
+      {
+        "Source": "1ACTIONS.zil:3691",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          4,
+          {
+            "Source": "1ACTIONS.zil:3692",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The troll swings his axe, but it misses."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3693",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The troll's axe barely misses your ear."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3694",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The axe sweeps past as you jump aside."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3695",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The axe crashes against the rock, throwing sparks!"
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3696",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          {
+            "Source": "1ACTIONS.zil:3697",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The flat of the troll's axe hits you delicately on the head, knocking\r\nyou out."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3699",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          {
+            "Source": "1ACTIONS.zil:3700",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The troll neatly removes your head."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3701",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The troll's axe stroke cleaves you from the nave to the chops."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3702",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The troll's axe removes your head."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3703",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          4,
+          {
+            "Source": "1ACTIONS.zil:3704",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The axe gets you right in the side. Ouch!"
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3705",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The flat of the troll's axe skins across your forearm."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3706",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The troll's swing almost knocks you over as you barely parry\r\nin time."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3708",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The troll swings his axe, and it nicks your arm as you dodge."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3709",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          {
+            "Source": "1ACTIONS.zil:3710",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The troll charges, and his axe slashes you on your ",
+              {
+                "A": "F-WEP"
+              },
+              " arm."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3711",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "An axe stroke makes a deep wound in your leg."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3712",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The troll's axe swings down, gashing your shoulder."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3713",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          4,
+          {
+            "Source": "1ACTIONS.zil:3714",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The troll hits you with a glancing blow, and you are momentarily\r\nstunned."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3716",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The troll swings; the blade turns on your armor but crashes\r\nbroadside into your head."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3718",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "You stagger back under a hail of axe strokes."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3719",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The troll's mighty blow drops you to your knees."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3720",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          {
+            "Source": "1ACTIONS.zil:3721",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The axe hits your ",
+              {
+                "A": "F-WEP"
+              },
+              " and knocks it spinning."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3722",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The troll swings, you parry, but the force of his blow knocks your ",
+              {
+                "A": "F-WEP"
+              },
+              " away."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3723",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The axe knocks your ",
+              {
+                "A": "F-WEP"
+              },
+              " out of your hand. It falls to the floor."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3724",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          2,
+          {
+            "Source": "1ACTIONS.zil:3725",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The troll hesitates, fingering his axe."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3726",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The troll scratches his head ruminatively:  Might you be magically\r\nprotected, he wonders?"
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3728",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          {
+            "Source": "1ACTIONS.zil:3729",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "Conquering his fears, the troll puts you to death."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3738",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief stabs nonchalantly with his stiletto and misses."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3739",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "You dodge as the thief comes in low."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3740",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "You parry a lightning thrust, and the thief salutes you with\r\na grim nod."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3742",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief tries to sneak past your guard, but you twist away."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3737",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      4,
+      {
+        "Source": "1ACTIONS.zil:3738",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief stabs nonchalantly with his stiletto and misses."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3739",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "You dodge as the thief comes in low."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3740",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "You parry a lightning thrust, and the thief salutes you with\r\na grim nod."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3742",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief tries to sneak past your guard, but you twist away."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3744",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "Shifting in the midst of a thrust, the thief knocks you unconscious\r\nwith the haft of his stiletto."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3746",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief knocks you out."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3743",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      2,
+      {
+        "Source": "1ACTIONS.zil:3744",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "Shifting in the midst of a thrust, the thief knocks you unconscious\r\nwith the haft of his stiletto."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3746",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief knocks you out."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3748",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "Finishing you off, the thief inserts his blade into your heart."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3749",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief comes in from the side, feints, and inserts the blade\r\ninto your ribs."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3751",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief bows formally, raises his stiletto, and with a wry grin,\r\nends the battle and your life."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3747",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      {
+        "Source": "1ACTIONS.zil:3748",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "Finishing you off, the thief inserts his blade into your heart."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3749",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief comes in from the side, feints, and inserts the blade\r\ninto your ribs."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3751",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief bows formally, raises his stiletto, and with a wry grin,\r\nends the battle and your life."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3754",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "A quick thrust pinks your left arm, and blood starts to\r\ntrickle down."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3756",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief draws blood, raking his stiletto across your arm."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3757",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The stiletto flashes faster than you can follow, and blood wells\r\nfrom your leg."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3759",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief slowly approaches, strikes like a snake, and leaves\r\nyou wounded."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3753",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      4,
+      {
+        "Source": "1ACTIONS.zil:3754",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "A quick thrust pinks your left arm, and blood starts to\r\ntrickle down."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3756",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief draws blood, raking his stiletto across your arm."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3757",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The stiletto flashes faster than you can follow, and blood wells\r\nfrom your leg."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3759",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief slowly approaches, strikes like a snake, and leaves\r\nyou wounded."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3762",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief strikes like a snake! The resulting wound is serious."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3763",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief stabs a deep cut in your upper arm."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3764",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The stiletto touches your forehead, and the blood obscures your\r\nvision."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3766",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief strikes at your wrist, and suddenly your grip is slippery\r\nwith blood."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3761",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      4,
+      {
+        "Source": "1ACTIONS.zil:3762",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief strikes like a snake! The resulting wound is serious."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3763",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief stabs a deep cut in your upper arm."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3764",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The stiletto touches your forehead, and the blood obscures your\r\nvision."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3766",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief strikes at your wrist, and suddenly your grip is slippery\r\nwith blood."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3769",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The butt of his stiletto cracks you on the skull, and you stagger\r\nback."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3771",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief rams the haft of his blade into your stomach, leaving\r\nyou out of breath."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3773",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief attacks, and you fall back desperately."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3768",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      {
+        "Source": "1ACTIONS.zil:3769",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The butt of his stiletto cracks you on the skull, and you stagger\r\nback."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3771",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief rams the haft of his blade into your stomach, leaving\r\nyou out of breath."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3773",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief attacks, and you fall back desperately."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3775",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      "A long, theatrical slash. You catch it on your ",
+      {
+        "A": "F-WEP"
+      },
+      ", but the\r\nthief twists his knife, and the ",
+      {
+        "A": "F-WEP"
+      },
+      " goes flying."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3777",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "The thief neatly flips your ",
+      {
+        "A": "F-WEP"
+      },
+      " out of your hands, and it drops\r\nto the floor."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3779",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      "You parry a low thrust, and your ",
+      {
+        "A": "F-WEP"
+      },
+      " slips out of your hand."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3774",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      {
+        "Source": "1ACTIONS.zil:3775",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          5,
+          "A long, theatrical slash. You catch it on your ",
+          {
+            "A": "F-WEP"
+          },
+          ", but the\r\nthief twists his knife, and the ",
+          {
+            "A": "F-WEP"
+          },
+          " goes flying."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3777",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "The thief neatly flips your ",
+          {
+            "A": "F-WEP"
+          },
+          " out of your hands, and it drops\r\nto the floor."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3779",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          "You parry a low thrust, and your ",
+          {
+            "A": "F-WEP"
+          },
+          " slips out of your hand."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3781",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief, a man of superior breeding, pauses for a moment to consider the propriety of finishing you off."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3782",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief amuses himself by searching your pockets."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3783",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief entertains himself by rifling your pack."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3780",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      3,
+      {
+        "Source": "1ACTIONS.zil:3781",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief, a man of superior breeding, pauses for a moment to consider the propriety of finishing you off."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3782",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief amuses himself by searching your pockets."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3783",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief entertains himself by rifling your pack."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3785",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief, forgetting his essentially genteel upbringing, cuts your\r\nthroat."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3787",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      1,
+      "The thief, a pragmatist, dispatches you as a threat to his\r\nlivelihood."
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3784",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      2,
+      {
+        "Source": "1ACTIONS.zil:3785",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief, forgetting his essentially genteel upbringing, cuts your\r\nthroat."
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3787",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          1,
+          "The thief, a pragmatist, dispatches you as a threat to his\r\nlivelihood."
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3736",
+    "Name": "T?THIEF-MELEE",
+    "Flags": "Pure",
+    "Data": [
+      {
+        "Source": "1ACTIONS.zil:3737",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          4,
+          {
+            "Source": "1ACTIONS.zil:3738",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief stabs nonchalantly with his stiletto and misses."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3739",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "You dodge as the thief comes in low."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3740",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "You parry a lightning thrust, and the thief salutes you with\r\na grim nod."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3742",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief tries to sneak past your guard, but you twist away."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3743",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          2,
+          {
+            "Source": "1ACTIONS.zil:3744",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "Shifting in the midst of a thrust, the thief knocks you unconscious\r\nwith the haft of his stiletto."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3746",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief knocks you out."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3747",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          {
+            "Source": "1ACTIONS.zil:3748",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "Finishing you off, the thief inserts his blade into your heart."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3749",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief comes in from the side, feints, and inserts the blade\r\ninto your ribs."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3751",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief bows formally, raises his stiletto, and with a wry grin,\r\nends the battle and your life."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3753",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          4,
+          {
+            "Source": "1ACTIONS.zil:3754",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "A quick thrust pinks your left arm, and blood starts to\r\ntrickle down."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3756",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief draws blood, raking his stiletto across your arm."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3757",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The stiletto flashes faster than you can follow, and blood wells\r\nfrom your leg."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3759",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief slowly approaches, strikes like a snake, and leaves\r\nyou wounded."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3761",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          4,
+          {
+            "Source": "1ACTIONS.zil:3762",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief strikes like a snake! The resulting wound is serious."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3763",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief stabs a deep cut in your upper arm."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3764",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The stiletto touches your forehead, and the blood obscures your\r\nvision."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3766",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief strikes at your wrist, and suddenly your grip is slippery\r\nwith blood."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3768",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          {
+            "Source": "1ACTIONS.zil:3769",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The butt of his stiletto cracks you on the skull, and you stagger\r\nback."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3771",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief rams the haft of his blade into your stomach, leaving\r\nyou out of breath."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3773",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief attacks, and you fall back desperately."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3774",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          {
+            "Source": "1ACTIONS.zil:3775",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              5,
+              "A long, theatrical slash. You catch it on your ",
+              {
+                "A": "F-WEP"
+              },
+              ", but the\r\nthief twists his knife, and the ",
+              {
+                "A": "F-WEP"
+              },
+              " goes flying."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3777",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "The thief neatly flips your ",
+              {
+                "A": "F-WEP"
+              },
+              " out of your hands, and it drops\r\nto the floor."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3779",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              3,
+              "You parry a low thrust, and your ",
+              {
+                "A": "F-WEP"
+              },
+              " slips out of your hand."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3780",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          3,
+          {
+            "Source": "1ACTIONS.zil:3781",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief, a man of superior breeding, pauses for a moment to consider the propriety of finishing you off."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3782",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief amuses himself by searching your pockets."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3783",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief entertains himself by rifling your pack."
+            ]
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3784",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          2,
+          {
+            "Source": "1ACTIONS.zil:3785",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief, forgetting his essentially genteel upbringing, cuts your\r\nthroat."
+            ]
+          },
+          {
+            "Source": "1ACTIONS.zil:3787",
+            "Name": null,
+            "Flags": "WordLength, Pure",
+            "Data": [
+              1,
+              "The thief, a pragmatist, dispatches you as a threat to his\r\nlivelihood."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3802",
+    "Name": null,
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "TROLL"
+      },
+      {
+        "A": "SWORD"
+      },
+      1,
+      0,
+      {
+        "A": "TROLL-MELEE"
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3803",
+    "Name": null,
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "THIEF"
+      },
+      {
+        "A": "KNIFE"
+      },
+      1,
+      0,
+      {
+        "A": "THIEF-MELEE"
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3804",
+    "Name": null,
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "CYCLOPS"
+      },
+      false,
+      0,
+      0,
+      {
+        "A": "CYCLOPS-MELEE"
+      }
+    ]
+  },
+  {
+    "Source": "1ACTIONS.zil:3802",
+    "Name": "T?VILLAINS",
+    "Flags": "WordLength",
+    "Data": [
+      3,
+      {
+        "Source": "1ACTIONS.zil:3802",
+        "Name": null,
+        "Flags": "0",
+        "Data": [
+          {
+            "A": "TROLL"
+          },
+          {
+            "A": "SWORD"
+          },
+          1,
+          0,
+          {
+            "A": "TROLL-MELEE"
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3803",
+        "Name": null,
+        "Flags": "0",
+        "Data": [
+          {
+            "A": "THIEF"
+          },
+          {
+            "A": "KNIFE"
+          },
+          1,
+          0,
+          {
+            "A": "THIEF-MELEE"
+          }
+        ]
+      },
+      {
+        "Source": "1ACTIONS.zil:3804",
+        "Name": null,
+        "Flags": "0",
+        "Data": [
+          {
+            "A": "CYCLOPS"
+          },
+          false,
+          0,
+          0,
+          {
+            "A": "CYCLOPS-MELEE"
+          }
+        ]
+      }
+    ]
+  }
+]

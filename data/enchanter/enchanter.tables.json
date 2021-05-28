@@ -1,0 +1,2905 @@
+[
+  {
+    "Source": "CLOCK.zil:8",
+    "Name": "T?C-TABLE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:22",
+    "Name": "T?P-CCTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:35",
+    "Name": "T?P-LEXV",
+    "Flags": "Lexv",
+    "Data": [
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]"
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:37",
+    "Name": "T?AGAIN-LEXV",
+    "Flags": "Lexv",
+    "Data": [
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]"
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:39",
+    "Name": "T?RESERVE-LEXV",
+    "Flags": "Lexv",
+    "Data": [
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]",
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]"
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:45",
+    "Name": "T?P-INBUF",
+    "Flags": "Byte, ByteLength",
+    "Data": [
+      120,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:48",
+    "Name": "T?OOPS-INBUF",
+    "Flags": "Byte, ByteLength",
+    "Data": [
+      120,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:50",
+    "Name": "T?OOPS-TABLE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:83",
+    "Name": "T?P-ITBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:84",
+    "Name": "T?P-OTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:85",
+    "Name": "T?P-VTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:86",
+    "Name": "T?P-OVTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      "[Zilf.Interpreter.Values.ZilHash]",
+      "[Zilf.Interpreter.Values.ZilHash]"
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:986",
+    "Name": "T?P-PRSO",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:987",
+    "Name": "T?P-PRSI",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:988",
+    "Name": "T?P-BUTS",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:989",
+    "Name": "T?P-MERGE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "GPARSER.zil:990",
+    "Name": "T?P-OCLAUSE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "VERBS.zil:241",
+    "Name": "T?RANKINGS",
+    "Flags": "0",
+    "Data": [
+      "Charlatan",
+      "Parlor Magician",
+      "Novice Enchanter",
+      "Intermediate Enchanter",
+      "Enchanter",
+      "Expert Enchanter",
+      "Master Enchanter",
+      "Candidate for membership in the Circle of Enchanters",
+      "Member of the Circle of Enchanters"
+    ]
+  },
+  {
+    "Source": "VERBS.zil:585",
+    "Name": "T?INDENTS",
+    "Flags": "0",
+    "Data": [
+      "",
+      "  ",
+      "    ",
+      "      ",
+      "        ",
+      "          "
+    ]
+  },
+  {
+    "Source": "VERBS.zil:1012",
+    "Name": "T?JUG-FILLS",
+    "Flags": "0",
+    "Data": [
+      ", but the jug is now empty.",
+      ", and there's still some left.",
+      ", and there's plenty more.",
+      ", and there's lots more where that came from.",
+      ", and the jug's practically full."
+    ]
+  },
+  {
+    "Source": "VERBS.zil:1085",
+    "Name": "T?HELLOS",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      0,
+      "Hello.",
+      "Good day.",
+      "Nice weather we've been having lately.",
+      "Good-bye."
+    ]
+  },
+  {
+    "Source": "VERBS.zil:1091",
+    "Name": "T?JUMPLOSS",
+    "Flags": "WordLength",
+    "Data": [
+      3,
+      0,
+      "You should have looked before you leaped.",
+      "I'm afraid that leap was a bit much for your weak frame."
+    ]
+  },
+  {
+    "Source": "VERBS.zil:1282",
+    "Name": "T?HO-HUM",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      " doesn't do anything.",
+      " doesn't accomplish anything.",
+      " has no desirable effect."
+    ]
+  },
+  {
+    "Source": "VERBS.zil:1661",
+    "Name": "T?YUKS",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      0,
+      "No spell would help with that!",
+      "It would take more magic than you've got!",
+      "You can't be serious.",
+      "You must have had a silliness spell cast upon you."
+    ]
+  },
+  {
+    "Source": "GLOBALS.zil:344",
+    "Name": "T?JUG-AMTS",
+    "Flags": "0",
+    "Data": [
+      "foo",
+      "mostly empty.",
+      "half full.",
+      "nearly full.",
+      "full."
+    ]
+  },
+  {
+    "Source": "TERROR.zil:80",
+    "Name": "T?PENCIL-TBL",
+    "Flags": "0",
+    "Data": [
+      "gone",
+      "very nearly gone",
+      "nearly gone"
+    ]
+  },
+  {
+    "Source": "TERROR.zil:83",
+    "Name": "T?ERASER-TBL",
+    "Flags": "0",
+    "Data": [
+      "not fit for use",
+      "barely usable",
+      "negligible"
+    ]
+  },
+  {
+    "Source": "TERROR.zil:182",
+    "Name": "T?T-DIR-TABLE",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      "/",
+      0,
+      "!",
+      0,
+      "\\"
+    ]
+  },
+  {
+    "Source": "TERROR.zil:188",
+    "Name": null,
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      {
+        "A": "T-B"
+      },
+      1,
+      {
+        "A": "T-C"
+      },
+      0,
+      {
+        "A": "T-E"
+      },
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "Source": "TERROR.zil:199",
+    "Name": null,
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      {
+        "A": "T-D"
+      },
+      1,
+      {
+        "A": "T-F"
+      },
+      1,
+      {
+        "A": "T-C"
+      },
+      0,
+      {
+        "A": "T-A"
+      },
+      1,
+      -1
+    ]
+  },
+  {
+    "Source": "TERROR.zil:210",
+    "Name": null,
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "T-A"
+      },
+      0,
+      0,
+      0,
+      {
+        "A": "T-B"
+      },
+      0,
+      {
+        "A": "T-D"
+      },
+      0,
+      {
+        "A": "T-F"
+      },
+      0,
+      {
+        "A": "T-G"
+      },
+      0,
+      {
+        "A": "T-E"
+      },
+      1,
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "Source": "TERROR.zil:221",
+    "Name": null,
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "T-B"
+      },
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      {
+        "A": "T-I"
+      },
+      0,
+      {
+        "A": "T-F"
+      },
+      1,
+      {
+        "A": "T-C"
+      },
+      0,
+      -1
+    ]
+  },
+  {
+    "Source": "TERROR.zil:232",
+    "Name": null,
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      {
+        "A": "T-A"
+      },
+      0,
+      {
+        "A": "T-C"
+      },
+      1,
+      {
+        "A": "T-F"
+      },
+      0,
+      {
+        "A": "T-G"
+      },
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "Source": "TERROR.zil:243",
+    "Name": null,
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "T-C"
+      },
+      0,
+      {
+        "A": "T-B"
+      },
+      1,
+      {
+        "A": "T-D"
+      },
+      1,
+      0,
+      0,
+      {
+        "A": "T-I"
+      },
+      0,
+      {
+        "A": "T-H"
+      },
+      0,
+      {
+        "A": "T-G"
+      },
+      1,
+      {
+        "A": "T-E"
+      },
+      0,
+      -1
+    ]
+  },
+  {
+    "Source": "TERROR.zil:254",
+    "Name": null,
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "T-E"
+      },
+      1,
+      {
+        "A": "T-C"
+      },
+      0,
+      {
+        "A": "T-F"
+      },
+      1,
+      {
+        "A": "T-I"
+      },
+      0,
+      {
+        "A": "T-H"
+      },
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "Source": "TERROR.zil:265",
+    "Name": null,
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "T-G"
+      },
+      1,
+      {
+        "A": "T-F"
+      },
+      0,
+      {
+        "A": "T-I"
+      },
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1
+    ]
+  },
+  {
+    "Source": "TERROR.zil:276",
+    "Name": null,
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "T-F"
+      },
+      0,
+      {
+        "A": "T-D"
+      },
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      {
+        "A": "T-H"
+      },
+      0,
+      {
+        "A": "T-G"
+      },
+      0,
+      -1
+    ]
+  },
+  {
+    "Source": "TERROR.zil:283",
+    "Name": "T?TMAZE-DIRS",
+    "Flags": "0",
+    "Data": [
+      "northwest",
+      "west",
+      "southwest",
+      "south",
+      "southeast",
+      "east",
+      "northeast",
+      "north"
+    ]
+  },
+  {
+    "Source": "TERROR.zil:718",
+    "Name": null,
+    "Flags": "WordLength",
+    "Data": [
+      1,
+      false
+    ]
+  },
+  {
+    "Source": "TERROR.zil:719",
+    "Name": null,
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      1,
+      3,
+      4,
+      6
+    ]
+  },
+  {
+    "Source": "TERROR.zil:720",
+    "Name": null,
+    "Flags": "WordLength",
+    "Data": [
+      6,
+      1,
+      2,
+      5,
+      6,
+      7,
+      4
+    ]
+  },
+  {
+    "Source": "TERROR.zil:721",
+    "Name": null,
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      2,
+      3,
+      6,
+      9
+    ]
+  },
+  {
+    "Source": "TERROR.zil:722",
+    "Name": null,
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      1,
+      3,
+      6,
+      7
+    ]
+  },
+  {
+    "Source": "TERROR.zil:723",
+    "Name": null,
+    "Flags": "WordLength",
+    "Data": [
+      7,
+      3,
+      5,
+      2,
+      4,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "Source": "TERROR.zil:724",
+    "Name": null,
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      5,
+      3,
+      6,
+      8,
+      9
+    ]
+  },
+  {
+    "Source": "TERROR.zil:725",
+    "Name": null,
+    "Flags": "WordLength",
+    "Data": [
+      3,
+      6,
+      7,
+      9
+    ]
+  },
+  {
+    "Source": "TERROR.zil:726",
+    "Name": null,
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      4,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "Source": "TERROR.zil:718",
+    "Name": "T?TWALK-PATHS",
+    "Flags": "WordLength",
+    "Data": [
+      9,
+      {
+        "Source": "TERROR.zil:718",
+        "Name": null,
+        "Flags": "WordLength",
+        "Data": [
+          1,
+          false
+        ]
+      },
+      {
+        "Source": "TERROR.zil:719",
+        "Name": null,
+        "Flags": "WordLength",
+        "Data": [
+          4,
+          1,
+          3,
+          4,
+          6
+        ]
+      },
+      {
+        "Source": "TERROR.zil:720",
+        "Name": null,
+        "Flags": "WordLength",
+        "Data": [
+          6,
+          1,
+          2,
+          5,
+          6,
+          7,
+          4
+        ]
+      },
+      {
+        "Source": "TERROR.zil:721",
+        "Name": null,
+        "Flags": "WordLength",
+        "Data": [
+          4,
+          2,
+          3,
+          6,
+          9
+        ]
+      },
+      {
+        "Source": "TERROR.zil:722",
+        "Name": null,
+        "Flags": "WordLength",
+        "Data": [
+          4,
+          1,
+          3,
+          6,
+          7
+        ]
+      },
+      {
+        "Source": "TERROR.zil:723",
+        "Name": null,
+        "Flags": "WordLength",
+        "Data": [
+          7,
+          3,
+          5,
+          2,
+          4,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "Source": "TERROR.zil:724",
+        "Name": null,
+        "Flags": "WordLength",
+        "Data": [
+          5,
+          5,
+          3,
+          6,
+          8,
+          9
+        ]
+      },
+      {
+        "Source": "TERROR.zil:725",
+        "Name": null,
+        "Flags": "WordLength",
+        "Data": [
+          3,
+          6,
+          7,
+          9
+        ]
+      },
+      {
+        "Source": "TERROR.zil:726",
+        "Name": null,
+        "Flags": "WordLength",
+        "Data": [
+          4,
+          4,
+          6,
+          7,
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "TERROR.zil:728",
+    "Name": "T?TMAZE-ROOMS",
+    "Flags": "WordLength",
+    "Data": [
+      9,
+      {
+        "A": "T-A"
+      },
+      {
+        "A": "T-B"
+      },
+      {
+        "A": "T-C"
+      },
+      {
+        "A": "T-D"
+      },
+      {
+        "A": "T-E"
+      },
+      {
+        "A": "T-F"
+      },
+      {
+        "A": "T-G"
+      },
+      {
+        "A": "T-H"
+      },
+      {
+        "A": "T-I"
+      }
+    ]
+  },
+  {
+    "Source": "TERROR.zil:753",
+    "Name": "T?PATH-TBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "STAIR.zil:175",
+    "Name": "T?STAIR-TABLE",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "MAGIC.zil:346",
+    "Name": "T?ALL-SPELLS",
+    "Flags": "WordLength",
+    "Data": [
+      17,
+      {
+        "A": "WRITE-MAGIC-SPELL"
+      },
+      {
+        "A": "LIGHT-SPELL"
+      },
+      {
+        "A": "CHEAT-DEATH-SPELL"
+      },
+      {
+        "A": "SUMMON-SPELL"
+      },
+      {
+        "A": "CHARM-SPELL"
+      },
+      {
+        "A": "OPEN-SPELL"
+      },
+      {
+        "A": "TALK-TO-ANIMALS-SPELL"
+      },
+      {
+        "A": "HASTE-SPELL"
+      },
+      {
+        "A": "DISPEL-SPELL"
+      },
+      {
+        "A": "PROTECTION-SPELL"
+      },
+      {
+        "A": "STRONG-BOX-SPELL"
+      },
+      {
+        "A": "BANISH-SPELL"
+      },
+      {
+        "A": "REPAIR-SPELL"
+      },
+      {
+        "A": "NEWT-SPELL"
+      },
+      {
+        "A": "FLY-SPELL"
+      },
+      {
+        "A": "QUENCH-SPELL"
+      },
+      {
+        "A": "CREDITS-SPELL"
+      }
+    ]
+  },
+  {
+    "Source": "MAGIC.zil:406",
+    "Name": "T?COUNTERS",
+    "Flags": "0",
+    "Data": [
+      "once",
+      "twice",
+      "thrice",
+      "four times",
+      "five times"
+    ]
+  },
+  {
+    "Source": "MAGIC.zil:649",
+    "Name": "T?FORGET-TBL",
+    "Flags": "WordLength",
+    "Data": [
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "MAGIC.zil:793",
+    "Name": "T?PROBE-TBL",
+    "Flags": "WordLength",
+    "Data": [
+      3,
+      "A dull aching fills your head, and your mind is again probed, more deeply\r\nthan when you entered the castle.",
+      "Your head is filled with a heavy sensation, as though an enormous weight\r\nwere being borne by it. Your mind is again probed, this time very deeply,\r\ntesting and learning. The feeling passes after a long moment.",
+      "A knife seems to split your head apart. A deep, black presence seems to enter\r\nand probe, deep and sure. After what seems like an eternity, it passes, leaving\r\nyou with a throbbing headache."
+    ]
+  },
+  {
+    "Source": "PURLOINED.zil:216",
+    "Name": "T?SIGN-TEXTS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "\"Give Up\"",
+      "\"Go Away\"",
+      "\"Had Enough?\""
+    ]
+  },
+  {
+    "Source": "PURLOINED.zil:250",
+    "Name": "T?ILLUSION-HACKS",
+    "Flags": "WordLength",
+    "Data": [
+      7,
+      0,
+      "Two, or perhaps three, monster heads reach out for you, spearing\r\nyou in the process.",
+      "One of the gargoyles spits in your direction, burning your arm\r\nwith incendiary byproducts.",
+      "Three or four tentacles grab you briefly and send you flying.",
+      "You manage to reach one of the iron chains before it turns into\r\na pair of teeth and bites you.",
+      "The floating sign, once serene, knocks you delicately over the head.",
+      "The door opens, and nineteen demons, each a cross between\r\na carrot and a sledge hammer, march out from behind it, knock you\r\nsenseless, and return, the last closing the door behind it."
+    ]
+  },
+  {
+    "Source": "PURLOINED.zil:356",
+    "Name": "T?MIRROR-HALL-TBL1",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      "This is the western end of the",
+      "This is a spot within the long",
+      "This is a spot within the long",
+      "This is the eastern end of the"
+    ]
+  },
+  {
+    "Source": "PURLOINED.zil:432",
+    "Name": "T?ADVENTURER-FEEBLES",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      0,
+      "stares in your direction but seems not to see you",
+      "is combing his hair",
+      "is wandering around his surroundings, seemingly lost",
+      "is deep in thought"
+    ]
+  },
+  {
+    "Source": "PURLOINED.zil:772",
+    "Name": "T?ADVENTURER-LOITERS",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      0,
+      " eyes your possessions intently.",
+      ", not overly tactful, asks to see what you're holding.",
+      " asks what you would be needing treasures for.",
+      " offers to relieve you of some of your possessions."
+    ]
+  },
+  {
+    "Source": "PURLOINED.zil:782",
+    "Name": "T?ADVENTURER-NICE",
+    "Flags": "WordLength",
+    "Data": [
+      6,
+      0,
+      "smiles at you like an idiot.",
+      "pulls out his map, a convoluted collection of lines, arrows, and\r\nboxes, and checks it briefly.",
+      "stares at his possessions as if expecting a revelation.",
+      "tries to make some small talk, but he only mumbles. He'll have to speak\r\nup if he expects you to hear him.",
+      "asks for directions to Flood Control Dam #3."
+    ]
+  },
+  {
+    "Source": "PURLOINED.zil:791",
+    "Name": "T?ADVENTURER-QUIPS",
+    "Flags": "WordLength",
+    "Data": [
+      7,
+      0,
+      "pulls out his map, a convoluted collection of lines, arrows, and\r\nboxes, and checks it briefly.",
+      "stares at his possessions as if expecting a revelation.",
+      "tries to make some small talk, but only mumbles. He'll have to speak\r\nup if he expects you to hear him.",
+      "waves his sword menacingly in your direction.",
+      "fends you off with his sword.",
+      "attempts to eat his sword. I don't think it would agree with him."
+    ]
+  },
+  {
+    "Source": "PURLOINED.zil:942",
+    "Name": "T?DIR-STRINGS",
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "P?NORTH"
+      },
+      "north",
+      {
+        "A": "P?SOUTH"
+      },
+      "south",
+      {
+        "A": "P?EAST"
+      },
+      "east",
+      {
+        "A": "P?WEST"
+      },
+      "west",
+      {
+        "A": "P?NW"
+      },
+      "northwest",
+      {
+        "A": "P?NE"
+      },
+      "northeast",
+      {
+        "A": "P?SW"
+      },
+      "southwest",
+      {
+        "A": "P?SE"
+      },
+      "southeast",
+      {
+        "A": "P?DOWN"
+      },
+      "downstairs",
+      {
+        "A": "P?UP"
+      },
+      "upstairs",
+      {
+        "A": "P?IN"
+      },
+      "in",
+      {
+        "A": "P?OUT"
+      },
+      "out"
+    ]
+  },
+  {
+    "Source": "PURLOINED.zil:949",
+    "Name": "T?ADV-POSS",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "PURLOINED.zil:985",
+    "Name": "T?HALL-TBL",
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "NW-TOWER"
+      },
+      {
+        "A": "MIRROR-HALL-1"
+      },
+      {
+        "A": "MIRROR-HALL-2"
+      },
+      {
+        "A": "MIRROR-HALL-3"
+      },
+      {
+        "A": "MIRROR-HALL-4"
+      },
+      {
+        "A": "NORTH-GATE"
+      },
+      {
+        "A": "PURLOINED-ROOM"
+      },
+      0
+    ]
+  },
+  {
+    "Source": "CASTLE.zil:1169",
+    "Name": "T?FROG-TALKS",
+    "Flags": "WordLength",
+    "Data": [
+      6,
+      0,
+      "what they will do if they ever become princes again.",
+      "the finer points of insect flavoring.",
+      "the politics of lily pad assignment.",
+      "the Interlogic series of prose adventures.",
+      "the recent disturbing rise in the number of predators in the swamp."
+    ]
+  },
+  {
+    "Source": "CASTLE.zil:1193",
+    "Name": "T?FROGGERS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "Hiya! Seen any juicy flies?",
+      "Awful day, isn't it?",
+      "Tell Belboz that Fr'nb-ap says hello!"
+    ]
+  },
+  {
+    "Source": "CASTLE.zil:1370",
+    "Name": "T?MUNG-ROOM-TABLE",
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "ALTAR"
+      },
+      {
+        "A": "TEMPLE"
+      },
+      {
+        "A": "TOWER-N"
+      },
+      {
+        "A": "TOWER-S"
+      },
+      {
+        "A": "COURTYARD-7"
+      },
+      {
+        "A": "COURTYARD-3"
+      },
+      {
+        "A": "JUNCTION"
+      },
+      {
+        "A": "COURTYARD-4"
+      },
+      {
+        "A": "COURTYARD-2"
+      },
+      {
+        "A": "LANDING"
+      },
+      {
+        "A": "COURTYARD-6"
+      },
+      {
+        "A": "COURTYARD-5"
+      },
+      {
+        "A": "LIBRARY"
+      },
+      {
+        "A": "BANQUET-HALL"
+      },
+      {
+        "A": "COURTYARD-1"
+      },
+      {
+        "A": "KITCHEN"
+      },
+      {
+        "A": "NORTH-GATE"
+      },
+      {
+        "A": "EAST-HALL"
+      },
+      {
+        "A": "FOREST-1"
+      },
+      {
+        "A": "CLOSET"
+      },
+      {
+        "A": "INSIDE-GATE"
+      },
+      {
+        "A": "WEST-HALL"
+      },
+      {
+        "A": "SOUTH-GATE"
+      },
+      {
+        "A": "MEADOW"
+      },
+      {
+        "A": "SE-TOWER"
+      },
+      {
+        "A": "PEBBLED-PATH"
+      },
+      {
+        "A": "SW-TOWER"
+      },
+      {
+        "A": "BEDROOM"
+      },
+      false
+    ]
+  },
+  {
+    "Source": "SLEEP.zil:17",
+    "Name": "T?TIME-TABLE",
+    "Flags": "0",
+    "Data": [
+      "just past dawn",
+      "early morning",
+      "mid-morning",
+      "around noon",
+      "early afternoon",
+      "mid-afternoon",
+      "early evening",
+      "mid evening",
+      "late evening",
+      "midnight",
+      "in the early hours",
+      "pre-dawn",
+      "dawn"
+    ]
+  },
+  {
+    "Source": "SLEEP.zil:59",
+    "Name": "T?THIRST-TABLE",
+    "Flags": "WordLength",
+    "Data": [
+      6,
+      "Your mouth is getting rather dry.",
+      "You are becoming quite thirsty.",
+      "You are very thirsty now. You'd better have a drink soon.",
+      "Your lips are parched. If you don't get a drink soon you will pass out.",
+      "You are beginning to feel faint from lack of water.",
+      "BUG"
+    ]
+  },
+  {
+    "Source": "SLEEP.zil:80",
+    "Name": "T?HUNGER-TABLE",
+    "Flags": "WordLength",
+    "Data": [
+      6,
+      "Your stomach is starting to grumble.",
+      "You are becoming quite hungry.",
+      "You are very hungry now. You'd better have something to eat.",
+      "You're fairly starving. If you don't eat soon you will pass out.",
+      "You are beginning to feel faint from lack of sustenance.",
+      "BUG"
+    ]
+  },
+  {
+    "Source": "SLEEP.zil:133",
+    "Name": "T?HUNGER-TELL",
+    "Flags": "0",
+    "Data": [
+      "well fed",
+      "a bit hungry",
+      "becoming quite hungry",
+      "very hungry",
+      "fairly starving",
+      "faint from lack of food",
+      "huoo"
+    ]
+  },
+  {
+    "Source": "SLEEP.zil:142",
+    "Name": "T?THIRST-TELL",
+    "Flags": "0",
+    "Data": [
+      "well hydrated",
+      "a bit thirsty",
+      "quite thirsty",
+      "very thirsty",
+      "extremely thirsty",
+      "faint from lack of water"
+    ]
+  },
+  {
+    "Source": "SLEEP.zil:150",
+    "Name": "T?TIRED-TELL",
+    "Flags": "0",
+    "Data": [
+      "beginning to tire",
+      "feeling tired",
+      "worn out",
+      "feeling wrung out and tired",
+      "getting more and more tired",
+      "dead on your feet",
+      "so tired you can barely put one foot in front of another",
+      "practically asleep",
+      "moving only on your last reserves of strength",
+      "barely able to move your arms",
+      "unable to keep your eyes open for more than a few moments\r\nat a time"
+    ]
+  },
+  {
+    "Source": "SLEEP.zil:309",
+    "Name": "T?DREAMS",
+    "Flags": "WordLength",
+    "Data": [
+      6,
+      0,
+      "You dream of being pursued through a dank cavern. Something is behind\r\nyou, something horrible that you can't turn to face. It gets closer and\r\ncloser, and you can feel its hot breath on your neck.",
+      "You dream of an idyllic scene in the country, a picnic of wood-sprites\r\nand dryads.",
+      "You dream of Krill. He works feverishly in an evilly lit workroom. He\r\nis working a conjuration of great complexity and power, and the room is\r\nstrewn with the noisome components of this horrific casting. Krill chants\r\nwords of awful power as he works.",
+      "You dream of dancing penguins in formal dress. One has a particularly\r\nnice tuxedo and a cane with a gold top.",
+      "You dream of a river, slow and muddy. Great grey hippopotami sport there,\r\nbellowing and splashing, and twitching their ears."
+    ]
+  },
+  {
+    "Source": "GEARS.zil:567",
+    "Name": "T?TURTLE-REMARKS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "Are you a magician? Are you going to do something about that annoying\r\nWarlock, then?",
+      "How do you like my shell? A wizard did that to me about 75 years ago.",
+      "It's nice to find a human who talks turtle. Not many do, you know. Most\r\npeople think turtles are boring, just because we talk slowly."
+    ]
+  },
+  {
+    "Source": "OUTSIDE.zil:305",
+    "Name": "T?BREAD-EXAMINES",
+    "Flags": "0",
+    "Data": [
+      0,
+      "not much",
+      "only a small amount",
+      "a good deal",
+      "nearly half",
+      "about half",
+      "a lot",
+      "a whole lot",
+      "an entire loaf"
+    ]
+  },
+  {
+    "Source": "OUTSIDE.zil:316",
+    "Name": "T?BREAD-AMTS",
+    "Flags": "0",
+    "Data": [
+      "There's none left, though.",
+      "There's not much left, though.",
+      "There's only a small amount left, though.",
+      "There's still a good deal left, too.",
+      "There's nearly half of it left, too.",
+      "There's still about half of it left, too.",
+      "There's a lot of bread left, too.",
+      "There's a whole lot of it left, too.",
+      "There's a full loaf, too."
+    ]
+  },
+  {
+    "Source": "OUTSIDE.zil:582",
+    "Name": "T?SIGN-TBL",
+    "Flags": "0",
+    "Data": [
+      "Why",
+      "are",
+      "you",
+      "going",
+      "west",
+      "when",
+      "the",
+      "castle",
+      "is",
+      "east?",
+      "Burma",
+      "Shave"
+    ]
+  },
+  {
+    "Source": "OUTSIDE.zil:647",
+    "Name": "T?ROAD-TABLE",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "OUTSIDE.zil:773",
+    "Name": "T?GLIMPSES",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "A rat skitters across the floor, sees you, is startled, and rushes\r\nback the way it came.",
+      "Bluebottles buzz up to you, and then away.",
+      "A gaunt, feral-looking dog carrying a well-chewed bone approaches,\r\nis surprised by your presence, growls and then turns tail."
+    ]
+  },
+  {
+    "Source": "OUTSIDE.zil:780",
+    "Name": "T?NIGHT-GLIMPSES",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "Bats flutter by, red eyes glowing.",
+      "You hear noises in the darkness nearby.",
+      "You sense something behind you, turn, and there is nothing there."
+    ]
+  }
+]

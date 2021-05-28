@@ -1,0 +1,311 @@
+{
+  "P-WON": false,
+  "PSEUDO-PRSO": false,
+  "P-MULT": false,
+  "P-NOT-HERE": 0,
+  "CLOCK-WAIT": false,
+  "C-TABLE": {
+    "T": "T?C-TABLE"
+  },
+  "C-INTS": 52,
+  "CLOCK-HAND": false,
+  "P-AND": false,
+  "PRSA": false,
+  "PRSI": false,
+  "PRSO": false,
+  "P-TABLE": 0,
+  "P-ONEOBJ": 0,
+  "P-SYNTAX": 0,
+  "P-CCTBL": {
+    "T": "T?P-CCTBL"
+  },
+  "P-LEN": 0,
+  "WINNER": 0,
+  "P-LEXV": {
+    "T": "T?P-LEXV"
+  },
+  "AGAIN-LEXV": {
+    "T": "T?AGAIN-LEXV"
+  },
+  "RESERVE-LEXV": {
+    "T": "T?RESERVE-LEXV"
+  },
+  "RESERVE-PTR": false,
+  "P-INBUF": {
+    "T": "T?P-INBUF"
+  },
+  "OOPS-INBUF": {
+    "T": "T?OOPS-INBUF"
+  },
+  "OOPS-TABLE": {
+    "T": "T?OOPS-TABLE"
+  },
+  "P-CONT": false,
+  "P-IT-OBJECT": false,
+  "LAST-PSEUDO-LOC": false,
+  "P-OFLAG": false,
+  "P-MERGED": false,
+  "P-ACLAUSE": false,
+  "P-ANAM": false,
+  "P-AADJ": false,
+  "P-PNAM": false,
+  "P-PADJN": false,
+  "P-ITBL": {
+    "T": "T?P-ITBL"
+  },
+  "P-OTBL": {
+    "T": "T?P-OTBL"
+  },
+  "P-VTBL": {
+    "T": "T?P-VTBL"
+  },
+  "P-OVTBL": {
+    "T": "T?P-OVTBL"
+  },
+  "P-NCN": 0,
+  "QUOTE-FLAG": false,
+  "P-END-ON-PREP": false,
+  "P-ACT": false,
+  "P-WALK-DIR": false,
+  "AGAIN-DIR": false,
+  "P-NUMBER": 0,
+  "P-QWORD": false,
+  "P-QBUF": {
+    "T": "T?P-QBUF"
+  },
+  "P-QNEXT": false,
+  "P-SLOCBITS": 0,
+  "NOT-RECOGNIZED": "That sentence isn't one I recognize.",
+  "CANT-ORPHAN": "I don't understand. What are you referring to?",
+  "P-GWIMBIT": 0,
+  "P-NAM": false,
+  "P-ADJ": false,
+  "P-ADVERB": false,
+  "P-ADJN": false,
+  "P-PRSO": {
+    "T": "T?P-PRSO"
+  },
+  "P-PRSI": {
+    "T": "T?P-PRSI"
+  },
+  "P-BUTS": {
+    "T": "T?P-BUTS"
+  },
+  "P-MERGE": {
+    "T": "T?P-MERGE"
+  },
+  "P-OCLAUSE": {
+    "T": "T?P-OCLAUSE"
+  },
+  "P-MATCHLEN": 0,
+  "P-GETFLAGS": 0,
+  "NOUN-MISSING": "There seems to be a noun missing in that sentence.",
+  "P-MOBY-FOUND": false,
+  "P-MOBY-FLAG": false,
+  "P-XNAM": false,
+  "P-XADJ": false,
+  "P-XADJN": false,
+  "OCOUNT": 0,
+  "SAMARRA?": false,
+  "SHADOW-COUNT": 0,
+  "FROZEN?": false,
+  "LOAD-MAX": 150,
+  "LOAD-ALLOWED": 150,
+  "AWAKE": -1,
+  "OGRE-MURDEROUS?": false,
+  "SLIDE-PROB": 10,
+  "ROCK-SLIDE-COUNT": 0,
+  "ROC-COUNT": 0,
+  "ROC-DESCS": {
+    "T": "T?ROC-DESCS"
+  },
+  "ROC-FLY-COUNT": 0,
+  "SMASH-PROB": 0,
+  "ROC-PROB": 0,
+  "FALLING?": false,
+  "PAST-WATER-FLAG": 0,
+  "PERIOD": ".|",
+  "REFERRING": "I don't see what you're referring to.",
+  "I-DONT-THINK-THAT": "I don't think that ",
+  "DOESNT-FIT": "It doesn't fit.|",
+  "NOW-BLACK": "It is pitch black.",
+  "IT-LOOKS-LIKE": "It looks like ",
+  "IT-IS-ALREADY": "It's already ",
+  "TOO-DARK": "It's too dark to see!|",
+  "LOOK-AROUND-YOU": "Look around you.|",
+  "NOTHING-HAPPENS": "Nothing happens.|",
+  "TAKEN": "Taken.|",
+  "WASTE-OF-TIME": "That would be a waste of time.|",
+  "THERE-IS-NOTHING": "There is nothing ",
+  "NO-ROOM": "There's no room.",
+  "THERES-NOTHING-TO": "There's nothing to ",
+  "WHILE-FLYING": "While flying?|",
+  "YOU-ARE": "You already are",
+  "YOU-HAVE": "You already have ",
+  "YOU-ARE-NOW": "You are now ",
+  "YOU-ARENT": "You aren't ",
+  "YOU-CANT": "You can't ",
+  "YOU-CANT-REACH": "You can't reach ",
+  "YOU-CANT-SEE": "You can't see ",
+  "YOU-DONT-HAVE": "You don't have ",
+  "YOU-HIT": "You hit your head against ",
+  "MORE-SPECIFIC": "You'll have to be more specific",
+  "YOU-HAVE-TO": "You'll have to",
+  "VERBOSITY": 1,
+  "DESCRIPTIONS": " descriptions",
+  "TIRED-TELL": {
+    "T": "T?TIRED-TELL"
+  },
+  "OKAY": "Okay.|",
+  "FAILED": "Failed.|",
+  "RANKINGS": {
+    "T": "T?RANKINGS"
+  },
+  "COPR-NOTICE": " a transcript of interaction with SPELLBREAKER.",
+  "DREAMS": {
+    "T": "T?DREAMS"
+  },
+  "FUMBLE-NUMBER": 8,
+  "DESCRIBED-ROOM?": false,
+  "DESC-OBJECT": false,
+  "PROVIDING-LIGHT": " (providing light)",
+  "OHERE": false,
+  "DEAD?": false,
+  "DEATHS": 0,
+  "DEATH-SPEECHES": {
+    "T": "T?DEATH-SPEECHES"
+  },
+  "YUKS": {
+    "T": "T?YUKS"
+  },
+  "HAS-NO-SURFACE": " has no suitable surface to write on",
+  "SEEN-BLORPLE?": false,
+  "FORGET-TBL": {
+    "T": "T?FORGET-TBL"
+  },
+  "REAL-SPELL-MAX": 4,
+  "SPELL-MAX": 4,
+  "SPELL-ROOM": 4,
+  "USED-JINDAK?": false,
+  "SPELL-CAST": false,
+  "FIZZLES": {
+    "T": "T?FIZZLES"
+  },
+  "ALL-SPELLS": {
+    "T": "T?ALL-SPELLS"
+  },
+  "COUNTERS": {
+    "T": "T?COUNTERS"
+  },
+  "BLORPLE-OBJECT": false,
+  "CHANGED?": false,
+  "TIME-STOPPED?": false,
+  "AT-FIRST": "At first, nothing happens. Then you notice ",
+  "ESPNIS?": false,
+  "SHRINK-FLAG": false,
+  "SMALL-FLAG": false,
+  "HERE": false,
+  "LIT": false,
+  "MOVES": 0,
+  "SCORE": 0,
+  "INDENTS": {
+    "T": "T?INDENTS"
+  },
+  "DIR-TABLE": {
+    "T": "T?DIR-TABLE"
+  },
+  "ICED-OBJECT": false,
+  "LURKING": " lurking in the darkness nearby.",
+  "FAKE-KEY": false,
+  "BELBOZ-CONVINCED?": false,
+  "BELBOZ-ASKS": false,
+  "QUESTIONS": {
+    "T": "T?QUESTIONS"
+  },
+  "ANSWERS": {
+    "T": "T?ANSWERS"
+  },
+  "LAST-SLEPT": 40,
+  "ORATOR": false,
+  "CLEESHED?": false,
+  "DULL-ROOM-RETURN": false,
+  "IDOL-SLEEPED?": false,
+  "IDOL-YAWNING?": false,
+  "IDOL-ASLEEP?": false,
+  "IDOL-CRUSHES-YOU": "The idol notices you! It crushes you to jelly, even though you aren't a bat.",
+  "OPAL-LOOSE?": false,
+  "ZIPPER-SCROLL?": false,
+  "ROCK-FLAG": false,
+  "HERMIT-APPEASED?": false,
+  "ROCKS-PRECARIOUS": "The rocks look very precariously balanced",
+  "SNEEZY?": false,
+  "MAGIC-BOX-CUBE": false,
+  "ATE-AS-GROUPER?": false,
+  "WATER-FLAG": 0,
+  "FREEZE-FLAG": 0,
+  "FREEZE-COUNT": 0,
+  "WATER-HEIGHTS": {
+    "T": "T?WATER-HEIGHTS"
+  },
+  "LONG-PIPE-DESC": "You are inside a small ceramic pipe nearly filled with fast-flowing cold\r\nwater. The walls of the pipe are slippery and overgrown with mossy slime\r\nwherever an irregularity shields the growth from the force of the water. ",
+  "LONG-PIPE-DESC-2": "Going east (against the current) would be nearly impossible. Going west\r\nis almost unavoidable.",
+  "DEAD-BOOK-SCORE": 15,
+  "SEEN-TOWER?": false,
+  "FALL-WARNING?": false,
+  "MERCHANT-FLAG": false,
+  "ASKED-FOR": false,
+  "YOUR-OFFER": 0,
+  "MERCHANT-WANTS": 900,
+  "MERCHANT-COUNT": 0,
+  "MERCHANT-SAYS": {
+    "T": "T?MERCHANT-SAYS"
+  },
+  "SITTING?": false,
+  "RIPPLES": "The carpet ripples excitedly",
+  "NS-COUNT": 0,
+  "EW-COUNT": 0,
+  "UD-COUNT": 0,
+  "SMELL-LAVA": "It smells like boiling brimstone.|",
+  "ROCK-ARRIVED?": false,
+  "GOT-MAGIC-CUBE?": false,
+  "SPELLS-USED": 0,
+  "FAKE-CUBE-LIST": {
+    "T": "T?FAKE-CUBE-LIST"
+  },
+  "TIME-CUBE-SCORE?": false,
+  "IS-GLOWING": " is glowing with a faint blue glow.",
+  "REAL-VALUE": 3,
+  "FAKE-VALUE": 2,
+  "GUARDS-FLAG": 0,
+  "TREASURY-GUARDED?": false,
+  "WHITE-CUBE": "featureless white cube",
+  "ROCK-MOVED?": false,
+  "YOU-LOC": 5,
+  "ROCK-LOC": 5,
+  "OTHER-ROCK-LOC": 7,
+  "PLAIN-WALLS": {
+    "T": "T?PLAIN-WALLS"
+  },
+  "ROCK-TALKED?": false,
+  "ROCK-BRIBED?": false,
+  "TRIED-BOARDING?": false,
+  "IT-TICKLES": "The rock bobs in place. \"That tickles!\"|",
+  "ROCK-IRRITATION": "The rock grumbles in irritation. \"Go away,\" it says.|",
+  "TOO-FAR": "It's too far away.|",
+  "RABBIT-FLAG": false,
+  "WEED-PLANTED?": 2,
+  "MAZE-EXIT-FLAG": false,
+  "COMPASS-ROSE-STATE": 0,
+  "COMPASS-ROSE-ARMS": 0,
+  "OCT-HOLE": "octagonal hole",
+  "RUINS-SCORE": 25,
+  "TIME-SICK": "As you leave, your consciousness is wrenched as though your memories\r\nwere being torn apart. ",
+  "WATER-TABLE": {
+    "T": "T?WATER-TABLE"
+  },
+  "PAST-CELL-GUARDS-KILL-YOU": "You exit into a tangle of guards, who promptly dispatch you for escaping\r\nand resisting arrest.",
+  "DOOR-LOCKED": "The door is closed and locked",
+  "CUBE-LIST": {
+    "T": "T?CUBE-LIST"
+  }
+}

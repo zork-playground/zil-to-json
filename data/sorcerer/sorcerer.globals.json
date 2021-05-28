@@ -1,0 +1,325 @@
+{
+  "PLAYER": false,
+  "P-WON": false,
+  "LAST-USED-PRSO": false,
+  "P-MULT": false,
+  "P-NOT-HERE": 0,
+  "C-TABLE": {
+    "T": "T?C-TABLE"
+  },
+  "C-DEMONS": 300,
+  "C-INTS": 300,
+  "CLOCK-WAIT": false,
+  "PRSA": false,
+  "PRSI": false,
+  "PRSO": false,
+  "P-TABLE": 0,
+  "P-ONEOBJ": 0,
+  "P-SYNTAX": 0,
+  "P-CCTBL": {
+    "T": "T?P-CCTBL"
+  },
+  "P-LEN": 0,
+  "P-DIR": 0,
+  "WINNER": 0,
+  "P-LEXV": {
+    "T": "T?P-LEXV"
+  },
+  "AGAIN-LEXV": {
+    "T": "T?AGAIN-LEXV"
+  },
+  "RESERVE-LEXV": {
+    "T": "T?RESERVE-LEXV"
+  },
+  "RESERVE-PTR": false,
+  "P-INBUF": {
+    "T": "T?P-INBUF"
+  },
+  "OOPS-INBUF": {
+    "T": "T?OOPS-INBUF"
+  },
+  "OOPS-TABLE": {
+    "T": "T?OOPS-TABLE"
+  },
+  "P-CONT": false,
+  "P-IT-OBJECT": false,
+  "P-OFLAG": false,
+  "P-MERGED": false,
+  "P-ACLAUSE": false,
+  "P-ANAM": false,
+  "P-AADJ": false,
+  "P-ITBL": {
+    "T": "T?P-ITBL"
+  },
+  "P-OTBL": {
+    "T": "T?P-OTBL"
+  },
+  "P-VTBL": {
+    "T": "T?P-VTBL"
+  },
+  "P-OVTBL": {
+    "T": "T?P-OVTBL"
+  },
+  "P-NCN": 0,
+  "QUOTE-FLAG": false,
+  "P-END-ON-PREP": false,
+  "P-ACT": false,
+  "P-WALK-DIR": false,
+  "AGAIN-DIR": false,
+  "P-NUMBER": 0,
+  "P-DIRECTION": 0,
+  "P-SLOCBITS": 0,
+  "P-GWIMBIT": 0,
+  "P-NAM": false,
+  "P-ADJ": false,
+  "P-ADVERB": false,
+  "P-ADJN": false,
+  "P-PRSO": {
+    "T": "T?P-PRSO"
+  },
+  "P-PRSI": {
+    "T": "T?P-PRSI"
+  },
+  "P-BUTS": {
+    "T": "T?P-BUTS"
+  },
+  "P-MERGE": {
+    "T": "T?P-MERGE"
+  },
+  "P-OCLAUSE": {
+    "T": "T?P-OCLAUSE"
+  },
+  "P-MATCHLEN": 0,
+  "P-GETFLAGS": 0,
+  "P-AND": false,
+  "P-MOBY-FOUND": false,
+  "P-MOBY-FLAG": false,
+  "P-XNAM": false,
+  "P-XADJ": false,
+  "P-XADJN": false,
+  "LAST-PSEUDO-LOC": false,
+  "ALWAYS-LIT": false,
+  "VERBOSE": false,
+  "SUPER-BRIEF": false,
+  "TIRED-TELL": {
+    "T": "T?TIRED-TELL"
+  },
+  "RANKINGS": {
+    "T": "T?RANKINGS"
+  },
+  "COPR-NOTICE": " a transcript of interaction with SORCERER.",
+  "HELLOS": {
+    "T": "T?HELLOS"
+  },
+  "PERFORMING-SPELL": false,
+  "ALL-SPELLS": {
+    "T": "T?ALL-SPELLS"
+  },
+  "COUNTERS": {
+    "T": "T?COUNTERS"
+  },
+  "BOOK-GLOWS": "Your spell book begins to glow softly. ",
+  "VEZZAS": {
+    "T": "T?VEZZAS"
+  },
+  "FUMBLE-NUMBER": 7,
+  "SWANZO-POINT": 25,
+  "DESC-OBJECT": false,
+  "RESURRECTING": false,
+  "HO-HUM": {
+    "T": "T?HO-HUM"
+  },
+  "YUKS": {
+    "T": "T?YUKS"
+  },
+  "YNH": "You're not holding",
+  "HERE": false,
+  "LOAD-ALLOWED": 100,
+  "LOAD-MAX": 100,
+  "LIT": {
+    "A": "T"
+  },
+  "MOVES": 0,
+  "SCORE": 0,
+  "INDENTS": {
+    "T": "T?INDENTS"
+  },
+  "HELISTARISMS": {
+    "T": "T?HELISTARISMS"
+  },
+  "FROBARISMS": {
+    "T": "T?FROBARISMS"
+  },
+  "FLYING": false,
+  "FORGET-TBL": {
+    "T": "T?FORGET-TBL"
+  },
+  "REAL-SPELL-MAX": 4,
+  "SPELL-MAX": 4,
+  "SPELL-ROOM": 3,
+  "MANUFACTURERS": {
+    "T": "T?MANUFACTURERS"
+  },
+  "POTION-MAKERS": {
+    "T": "T?POTION-MAKERS"
+  },
+  "UNDER-INFLUENCE": false,
+  "POTION-REACTIONS": {
+    "T": "T?POTION-REACTIONS"
+  },
+  "SLEEPING": {
+    "A": "T"
+  },
+  "AWAKE": -1,
+  "LAST-SLEPT": 40,
+  "DREAMS": {
+    "T": "T?DREAMS"
+  },
+  "HUNGER-LEVEL": 0,
+  "THIRST-LEVEL": 0,
+  "HUNGER-THIRST-TABLE": {
+    "T": "T?HUNGER-THIRST-TABLE"
+  },
+  "PARROTISMS": {
+    "T": "T?PARROTISMS"
+  },
+  "RESURRECTION-ROOM": false,
+  "TABLE-WARNING": false,
+  "MAILMAN-FOLLOW": false,
+  "VILSTUED": false,
+  "BREATH-SHORTAGE": 0,
+  "VOLUME-USED": false,
+  "BERZIOED": false,
+  "CODE-NUMBER": 0,
+  "CODE-TABLE": {
+    "T": "T?CODE-TABLE"
+  },
+  "CURRENT-TLOC": 0,
+  "NEXT-NUMBER": 0,
+  "NEXT-CODE-TABLE": {
+    "T": "T?NEXT-CODE-TABLE"
+  },
+  "TRUNK-SCREWED": false,
+  "HELLHOUND-WARNING": false,
+  "BOA-WARNING": false,
+  "LOCUST-WARNING": 0,
+  "BANK-COUNTER": 0,
+  "RIVER-EVAPORATED": false,
+  "BLORTED": false,
+  "FWEEPED": false,
+  "DRAWBRIDGE-MOVE": false,
+  "GNOME-SLEEPING": {
+    "A": "T"
+  },
+  "COIN-STOLEN": false,
+  "PATIENCE-COUNTER": 0,
+  "GNOME-ANNOYED": false,
+  "DRAGON-MOVED": false,
+  "MALYON-YONKED": false,
+  "FLAG-RAISED": {
+    "A": "T"
+  },
+  "FOOBLE-FOUND": false,
+  "FOOBLED": false,
+  "BITTEN": false,
+  "PARK-FEE-PAID": false,
+  "HAUNT-TABLE": {
+    "T": "T?HAUNT-TABLE"
+  },
+  "RIDE-IN-PROGRESS": false,
+  "RIDE-COUNTER": 0,
+  "HAWKER-SUBDUED": false,
+  "MISSES": {
+    "T": "T?MISSES"
+  },
+  "JACKPOT-DUMPED": false,
+  "SLOT-MACHINE-BROKEN": false,
+  "SLOT-MACHINE-TABLE": {
+    "T": "T?SLOT-MACHINE-TABLE"
+  },
+  "STATUE-FOLLOW": false,
+  "MAZE-CROSSED": false,
+  "ROOM-NUMBER": 13,
+  "PRE-UP-EXITS": {
+    "T": "T?PRE-UP-EXITS"
+  },
+  "PRE-DOWN-EXITS": {
+    "T": "T?PRE-DOWN-EXITS"
+  },
+  "PRE-NORTH-EXITS": {
+    "T": "T?PRE-NORTH-EXITS"
+  },
+  "PRE-SOUTH-EXITS": {
+    "T": "T?PRE-SOUTH-EXITS"
+  },
+  "PRE-EAST-EXITS": {
+    "T": "T?PRE-EAST-EXITS"
+  },
+  "PRE-WEST-EXITS": {
+    "T": "T?PRE-WEST-EXITS"
+  },
+  "POST-UP-EXITS": {
+    "T": "T?POST-UP-EXITS"
+  },
+  "POST-DOWN-EXITS": {
+    "T": "T?POST-DOWN-EXITS"
+  },
+  "POST-NORTH-EXITS": {
+    "T": "T?POST-NORTH-EXITS"
+  },
+  "POST-SOUTH-EXITS": {
+    "T": "T?POST-SOUTH-EXITS"
+  },
+  "POST-EAST-EXITS": {
+    "T": "T?POST-EAST-EXITS"
+  },
+  "POST-WEST-EXITS": {
+    "T": "T?POST-WEST-EXITS"
+  },
+  "MAZE-TABLE": {
+    "T": "T?MAZE-TABLE"
+  },
+  "HOLLOW-POINT": 20,
+  "DORN-BEAST-WARNING": false,
+  "DORN-BEAST-ROOM": 0,
+  "LAST-DORN-ROOM": 0,
+  "SPLATTERED": false,
+  "YOUNGER-HAS-SPELL-BOOK": false,
+  "BOOK-BELONGS-IN-LAGOON": false,
+  "SUFFOCATE-WARNING": false,
+  "MOVE-ONE-TABLE": {
+    "T": "T?MOVE-ONE-TABLE"
+  },
+  "MOVE-TWO-TABLE": {
+    "T": "T?MOVE-TWO-TABLE"
+  },
+  "MOVE-THREE-TABLE": {
+    "T": "T?MOVE-THREE-TABLE"
+  },
+  "OLDER-COUNTER": 0,
+  "COMBO-DISCOVERED": false,
+  "OLDER-INTRODUCED": false,
+  "OLDER-INTRO": "Although your clothes are much cleaner and less torn, the stranger looks\r\nvirtually like your own twin!",
+  "TWIN-FOLLOW": false,
+  "COMBO-REVEALED": false,
+  "YOUNGER-COUNTER": 0,
+  "COAL-DOOR-POINT": 20,
+  "CURRENT-SETTING": 0,
+  "DIAL-OPEN": false,
+  "COMBO": 0,
+  "ROPE-TO-BEAM": false,
+  "ROPE-PLACED": false,
+  "ROPE-IN-LOWER-CHUTE": false,
+  "TROG-FOLLOW": false,
+  "GOLMACKED": false,
+  "POOFED": false,
+  "UNDERWATER-COUNTER": 0,
+  "CRATE-POINT": false,
+  "SPRAY-USED?": false,
+  "SPRAYED?": false,
+  "CAVERN-POINT": 20,
+  "WHITE-DOOR-SCORE": 20,
+  "VARDIKED": false,
+  "BELBOZ-DEAD": false,
+  "BELBOZ-GASPARED": false
+}

@@ -1,0 +1,5876 @@
+[
+  {
+    "Name": "RETREAT",
+    "Exits": {},
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Enchanters' Retreat"
+      ],
+      "ACTION": [
+        {
+          "A": "RETREAT-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT",
+        "OUTSIDE"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            36,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MOUNTAIN-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "ANSWER-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "ANSWER-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "ANSWER-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "ANSWER-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "ANSWER-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "ANSWER-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "ANSWER-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "ANSWER-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "ANSWER-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "ANSWER-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "GUILD-HALL",
+    "Exits": {
+      "NORTH": {
+        "TO": "COUNCIL-CHAMBER",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "BELWIT-SQUARE",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "BELWIT-SQUARE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Guild Hall"
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "COUNCIL-CHAMBER"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BELWIT-SQUARE"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BELWIT-SQUARE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "GUILD-HALL-F"
+        }
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "COUNCIL-CHAMBER",
+    "Exits": {
+      "SOUTH": {
+        "TO": "GUILD-HALL",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "GUILD-HALL",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Council Chamber"
+      ],
+      "ACTION": [
+        {
+          "A": "COUNCIL-CHAMBER-F"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "GUILD-HALL"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "GUILD-HALL"
+        }
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            30,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "FROG-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "AMPHIBIAN-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "TOAD-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "AMPHIBIAN-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "SALAMANDER-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "NEWT-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "AMPHIBIAN-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "HELLBENDER-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "AMPHIBIAN-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "AMPHIBIAN-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "BELWIT-SQUARE",
+    "Exits": {
+      "NORTH": {
+        "TO": "GUILD-HALL",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "MESSAGE": "You wander around for a while and end up back in the square.",
+        "TYPE": "NEXIT"
+      },
+      "WEST": {
+        "MESSAGE": "You wander around for a while and end up back in the square.",
+        "TYPE": "NEXIT"
+      },
+      "SOUTH": {
+        "MESSAGE": "A remarkably surly guard blocks your way.",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Belwit Square"
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "GUILD-HALL"
+        }
+      ],
+      "EAST": [
+        "You wander around for a while and end up back in the square."
+      ],
+      "WEST": [
+        "You wander around for a while and end up back in the square."
+      ],
+      "SOUTH": [
+        "A remarkably surly guard blocks your way."
+      ],
+      "ACTION": [
+        {
+          "A": "BELWIT-SQUARE-F"
+        }
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            12,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "GUARD-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MANSE-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "GUILD-HALL-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RANDOM-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "CASTLE",
+    "Exits": {},
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Castle"
+      ],
+      "ACTION": [
+        {
+          "A": "CASTLE-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            12,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RANDOM-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "DULL-ROOM",
+    "Exits": {
+      "OUT": {
+        "PER": "DULL-ROOM-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "DULL-ROOM-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Nondescript Room"
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "DULL-ROOM-EXIT"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "DULL-ROOM-EXIT"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "DULL-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "EARTH-ROOM",
+    "Exits": {
+      "NORTH": {
+        "PER": "MAGIC-BOX-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "TO": "HALL-OF-STONE",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "CAVE-ENTRANCE",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "CLIFF-MIDDLE",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "PER": "MIDAIR-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Packed Earth"
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MAGIC-BOX-EXIT"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "HALL-OF-STONE"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CAVE-ENTRANCE"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CLIFF-MIDDLE"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MIDAIR-EXIT"
+        }
+      ],
+      "CUBE": [
+        {
+          "A": "EARTH-CUBE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "EARTH-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "GLOBAL-HOLE"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            15,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "PLURAL-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "HALL-OF-STONE",
+    "Exits": {
+      "NORTH": {
+        "TO": "SOUTH-SNAKE-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "RUINS-ROOM",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Hall of Stone"
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SOUTH-SNAKE-ROOM"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "RUINS-ROOM"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "HALL-OF-STONE-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            9,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "NORTH-SNAKE-ROOM",
+    "Exits": {
+      "SOUTH": {
+        "PER": "SNAKE-ROOM-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "NORTH": {
+        "TO": "TEMPLE-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "PER": "SNAKE-ROOM-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "SNAKE-ROOM-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "North of Serpent"
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "SNAKE-ROOM-EXIT"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TEMPLE-ROOM"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "SNAKE-ROOM-EXIT"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "SNAKE-ROOM-EXIT"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "SNAKE-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "SNAKE"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            18,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "SNAKE-EYE-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "SNAKE-EYE-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "SNAKE-SCALES-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "SNAKE-SCALES-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "SOUTH-SNAKE-ROOM",
+    "Exits": {
+      "NORTH": {
+        "PER": "SNAKE-ROOM-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "TO": "HALL-OF-STONE",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "PER": "SNAKE-ROOM-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "SNAKE-ROOM-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Smooth Room"
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "SNAKE-ROOM-EXIT"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "HALL-OF-STONE"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "SNAKE-ROOM-EXIT"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "SNAKE-ROOM-EXIT"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "SNAKE-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "SNAKE"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            18,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "SNAKE-EYE-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "SNAKE-EYE-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "SNAKE-SCALES-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "SNAKE-SCALES-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "TEMPLE-ROOM",
+    "Exits": {
+      "SOUTH": {
+        "TO": "NORTH-SNAKE-ROOM",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Temple"
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NORTH-SNAKE-ROOM"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "TEMPLE-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            27,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "PLURAL-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "RUINS-ROOM",
+    "Exits": {
+      "NORTH": {
+        "TO": "HALL-OF-STONE",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "MESSAGE": "The ruins end here.",
+        "TYPE": "NEXIT"
+      },
+      "DOWN": {
+        "TO": "RUINED-PIPE",
+        "COND": "SMALL-FLAG",
+        "TYPE": "CEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Ruins Room"
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "HALL-OF-STONE"
+        }
+      ],
+      "SOUTH": [
+        "The ruins end here."
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "RUINED-PIPE"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "SMALL-FLAG"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "RUINS-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "WATER"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            24,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "CLIFF-TOP",
+    "Exits": {
+      "DOWN": {
+        "TO": "CLIFF-MIDDLE",
+        "TYPE": "UEXIT"
+      },
+      "UP": {
+        "PER": "CLIFF-TOP-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Cliff Top"
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CLIFF-MIDDLE"
+        }
+      ],
+      "UP": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "CLIFF-TOP-EXIT"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "CLIFF-TOP-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "OUTSIDE",
+        "ONBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "GLOBAL-ROCKS"
+        },
+        {
+          "A": "GLOBAL-CLIFF"
+        },
+        {
+          "A": "HUT"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "MOUNTAIN-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "BOULDER-1",
+    "Exits": {
+      "UP": {
+        "TO": "BOULDER-2",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "TO": "CLIFF-TOP",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Boulder"
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BOULDER-2"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CLIFF-TOP"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "BOULDER-ROOM-F"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "GLOBAL-ROCKS"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "BOULDER-2",
+    "Exits": {
+      "UP": {
+        "TO": "BOULDER-3",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "TO": "BOULDER-1",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Boulder"
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BOULDER-3"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BOULDER-1"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "BOULDER-ROOM-F"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "GLOBAL-ROCKS"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "BOULDER-3",
+    "Exits": {
+      "UP": {
+        "TO": "MOUNTAIN-TOP",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "TO": "BOULDER-2",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Boulder"
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MOUNTAIN-TOP"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BOULDER-2"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "BOULDER-ROOM-F"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "GLOBAL-ROCKS"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MOUNTAIN-TOP",
+    "Exits": {
+      "IN": {
+        "PER": "HUT-ROOM-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "HUT-ROOM-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "DOWN": {
+        "PER": "CLIFF-TOP-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Mountain Top"
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "HUT-ROOM-EXIT"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "HUT-ROOM-EXIT"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "CLIFF-TOP-EXIT"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "OUTSIDE",
+        "ONBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "MOUNTAIN-TOP-F"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "GLOBAL-ROCKS"
+        },
+        {
+          "A": "GLOBAL-CLIFF"
+        },
+        {
+          "A": "HUT"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "MOUNTAIN-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "HUT-ROOM",
+    "Exits": {
+      "OUT": {
+        "PER": "HUT-ROOM-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "HUT-ROOM-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Stone Hut"
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "HUT-ROOM-EXIT"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "HUT-ROOM-EXIT"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "HUT-ROOM-F"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "HUT"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            12,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "KEYSTONE-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "CLIFF-MIDDLE",
+    "Exits": {
+      "UP": {
+        "TO": "CLIFF-TOP",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "TO": "CLIFF-BOTTOM",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Cliff Middle"
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CLIFF-TOP"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CLIFF-BOTTOM"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "CLIFF-MIDDLE-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "OUTSIDE",
+        "ONBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "GLOBAL-ROCKS"
+        },
+        {
+          "A": "GLOBAL-CLIFF"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "MOUNTAIN-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "CLIFF-BOTTOM",
+    "Exits": {
+      "UP": {
+        "TO": "CLIFF-MIDDLE",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "MESSAGE": "You're at the bottom already.",
+        "TYPE": "NEXIT"
+      },
+      "WEST": {
+        "TO": "CAVE-ENTRANCE",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "MESSAGE": "There's no path that way.",
+        "TYPE": "NEXIT"
+      },
+      "SOUTH": {
+        "MESSAGE": "There's no path that way.",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Cliff Bottom"
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CLIFF-MIDDLE"
+        }
+      ],
+      "DOWN": [
+        "You're at the bottom already."
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CAVE-ENTRANCE"
+        }
+      ],
+      "EAST": [
+        "There's no path that way."
+      ],
+      "SOUTH": [
+        "There's no path that way."
+      ],
+      "ACTION": [
+        {
+          "A": "CLIFF-BOTTOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "OUTSIDE",
+        "ONBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "GLOBAL-ROCKS"
+        },
+        {
+          "A": "GLOBAL-CLIFF"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "MOUNTAIN-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "CAVE-ENTRANCE",
+    "Exits": {
+      "EAST": {
+        "TO": "CLIFF-BOTTOM",
+        "TYPE": "UEXIT"
+      },
+      "IN": {
+        "TO": "OGRE-CAVE",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "OGRE-CAVE",
+        "TYPE": "UEXIT"
+      },
+      "UP": {
+        "MESSAGE": "There's no way up here.",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Cave Entrance"
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CLIFF-BOTTOM"
+        }
+      ],
+      "IN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "OGRE-CAVE"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "OGRE-CAVE"
+        }
+      ],
+      "UP": [
+        "There's no way up here."
+      ],
+      "ACTION": [
+        {
+          "A": "CAVE-ENTRANCE-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "OUTSIDE",
+        "ONBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "GLOBAL-CLIFF"
+        },
+        {
+          "A": "GLOBAL-CAVE"
+        },
+        {
+          "A": "GLOBAL-ROCKS"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            15,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "MOUNTAIN-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "PLURAL-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "PLURAL-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "PLANTS-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "OGRE-CAVE",
+    "Exits": {
+      "OUT": {
+        "TO": "CAVE-ENTRANCE",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "CAVE-ENTRANCE",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "PER": "OGRE-BEDROOM-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Cave"
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CAVE-ENTRANCE"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CAVE-ENTRANCE"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "OGRE-BEDROOM-EXIT"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "OGRE-CAVE-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "GLOBAL-CAVE"
+        },
+        {
+          "A": "GLOBAL-ROCKS"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            6,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "OGRE-BEDROOM",
+    "Exits": {
+      "UP": {
+        "TO": "OGRE-CAVE",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "OGRE-CAVE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Ogre Lair"
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "OGRE-CAVE"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "OGRE-CAVE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "OGRE-BEDROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "GLOBAL-CAVE"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            15,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "PLURAL-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "PLURAL-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "WATER-ROOM",
+    "Exits": {
+      "NORTH": {
+        "TO": "OUBLIETTE",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "PER": "MAGIC-BOX-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "TO": "OCEAN-ROOM",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Water Room"
+      ],
+      "CUBE": [
+        {
+          "A": "WATER-CUBE"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "OUBLIETTE"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MAGIC-BOX-EXIT"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "OCEAN-ROOM"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "WATER-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "WATER"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            15,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RANDOM-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "OCEAN-ROOM",
+    "Exits": {},
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Mid-Ocean"
+      ],
+      "ACTION": [
+        {
+          "A": "OCEAN-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RWATERBIT",
+        "OUTSIDE",
+        "ONBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "WATER"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "LOST-IN-OCEAN",
+    "Exits": {},
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Open Ocean"
+      ],
+      "FLAGS": [
+        "RWATERBIT",
+        "OUTSIDE",
+        "ONBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "LOST-IN-OCEAN-F"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "WATER"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "OCEAN-FLOOR",
+    "Exits": {
+      "UP": {
+        "TO": "OCEAN-ROOM",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Ocean Floor"
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "OCEAN-ROOM"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "OCEAN-FLOOR-F"
+        }
+      ],
+      "FLAGS": [
+        "RWATERBIT",
+        "ONBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "WATER"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "OUBLIETTE",
+    "Exits": {
+      "DOWN": {
+        "PER": "OUBLIETTE-DOWN-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "UP": {
+        "PER": "OUBLIETTE-UP-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Oubliette"
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "OUBLIETTE-DOWN-EXIT"
+        }
+      ],
+      "UP": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "OUBLIETTE-UP-EXIT"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "OUBLIETTE-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "TRAP-DOOR"
+        },
+        {
+          "A": "WATER"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "IN-CHANNEL",
+    "Exits": {
+      "UP": {
+        "TO": "OUBLIETTE",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "IN-PIPE",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "MESSAGE": "The current is too strong.",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "In Channel"
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "OUBLIETTE"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "IN-PIPE"
+        }
+      ],
+      "EAST": [
+        "The current is too strong."
+      ],
+      "ACTION": [
+        {
+          "A": "IN-CHANNEL-F"
+        }
+      ],
+      "FLAGS": [
+        "RWATERBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "WATER"
+        },
+        {
+          "A": "WATER-PIPE"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "IN-PIPE",
+    "Exits": {
+      "EAST": {
+        "MESSAGE": "The current is too strong.",
+        "TYPE": "NEXIT"
+      },
+      "WEST": {
+        "TO": "IN-PIPE-2",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "In Pipe"
+      ],
+      "EAST": [
+        "The current is too strong."
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "IN-PIPE-2"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "IN-PIPE-F"
+        }
+      ],
+      "FLAGS": [
+        "RWATERBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "WATER"
+        },
+        {
+          "A": "WATER-PIPE"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            6,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MOSS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "MOSS-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "IN-PIPE-2",
+    "Exits": {
+      "EAST": {
+        "MESSAGE": "The current is too strong.",
+        "TYPE": "NEXIT"
+      },
+      "WEST": {
+        "TO": "RUINED-PIPE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "In Pipe"
+      ],
+      "EAST": [
+        "The current is too strong."
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "RUINED-PIPE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "IN-PIPE-2-F"
+        }
+      ],
+      "FLAGS": [
+        "RWATERBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "WATER"
+        },
+        {
+          "A": "WATER-PIPE"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            6,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MOSS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "MOSS-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "RUINED-PIPE",
+    "Exits": {
+      "EAST": {
+        "MESSAGE": "The current is too strong.",
+        "TYPE": "NEXIT"
+      },
+      "WEST": {
+        "TO": "IN-SEWER",
+        "TYPE": "UEXIT"
+      },
+      "UP": {
+        "TO": "RUINS-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "RUINS-ROOM",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Ruined Pipe"
+      ],
+      "EAST": [
+        "The current is too strong."
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "IN-SEWER"
+        }
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "RUINS-ROOM"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "RUINS-ROOM"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "RUINED-PIPE-F"
+        }
+      ],
+      "FLAGS": [
+        "RWATERBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "WATER"
+        },
+        {
+          "A": "WATER-PIPE"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "IN-SEWER",
+    "Exits": {
+      "EAST": {
+        "MESSAGE": "The current is too strong.",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "In Pipe"
+      ],
+      "EAST": [
+        "The current is too strong."
+      ],
+      "ACTION": [
+        {
+          "A": "IN-SEWER-F"
+        }
+      ],
+      "FLAGS": [
+        "RWATERBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "WATER"
+        },
+        {
+          "A": "WATER-PIPE"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "PRISON",
+    "Exits": {
+      "DOWN": {
+        "PER": "PRISON-DOWN-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "UP": {
+        "TO": "GUARD-TOWER",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "CELL-HALL-EAST",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Dungeon"
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PRISON-DOWN-EXIT"
+        }
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "GUARD-TOWER"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CELL-HALL-EAST"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "PRISON-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "TRAP-DOOR"
+        },
+        {
+          "A": "EAST-WALL"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            9,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "MOSS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "MOSS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "MOSS-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "CELL-HALL-EAST",
+    "Exits": {
+      "WEST": {
+        "TO": "PRISON",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "CELL-EAST",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Dungeon East End"
+      ],
+      "LDESC": [
+        "The hall ends at a blank wall, but a cell lies to the north. There\r\nis no door on the cell."
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "PRISON"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CELL-EAST"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "CELL-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "CELL-EAST",
+    "Exits": {
+      "SOUTH": {
+        "TO": "CELL-HALL-EAST",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Dungeon Cell"
+      ],
+      "LDESC": [
+        "This was once a very luxurious cell, obviously for the imprisonment of a\r\nhighborn or powerful person. Its rich hangings are now rotten rags; its\r\nfurniture is smashed to kindling, except for one massive oak cabinet.\r\nThe cell door has been blown away by an explosion, or perhaps a \"rezrov\"\r\nspell."
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CELL-HALL-EAST"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            9,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "CELL-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "PLURAL-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "PLURAL-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "GUARD-TOWER",
+    "Exits": {
+      "DOWN": {
+        "TO": "PRISON",
+        "TYPE": "UEXIT"
+      },
+      "UP": {
+        "MESSAGE": "You'll need to flap your wings harder than that.",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Guard Tower"
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "PRISON"
+        }
+      ],
+      "UP": [
+        "You'll need to flap your wings harder than that."
+      ],
+      "ACTION": [
+        {
+          "A": "GUARD-TOWER-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "OUTSIDE",
+        "ONBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            21,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "MOUNTAIN-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MOUNTAIN-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "PLURAL-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "PLURAL-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "ROC-NEST",
+    "Exits": {
+      "OUT": {
+        "MESSAGE": "The nest is perched on a pinnacle of rock. It's a long way down.",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "In Roc Nest"
+      ],
+      "ACTION": [
+        {
+          "A": "ROC-NEST-F"
+        }
+      ],
+      "OUT": [
+        "The nest is perched on a pinnacle of rock. It's a long way down."
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "OUTSIDE",
+        "ONBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            18,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "MOUNTAIN-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "NEST-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "AIR-ROOM",
+    "Exits": {
+      "NORTH": {
+        "TO": "GLACIER-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "BAZAAR",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "PER": "MIDAIR-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "DOWN": {
+        "PER": "MAGIC-BOX-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Air Room"
+      ],
+      "CUBE": [
+        {
+          "A": "AIR-CUBE"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "GLACIER-ROOM"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BAZAAR"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MIDAIR-EXIT"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MAGIC-BOX-EXIT"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "AIR-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "GLOBAL-HOLE"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            6,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "CLOUD-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "CLOUD-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "GLACIER-ROOM",
+    "Exits": {},
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Glacier"
+      ],
+      "ACTION": [
+        {
+          "A": "GLACIER-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "OUTSIDE",
+        "ONBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            15,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "GLACIER-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "GLACIER-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "GLACIER-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "GLACIER-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MOUNTAIN-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "EMPORIUM",
+    "Exits": {
+      "WEST": {
+        "TO": "BAZAAR",
+        "DOOR": "EMPORIUM-DOOR",
+        "TYPE": "DEXIT"
+      },
+      "OUT": {
+        "TO": "BAZAAR",
+        "DOOR": "EMPORIUM-DOOR",
+        "TYPE": "DEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Emporium"
+      ],
+      "ACTION": [
+        {
+          "A": "EMPORIUM-F"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BAZAAR"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "EMPORIUM-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BAZAAR"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "EMPORIUM-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        }
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "EMPORIUM-DOOR"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            18,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "SIGN-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "SIGN-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "CARPET-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "CARPET-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "CARPET-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "CARPET-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "BAZAAR",
+    "Exits": {
+      "EAST": {
+        "PER": "EMPORIUM-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "IN": {
+        "PER": "EMPORIUM-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Bazaar"
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EMPORIUM-EXIT"
+        }
+      ],
+      "IN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "EMPORIUM-EXIT"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "OUTSIDE",
+        "ONBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "BAZAAR-F"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "EMPORIUM-DOOR"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            9,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "SIGN-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "SHOP-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "SHOP-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MIDAIR",
+    "Exits": {},
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Midair"
+      ],
+      "ACTION": [
+        {
+          "A": "MIDAIR-F"
+        }
+      ],
+      "FLAGS": [
+        "RAIRBIT",
+        "OUTSIDE",
+        "ONBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            15,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MOUNTAIN-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "CLOUD-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "NEST-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "LOST-IN-CLOUDS",
+    "Exits": {},
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "In Thick Clouds"
+      ],
+      "ACTION": [
+        {
+          "A": "MIDAIR-F"
+        }
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RAIRBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            6,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "CLOUD-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "CLOUD-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "LOST-ON-LAND",
+    "Exits": {},
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Wilderness"
+      ],
+      "ACTION": [
+        {
+          "A": "WILDERNESS-F"
+        }
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "FIRE-ROOM",
+    "Exits": {
+      "SOUTH": {
+        "TO": "CLIFF-TOP",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "VOLCANO-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "PER": "MAGIC-BOX-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Fire Room"
+      ],
+      "CUBE": [
+        {
+          "A": "FIRE-CUBE"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CLIFF-TOP"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "VOLCANO-ROOM"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MAGIC-BOX-EXIT"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "FIRE-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "VOLCANO-ROOM",
+    "Exits": {},
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Volcano"
+      ],
+      "ACTION": [
+        {
+          "A": "VOLCANO-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "OUTSIDE",
+        "ONBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "OUTCROPPING"
+        },
+        {
+          "A": "GLOBAL-ROCKS"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            6,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "VOLCANO-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "LAVA-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "VOLCANO-BASE",
+    "Exits": {},
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Volcano Base"
+      ],
+      "ACTION": [
+        {
+          "A": "VOLCANO-BASE-F"
+        }
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "GLOBAL-ROCKS"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            6,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "VOLCANO-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "LAVA-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "OUTCROPPING-ROOM",
+    "Exits": {},
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Outcropping"
+      ],
+      "ACTION": [
+        {
+          "A": "OUTCROPPING-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "OUTSIDE",
+        "ONBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "OUTCROPPING"
+        },
+        {
+          "A": "GLOBAL-ROCKS"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            12,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "SOLID-GROUND-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "VOLCANO-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "LAVA-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "VOLCANO-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "DARK-ROOM",
+    "Exits": {
+      "DOWN": {
+        "TO": "DARK-CAVE",
+        "TYPE": "UEXIT"
+      },
+      "UP": {
+        "PER": "MAGIC-BOX-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Dark Room"
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "DARK-CAVE"
+        }
+      ],
+      "UP": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MAGIC-BOX-EXIT"
+        }
+      ],
+      "CUBE": [
+        {
+          "A": "DARK-CUBE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "DARK-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "DARK-CAVE",
+    "Exits": {
+      "DOWN": {
+        "TO": "GRUE-CAVE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Dark Cave"
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "GRUE-CAVE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "DARK-CAVE-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "GLOBAL-CAVE"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "GRUE-CAVE",
+    "Exits": {
+      "UP": {
+        "TO": "DARK-CAVE",
+        "TYPE": "UEXIT"
+      },
+      "IN": {
+        "TO": "LIGHT-POOL",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "TO": "LIGHT-POOL",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Grue Cave"
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "DARK-CAVE"
+        }
+      ],
+      "IN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "LIGHT-POOL"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "LIGHT-POOL"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "GRUE-CAVE-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "GRUE"
+        },
+        {
+          "A": "GLOBAL-CAVE"
+        },
+        {
+          "A": "PILLAR"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "POOL-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "LIGHT-POOL",
+    "Exits": {
+      "OUT": {
+        "TO": "GRUE-CAVE",
+        "TYPE": "UEXIT"
+      },
+      "UP": {
+        "TO": "GRUE-CAVE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Light Pool"
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "GRUE-CAVE"
+        }
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "GRUE-CAVE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "LIGHT-POOL-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "PILLAR"
+        },
+        {
+          "A": "GRUE"
+        },
+        {
+          "A": "GLOBAL-CAVE"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "POOL-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "PILLAR-ROOM",
+    "Exits": {
+      "DOWN": {
+        "TO": "LIGHT-POOL",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "On Pillar"
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "LIGHT-POOL"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "PILLAR-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "PILLAR"
+        },
+        {
+          "A": "GRUE"
+        },
+        {
+          "A": "GLOBAL-CAVE"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "POOL-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MIND-ROOM",
+    "Exits": {
+      "EAST": {
+        "PER": "SCALES-ROOM-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "PLAIN-ROOM-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "MIND-BOX-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "No Place"
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "SCALES-ROOM-EXIT"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PLAIN-ROOM-EXIT"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MIND-BOX-EXIT"
+        }
+      ],
+      "CUBE": [
+        {
+          "A": "MIND-CUBE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "MIND-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "INNER-VAULT",
+    "Exits": {
+      "OUT": {
+        "TO": "SCALES-ROOM",
+        "DOOR": "VAULT-DOOR",
+        "TYPE": "DEXIT"
+      },
+      "NORTH": {
+        "TO": "SCALES-ROOM",
+        "DOOR": "VAULT-DOOR",
+        "TYPE": "DEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Inner Vault"
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SCALES-ROOM"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "VAULT-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SCALES-ROOM"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "VAULT-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "INNER-VAULT-F"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "VAULT-DOOR"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            12,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "FAKE-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "FAKE-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "FAKE-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "FAKE-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "SCALES-ROOM",
+    "Exits": {
+      "OUT": {
+        "PER": "IRON-DOOR-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "NORTH": {
+        "PER": "IRON-DOOR-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "TO": "INNER-VAULT",
+        "DOOR": "VAULT-DOOR",
+        "TYPE": "DEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Outer Vault"
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "IRON-DOOR-EXIT"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "IRON-DOOR-EXIT"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "INNER-VAULT"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "VAULT-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "SCALES-ROOM-F"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "IRON-DOOR"
+        },
+        {
+          "A": "VAULT-DOOR"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "CASTLE-GUARDS-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "PLAIN-ROOM",
+    "Exits": {},
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Plain"
+      ],
+      "ACTION": [
+        {
+          "A": "PLAIN-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "LINES"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            6,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "PLAIN-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MOUNTAIN-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "LIGHT-ROOM",
+    "Exits": {
+      "SOUTH": {
+        "PER": "MAGIC-BOX-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "TO": "VOLCANO-BASE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Light Room"
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MAGIC-BOX-EXIT"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "VOLCANO-BASE"
+        }
+      ],
+      "CUBE": [
+        {
+          "A": "LIGHT-CUBE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "LIGHT-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "LIFE-ROOM",
+    "Exits": {
+      "EAST": {
+        "PER": "MAGIC-BOX-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "TO": "MEADOW-ROOM",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Soft Room"
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MAGIC-BOX-EXIT"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MEADOW-ROOM"
+        }
+      ],
+      "CUBE": [
+        {
+          "A": "LIFE-CUBE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "LIFE-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MEADOW-ROOM",
+    "Exits": {},
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Meadow"
+      ],
+      "ACTION": [
+        {
+          "A": "MEADOW-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "OUTSIDE",
+        "ONBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            27,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RABBIT-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "GRASS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "FLOWERS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "FLOWERS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "CLOUD-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "CLOUD-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "PLURAL-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "PLURAL-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "DEATH-ROOM",
+    "Exits": {
+      "OUT": {
+        "TO": "BELWIT-SQUARE",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "BELWIT-SQUARE",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "PER": "MAGIC-BOX-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Boneyard"
+      ],
+      "CUBE": [
+        {
+          "A": "DEATH-CUBE"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BELWIT-SQUARE"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BELWIT-SQUARE"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MAGIC-BOX-EXIT"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "DEATH-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "ONBIT",
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "PLURAL-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "CHANGE-ROOM",
+    "Exits": {
+      "NORTH": {
+        "TO": "BARE-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "MAZE-ANTEROOM",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "PER": "MAGIC-BOX-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Changing Room"
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BARE-ROOM"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-ANTEROOM"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MAGIC-BOX-EXIT"
+        }
+      ],
+      "CUBE": [
+        {
+          "A": "CHANGE-CUBE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "CHANGE-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "BARE-ROOM",
+    "Exits": {},
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Bare Room"
+      ],
+      "LDESC": [
+        "This is a room of smooth bare marble. It has no exits."
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MARBLE-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MAZE-ANTEROOM",
+    "Exits": {
+      "NORTH": {
+        "TO": "MAZE-9",
+        "COND": "MAZE-EXIT-FLAG",
+        "TYPE": "CEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Carving Room"
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-9"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "MAZE-EXIT-FLAG"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "MAZE-ANTEROOM-F"
+        }
+      ],
+      "EXITS": [
+        0
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MARBLE-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MAZE-1",
+    "Exits": {
+      "SOUTH": {
+        "TO": "MAZE-4",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "TO": "MAZE-5",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "MAZE-2",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Octagonal Room"
+      ],
+      "ACTION": [
+        {
+          "A": "MAZE-F"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-4"
+        }
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-5"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-2"
+        }
+      ],
+      "EXITS": [
+        0
+      ],
+      "WALLS": [
+        -1
+      ],
+      "GLOBAL": [
+        {
+          "A": "NORTH-RUNE"
+        },
+        {
+          "A": "NE-RUNE"
+        },
+        {
+          "A": "EAST-RUNE"
+        },
+        {
+          "A": "SE-RUNE"
+        },
+        {
+          "A": "SOUTH-RUNE"
+        },
+        {
+          "A": "SW-RUNE"
+        },
+        {
+          "A": "WEST-RUNE"
+        },
+        {
+          "A": "NW-RUNE"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MARBLE-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MAZE-2",
+    "Exits": {
+      "WEST": {
+        "TO": "MAZE-1",
+        "DOOR": "OCTAGONAL-HOLE",
+        "TYPE": "DEXIT"
+      },
+      "SW": {
+        "TO": "MAZE-4",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "MAZE-5",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "TO": "MAZE-6",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "MAZE-3",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Octagonal Room"
+      ],
+      "ACTION": [
+        {
+          "A": "MAZE-F"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-1"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "OCTAGONAL-HOLE"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        }
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-4"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-5"
+        }
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-6"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-3"
+        }
+      ],
+      "EXITS": [
+        0
+      ],
+      "WALLS": [
+        49
+      ],
+      "GLOBAL": [
+        {
+          "A": "NORTH-RUNE"
+        },
+        {
+          "A": "NE-RUNE"
+        },
+        {
+          "A": "EAST-RUNE"
+        },
+        {
+          "A": "SE-RUNE"
+        },
+        {
+          "A": "SOUTH-RUNE"
+        },
+        {
+          "A": "SW-RUNE"
+        },
+        {
+          "A": "WEST-RUNE"
+        },
+        {
+          "A": "NW-RUNE"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MARBLE-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MAZE-3",
+    "Exits": {
+      "WEST": {
+        "TO": "MAZE-2",
+        "TYPE": "UEXIT"
+      },
+      "SW": {
+        "TO": "MAZE-5",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "MAZE-6",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Octagonal Room"
+      ],
+      "ACTION": [
+        {
+          "A": "MAZE-F"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-2"
+        }
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-5"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-6"
+        }
+      ],
+      "EXITS": [
+        0
+      ],
+      "WALLS": [
+        115
+      ],
+      "GLOBAL": [
+        {
+          "A": "NORTH-RUNE"
+        },
+        {
+          "A": "NE-RUNE"
+        },
+        {
+          "A": "EAST-RUNE"
+        },
+        {
+          "A": "SE-RUNE"
+        },
+        {
+          "A": "SOUTH-RUNE"
+        },
+        {
+          "A": "SW-RUNE"
+        },
+        {
+          "A": "WEST-RUNE"
+        },
+        {
+          "A": "NW-RUNE"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MARBLE-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MAZE-4",
+    "Exits": {
+      "NORTH": {
+        "TO": "MAZE-1",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "TO": "MAZE-2",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "MAZE-5",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "TO": "MAZE-8",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "MAZE-7",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Octagonal Room"
+      ],
+      "ACTION": [
+        {
+          "A": "MAZE-F"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-1"
+        }
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-2"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-5"
+        }
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-8"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-7"
+        }
+      ],
+      "EXITS": [
+        0
+      ],
+      "WALLS": [
+        164
+      ],
+      "GLOBAL": [
+        {
+          "A": "NORTH-RUNE"
+        },
+        {
+          "A": "NE-RUNE"
+        },
+        {
+          "A": "EAST-RUNE"
+        },
+        {
+          "A": "SE-RUNE"
+        },
+        {
+          "A": "SOUTH-RUNE"
+        },
+        {
+          "A": "SW-RUNE"
+        },
+        {
+          "A": "WEST-RUNE"
+        },
+        {
+          "A": "NW-RUNE"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MARBLE-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MAZE-5",
+    "Exits": {
+      "NORTH": {
+        "TO": "MAZE-2",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "MAZE-6",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "MAZE-8",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "MAZE-4",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Octagonal Room"
+      ],
+      "ACTION": [
+        {
+          "A": "MAZE-F"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-2"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-6"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-8"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-4"
+        }
+      ],
+      "EXITS": [
+        0
+      ],
+      "WALLS": [
+        240
+      ],
+      "GLOBAL": [
+        {
+          "A": "NORTH-RUNE"
+        },
+        {
+          "A": "NE-RUNE"
+        },
+        {
+          "A": "EAST-RUNE"
+        },
+        {
+          "A": "SE-RUNE"
+        },
+        {
+          "A": "SOUTH-RUNE"
+        },
+        {
+          "A": "SW-RUNE"
+        },
+        {
+          "A": "WEST-RUNE"
+        },
+        {
+          "A": "NW-RUNE"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MARBLE-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MAZE-6",
+    "Exits": {
+      "NORTH": {
+        "TO": "MAZE-3",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "MAZE-9",
+        "TYPE": "UEXIT"
+      },
+      "SW": {
+        "TO": "MAZE-8",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "MAZE-5",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "TO": "MAZE-2",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Octagonal Room"
+      ],
+      "ACTION": [
+        {
+          "A": "MAZE-F"
+        }
+      ],
+      "EXITS": [
+        0
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-3"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-9"
+        }
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-8"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-5"
+        }
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-2"
+        }
+      ],
+      "WALLS": [
+        82
+      ],
+      "GLOBAL": [
+        {
+          "A": "NORTH-RUNE"
+        },
+        {
+          "A": "NE-RUNE"
+        },
+        {
+          "A": "EAST-RUNE"
+        },
+        {
+          "A": "SE-RUNE"
+        },
+        {
+          "A": "SOUTH-RUNE"
+        },
+        {
+          "A": "SW-RUNE"
+        },
+        {
+          "A": "WEST-RUNE"
+        },
+        {
+          "A": "NW-RUNE"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MARBLE-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MAZE-7",
+    "Exits": {
+      "NORTH": {
+        "TO": "MAZE-4",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "TO": "MAZE-5",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "MAZE-8",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Octagonal Room"
+      ],
+      "ACTION": [
+        {
+          "A": "MAZE-F"
+        }
+      ],
+      "EXITS": [
+        0
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-4"
+        }
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-5"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-8"
+        }
+      ],
+      "WALLS": [
+        236
+      ],
+      "GLOBAL": [
+        {
+          "A": "NORTH-RUNE"
+        },
+        {
+          "A": "NE-RUNE"
+        },
+        {
+          "A": "EAST-RUNE"
+        },
+        {
+          "A": "SE-RUNE"
+        },
+        {
+          "A": "SOUTH-RUNE"
+        },
+        {
+          "A": "SW-RUNE"
+        },
+        {
+          "A": "WEST-RUNE"
+        },
+        {
+          "A": "NW-RUNE"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MARBLE-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MAZE-8",
+    "Exits": {
+      "WEST": {
+        "TO": "MAZE-7",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "TO": "MAZE-4",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "MAZE-5",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "TO": "MAZE-6",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "MAZE-9",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Octagonal Room"
+      ],
+      "ACTION": [
+        {
+          "A": "MAZE-F"
+        }
+      ],
+      "EXITS": [
+        0
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-7"
+        }
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-4"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-5"
+        }
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-6"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-9"
+        }
+      ],
+      "WALLS": [
+        200
+      ],
+      "GLOBAL": [
+        {
+          "A": "NORTH-RUNE"
+        },
+        {
+          "A": "NE-RUNE"
+        },
+        {
+          "A": "EAST-RUNE"
+        },
+        {
+          "A": "SE-RUNE"
+        },
+        {
+          "A": "SOUTH-RUNE"
+        },
+        {
+          "A": "SW-RUNE"
+        },
+        {
+          "A": "WEST-RUNE"
+        },
+        {
+          "A": "NW-RUNE"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MARBLE-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MAZE-9",
+    "Exits": {
+      "WEST": {
+        "TO": "MAZE-8",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "TO": "MAZE-5",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "MAZE-6",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "MAZE-ANTEROOM",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Octagonal Room"
+      ],
+      "ACTION": [
+        {
+          "A": "MAZE-F"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-8"
+        }
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-5"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-6"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MAZE-ANTEROOM"
+        }
+      ],
+      "EXITS": [
+        0
+      ],
+      "WALLS": [
+        210
+      ],
+      "GLOBAL": [
+        {
+          "A": "NORTH-RUNE"
+        },
+        {
+          "A": "NE-RUNE"
+        },
+        {
+          "A": "EAST-RUNE"
+        },
+        {
+          "A": "SE-RUNE"
+        },
+        {
+          "A": "SOUTH-RUNE"
+        },
+        {
+          "A": "SW-RUNE"
+        },
+        {
+          "A": "WEST-RUNE"
+        },
+        {
+          "A": "NW-RUNE"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "MARBLE-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MAGIC-ROOM",
+    "Exits": {
+      "NORTH": {
+        "TO": "MEADOW-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "PER": "MAGIC-DOOR-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "MAGIC-BOX-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Magic Room"
+      ],
+      "CUBE": [
+        {
+          "A": "MAGIC-CUBE"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MEADOW-ROOM"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MAGIC-DOOR-EXIT"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MAGIC-BOX-EXIT"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "MAGIC-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            21,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "MIRROR-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "PLURAL-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "PLANTS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "PLANTS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "PLANTS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "PLURAL-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "TIME-ROOM",
+    "Exits": {
+      "UP": {
+        "TO": "PAST-RUINS-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "TO": "PAST-CELL-EAST",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Sand Room"
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "PAST-RUINS-ROOM"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "PAST-CELL-EAST"
+        }
+      ],
+      "CUBE": [
+        {
+          "A": "TIME-CUBE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "TIME-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "GLOBAL-HOLE"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            3,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "SAND-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "PAST-RUINS-ROOM",
+    "Exits": {
+      "NORTH": {
+        "MESSAGE": "The water is too deep and cold.",
+        "TYPE": "NEXIT"
+      },
+      "SOUTH": {
+        "MESSAGE": "The water is too deep and cold.",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Ruins Room"
+      ],
+      "NORTH": [
+        "The water is too deep and cold."
+      ],
+      "SOUTH": [
+        "The water is too deep and cold."
+      ],
+      "ACTION": [
+        {
+          "A": "PAST-RUINS-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "WATER"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            15,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "CHANNEL-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RUINS-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "PAST-CELL-EAST",
+    "Exits": {
+      "SOUTH": {
+        "PER": "PAST-CELL-EAST-EXIT",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Dungeon Cell"
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "PAST-CELL-EAST-EXIT"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "PAST-CELL-EAST-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "GLOBAL": [
+        {
+          "A": "CELL-DOOR"
+        }
+      ],
+      "THINGS": [
+        {
+          "Source": "MISC.zil:822",
+          "Name": null,
+          "Flags": "WordLength, Pure",
+          "Data": [
+            12,
+            "[Zilf.Interpreter.Values.ZilHash]",
+            false,
+            {
+              "A": "CELL-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "CASTLE-GUARDS-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "PLURAL-PSEUDO"
+            },
+            "[Zilf.Interpreter.Values.ZilHash]",
+            "[Zilf.Interpreter.Values.ZilHash]",
+            {
+              "A": "RANDOM-PSEUDO"
+            }
+          ]
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "CONNECTIVITY-ROOM",
+    "Exits": {
+      "EAST": {
+        "PER": "MAGIC-BOX-EXIT",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "TO": "RETREAT",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "String Room"
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "MAGIC-BOX-EXIT"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "RETREAT"
+        }
+      ],
+      "CUBE": [
+        {
+          "A": "CONNECTIVITY-CUBE"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "CONNECTIVITY-ROOM-F"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ]
+    },
+    "IsRoom": true
+  }
+]

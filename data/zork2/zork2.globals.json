@@ -1,0 +1,264 @@
+{
+  "SECRET-DOOR": false,
+  "GNOME-DOOR-FLAG": false,
+  "BLOC": {
+    "A": "VOLCANO-BOTTOM"
+  },
+  "LOAD-MAX": 100,
+  "LOAD-ALLOWED": 100,
+  "C-TABLE": {
+    "T": "T?C-TABLE"
+  },
+  "C-DEMONS": 180,
+  "C-INTS": 180,
+  "CLOCK-WAIT": false,
+  "PLAYER": false,
+  "P-WON": false,
+  "P-MULT": false,
+  "P-NOT-HERE": 0,
+  "PRSA": false,
+  "PRSI": false,
+  "PRSO": false,
+  "P-TABLE": 0,
+  "P-ONEOBJ": 0,
+  "P-SYNTAX": 0,
+  "P-CCTBL": {
+    "T": "T?P-CCTBL"
+  },
+  "P-LEN": 0,
+  "P-DIR": 0,
+  "HERE": 0,
+  "WINNER": 0,
+  "P-LEXV": {
+    "T": "T?P-LEXV"
+  },
+  "AGAIN-LEXV": {
+    "T": "T?AGAIN-LEXV"
+  },
+  "RESERVE-LEXV": {
+    "T": "T?RESERVE-LEXV"
+  },
+  "RESERVE-PTR": false,
+  "P-INBUF": {
+    "T": "T?P-INBUF"
+  },
+  "OOPS-INBUF": {
+    "T": "T?OOPS-INBUF"
+  },
+  "OOPS-TABLE": {
+    "T": "T?OOPS-TABLE"
+  },
+  "P-CONT": false,
+  "P-IT-OBJECT": false,
+  "P-OFLAG": false,
+  "P-MERGED": false,
+  "P-ACLAUSE": false,
+  "P-ANAM": false,
+  "P-AADJ": false,
+  "P-ITBL": {
+    "T": "T?P-ITBL"
+  },
+  "P-OTBL": {
+    "T": "T?P-OTBL"
+  },
+  "P-VTBL": {
+    "T": "T?P-VTBL"
+  },
+  "P-OVTBL": {
+    "T": "T?P-OVTBL"
+  },
+  "P-NCN": 0,
+  "QUOTE-FLAG": false,
+  "P-END-ON-PREP": false,
+  "P-ACT": false,
+  "P-WALK-DIR": false,
+  "AGAIN-DIR": false,
+  "P-NUMBER": 0,
+  "P-DIRECTION": 0,
+  "P-SLOCBITS": 0,
+  "P-GWIMBIT": 0,
+  "P-NAM": false,
+  "P-ADJ": false,
+  "P-ADVERB": false,
+  "P-ADJN": false,
+  "P-PRSO": {
+    "T": "T?P-PRSO"
+  },
+  "P-PRSI": {
+    "T": "T?P-PRSI"
+  },
+  "P-BUTS": {
+    "T": "T?P-BUTS"
+  },
+  "P-MERGE": {
+    "T": "T?P-MERGE"
+  },
+  "P-OCLAUSE": {
+    "T": "T?P-OCLAUSE"
+  },
+  "P-MATCHLEN": 0,
+  "P-GETFLAGS": 0,
+  "P-AND": false,
+  "P-XNAM": false,
+  "P-XADJ": false,
+  "P-XADJN": false,
+  "ALWAYS-LIT": false,
+  "VERBOSE": false,
+  "SUPER-BRIEF": false,
+  "HS": 0,
+  "JUMPLOSS": {
+    "T": "T?JUMPLOSS"
+  },
+  "WHEEEEE": {
+    "T": "T?WHEEEEE"
+  },
+  "LIT": false,
+  "SPRAYED?": false,
+  "DESC-OBJECT": false,
+  "MOVES": 0,
+  "SCORE": 0,
+  "BASE-SCORE": 0,
+  "WON-FLAG": false,
+  "DEAD": false,
+  "DEATHS": 0,
+  "LUCKY": 1,
+  "FUMBLE-NUMBER": 7,
+  "FUMBLE-PROB": 8,
+  "INDENTS": {
+    "T": "T?INDENTS"
+  },
+  "HO-HUM": {
+    "T": "T?HO-HUM"
+  },
+  "SWIMYUKS": {
+    "T": "T?SWIMYUKS"
+  },
+  "HELLOS": {
+    "T": "T?HELLOS"
+  },
+  "YUKS": {
+    "T": "T?YUKS"
+  },
+  "SWORD-GLOW": 0,
+  "EIGHT-DIRECTIONS": {
+    "T": "T?EIGHT-DIRECTIONS"
+  },
+  "MUNGED-ROOM": false,
+  "BTIE-FLAG": false,
+  "BINF-FLAG": false,
+  "BLAB-FLAG": false,
+  "SAFE-FLAG": false,
+  "BALLOON-UPS": {
+    "T": "T?BALLOON-UPS"
+  },
+  "BALLOON-FLOATS": {
+    "T": "T?BALLOON-FLOATS"
+  },
+  "BALLOON-DOWNS": {
+    "T": "T?BALLOON-DOWNS"
+  },
+  "OTHER-PROPERTIES": "Now you've done it. It seems that the brick has other properties\r\nthan weight, namely the ability to blow you to smithereens.",
+  "GNOME-FLAG": false,
+  "CRYPT-LIT?": {
+    "A": "T"
+  },
+  "DIM-DOOR-FLAG": false,
+  "SPRAY-USED?": false,
+  "BUCKET-TOP-FLAG": false,
+  "EVAPORATED": false,
+  "FATAL-VAPORS": "As you pass out, you realize that the vapors from the\r\nflask's contents are fatal.",
+  "COMPASS-KLUDGE": false,
+  "CAROUSEL-ZOOM-FLAG": false,
+  "CAROUSEL-FLIP-FLAG": false,
+  "CAGE-SOLVE-FLAG": false,
+  "BANK-SOLVE-FLAG": false,
+  "SCOL-ROOMS": {
+    "T": "T?SCOL-ROOMS"
+  },
+  "SCOL-WALLS": {
+    "T": "T?SCOL-WALLS"
+  },
+  "SCOL-ROOM": {
+    "A": "VIEWING-WEST"
+  },
+  "SCOL-ACTIVE": false,
+  "ZGNOME-FLAG": false,
+  "MUD-FLAG": false,
+  "MATOBJ": false,
+  "PUNLOCK-FLAG": false,
+  "PLOOK-FLAG": false,
+  "MATCH-COUNT": 6,
+  "LAMP-TABLE": {
+    "T": "T?LAMP-TABLE"
+  },
+  "DUMMY": {
+    "T": "T?DUMMY"
+  },
+  "DIAMOND-SOLVE": false,
+  "DIAMOND-COUNT": 0,
+  "DIAMOND-MOVES": 0,
+  "DIAMOND-BASE": 0,
+  "DWDESCS": {
+    "T": "T?DWDESCS"
+  },
+  "BASES": {
+    "T": "T?BASES"
+  },
+  "DIAMOND-ROOMS": {
+    "T": "T?DIAMOND-ROOMS"
+  },
+  "DIDIRS": {
+    "T": "T?DIDIRS"
+  },
+  "CERBERUS-LEASHED": false,
+  "ICE-MELTED": false,
+  "DRAGON-ANGER": 0,
+  "DRAGON-ATTACKS": {
+    "T": "T?DRAGON-ATTACKS"
+  },
+  "OLD-HERE": {
+    "A": "DRAGON-ROOM"
+  },
+  "TOPIARY-MOVED": false,
+  "TOPIARY-NEAR": false,
+  "UNICORN-MSGS": {
+    "T": "T?UNICORN-MSGS"
+  },
+  "UNICORN-FRIGHTENED": false,
+  "PRINCESS-AWAKE": false,
+  "PRCOUNT": 0,
+  "PRFOLLOW": false,
+  "PRDIRS": {
+    "T": "T?PRDIRS"
+  },
+  "MENHIR-POSITION": false,
+  "GUARDIAN-FED": false,
+  "WIZ-DOOR-FLAG": false,
+  "GENIE-READY?": false,
+  "GENIE-HOARD": 0,
+  "GENIE-THANKS": {
+    "T": "T?GENIE-THANKS"
+  },
+  "SPELL?": false,
+  "SPELL-NAMES": {
+    "T": "T?SPELL-NAMES"
+  },
+  "SPELL-HINTS": {
+    "T": "T?SPELL-HINTS"
+  },
+  "SPELL-STOPS": {
+    "T": "T?SPELL-STOPS"
+  },
+  "SPELL-HANDLED?": false,
+  "WAND-ON": false,
+  "SPELL-USED": false,
+  "SPELL-VICTIM": false,
+  "WAND-ON-LOC": false,
+  "WIZQLAST": 0,
+  "WIZQDESCS": {
+    "T": "T?WIZQDESCS"
+  },
+  "FANTASIES": {
+    "T": "T?FANTASIES"
+  }
+}

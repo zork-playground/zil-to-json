@@ -1,0 +1,376 @@
+{
+  "WITH": [
+    "USING"
+  ],
+  "ON": [
+    "ONTO"
+  ],
+  "IN": [
+    "INSIDE",
+    "INTO"
+  ],
+  "UNDER": [
+    "BELOW",
+    "BENEATH",
+    "UNDERNEATH"
+  ],
+  "AROUND": [
+    "ALONG"
+  ],
+  "ALL": [
+    "BOTH"
+  ],
+  "SUPER": [
+    "SUPERBRIEF"
+  ],
+  "I": [
+    "INVENTORY"
+  ],
+  "QUIT": [
+    "Q"
+  ],
+  "ANSWER": [
+    "REPLY",
+    "RESPOND"
+  ],
+  "ASK": [
+    "QUERY",
+    "QUIZ"
+  ],
+  "ATTACK": [
+    "ASSAULT",
+    "FIGHT",
+    "HIT",
+    "STRIKE"
+  ],
+  "BOARD": [
+    "EMBARK",
+    "RIDE"
+  ],
+  "BURN": [
+    "IGNITE"
+  ],
+  "CLIMB": [
+    "SCALE"
+  ],
+  "CLOSE": [
+    "SHUT",
+    "ZIP"
+  ],
+  "CROSS": [
+    "FORD",
+    "TRAVERSE"
+  ],
+  "CUT": [
+    "SLICE",
+    "SLASH",
+    "SEVER",
+    "SPLIT",
+    "DIVIDE",
+    "PRUNE"
+  ],
+  "SHIT": [
+    "DAMN",
+    "FUCK"
+  ],
+  "CRACK": [
+    "DESTROY",
+    "BREAK",
+    "SMASH",
+    "WRECK",
+    "SCRATCH"
+  ],
+  "DIG": [
+    "EXCAVATE"
+  ],
+  "DISEMBARK": [
+    "DEBARK"
+  ],
+  "DRINK": [
+    "SIP",
+    "SWALLOW"
+  ],
+  "DROP": [
+    "RELEASE",
+    "DUMP"
+  ],
+  "EAT": [
+    "CONSUME",
+    "TASTE",
+    "GOBBLE"
+  ],
+  "EXIT": [
+    "DEPART",
+    "WITHDRAW"
+  ],
+  "EXAMINE": [
+    "INSPECT",
+    "DESCRIBE",
+    "CHECK",
+    "OBSERVE",
+    "WATCH"
+  ],
+  "FLY": [
+    "LAUNCH"
+  ],
+  "FOLLOW": [
+    "PURSUE",
+    "CHASE"
+  ],
+  "FORGET": [
+    "UNLEARN"
+  ],
+  "GIVE": [
+    "HAND",
+    "OFFER",
+    "FEED"
+  ],
+  "HELLO": [
+    "HI"
+  ],
+  "HELP": [
+    "HINT"
+  ],
+  "HIDE": [
+    "CONCEAL"
+  ],
+  "JUMP": [
+    "LEAP",
+    "DIVE"
+  ],
+  "KILL": [
+    "MURDER",
+    "SLAY",
+    "STAB"
+  ],
+  "KNOCK": [
+    "RAP"
+  ],
+  "LOOK": [
+    "L",
+    "STARE",
+    "GAZE"
+  ],
+  "MELT": [
+    "THAW"
+  ],
+  "MOVE": [
+    "SHIFT"
+  ],
+  "PULL": [
+    "TUG",
+    "DRAG"
+  ],
+  "OPEN": [
+    "UNZIP"
+  ],
+  "PLUG": [
+    "CLOG",
+    "BLOCK"
+  ],
+  "REPAIR": [
+    "PATCH",
+    "FIX"
+  ],
+  "POINT": [
+    "GESTURE"
+  ],
+  "POKE": [
+    "JAB",
+    "BLIND"
+  ],
+  "POUR": [
+    "EMPTY",
+    "SPILL"
+  ],
+  "PUSH": [
+    "PRESS",
+    "SHOVE"
+  ],
+  "PUT": [
+    "STUFF",
+    "INSERT",
+    "PLACE",
+    "LAY",
+    "FIT",
+    "WEDGE"
+  ],
+  "RAISE": [
+    "LIFT"
+  ],
+  "REMOVE": [
+    "SHED"
+  ],
+  "SAY": [
+    "TALK",
+    "CALL"
+  ],
+  "SEARCH": [
+    "RUMMAGE"
+  ],
+  "SHAKE": [
+    "RATTLE"
+  ],
+  "SHOOT": [
+    "FIRE"
+  ],
+  "SIT": [
+    "REST",
+    "MEDITATE"
+  ],
+  "SKIP": [
+    "HOP",
+    "CAVORT",
+    "GAMBOL"
+  ],
+  "SMELL": [
+    "SNIFF"
+  ],
+  "SPIN": [
+    "WHIRL",
+    "ROTATE"
+  ],
+  "STAND": [
+    "RISE"
+  ],
+  "SWIM": [
+    "BATHE",
+    "WADE"
+  ],
+  "SWING": [
+    "THRUST"
+  ],
+  "TAKE": [
+    "GRAB",
+    "CATCH",
+    "GET",
+    "HOLD",
+    "CARRY",
+    "SNATCH"
+  ],
+  "THANK": [
+    "THANKS"
+  ],
+  "THROW": [
+    "HURL",
+    "TOSS",
+    "PITCH"
+  ],
+  "TIE": [
+    "FASTEN",
+    "ATTACH"
+  ],
+  "TIME": [
+    "T"
+  ],
+  "TOUCH": [
+    "FEEL",
+    "PAT",
+    "PET",
+    "RUB"
+  ],
+  "TURN": [
+    "FLIP",
+    "SET"
+  ],
+  "UNTIE": [
+    "FREE",
+    "UNFASTEN",
+    "UNATTACH"
+  ],
+  "WAIT": [
+    "Z"
+  ],
+  "WAKE": [
+    "AWAKE",
+    "SURPRISE",
+    "STARTLE",
+    "ROUSE"
+  ],
+  "WALK": [
+    "GO",
+    "RUN",
+    "PROCEED",
+    "STEP"
+  ],
+  "WAVE": [
+    "BECKON"
+  ],
+  "YELL": [
+    "SCREAM",
+    "SHOUT"
+  ],
+  "CAST": [
+    "INCANT",
+    "INVOKE"
+  ],
+  "LEARN": [
+    "MEMORIZE"
+  ],
+  "WRITE": [
+    "PRINT",
+    "INSCRIBE",
+    "SCRIBE"
+  ],
+  "PRY": [
+    "LEVER",
+    "LOOSEN"
+  ],
+  "PLANT": [
+    "BURY"
+  ],
+  "YES": [
+    "Y",
+    "OKAY"
+  ],
+  "NO": [
+    "NOPE"
+  ],
+  "BUY": [
+    "PURCHASE"
+  ],
+  "SLAVER": [
+    "DROOL",
+    "SALIVATE",
+    "GURGLE"
+  ],
+  "ADMIRE": [
+    "COMPLIMENT"
+  ],
+  "BARGAIN": [
+    "HAGGLE"
+  ],
+  "SYMPATHIZE": [
+    "EMPATHIZE"
+  ],
+  "NORTH": [
+    "N"
+  ],
+  "SOUTH": [
+    "S"
+  ],
+  "EAST": [
+    "E"
+  ],
+  "WEST": [
+    "W"
+  ],
+  "DOWN": [
+    "D"
+  ],
+  "UP": [
+    "U"
+  ],
+  "NE": [
+    "NORTHEAST"
+  ],
+  "NW": [
+    "NORTHWEST"
+  ],
+  "SE": [
+    "SOUTHEAST"
+  ],
+  "SW": [
+    "SOUTHWEST"
+  ]
+}

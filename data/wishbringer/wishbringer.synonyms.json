@@ -1,0 +1,458 @@
+{
+  "EAST": [
+    "RIGHT",
+    "E"
+  ],
+  "WEST": [
+    "LEFT",
+    "W"
+  ],
+  "TO": [
+    "TOWARD"
+  ],
+  "WITH": [
+    "USING"
+  ],
+  "THROUGH": [
+    "THRU"
+  ],
+  "ON": [
+    "ONTO"
+  ],
+  "IN": [
+    "INSIDE",
+    "INTO",
+    "BEYOND",
+    "BETWEEN"
+  ],
+  "OUT": [
+    "OUTSIDE"
+  ],
+  "UNDER": [
+    "BELOW",
+    "BENEATH",
+    "UNDERNEATH"
+  ],
+  "AROUND": [
+    "ALONG"
+  ],
+  "ALL": [
+    "BOTH",
+    "EVERYTHING"
+  ],
+  "OVER": [
+    "ACROSS"
+  ],
+  "NORTH": [
+    "N"
+  ],
+  "SOUTH": [
+    "S"
+  ],
+  "DOWN": [
+    "D"
+  ],
+  "UP": [
+    "U"
+  ],
+  "NE": [
+    "NORTHE",
+    "NORTHW",
+    "SOUTHE",
+    "SOUTHW"
+  ],
+  "SUPER": [
+    "SUPERBRIEF"
+  ],
+  "I": [
+    "INVENTORY"
+  ],
+  "QUIT": [
+    "Q"
+  ],
+  "TIME": [
+    "T"
+  ],
+  "AGAIN": [
+    "G"
+  ],
+  "ANSWER": [
+    "REPLY",
+    "RESPOND"
+  ],
+  "ASK": [
+    "QUERY",
+    "INTERROGATE",
+    "QUIZ",
+    "QUESTION"
+  ],
+  "ATTACK": [
+    "ASSAULT",
+    "FIGHT",
+    "HURT",
+    "INJURE"
+  ],
+  "BURN": [
+    "IGNITE"
+  ],
+  "CLEAN": [
+    "SWEEP",
+    "BRUSH"
+  ],
+  "CLIMB": [
+    "SCALE"
+  ],
+  "CLOSE": [
+    "SLAM"
+  ],
+  "COUNT": [
+    "TALLY"
+  ],
+  "CROSS": [
+    "TRAVERSE"
+  ],
+  "CUT": [
+    "TEAR",
+    "RIP",
+    "SLASH"
+  ],
+  "BREAK": [
+    "DESTROY",
+    "DAMAGE",
+    "SMASH",
+    "DEMOLISH",
+    "WRECK",
+    "CRACK",
+    "TRASH",
+    "ERASE"
+  ],
+  "DIG": [
+    "EXCAVATE"
+  ],
+  "DRINK": [
+    "SIP",
+    "GUZZLE"
+  ],
+  "DROP": [
+    "DUMP"
+  ],
+  "EAT": [
+    "CONSUME",
+    "SWALLOW",
+    "DEVOUR",
+    "GOBBLE",
+    "NIBBLE"
+  ],
+  "EXIT": [
+    "DEPART",
+    "SCRAM",
+    "WITHDRAW"
+  ],
+  "EXAMINE": [
+    "INSPECT",
+    "DESCRIBE",
+    "CHECK",
+    "STUDY",
+    "SURVEY",
+    "OBSERVE",
+    "WATCH",
+    "SEE"
+  ],
+  "EXTINGUISH": [
+    "DOUSE",
+    "QUENCH",
+    "SNUFF"
+  ],
+  "FIND": [
+    "SEEK"
+  ],
+  "FOLLOW": [
+    "PURSUE",
+    "CHASE"
+  ],
+  "GIVE": [
+    "SHOW",
+    "HAND",
+    "DONATE",
+    "DELIVER",
+    "OFFER",
+    "BESTOW",
+    "PRESENT"
+  ],
+  "HELLO": [
+    "HI",
+    "GREETINGS",
+    "GREET",
+    "SALUTE",
+    "AFTERNOON",
+    "BYE",
+    "GOODBYE",
+    "FAREWELL"
+  ],
+  "HELP": [
+    "AID"
+  ],
+  "HIDE": [
+    "CONCEAL"
+  ],
+  "HINT": [
+    "HINTS"
+  ],
+  "JUMP": [
+    "LEAP",
+    "DIVE"
+  ],
+  "KILL": [
+    "MURDER",
+    "SLAY",
+    "HIT",
+    "SLAP",
+    "WHACK",
+    "STRIKE",
+    "STAB",
+    "PUNCH",
+    "WOUND"
+  ],
+  "KISS": [
+    "SMOOCH"
+  ],
+  "KNOCK": [
+    "RAP",
+    "POUND"
+  ],
+  "LIE": [
+    "RECLINE"
+  ],
+  "LOOK": [
+    "L",
+    "STARE",
+    "GAZE",
+    "PEER",
+    "PEEK"
+  ],
+  "MOVE": [
+    "SHIFT",
+    "ROLL"
+  ],
+  "OPEN": [
+    "UNSEAL"
+  ],
+  "PULL": [
+    "TUG",
+    "DRAG",
+    "SHOVE",
+    "YANK"
+  ],
+  "PAY": [
+    "BRIBE",
+    "ENTICE"
+  ],
+  "PLAY": [
+    "FIDDLE",
+    "TOY",
+    "CAVORT"
+  ],
+  "POINT": [
+    "GESTURE"
+  ],
+  "POKE": [
+    "JAB",
+    "BLIND"
+  ],
+  "POUR": [
+    "SPILL",
+    "SPRINKLE"
+  ],
+  "PUSH": [
+    "PRESS",
+    "THRUST",
+    "NUDGE"
+  ],
+  "PUT": [
+    "STUFF",
+    "INSERT",
+    "PLACE",
+    "LAY",
+    "WEDGE",
+    "FORCE",
+    "STASH"
+  ],
+  "RAISE": [
+    "LIFT",
+    "ELEVATE",
+    "HOIST"
+  ],
+  "RAPE": [
+    "MOLEST",
+    "DEFILE",
+    "RAVISH",
+    "HUMP"
+  ],
+  "READ": [
+    "SKIM"
+  ],
+  "RELEASE": [
+    "FREE",
+    "UNTIE",
+    "UNDO",
+    "UNFASTEN",
+    "DETACH",
+    "UNHOOK"
+  ],
+  "RESCUE": [
+    "PRESERVE"
+  ],
+  "BOW": [
+    "KNEEL",
+    "GROVEL"
+  ],
+  "SAY": [
+    "TALK",
+    "SPEAK",
+    "CALL",
+    "UTTER"
+  ],
+  "SEARCH": [
+    "RUMMAGE",
+    "FRISK",
+    "RANSACK"
+  ],
+  "SHAKE": [
+    "JOSTLE",
+    "RATTLE"
+  ],
+  "SIT": [
+    "SQUAT"
+  ],
+  "SLEEP": [
+    "NAP",
+    "SNOOZE",
+    "REST"
+  ],
+  "SMELL": [
+    "SNIFF"
+  ],
+  "SPIN": [
+    "WHIRL",
+    "ROTATE"
+  ],
+  "SQUEEZE": [
+    "SQUASH",
+    "CRUSH"
+  ],
+  "STAND": [
+    "RISE"
+  ],
+  "SWIM": [
+    "BATHE",
+    "WADE"
+  ],
+  "TAKE": [
+    "GRAB",
+    "CATCH",
+    "GET",
+    "HOLD",
+    "CARRY",
+    "SEIZE",
+    "STEAL",
+    "CONFISCATE",
+    "SNATCH"
+  ],
+  "THANK": [
+    "THANKS"
+  ],
+  "THROW": [
+    "HURL",
+    "CHUCK",
+    "TOSS",
+    "FLING",
+    "PITCH"
+  ],
+  "TIE": [
+    "FASTEN",
+    "SECURE",
+    "ATTACH"
+  ],
+  "TOUCH": [
+    "FEEL",
+    "PAT",
+    "PET",
+    "RUB",
+    "DISTURB"
+  ],
+  "TURN": [
+    "FLIP",
+    "SET"
+  ],
+  "USE": [
+    "EMPLOY",
+    "EXPLOIT"
+  ],
+  "WAIT": [
+    "LOITER",
+    "Z"
+  ],
+  "WAKE": [
+    "AWAKE",
+    "AWAKEN",
+    "SURPRISE",
+    "STARTLE",
+    "ROUSE"
+  ],
+  "WALK": [
+    "GO",
+    "RUN",
+    "PROCEED",
+    "STEP",
+    "ADVANC",
+    "TRUDGE",
+    "HIKE",
+    "TRAMP",
+    "CRAWL",
+    "SKIP",
+    "HOP"
+  ],
+  "WAVE": [
+    "NOD",
+    "SMILE",
+    "LAUGH",
+    "GRIN",
+    "SNEER"
+  ],
+  "WEAR": [
+    "DON"
+  ],
+  "WISH": [
+    "DREAM",
+    "YEARN",
+    "HOPE"
+  ],
+  "YELL": [
+    "SCREAM",
+    "SHOUT",
+    "HOWL"
+  ],
+  "YES": [
+    "Y",
+    "AYE",
+    "OK",
+    "OKAY",
+    "SURE",
+    "YUP",
+    "AFFIRM",
+    "POSITI",
+    "NO",
+    "NAY",
+    "NEGATIVE",
+    "NOPE",
+    "NAW"
+  ],
+  "HALL": [
+    "HALLWAY",
+    "CORRIDOR"
+  ],
+  "NUTS": [
+    "NUT",
+    "MIXED"
+  ]
+}

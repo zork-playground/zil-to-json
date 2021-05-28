@@ -1,0 +1,265 @@
+{
+  "SCORE-MAX": 350,
+  "FALSE-FLAG": false,
+  "CYCLOPS-FLAG": false,
+  "DEFLATE": false,
+  "DOME-FLAG": false,
+  "EMPTY-HANDED": false,
+  "LLD-FLAG": false,
+  "LOW-TIDE": false,
+  "MAGIC-FLAG": false,
+  "RAINBOW-FLAG": false,
+  "TROLL-FLAG": false,
+  "COFFIN-CURE": false,
+  "HOUSE-AROUND": {
+    "T": "T?HOUSE-AROUND"
+  },
+  "FOREST-AROUND": {
+    "T": "T?FOREST-AROUND"
+  },
+  "IN-HOUSE-AROUND": {
+    "T": "T?IN-HOUSE-AROUND"
+  },
+  "ABOVE-GROUND": {
+    "T": "T?ABOVE-GROUND"
+  },
+  "LOAD-MAX": 100,
+  "LOAD-ALLOWED": 100,
+  "C-TABLE": {
+    "T": "T?C-TABLE"
+  },
+  "C-DEMONS": 180,
+  "C-INTS": 180,
+  "CLOCK-WAIT": false,
+  "PLAYER": false,
+  "P-WON": false,
+  "P-MULT": false,
+  "P-NOT-HERE": 0,
+  "PRSA": false,
+  "PRSI": false,
+  "PRSO": false,
+  "P-TABLE": 0,
+  "P-ONEOBJ": 0,
+  "P-SYNTAX": 0,
+  "P-CCTBL": {
+    "T": "T?P-CCTBL"
+  },
+  "P-LEN": 0,
+  "P-DIR": 0,
+  "HERE": 0,
+  "WINNER": 0,
+  "P-LEXV": {
+    "T": "T?P-LEXV"
+  },
+  "AGAIN-LEXV": {
+    "T": "T?AGAIN-LEXV"
+  },
+  "RESERVE-LEXV": {
+    "T": "T?RESERVE-LEXV"
+  },
+  "RESERVE-PTR": false,
+  "P-INBUF": {
+    "T": "T?P-INBUF"
+  },
+  "OOPS-INBUF": {
+    "T": "T?OOPS-INBUF"
+  },
+  "OOPS-TABLE": {
+    "T": "T?OOPS-TABLE"
+  },
+  "P-CONT": false,
+  "P-IT-OBJECT": false,
+  "P-OFLAG": false,
+  "P-MERGED": false,
+  "P-ACLAUSE": false,
+  "P-ANAM": false,
+  "P-AADJ": false,
+  "P-ITBL": {
+    "T": "T?P-ITBL"
+  },
+  "P-OTBL": {
+    "T": "T?P-OTBL"
+  },
+  "P-VTBL": {
+    "T": "T?P-VTBL"
+  },
+  "P-OVTBL": {
+    "T": "T?P-OVTBL"
+  },
+  "P-NCN": 0,
+  "QUOTE-FLAG": false,
+  "P-END-ON-PREP": false,
+  "P-ACT": false,
+  "P-WALK-DIR": false,
+  "AGAIN-DIR": false,
+  "P-NUMBER": 0,
+  "P-DIRECTION": 0,
+  "P-SLOCBITS": 0,
+  "P-GWIMBIT": 0,
+  "P-NAM": false,
+  "P-ADJ": false,
+  "P-ADVERB": false,
+  "P-ADJN": false,
+  "P-PRSO": {
+    "T": "T?P-PRSO"
+  },
+  "P-PRSI": {
+    "T": "T?P-PRSI"
+  },
+  "P-BUTS": {
+    "T": "T?P-BUTS"
+  },
+  "P-MERGE": {
+    "T": "T?P-MERGE"
+  },
+  "P-OCLAUSE": {
+    "T": "T?P-OCLAUSE"
+  },
+  "P-MATCHLEN": 0,
+  "P-GETFLAGS": 0,
+  "P-AND": false,
+  "P-XNAM": false,
+  "P-XADJ": false,
+  "P-XADJN": false,
+  "ALWAYS-LIT": false,
+  "VERBOSE": false,
+  "SUPER-BRIEF": false,
+  "HS": 0,
+  "JUMPLOSS": {
+    "T": "T?JUMPLOSS"
+  },
+  "WHEEEEE": {
+    "T": "T?WHEEEEE"
+  },
+  "LIT": false,
+  "SPRAYED?": false,
+  "DESC-OBJECT": false,
+  "MOVES": 0,
+  "SCORE": 0,
+  "BASE-SCORE": 0,
+  "WON-FLAG": false,
+  "DEAD": false,
+  "DEATHS": 0,
+  "FUMBLE-NUMBER": 7,
+  "FUMBLE-PROB": 8,
+  "INDENTS": {
+    "T": "T?INDENTS"
+  },
+  "HO-HUM": {
+    "T": "T?HO-HUM"
+  },
+  "SWIMYUKS": {
+    "T": "T?SWIMYUKS"
+  },
+  "HELLOS": {
+    "T": "T?HELLOS"
+  },
+  "YUKS": {
+    "T": "T?YUKS"
+  },
+  "DUMMY": {
+    "T": "T?DUMMY"
+  },
+  "KITCHEN-WINDOW-FLAG": false,
+  "CAGE-TOP": {
+    "A": "T"
+  },
+  "BAT-DROPS": {
+    "T": "T?BAT-DROPS"
+  },
+  "RUG-MOVED": false,
+  "GRATE-REVEALED": false,
+  "GRUNLOCK": false,
+  "MIRROR-MUNG": false,
+  "LUCKY": {
+    "A": "T"
+  },
+  "XB": false,
+  "XC": false,
+  "GATE-FLAG": false,
+  "GATES-OPEN": false,
+  "LOUD-RUNS": {
+    "T": "T?LOUD-RUNS"
+  },
+  "DROWNINGS": {
+    "T": "T?DROWNINGS"
+  },
+  "WATER-LEVEL": 0,
+  "CYCLOWRATH": 0,
+  "CYCLOMAD": {
+    "T": "T?CYCLOMAD"
+  },
+  "LOUD-FLAG": false,
+  "EGG-SOLVE": false,
+  "THIEF-HERE": false,
+  "THIEF-ENGROSSED": false,
+  "ROBBER-C-DESC": "There is a suspicious-looking individual, holding a bag, leaning\r\nagainst one wall. He is armed with a vicious-looking stiletto.",
+  "ROBBER-U-DESC": "There is a suspicious-looking individual lying unconscious on the\r\nground.",
+  "LAMP-TABLE": {
+    "T": "T?LAMP-TABLE"
+  },
+  "MATCH-COUNT": 6,
+  "CANDLE-TABLE": {
+    "T": "T?CANDLE-TABLE"
+  },
+  "LIGHT-SHAFT": 13,
+  "RIVER-SPEEDS": {
+    "T": "T?RIVER-SPEEDS"
+  },
+  "RIVER-NEXT": {
+    "T": "T?RIVER-NEXT"
+  },
+  "RIVER-LAUNCH": {
+    "T": "T?RIVER-LAUNCH"
+  },
+  "BUOY-FLAG": {
+    "A": "T"
+  },
+  "BEACH-DIG": -1,
+  "BDIGS": {
+    "T": "T?BDIGS"
+  },
+  "SING-SONG": false,
+  "DEF1": {
+    "T": "T?DEF1"
+  },
+  "DEF2A": {
+    "T": "T?DEF2A"
+  },
+  "DEF2B": {
+    "T": "T?DEF2B"
+  },
+  "DEF3A": {
+    "T": "T?DEF3A"
+  },
+  "DEF3B": {
+    "T": "T?DEF3B"
+  },
+  "DEF3C": {
+    "T": "T?DEF3C"
+  },
+  "DEF1-RES": {
+    "T": "T?DEF1-RES"
+  },
+  "DEF2-RES": {
+    "T": "T?DEF2-RES"
+  },
+  "DEF3-RES": {
+    "T": "T?DEF3-RES"
+  },
+  "HERO-MELEE": {
+    "T": "T?HERO-MELEE"
+  },
+  "CYCLOPS-MELEE": {
+    "T": "T?CYCLOPS-MELEE"
+  },
+  "TROLL-MELEE": {
+    "T": "T?TROLL-MELEE"
+  },
+  "THIEF-MELEE": {
+    "T": "T?THIEF-MELEE"
+  },
+  "VILLAINS": {
+    "T": "T?VILLAINS"
+  }
+}

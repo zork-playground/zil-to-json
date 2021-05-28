@@ -1,0 +1,2700 @@
+[
+  {
+    "Source": "MISC.zil:482",
+    "Name": "T?C-TABLE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:15",
+    "Name": "T?P-LEXV",
+    "Flags": "ByteLength",
+    "Data": [
+      120,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:22",
+    "Name": "T?P-INBUF",
+    "Flags": "ByteLength",
+    "Data": [
+      100,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:74",
+    "Name": "T?P-ITBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "PARSER.zil:75",
+    "Name": "T?P-OTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "PARSER.zil:76",
+    "Name": "T?P-VTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "PARSER.zil:77",
+    "Name": "T?P-OVTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "PARSER.zil:802",
+    "Name": "T?OFFENDED",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "What charming language",
+      "Computers aren't impressed by naughty words",
+      "Grow up"
+    ]
+  },
+  {
+    "Source": "PARSER.zil:1010",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      "This story doesn't know the word \"",
+      ".\""
+    ]
+  },
+  {
+    "Source": "PARSER.zil:1012",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      "Sorry, but the word \"",
+      "\" is not in the vocabulary that you can use."
+    ]
+  },
+  {
+    "Source": "PARSER.zil:1014",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      "You don't need to use the word \"",
+      "\" to finish this story."
+    ]
+  },
+  {
+    "Source": "PARSER.zil:1016",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      "Sorry, but this story doesn't recognize the word \"",
+      ".\""
+    ]
+  },
+  {
+    "Source": "PARSER.zil:1009",
+    "Name": "T?UNKNOWN-MSGS",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      0,
+      {
+        "Source": "PARSER.zil:1010",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          "This story doesn't know the word \"",
+          ".\""
+        ]
+      },
+      {
+        "Source": "PARSER.zil:1012",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          "Sorry, but the word \"",
+          "\" is not in the vocabulary that you can use."
+        ]
+      },
+      {
+        "Source": "PARSER.zil:1014",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          "You don't need to use the word \"",
+          "\" to finish this story."
+        ]
+      },
+      {
+        "Source": "PARSER.zil:1016",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          "Sorry, but this story doesn't recognize the word \"",
+          ".\""
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "PARSER.zil:1245",
+    "Name": "T?P-CCTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "PARSER.zil:1357",
+    "Name": "T?P-PRSO",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:1359",
+    "Name": "T?P-PRSI",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:1361",
+    "Name": "T?P-BUTS",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:1363",
+    "Name": "T?P-MERGE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:1365",
+    "Name": "T?P-OCLAUSE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2628",
+    "Name": "T?BOOT-PATH",
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "FESTERON-POINT"
+      },
+      {
+        "A": "ROCKY-PATH"
+      },
+      {
+        "A": "SOUTH-OF-BRIDGE"
+      },
+      {
+        "A": "RIVER-OUTLET"
+      },
+      {
+        "A": "LOOKOUT-HILL"
+      },
+      {
+        "A": "RIVER-OUTLET"
+      },
+      {
+        "A": "EDGE-OF-LAKE"
+      },
+      {
+        "A": "ROTARY-WEST"
+      },
+      {
+        "A": "ROTARY-SOUTH"
+      },
+      {
+        "A": "ROTARY-EAST"
+      },
+      {
+        "A": "PLEASURE-WHARF"
+      },
+      {
+        "A": "WHARF"
+      },
+      {
+        "A": "PLEASURE-WHARF"
+      },
+      {
+        "A": "ROTARY-EAST"
+      },
+      {
+        "A": "PARK"
+      },
+      {
+        "A": "ROTARY-WEST"
+      },
+      {
+        "A": "ROTARY-NORTH"
+      },
+      {
+        "A": "SOUTH-OF-BRIDGE"
+      },
+      {
+        "A": "ROCKY-PATH"
+      },
+      {
+        "A": "FESTERON-POINT"
+      }
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2688",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      false,
+      false,
+      {
+        "A": "ROCKY-PATH"
+      },
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2689",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "WEST-OF-HOUSE"
+      },
+      false,
+      {
+        "A": "SOUTH-OF-BRIDGE"
+      },
+      {
+        "A": "FESTERON-POINT"
+      },
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2690",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "ROTARY-NORTH"
+      },
+      {
+        "A": "ON-BRIDGE"
+      },
+      {
+        "A": "RIVER-OUTLET"
+      },
+      {
+        "A": "ROCKY-PATH"
+      },
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2691",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "EDGE-OF-LAKE"
+      },
+      false,
+      false,
+      {
+        "A": "SOUTH-OF-BRIDGE"
+      },
+      false,
+      {
+        "A": "LOOKOUT-HILL"
+      },
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2692",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      {
+        "A": "RIVER-OUTLET"
+      },
+      false,
+      {
+        "A": "UNDER-HILL"
+      }
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2693",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "EDGE-OF-LAKE"
+      },
+      false,
+      false,
+      {
+        "A": "SOUTH-OF-BRIDGE"
+      },
+      false,
+      {
+        "A": "LOOKOUT-HILL"
+      },
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2694",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "TWILIGHT-GLEN"
+      },
+      {
+        "A": "RIVER-OUTLET"
+      },
+      false,
+      {
+        "A": "ROTARY-WEST"
+      },
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2695",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      false,
+      false,
+      {
+        "A": "EDGE-OF-LAKE"
+      },
+      {
+        "A": "PARK"
+      },
+      false,
+      false,
+      {
+        "A": "INSIDE-POLICE-STATION"
+      }
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2696",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "OUTSIDE-COTTAGE"
+      },
+      {
+        "A": "PARK"
+      },
+      false,
+      false,
+      false,
+      false,
+      {
+        "A": "CIRCULATION-DESK"
+      }
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2697",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      false,
+      false,
+      {
+        "A": "PARK"
+      },
+      {
+        "A": "PLEASURE-WHARF"
+      },
+      false,
+      false,
+      {
+        "A": "LOBBY"
+      }
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2698",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "VIDEO-ARCADE"
+      },
+      false,
+      {
+        "A": "ROTARY-EAST"
+      },
+      {
+        "A": "WHARF"
+      },
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2699",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      false,
+      false,
+      {
+        "A": "PLEASURE-WHARF"
+      },
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2700",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "VIDEO-ARCADE"
+      },
+      false,
+      {
+        "A": "ROTARY-EAST"
+      },
+      {
+        "A": "WHARF"
+      },
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2701",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      false,
+      false,
+      {
+        "A": "PARK"
+      },
+      {
+        "A": "PLEASURE-WHARF"
+      },
+      false,
+      false,
+      {
+        "A": "LOBBY"
+      }
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2702",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "ROTARY-SOUTH"
+      },
+      {
+        "A": "ROTARY-NORTH"
+      },
+      {
+        "A": "ROTARY-WEST"
+      },
+      {
+        "A": "ROTARY-EAST"
+      },
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2703",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      false,
+      false,
+      {
+        "A": "EDGE-OF-LAKE"
+      },
+      {
+        "A": "PARK"
+      },
+      false,
+      false,
+      {
+        "A": "INSIDE-POLICE-STATION"
+      }
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2704",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "PARK"
+      },
+      {
+        "A": "SOUTH-OF-BRIDGE"
+      },
+      false,
+      false,
+      false,
+      false,
+      {
+        "A": "INSIDE-CHURCH"
+      }
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2705",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "ROTARY-NORTH"
+      },
+      {
+        "A": "ON-BRIDGE"
+      },
+      {
+        "A": "RIVER-OUTLET"
+      },
+      {
+        "A": "ROCKY-PATH"
+      },
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2706",
+    "Name": null,
+    "Flags": "Pure",
+    "Data": [
+      {
+        "A": "WEST-OF-HOUSE"
+      },
+      false,
+      {
+        "A": "SOUTH-OF-BRIDGE"
+      },
+      {
+        "A": "FESTERON-POINT"
+      },
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2687",
+    "Name": "T?DIRECTION-TABLES",
+    "Flags": "Pure",
+    "Data": [
+      {
+        "Source": "PARSER.zil:2688",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          false,
+          false,
+          {
+            "A": "ROCKY-PATH"
+          },
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2689",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          {
+            "A": "WEST-OF-HOUSE"
+          },
+          false,
+          {
+            "A": "SOUTH-OF-BRIDGE"
+          },
+          {
+            "A": "FESTERON-POINT"
+          },
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2690",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          {
+            "A": "ROTARY-NORTH"
+          },
+          {
+            "A": "ON-BRIDGE"
+          },
+          {
+            "A": "RIVER-OUTLET"
+          },
+          {
+            "A": "ROCKY-PATH"
+          },
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2691",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          {
+            "A": "EDGE-OF-LAKE"
+          },
+          false,
+          false,
+          {
+            "A": "SOUTH-OF-BRIDGE"
+          },
+          false,
+          {
+            "A": "LOOKOUT-HILL"
+          },
+          false
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2692",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          false,
+          false,
+          false,
+          false,
+          {
+            "A": "RIVER-OUTLET"
+          },
+          false,
+          {
+            "A": "UNDER-HILL"
+          }
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2693",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          {
+            "A": "EDGE-OF-LAKE"
+          },
+          false,
+          false,
+          {
+            "A": "SOUTH-OF-BRIDGE"
+          },
+          false,
+          {
+            "A": "LOOKOUT-HILL"
+          },
+          false
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2694",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          {
+            "A": "TWILIGHT-GLEN"
+          },
+          {
+            "A": "RIVER-OUTLET"
+          },
+          false,
+          {
+            "A": "ROTARY-WEST"
+          },
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2695",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          false,
+          false,
+          {
+            "A": "EDGE-OF-LAKE"
+          },
+          {
+            "A": "PARK"
+          },
+          false,
+          false,
+          {
+            "A": "INSIDE-POLICE-STATION"
+          }
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2696",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          {
+            "A": "OUTSIDE-COTTAGE"
+          },
+          {
+            "A": "PARK"
+          },
+          false,
+          false,
+          false,
+          false,
+          {
+            "A": "CIRCULATION-DESK"
+          }
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2697",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          false,
+          false,
+          {
+            "A": "PARK"
+          },
+          {
+            "A": "PLEASURE-WHARF"
+          },
+          false,
+          false,
+          {
+            "A": "LOBBY"
+          }
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2698",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          {
+            "A": "VIDEO-ARCADE"
+          },
+          false,
+          {
+            "A": "ROTARY-EAST"
+          },
+          {
+            "A": "WHARF"
+          },
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2699",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          false,
+          false,
+          {
+            "A": "PLEASURE-WHARF"
+          },
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2700",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          {
+            "A": "VIDEO-ARCADE"
+          },
+          false,
+          {
+            "A": "ROTARY-EAST"
+          },
+          {
+            "A": "WHARF"
+          },
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2701",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          false,
+          false,
+          {
+            "A": "PARK"
+          },
+          {
+            "A": "PLEASURE-WHARF"
+          },
+          false,
+          false,
+          {
+            "A": "LOBBY"
+          }
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2702",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          {
+            "A": "ROTARY-SOUTH"
+          },
+          {
+            "A": "ROTARY-NORTH"
+          },
+          {
+            "A": "ROTARY-WEST"
+          },
+          {
+            "A": "ROTARY-EAST"
+          },
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2703",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          false,
+          false,
+          {
+            "A": "EDGE-OF-LAKE"
+          },
+          {
+            "A": "PARK"
+          },
+          false,
+          false,
+          {
+            "A": "INSIDE-POLICE-STATION"
+          }
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2704",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          {
+            "A": "PARK"
+          },
+          {
+            "A": "SOUTH-OF-BRIDGE"
+          },
+          false,
+          false,
+          false,
+          false,
+          {
+            "A": "INSIDE-CHURCH"
+          }
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2705",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          {
+            "A": "ROTARY-NORTH"
+          },
+          {
+            "A": "ON-BRIDGE"
+          },
+          {
+            "A": "RIVER-OUTLET"
+          },
+          {
+            "A": "ROCKY-PATH"
+          },
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "Source": "PARSER.zil:2706",
+        "Name": null,
+        "Flags": "Pure",
+        "Data": [
+          {
+            "A": "WEST-OF-HOUSE"
+          },
+          false,
+          {
+            "A": "SOUTH-OF-BRIDGE"
+          },
+          {
+            "A": "FESTERON-POINT"
+          },
+          false,
+          false,
+          false
+        ]
+      }
+    ]
+  },
+  {
+    "Source": "PARSER.zil:2718",
+    "Name": "T?DIR-NAMES",
+    "Flags": "Pure",
+    "Data": [
+      "to the north",
+      "to the south",
+      "to the east",
+      "to the west",
+      "on the summit of Lookout Hill",
+      "at the bottom of the hill",
+      "outside"
+    ]
+  },
+  {
+    "Source": "GLOBALS.zil:676",
+    "Name": "T?IGNORANCE",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      0,
+      "studiously ignores you",
+      "pretends not to understand you",
+      "pays no attention to you",
+      "makes a rude little noise"
+    ]
+  },
+  {
+    "Source": "GLOBALS.zil:775",
+    "Name": "T?LIKELIES",
+    "Flags": "WordLength",
+    "Data": [
+      7,
+      0,
+      " isn't likely",
+      " seems doubtful",
+      " seems unlikely",
+      "'s unlikely",
+      "'s not likely",
+      "'s doubtful"
+    ]
+  },
+  {
+    "Source": "VERBS.zil:136",
+    "Name": "T?YES-INBUF",
+    "Flags": "ByteLength",
+    "Data": [
+      12,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "VERBS.zil:137",
+    "Name": "T?YES-LEXV",
+    "Flags": "ByteLength",
+    "Data": [
+      10,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "VERBS.zil:1707",
+    "Name": "T?YAWNS",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      0,
+      "unusual",
+      "interesting",
+      "extraordinary",
+      "special"
+    ]
+  },
+  {
+    "Source": "VERBS.zil:2402",
+    "Name": "T?HO-HUM",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "doesn't do anything",
+      "accomplishes nothing",
+      "has no effect"
+    ]
+  },
+  {
+    "Source": "VERBS.zil:2408",
+    "Name": "T?YUKS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "That's impossible.",
+      "You can't be serious.",
+      "Don't be silly."
+    ]
+  },
+  {
+    "Source": "VERBS.zil:2442",
+    "Name": "T?USELESSNESS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "waste of time",
+      "useless effort",
+      "pointless thing to do"
+    ]
+  },
+  {
+    "Source": "PEOPLE.zil:175",
+    "Name": "T?YELL-TYPES",
+    "Flags": "WordLength",
+    "Data": [
+      7,
+      0,
+      "hollers",
+      "growls",
+      "yells",
+      "rumbles",
+      "screams",
+      "wails"
+    ]
+  },
+  {
+    "Source": "PEOPLE.zil:179",
+    "Name": "T?GET-GOINGS",
+    "Flags": "WordLength",
+    "Data": [
+      7,
+      0,
+      "Get going",
+      "Quit stalling",
+      "Get moving",
+      "Deliver that envelope",
+      "Scram",
+      "Don't just stand there"
+    ]
+  },
+  {
+    "Source": "PEOPLE.zil:183",
+    "Name": "T?INSULTS",
+    "Flags": "WordLength",
+    "Data": [
+      6,
+      0,
+      "dummy",
+      "knucklehead",
+      "idiot",
+      "chowderbrain",
+      "numbskull"
+    ]
+  },
+  {
+    "Source": "PEOPLE.zil:287",
+    "Name": "T?SWIPES",
+    "Flags": "WordLength",
+    "Data": [
+      6,
+      0,
+      "snatches",
+      "swipes",
+      "pulls",
+      "grabs",
+      "yanks"
+    ]
+  },
+  {
+    "Source": "PEOPLE.zil:291",
+    "Name": "T?CONSIDERATIONS",
+    "Flags": "WordLength",
+    "Data": [
+      6,
+      0,
+      " and looks it over casually",
+      " with a contemptuous shrug",
+      ", sniffing with disinterest",
+      " and barely suppresses a yawn",
+      ", turns it over in his hands and snorts"
+    ]
+  },
+  {
+    "Source": "PEOPLE.zil:299",
+    "Name": "T?BORINGS",
+    "Flags": "WordLength",
+    "Data": [
+      6,
+      0,
+      "\"Is this the best you've got?\" he growls, tossing it",
+      "\"Fascinating,\" he mutters, throwing it",
+      "It's thrown without comment",
+      "It strikes the opposite wall and falls",
+      "\"How extraordinarily useful,\" he notes, pitching it"
+    ]
+  },
+  {
+    "Source": "PEOPLE.zil:371",
+    "Name": "T?BEGS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "Only pull down this lever, and I shall be freed",
+      "The merest pull of the lever will gain my freedom",
+      "Please! Pull down this lever and set me free"
+    ]
+  },
+  {
+    "Source": "PEOPLE.zil:754",
+    "Name": "T?GOOD-VOSS-RESPONSES",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "I'm in a hurry. Let's talk later",
+      "I don't have time right now",
+      "Can we talk later? I'm in a hurry"
+    ]
+  },
+  {
+    "Source": "PEOPLE.zil:760",
+    "Name": "T?BAD-VOSS-RESPONSES",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "I don't have time for idle chatter",
+      "I'm here to sell tickets, not to chatter",
+      "I'm not paid to chatter with you"
+    ]
+  },
+  {
+    "Source": "PEOPLE.zil:845",
+    "Name": "T?VOSS-OFFERS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "Here's the note",
+      "This is the note I want you to take",
+      "Take this note"
+    ]
+  },
+  {
+    "Source": "PEOPLE.zil:1054",
+    "Name": "T?POWER-WORDS",
+    "Flags": "Pure",
+    "Data": [
+      "KALUZE",
+      "FRATTO",
+      "SORKIN"
+    ]
+  },
+  {
+    "Source": "PEOPLE.zil:1155",
+    "Name": "T?Q-SIGHS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "Ahhh",
+      "That's a long story",
+      "Not now"
+    ]
+  },
+  {
+    "Source": "PEOPLE.zil:1161",
+    "Name": "T?Q-EXCUSES",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "Some other time, perhaps",
+      "You're better off not knowing too much about it",
+      "Maybe later"
+    ]
+  },
+  {
+    "Source": "PEOPLE.zil:1167",
+    "Name": "T?LADY-REACTIONS",
+    "Flags": "WordLength",
+    "Data": [
+      6,
+      0,
+      "nods vaguely",
+      "gives you a distracted smile",
+      "purses her lips",
+      "wrinkles her brow thoughtfully",
+      "rubs her chin"
+    ]
+  },
+  {
+    "Source": "PEOPLE.zil:1227",
+    "Name": "T?WOMAN-WAITS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "I hoped you might have some mail to give me",
+      "It's fun to get a surprise letter",
+      "I don't get much mail nowadays"
+    ]
+  },
+  {
+    "Source": "PEOPLE.zil:1385",
+    "Name": "T?CROW-OFFERS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "Take this. It's a gift",
+      "Take this gift",
+      "This gift is for you. Take it"
+    ]
+  },
+  {
+    "Source": "SOUTH.zil:697",
+    "Name": "T?POODLE-HINTS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "Try examining the poodle. You might discover something",
+      "Look around. You might find something the poodle would like",
+      "Maybe you can bribe the poodle with something"
+    ]
+  },
+  {
+    "Source": "CENTER.zil:360",
+    "Name": "T?NO-ENTERS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "Ticket, please",
+      "Can't get in without a ticket",
+      "No ticket, no movie"
+    ]
+  },
+  {
+    "Source": "CENTER.zil:701",
+    "Name": "T?FUZZIES",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "All you can see on the screen is a confusing double-image",
+      "The picture on the screen is fuzzy and hard to watch",
+      "The screen image is a meaningless blur of colored light"
+    ]
+  },
+  {
+    "Source": "CENTER.zil:825",
+    "Name": "T?NIPS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "nips savagely at your fingertips",
+      "tries to bite your hand",
+      "snaps at your fingers"
+    ]
+  },
+  {
+    "Source": "CENTER.zil:2214",
+    "Name": "T?TURNS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "furry toilet seat cover",
+      "giant army boot",
+      "newt"
+    ]
+  },
+  {
+    "Source": "EAST.zil:359",
+    "Name": "T?H-NAMES",
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ]
+  },
+  {
+    "Source": "EAST.zil:525",
+    "Name": "T?POSSIBILITIES",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "snicker behind your back",
+      "watch you carefully",
+      "hold their breath"
+    ]
+  },
+  {
+    "Source": "EAST.zil:708",
+    "Name": "T?WISE-SAYINGS",
+    "Flags": "Pure",
+    "Data": [
+      0,
+      "If ye hath not kept a Map, only patience or Magick can help thee",
+      "Magick may help thee cross the Bridge",
+      "Release a prisoner, and be Rewarded",
+      "Learn the Word of Power, else never gain the Tower",
+      "One path Magick, one path Science; both lead to thy Goal",
+      "Many wonders await thee in the Halls of Knowledge",
+      "Fit the pieces together, and the Puzzle is complete"
+    ]
+  },
+  {
+    "Source": "BRIDGE.zil:163",
+    "Name": "T?TOLL-DEMANDS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "The sign says 'One Gold Coin,'",
+      "Show me first a gold coin,",
+      "Ask not for whom the troll tolls,"
+    ]
+  },
+  {
+    "Source": "BRIDGE.zil:558",
+    "Name": "T?SIGHTINGS",
+    "Flags": "WordLength",
+    "Data": [
+      9,
+      0,
+      "appears",
+      "is circling",
+      "begins to hover",
+      "can be seen circling",
+      "is watching you from",
+      "hovers in the sky",
+      "hovers",
+      "eyes you suspiciously from"
+    ]
+  },
+  {
+    "Source": "FOG.zil:100",
+    "Name": "T?TRAILS",
+    "Flags": "WordLength, Pure",
+    "Data": [
+      6,
+      "west and downward",
+      "north and east",
+      "south and upward",
+      "east and downward",
+      "south and west",
+      "north and upward"
+    ]
+  },
+  {
+    "Source": "FOG.zil:224",
+    "Name": "T?BUMPS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "A cliff wall blocks your path",
+      "You just walked into a solid wall of stone",
+      "Your path is blocked by a cliff wall"
+    ]
+  },
+  {
+    "Source": "FOG.zil:251",
+    "Name": "T?FALLS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "tumble",
+      "fall",
+      "plummet"
+    ]
+  },
+  {
+    "Source": "SHOPPE.zil:199",
+    "Name": "T?FROZENS",
+    "Flags": "WordLength",
+    "Data": [
+      3,
+      0,
+      "Your feet seem unwilling to move in that direction",
+      "A subtle pressure against your body prevents you from moving that way"
+    ]
+  },
+  {
+    "Source": "SHOPPE.zil:254",
+    "Name": "T?FACES",
+    "Flags": "WordLength",
+    "Data": [
+      6,
+      0,
+      "frown",
+      "smil",
+      "sneer",
+      "grinn",
+      "star"
+    ]
+  },
+  {
+    "Source": "SHOPPE.zil:388",
+    "Name": "T?NAUGHTY-BITS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "Can't keep your mind off that stuff, eh?",
+      "Tsk, tsk, tsk!",
+      "Intriguing, aren't they?"
+    ]
+  },
+  {
+    "Source": "SHOPPE.zil:728",
+    "Name": "T?GIVE-AWAYS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "The can rattles in your hand",
+      "Something rattles in the can",
+      "You hear a rattling noise in the can"
+    ]
+  },
+  {
+    "Source": "CEMETERY.zil:189",
+    "Name": "T?VAPOR-YELLS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "moan with disappointment",
+      "howl with anguish",
+      "wail with dismay"
+    ]
+  },
+  {
+    "Source": "CEMETERY.zil:263",
+    "Name": "T?FRIGHTS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "spooky",
+      "fearful",
+      "creepy"
+    ]
+  },
+  {
+    "Source": "CEMETERY.zil:675",
+    "Name": "T?DROP-OFFS",
+    "Flags": "WordLength",
+    "Data": [
+      10,
+      0,
+      {
+        "A": "LOOKOUT-HILL"
+      },
+      {
+        "A": "PARK"
+      },
+      {
+        "A": "FESTERON-POINT"
+      },
+      {
+        "A": "SOUTH-OF-BRIDGE"
+      },
+      {
+        "A": "EDGE-OF-LAKE"
+      },
+      {
+        "A": "ROCKY-PATH"
+      },
+      {
+        "A": "WHARF"
+      },
+      {
+        "A": "CLIFF-BOTTOM"
+      },
+      {
+        "A": "RIVER-OUTLET"
+      }
+    ]
+  },
+  {
+    "Source": "UNDER.zil:33",
+    "Name": "T?CRAMPS",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      0,
+      "damp",
+      "dark",
+      "smelly",
+      "dirty"
+    ]
+  },
+  {
+    "Source": "TOWER.zil:666",
+    "Name": "T?STROLLS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "strolling around dusting off the instruments",
+      "fondling the instruments, one by one",
+      "gently polishing the diabolical machine"
+    ]
+  },
+  {
+    "Source": "TOWER.zil:1019",
+    "Name": "T?BLURS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "blurred",
+      "fuzzy",
+      "blurry"
+    ]
+  },
+  {
+    "Source": "TOWER.zil:1309",
+    "Name": "T?NICES",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "rubs itself lovingly against you",
+      "purrs agreeably",
+      "mews affectionately"
+    ]
+  },
+  {
+    "Source": "ISLAND.zil:208",
+    "Name": "T?KING-OFFERS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "Take this Hat",
+      "This Hat is for you. Take it",
+      "I offer you this Hat"
+    ]
+  },
+  {
+    "Source": "ISLAND.zil:214",
+    "Name": "T?SCRAMS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "Blow into the whistle, and your quest will continue",
+      "You need only blow into the whistle",
+      "The merest blow into the whistle will speed you on your quest"
+    ]
+  },
+  {
+    "Source": "BOXES.zil:149",
+    "Name": "T?BOX-YELLS",
+    "Flags": "WordLength",
+    "Data": [
+      8,
+      0,
+      "Feed me",
+      "I'm hungry",
+      "I want MAIL",
+      "Feed me. I'm HUNGRY",
+      "Mail",
+      "Hungry",
+      "Eat"
+    ]
+  },
+  {
+    "Source": "BOXES.zil:297",
+    "Name": "T?BOX-CLOSERS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      " is getting closer",
+      " shouts \"MAIL!\" as it edges closer",
+      "'s lid snaps open and shut with hunger"
+    ]
+  },
+  {
+    "Source": "BOXES.zil:303",
+    "Name": "T?BOX-EVEN-CLOSERS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      " cries, \"Feed me MAIL!\" It's getting very close",
+      " is almost close enough to touch you",
+      " scrapes even closer and snaps its lid"
+    ]
+  },
+  {
+    "Source": "BOXES.zil:309",
+    "Name": "T?BAD-BOX-COMINGS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "You hear a scraping noise nearby. It's getting closer!",
+      "Something is scraping across the ground nearby. It's coming this way!",
+      "A distant scraping noise is getting louder."
+    ]
+  },
+  {
+    "Source": "BOXES.zil:315",
+    "Name": "T?BAD-BOX-ARRIVALS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      " has found you again",
+      " scrapes into view",
+      " appears nearby"
+    ]
+  },
+  {
+    "Source": "BOXES.zil:441",
+    "Name": "T?CUDDLES",
+    "Flags": "WordLength",
+    "Data": [
+      8,
+      0,
+      "cuddles up around your feet",
+      "rubs your leg",
+      "is watching you eagerly",
+      "nuzzles you lovingly",
+      "hops around with excitement",
+      "snaps playfully at your heels",
+      "is \"clump-clumping\" about happily"
+    ]
+  },
+  {
+    "Source": "BOXES.zil:451",
+    "Name": "T?SMALL-BOX-ARRIVALS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      0,
+      "into view and snaps a greeting",
+      "to your side with a joyful snap",
+      "happily into view"
+    ]
+  },
+  {
+    "Source": "BOXES.zil:547",
+    "Name": "T?JAIL-SOUNDS",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      0,
+      "wails of anguish",
+      "somebody howling with pain",
+      "sounds of violence",
+      "an agonized cry"
+    ]
+  },
+  {
+    "Source": "BOXES.zil:615",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      false,
+      false,
+      {
+        "A": "EDGE-OF-LAKE"
+      },
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "BOXES.zil:616",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      false,
+      {
+        "A": "LOOKOUT-HILL"
+      },
+      {
+        "A": "ROTARY-WEST"
+      },
+      {
+        "A": "INSIDE-GRAVE"
+      },
+      false
+    ]
+  },
+  {
+    "Source": "BOXES.zil:617",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      {
+        "A": "SOUTH-OF-BRIDGE"
+      },
+      {
+        "A": "ROTARY-NORTH"
+      },
+      {
+        "A": "PARK"
+      },
+      {
+        "A": "ROTARY-SOUTH"
+      },
+      {
+        "A": "HILLTOP"
+      }
+    ]
+  },
+  {
+    "Source": "BOXES.zil:618",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      false,
+      {
+        "A": "WEST-OF-HOUSE"
+      },
+      {
+        "A": "ROTARY-EAST"
+      },
+      {
+        "A": "VIDEO-ARCADE"
+      },
+      false
+    ]
+  },
+  {
+    "Source": "BOXES.zil:619",
+    "Name": null,
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      false,
+      false,
+      {
+        "A": "PLEASURE-WHARF"
+      },
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "BOXES.zil:614",
+    "Name": "T?DESTINATIONS",
+    "Flags": "WordLength, Pure",
+    "Data": [
+      5,
+      {
+        "Source": "BOXES.zil:615",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          5,
+          false,
+          false,
+          {
+            "A": "EDGE-OF-LAKE"
+          },
+          false,
+          false
+        ]
+      },
+      {
+        "Source": "BOXES.zil:616",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          5,
+          false,
+          {
+            "A": "LOOKOUT-HILL"
+          },
+          {
+            "A": "ROTARY-WEST"
+          },
+          {
+            "A": "INSIDE-GRAVE"
+          },
+          false
+        ]
+      },
+      {
+        "Source": "BOXES.zil:617",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          5,
+          {
+            "A": "SOUTH-OF-BRIDGE"
+          },
+          {
+            "A": "ROTARY-NORTH"
+          },
+          {
+            "A": "PARK"
+          },
+          {
+            "A": "ROTARY-SOUTH"
+          },
+          {
+            "A": "HILLTOP"
+          }
+        ]
+      },
+      {
+        "Source": "BOXES.zil:618",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          5,
+          false,
+          {
+            "A": "WEST-OF-HOUSE"
+          },
+          {
+            "A": "ROTARY-EAST"
+          },
+          {
+            "A": "VIDEO-ARCADE"
+          },
+          false
+        ]
+      },
+      {
+        "Source": "BOXES.zil:619",
+        "Name": null,
+        "Flags": "WordLength, Pure",
+        "Data": [
+          5,
+          false,
+          false,
+          {
+            "A": "PLEASURE-WHARF"
+          },
+          false,
+          false
+        ]
+      }
+    ]
+  }
+]
