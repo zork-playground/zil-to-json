@@ -4,6 +4,7 @@
         "genre": "fantasy",
         "series": "ZORK",
         "rank": 1,
+        "zil": "https://github.com/historicalsource/zork1/blob/master",
         "src": "zork1/zork1.all.json"
     },
     "zork-2": {
@@ -11,6 +12,7 @@
         "genre": "fantasy",
         "series": "ZORK",
         "rank": 2,
+        "zil": "https://github.com/historicalsource/zork2/blob/master",
         "src": "zork2/zork2.all.json"
     },
     "zork-3": {
@@ -18,6 +20,7 @@
         "genre": "fantasy",
         "series": "ZORK",
         "rank": 3,
+        "zil": "https://github.com/historicalsource/zork3/blob/master",
         "src": "zork3/zork3.all.json"
     },
     "enchanter": {
@@ -25,6 +28,7 @@
         "genre": "fantasy",
         "series": "MAGE",
         "rank": 4,
+        "zil": "https://github.com/historicalsource/enchanter/blob/master",
         "src": "enchanter/enchanter.all.json"
     },
     "sorcerer": {
@@ -32,6 +36,7 @@
         "genre": "fantasy",
         "series": "MAGE",
         "rank": 5,
+        "zil": "https://github.com/historicalsource/sorcerer/blob/master",
         "src": "sorcerer/sorcerer.all.json"
     },
     "spellbreaker": {
@@ -39,6 +44,7 @@
         "genre": "fantasy",
         "series": "MAGE",
         "rank": 6,
+        "zil": "https://github.com/historicalsource/spellbreaker/blob/master",
         "src": "spellbreaker/spellbreaker.all.json"
     },
     "wishbringer": {
@@ -46,6 +52,7 @@
         "genre": "fantasy",
         "series": "WISHBRINGER",
         "rank": 7,
+        "zil": "https://github.com/historicalsource/wishbringer/blob/master",
         "src": "wishbringer/wishbringer.all.json"
     }
 }
