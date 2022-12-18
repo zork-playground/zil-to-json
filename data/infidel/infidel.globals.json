@@ -1,0 +1,267 @@
+{
+  "BIGFIX": 10000,
+  "LOAD-ALLOWED": 100,
+  "LOAD-MAX": 0,
+  "STATUE-TBL": {
+    "T": "T?STATUE-TBL"
+  },
+  "STATUE-NAME-TBL": {
+    "T": "T?STATUE-NAME-TBL"
+  },
+  "ORDER-LTBL": {
+    "T": "T?ORDER-LTBL"
+  },
+  "TURNED-LTBL": {
+    "T": "T?TURNED-LTBL"
+  },
+  "DOWN-LTBL": {
+    "T": "T?DOWN-LTBL"
+  },
+  "SOMETHING-DROPPED": false,
+  "WHAT-WAS-DROPPED": false,
+  "ROPE-PLACED": false,
+  "ROPE-TIED": false,
+  "MATCH-COUNT": 20,
+  "SCARAB-SET": false,
+  "OIL-SOAKED": false,
+  "OILED-TORCH": false,
+  "OIL-LEFT": 100,
+  "TORCH-TURNS": 0,
+  "TURN-OFFSET": 0,
+  "CAN-TURN-STATUES": false,
+  "STATUES-SET": false,
+  "ANTE-SEAL": {
+    "A": "T"
+  },
+  "BEAM-PLACED": false,
+  "ON-BEAM": false,
+  "INNER-DOOR-SEALED": {
+    "A": "T"
+  },
+  "PLASTER-GONE": false,
+  "FIRST-ENTRY": {
+    "A": "T"
+  },
+  "STAR-LTBL": {
+    "T": "T?STAR-LTBL"
+  },
+  "COMPASS-POINTS-LTBL": {
+    "T": "T?COMPASS-POINTS-LTBL"
+  },
+  "COMPASS-TAILS-LTBL": {
+    "T": "T?COMPASS-TAILS-LTBL"
+  },
+  "WATER-LEFT": 0,
+  "C-TABLE": {
+    "T": "T?C-TABLE"
+  },
+  "C-DEMONS": 180,
+  "C-INTS": 180,
+  "CLOCK-WAIT": false,
+  "PLAYER": false,
+  "P-WON": false,
+  "P-MULT": false,
+  "P-NOT-HERE": 0,
+  "L-PRSA": false,
+  "L-PRSO": false,
+  "L-PRSI": false,
+  "START-STR": "You wake slowly, sit up in your bunk, look around the tent, and try to ignore\r\nthe pounding in your head, the cottony taste in your mouth, and the ache in\r\nyour stomach. The droning of a plane's engine breaks the stillness and you\r\nrealize that things outside are quiet -- too quiet. You know that this can\r\nmean only one thing: your workmen have deserted you. They complained over the\r\nlast few weeks, grumbling about the small pay and lack of food, and your\r\ninability to locate the pyramid. And after what you stupidly did yesterday,\r\ntrying to make them work on a holy day, their leaving is understandable.|\r\n|\r\nThe Professor's map was just an ancient map -- as worthless as an ice cube in\r\nthe Arctic without an instrument fine enough to accurately measure longitude\r\nand latitude. You knew that the site was nearby. You dug, and you ordered the\r\nworkers to dig, even without the box. As you listen to the plane and rub your\r\naching eyes, you pray they left you supplies enough to find the pyramid and to\r\nsurvive, and that the plane's carrying the long-overdue box.",
+  "GWIM-DISABLE": false,
+  "PRSA": 0,
+  "PRSI": 0,
+  "PRSO": 0,
+  "P-TABLE": 0,
+  "P-ONEOBJ": 0,
+  "P-SYNTAX": 0,
+  "P-CCSRC": 0,
+  "P-LEN": 0,
+  "P-DIR": 0,
+  "HERE": 0,
+  "WINNER": 0,
+  "P-LEXV": {
+    "T": "T?P-LEXV"
+  },
+  "P-INBUF": {
+    "T": "T?P-INBUF"
+  },
+  "P-CONT": false,
+  "P-IT-OBJECT": false,
+  "P-IT-LOC": false,
+  "P-OFLAG": false,
+  "P-MERGED": false,
+  "P-ACLAUSE": false,
+  "P-ANAM": false,
+  "P-AADJ": false,
+  "P-ITBL": {
+    "T": "T?P-ITBL"
+  },
+  "P-OTBL": {
+    "T": "T?P-OTBL"
+  },
+  "P-VTBL": {
+    "T": "T?P-VTBL"
+  },
+  "P-NCN": 0,
+  "QUOTE-FLAG": false,
+  "P-WALK-DIR": false,
+  "P-NUMBER": 0,
+  "P-DIRECTION": 0,
+  "P-SLOCBITS": 0,
+  "P-GWIMBIT": 0,
+  "P-NAM": false,
+  "P-ADJ": false,
+  "P-ADVERB": false,
+  "P-ADJN": false,
+  "P-PRSO": {
+    "T": "T?P-PRSO"
+  },
+  "P-PRSI": {
+    "T": "T?P-PRSI"
+  },
+  "P-BUTS": {
+    "T": "T?P-BUTS"
+  },
+  "P-MERGE": {
+    "T": "T?P-MERGE"
+  },
+  "P-OCLAUSE": {
+    "T": "T?P-OCLAUSE"
+  },
+  "P-MATCHLEN": 0,
+  "P-GETFLAGS": 0,
+  "P-CSPTR": false,
+  "P-CEPTR": false,
+  "P-MOBY-FOUND": false,
+  "P-XNAM": false,
+  "P-XADJ": false,
+  "P-XADJN": false,
+  "VERBOSE": false,
+  "SUPER-BRIEF": false,
+  "LIT": false,
+  "DESC-OBJECT": false,
+  "MOVES": 0,
+  "SCORE": 0,
+  "BASE-SCORE": 0,
+  "WON-FLAG": false,
+  "SCORE-MAX": 400,
+  "DEAD": false,
+  "DEATHS": 0,
+  "LUCKY": 1,
+  "INDENTS": {
+    "T": "T?INDENTS"
+  },
+  "FUMBLE-NUMBER": 7,
+  "COPR-NOTICE": " a transcript of interaction with INFIDEL.|\r\nINFIDEL is a registered trademark of Infocom, Inc.|\r\nCopyright (c) 1983 Infocom, Inc.  All rights reserved.|",
+  "STOOD-UP": false,
+  "NILE-DRINKS": 0,
+  "PRAYER-HACK": 0,
+  "HS": 0,
+  "HELLOS": {
+    "T": "T?HELLOS"
+  },
+  "WHEEEEE": {
+    "T": "T?WHEEEEE"
+  },
+  "JUMPLOSS": {
+    "T": "T?JUMPLOSS"
+  },
+  "PUSH-TBL": {
+    "T": "T?PUSH-TBL"
+  },
+  "HO-HUM": {
+    "T": "T?HO-HUM"
+  },
+  "THIRST": 0,
+  "DIGGER-LTBL": {
+    "T": "T?DIGGER-LTBL"
+  },
+  "YUKS": {
+    "T": "T?YUKS"
+  },
+  "CROC-STR": "You manage to wade a few feet into the river, but this makes the crocodiles\r\nspring into action -- they advance far more quickly than you thought possible.\r\nYou panic and turn to the bank, attempting to flee. Your splashing about makes\r\nthe beasts double their efforts and reach you just as you are about to step on\r\nshore. The last thought you have is a slight amazement at how many teeth a\r\ncrocodile has and just how sharp they are.",
+  "RING-COUNTER": 0,
+  "HUNGER": 0,
+  "RANDOM-ROOM-LTBL": {
+    "T": "T?RANDOM-ROOM-LTBL"
+  },
+  "ROOM-LTBL": {
+    "T": "T?ROOM-LTBL"
+  },
+  "PYR-THIRST": 0,
+  "PLUNGE-STR": "You take a few steps down the steep staircase when suddenly you lose your\r\nfooting as you try to walk on air. You fall a mere 25 feet straight\r\ndown and, landing on your head, regret your attempt.",
+  "ROPE-HACK": false,
+  "RA-STR": "You are standing in the Chamber of Ra, a tribute to the Sun God. Even though\r\nthe only natural light enters through the opening above, the room is\r\nbrilliantly lit as though the walls themselves generated light. The room\r\nslopes inward and the walls meet at an open point, over your head. The heat of\r\nthe desert filters down through the opening and, as the air slowly circulates,\r\nthe deep, long-dead musty odors from the depths of the pyramid assault your\r\nsenses. Four staircases descend from here: a steep one to the north, a winding\r\none to the south, a wide one to the east, and a narrow one to the west.",
+  "LANDING": false,
+  "SLAB-TBL": {
+    "T": "T?SLAB-TBL"
+  },
+  "INCH-LTBL": {
+    "T": "T?INCH-LTBL"
+  },
+  "DEATH-BEAM-STR": "The plaster starts to chip away beneath the incessant tapping of your pick\r\naxe. You quickly realize, however, that the tapping has started some sand\r\nflowing out of the bottom of the doorway. Just as you realize the seriousness\r\nof your situation, the floor gives out beneath you and you plummet down, down,\r\ndown into a den of voracious rats...",
+  "SCARAB-DEATH-STR": "As soon as you lift the scarab from the disc, the left and right discs rise\r\nfar enough above the surface of the table to activate a mechanism. You hear it\r\nclick just before the ceiling comes down to meet the floor.",
+  "CIRCLE-SCORED": false,
+  "HALL-DIR": false,
+  "STATUE-CHK-TBL": {
+    "T": "T?STATUE-CHK-TBL"
+  },
+  "KLUDGE-FLG": false,
+  "PUSHED-BEAM": false,
+  "BARGE-BURN-STR": "The barge immediately catches fire in a tremendous flash and, before you know\r\nit, you're heated to a toasty 1000 degrees. Not being made of asbestos has its\r\ndisadvantages, as you quickly realize....",
+  "AIR-WALK": "Well, despite your \"angelic\" qualities, you aren't very good at walking on\r\nair and so, with a scream on your lips, you plunge to a horrible death in a pit\r\nof voracious rats.",
+  "BURIAL-BEAM-STR": "How fitting -- to be trapped forever in the Burial Chamber, waiting slowly,\r\npainfully, for your oxygen to run out -- a true testimony to the brilliance of\r\nthe Queen and her protection.",
+  "ANNEX-BEAM-STR": "The doorway suddenly closes as heavy, immovable stones crush in from both\r\nsides. You slowly and painfully suffocate in the Annex, cursing the gods for\r\never revealing this horrible place to you. You wish you had told Craige about\r\nthis place -- that way, it could have been he instead of you.",
+  "BRICKS-TBL": {
+    "T": "T?BRICKS-TBL"
+  },
+  "BRICKS-PRESSED": false,
+  "NUM-TBL": {
+    "T": "T?NUM-TBL"
+  },
+  "DASH-STR": "-----------------------------",
+  "EX-SP-EX-STR": "!                           !",
+  "BRICKS-TAKEN": 0,
+  "WRONG-BRICK": false,
+  "DESC-HOLE-LTBL": {
+    "T": "T?DESC-HOLE-LTBL"
+  },
+  "SPACE-TALES-LTBL": {
+    "T": "T?SPACE-TALES-LTBL"
+  },
+  "MIRAGE-LTBL": {
+    "T": "T?MIRAGE-LTBL"
+  },
+  "TRUNK-TBL": {
+    "T": "T?TRUNK-TBL"
+  },
+  "PYRAMID-OPENED": false,
+  "SANDY-CANTEEN": false,
+  "SAND-FILLED": false,
+  "TOLD-IT": false,
+  "REENTRY-TBL": {
+    "T": "T?REENTRY-TBL"
+  },
+  "DESERT-LOC": 0,
+  "DESERT-TABLE": {
+    "T": "T?DESERT-TABLE"
+  },
+  "DESERT-HACK": 0,
+  "SECS-LAT": 0,
+  "SECS-LON": 0,
+  "MINS-LAT": 0,
+  "MINS-LON": 0,
+  "DEGS-LAT": 0,
+  "DEGS-LON": 0,
+  "PROP-TBL": {
+    "T": "T?PROP-TBL"
+  },
+  "CRATE-TBL": {
+    "T": "T?CRATE-TBL"
+  },
+  "NOISES-LTBL": {
+    "T": "T?NOISES-LTBL"
+  },
+  "MAP-TBL": {
+    "T": "T?MAP-TBL"
+  }
+}

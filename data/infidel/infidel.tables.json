@@ -1,0 +1,1779 @@
+[
+  {
+    "Source": "GLOBALS.zil:517",
+    "Name": null,
+    "Flags": "0",
+    "Data": [
+      "",
+      "  ",
+      "    ",
+      "      ",
+      "        ",
+      "          "
+    ]
+  },
+  {
+    "Source": "GLOBALS.zil:529",
+    "Name": "T?STATUE-TBL",
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "ISIS"
+      },
+      {
+        "A": "NEPHTHYS"
+      },
+      {
+        "A": "NEITH"
+      },
+      {
+        "A": "SELKIS"
+      }
+    ]
+  },
+  {
+    "Source": "GLOBALS.zil:531",
+    "Name": "T?STATUE-NAME-TBL",
+    "Flags": "0",
+    "Data": [
+      "Isis",
+      "Nephthys",
+      "Neith",
+      "Selkis"
+    ]
+  },
+  {
+    "Source": "GLOBALS.zil:533",
+    "Name": "T?ORDER-LTBL",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      {
+        "A": "NEITH"
+      },
+      {
+        "A": "SELKIS"
+      },
+      {
+        "A": "ISIS"
+      },
+      {
+        "A": "NEPHTHYS"
+      }
+    ]
+  },
+  {
+    "Source": "GLOBALS.zil:535",
+    "Name": "T?TURNED-LTBL",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "GLOBALS.zil:537",
+    "Name": "T?DOWN-LTBL",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      {
+        "A": "LANDING-ZERO"
+      },
+      {
+        "A": "LANDING-ONE"
+      },
+      {
+        "A": "LANDING-TWO"
+      },
+      {
+        "A": "LANDING-THREE"
+      }
+    ]
+  },
+  {
+    "Source": "GLOBALS.zil:693",
+    "Name": "T?STAR-LTBL",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      "(@)",
+      "(@@)",
+      "(@@@)",
+      "(@@@@)"
+    ]
+  },
+  {
+    "Source": "GLOBALS.zil:699",
+    "Name": "T?COMPASS-POINTS-LTBL",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      " .",
+      "\\",
+      " /",
+      ". "
+    ]
+  },
+  {
+    "Source": "GLOBALS.zil:706",
+    "Name": "T?COMPASS-TAILS-LTBL",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      "/",
+      " .",
+      ". ",
+      " \\"
+    ]
+  },
+  {
+    "Source": "CLOCK.zil:8",
+    "Name": "T?C-TABLE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:41",
+    "Name": "T?P-LEXV",
+    "Flags": "ByteLength",
+    "Data": [
+      120,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:44",
+    "Name": "T?P-INBUF",
+    "Flags": "ByteLength",
+    "Data": [
+      100,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:93",
+    "Name": "T?P-ITBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "PARSER.zil:95",
+    "Name": "T?P-OTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "PARSER.zil:97",
+    "Name": "T?P-VTBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "PARSER.zil:741",
+    "Name": "T?P-PRSO",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:743",
+    "Name": "T?P-PRSI",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:745",
+    "Name": "T?P-BUTS",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:747",
+    "Name": "T?P-MERGE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "PARSER.zil:749",
+    "Name": "T?P-OCLAUSE",
+    "Flags": "0",
+    "Data": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "Source": "VERBS.zil:459",
+    "Name": "T?INDENTS",
+    "Flags": "0",
+    "Data": [
+      "",
+      "  ",
+      "    ",
+      "      ",
+      "        ",
+      "          "
+    ]
+  },
+  {
+    "Source": "VERBS.zil:1334",
+    "Name": "T?HELLOS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      "Hello.",
+      "Good day.",
+      "Nice weather we've been having lately.",
+      "Goodbye."
+    ]
+  },
+  {
+    "Source": "VERBS.zil:1340",
+    "Name": "T?WHEEEEE",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      "Very good. Now you can go to the second grade.",
+      "Have you tried hopping around, too?",
+      "Are you enjoying yourself?",
+      "Wheeeeeeeeee!!!!!",
+      "Do you expect me to applaud?"
+    ]
+  },
+  {
+    "Source": "VERBS.zil:1346",
+    "Name": "T?JUMPLOSS",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      "You should have looked before you leaped.",
+      "I'm afraid that leap was a bit much for your weak\r\nframe.",
+      "In the movies, your life would be passing in front of\r\nyour eyes.",
+      "Geronimo....."
+    ]
+  },
+  {
+    "Source": "VERBS.zil:1624",
+    "Name": "T?PUSH-TBL",
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "A-PRIME"
+      },
+      {
+        "A": "P?NW"
+      },
+      {
+        "A": "P?SE"
+      },
+      {
+        "A": "B-PRIME"
+      },
+      {
+        "A": "P?NE"
+      },
+      {
+        "A": "P?SW"
+      },
+      {
+        "A": "D-PRIME"
+      },
+      {
+        "A": "P?SW"
+      },
+      {
+        "A": "P?NE"
+      },
+      {
+        "A": "E-PRIME"
+      },
+      {
+        "A": "P?SE"
+      },
+      {
+        "A": "P?NW"
+      }
+    ]
+  },
+  {
+    "Source": "VERBS.zil:1708",
+    "Name": "T?HO-HUM",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      " doesn't seem to work.",
+      " isn't notably helpful.",
+      " doesn't work.",
+      " has no effect."
+    ]
+  },
+  {
+    "Source": "VERBS.zil:1852",
+    "Name": "T?DIGGER-LTBL",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      "You've dug a small hole. As you stand there and watch it, the sand starts to\r\nfill it in a little.",
+      "You've enlarged the hole a little, taking out two shovelsfull for every one\r\nthat collapses back in from the walls.",
+      "You've made the hole quite sizable, though it's not very deep. The deeper you\r\ndig, the more the walls collapse and so you widen the base of the hole.",
+      "You're knee-deep in the hole, digging away, taking out more and more sand. You\r\nsilently curse those workers for having deserted you.",
+      "You've dug yourself into a deep hole. You're actually several feet below the\r\nsurrounding sand. The walls look very unstable."
+    ]
+  },
+  {
+    "Source": "VERBS.zil:2171",
+    "Name": "T?YUKS",
+    "Flags": "WordLength",
+    "Data": [
+      9,
+      "Not within this life cycle.",
+      "With this kind of wisdom, be glad you're not in a Sphinx.",
+      "A totally bizarre concept. For sure.",
+      "Totally different head, man. Like, untubular.",
+      "Kookie, man.",
+      "I've heard better ideas from politicians.",
+      "A truly amazing concept, that.",
+      "Bizarre barely describes that desire.",
+      "Let's face it -- that isn't going to happen."
+    ]
+  },
+  {
+    "Source": "INTERRUPTS.zil:237",
+    "Name": "T?RANDOM-ROOM-LTBL",
+    "Flags": "WordLength",
+    "Data": [
+      14,
+      {
+        "A": "P1"
+      },
+      {
+        "A": "P2"
+      },
+      {
+        "A": "P3"
+      },
+      {
+        "A": "P4"
+      },
+      {
+        "A": "P5"
+      },
+      {
+        "A": "P6"
+      },
+      {
+        "A": "P7"
+      },
+      {
+        "A": "P8"
+      },
+      {
+        "A": "EX1"
+      },
+      {
+        "A": "EX3"
+      },
+      {
+        "A": "EX5"
+      },
+      {
+        "A": "EX7"
+      },
+      {
+        "A": "EX9"
+      },
+      {
+        "A": "FIRE"
+      }
+    ]
+  },
+  {
+    "Source": "INTERRUPTS.zil:241",
+    "Name": "T?ROOM-LTBL",
+    "Flags": "WordLength",
+    "Data": [
+      9,
+      {
+        "A": "P1"
+      },
+      {
+        "A": "P2"
+      },
+      {
+        "A": "P3"
+      },
+      {
+        "A": "P4"
+      },
+      {
+        "A": "P5"
+      },
+      {
+        "A": "P6"
+      },
+      {
+        "A": "P7"
+      },
+      {
+        "A": "P8"
+      },
+      {
+        "A": "FIRE"
+      }
+    ]
+  },
+  {
+    "Source": "ANTE.zil:303",
+    "Name": "T?SLAB-TBL",
+    "Flags": "WordLength",
+    "Data": [
+      30,
+      {
+        "A": "DEAD-BOOK"
+      },
+      {
+        "A": "SPATULA"
+      },
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "ANTE.zil:680",
+    "Name": "T?INCH-LTBL",
+    "Flags": "WordLength",
+    "Data": [
+      8,
+      "one inch",
+      "two inches",
+      "three inches",
+      "four inches",
+      "five inches",
+      "six inches",
+      "seven inches",
+      "eight inches"
+    ]
+  },
+  {
+    "Source": "DIAMOND.zil:387",
+    "Name": "T?STATUE-CHK-TBL",
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "A-PRIME"
+      },
+      {
+        "A": "E-PRIME"
+      },
+      "southeast",
+      {
+        "A": "E-PRIME"
+      },
+      {
+        "A": "A-PRIME"
+      },
+      "northwest",
+      {
+        "A": "B-PRIME"
+      },
+      {
+        "A": "D-PRIME"
+      },
+      "southwest",
+      {
+        "A": "D-PRIME"
+      },
+      {
+        "A": "B-PRIME"
+      },
+      "northeast"
+    ]
+  },
+  {
+    "Source": "CUBE.zil:86",
+    "Name": "T?BRICKS-TBL",
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "BRICK-ONE"
+      },
+      {
+        "A": "BRICK-TWO"
+      },
+      {
+        "A": "BRICK-THREE"
+      },
+      {
+        "A": "BRICK-FOUR"
+      },
+      {
+        "A": "BRICK-FIVE"
+      },
+      {
+        "A": "BRICK-SIX"
+      },
+      {
+        "A": "BRICK-SEVEN"
+      },
+      {
+        "A": "BRICK-EIGHT"
+      },
+      {
+        "A": "BRICK-NINE"
+      }
+    ]
+  },
+  {
+    "Source": "CUBE.zil:170",
+    "Name": "T?NUM-TBL",
+    "Flags": "0",
+    "Data": [
+      "no",
+      "one",
+      "two",
+      "three",
+      "four",
+      "five",
+      "six",
+      "seven",
+      "eight",
+      "nine"
+    ]
+  },
+  {
+    "Source": "CAMP.zil:809",
+    "Name": "T?DESC-HOLE-LTBL",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      " small hole",
+      "n enlarged hole",
+      " sizable hole",
+      " knee-deep hole",
+      " deep hole"
+    ]
+  },
+  {
+    "Source": "CAMP.zil:816",
+    "Name": "T?SPACE-TALES-LTBL",
+    "Flags": "WordLength",
+    "Data": [
+      6,
+      "You hear a whirring overhead and look up in time to see a gyrocopter settling\r\nto the sand on the horizon.",
+      "You think you see a spaceship settling on the horizon and, as you strain your\r\neyes through the wafting waves of heat, you see a man and a huge robot. You can\r\nalmost hear them saying \"Gort, Klaatu Barada Nikto.\"",
+      "A small lizard pokes its head up from the sands and asks the shortest route to\r\nTimes Square. You scratch your head for a moment and when you remember the\r\nproper subway line to recommend to it, you notice it's disappeared.",
+      "Five maids amilking sit on sandy stools before you, grinning maniacally.",
+      "A large rainbow trout walks by, holding a pet snail on a leash.",
+      "A strong gust of wind kicks up a herd of buffalo on the horizon. You think it\r\nstrange that the buffalo are riding sidesaddle."
+    ]
+  },
+  {
+    "Source": "CAMP.zil:831",
+    "Name": "T?MIRAGE-LTBL",
+    "Flags": "WordLength",
+    "Data": [
+      4,
+      "Far off in the distance, dancing on the horizon, you see a shimmering oasis.\r\nStanding by the oasis are a team of Egyptian workers, waving for you to\r\napproach.",
+      "A cool pool of water seems to dance in the heat waves just a mile away. You\r\ncan almost hear Rankin and Craige arguing over the spoils.",
+      "A caravan of camels, led by a nomadic tribe, wanders a few miles off.",
+      "You wipe your sweating brow, gazing off into the distance, and notice a cool,\r\ncrystal-clear lake glimmering on the horizon, just to the north."
+    ]
+  },
+  {
+    "Source": "CAMP.zil:1254",
+    "Name": "T?TRUNK-TBL",
+    "Flags": "WordLength",
+    "Data": [
+      29,
+      {
+        "A": "MAP"
+      },
+      {
+        "A": "FOOD"
+      },
+      {
+        "A": "SMALL-SLIP"
+      },
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "CAMP.zil:1747",
+    "Name": "T?REENTRY-TBL",
+    "Flags": "0",
+    "Data": [
+      651,
+      {
+        "A": "P1"
+      },
+      652,
+      {
+        "A": "P2"
+      },
+      653,
+      {
+        "A": "P3"
+      },
+      654,
+      {
+        "A": "EX1"
+      },
+      655,
+      {
+        "A": "EX2"
+      },
+      656,
+      {
+        "A": "EX3"
+      },
+      706,
+      {
+        "A": "EX6"
+      },
+      751,
+      {
+        "A": "P6"
+      },
+      752,
+      {
+        "A": "P7"
+      },
+      753,
+      {
+        "A": "P8"
+      },
+      754,
+      {
+        "A": "EX7"
+      },
+      755,
+      {
+        "A": "EX8"
+      },
+      756,
+      {
+        "A": "EX9"
+      }
+    ]
+  },
+  {
+    "Source": "CAMP.zil:1785",
+    "Name": "T?DESERT-TABLE",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "CAMP.zil:1888",
+    "Name": "T?PROP-TBL",
+    "Flags": "0",
+    "Data": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "CAMP.zil:2190",
+    "Name": "T?CRATE-TBL",
+    "Flags": "WordLength",
+    "Data": [
+      29,
+      {
+        "A": "BLACK-BOX"
+      },
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "Source": "CAMP.zil:2239",
+    "Name": "T?NOISES-LTBL",
+    "Flags": "WordLength",
+    "Data": [
+      5,
+      "Crinkle fweep",
+      "Bleeeeeeeeeep",
+      "Sproing",
+      "Screetchle frop",
+      "Breeble grungle"
+    ]
+  },
+  {
+    "Source": "CAMP.zil:2317",
+    "Name": "T?MAP-TBL",
+    "Flags": "0",
+    "Data": [
+      {
+        "A": "RIVER-BANK"
+      },
+      33,
+      7,
+      {
+        "A": "P1"
+      },
+      35,
+      7,
+      {
+        "A": "P2"
+      },
+      37,
+      7,
+      {
+        "A": "P3"
+      },
+      39,
+      7,
+      {
+        "A": "EX1"
+      },
+      41,
+      7,
+      {
+        "A": "EX2"
+      },
+      43,
+      7,
+      {
+        "A": "EX3"
+      },
+      45,
+      7,
+      {
+        "A": "P4"
+      },
+      35,
+      5,
+      {
+        "A": "FIRE"
+      },
+      37,
+      5,
+      {
+        "A": "P5"
+      },
+      39,
+      5,
+      {
+        "A": "EX4"
+      },
+      41,
+      5,
+      {
+        "A": "EX5"
+      },
+      43,
+      5,
+      {
+        "A": "EX6"
+      },
+      45,
+      5,
+      {
+        "A": "P6"
+      },
+      35,
+      3,
+      {
+        "A": "P7"
+      },
+      37,
+      3,
+      {
+        "A": "P8"
+      },
+      39,
+      3,
+      {
+        "A": "EX7"
+      },
+      41,
+      3,
+      {
+        "A": "EX8"
+      },
+      43,
+      3,
+      {
+        "A": "EX9"
+      },
+      45,
+      3
+    ]
+  }
+]

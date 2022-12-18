@@ -1,0 +1,4758 @@
+[
+  {
+    "Name": "GLOBAL-OBJECTS",
+    "Properties": {
+      "FLAGS": [
+        "RMUNGBIT",
+        "INVISIBLE",
+        "TOUCHBIT",
+        "SURFACEBIT",
+        "TRYTAKEBIT",
+        "VOWELBIT",
+        "OPENBIT",
+        "SEARCHBIT",
+        "TRANSBIT",
+        "WEARBIT",
+        "ONBIT"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "LOCAL-GLOBALS",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "SYNONYM": [
+        "ZZMGCK"
+      ],
+      "DESCFCN": [
+        0
+      ],
+      "GLOBAL": [
+        {
+          "A": "GLOBAL-OBJECTS"
+        }
+      ],
+      "PSEUDO": [
+        "FOOBAR",
+        {
+          "A": "V-WAIT"
+        }
+      ],
+      "CONTFCN": [
+        0
+      ],
+      "SIZE": [
+        0
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "ROOMS",
+    "Properties": {},
+    "IsRoom": false
+  },
+  {
+    "Name": "BASIE",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "SYNONYM": [
+        "BASIE"
+      ],
+      "DESC": [
+        "Basie"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "PETROL",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "SYNONYM": [
+        "GASOLI",
+        "PETROL"
+      ],
+      "DESC": [
+        "gasoline"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "FOO-TOOL",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "SYNONYM": [
+        "HAMMER",
+        "CROWBA",
+        "EXPLOS",
+        "MACHET"
+      ],
+      "DESC": [
+        "such thing"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "DRACULA",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "SYNONYM": [
+        "DRACULA"
+      ],
+      "DESC": [
+        "Dracula"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "FINGER",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "FLAGS": [
+        "SURFACEBIT",
+        "OPENBIT",
+        "CONTBIT",
+        "TOUCHBIT"
+      ],
+      "CAPACITY": [
+        1
+      ],
+      "SYNONYM": [
+        "FINGER"
+      ],
+      "DESC": [
+        "finger"
+      ],
+      "ACTION": [
+        {
+          "A": "FINGER-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BLESSINGS",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "SYNONYM": [
+        "BLESSI"
+      ],
+      "DESC": [
+        "blessings"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "INTNUM",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "SYNONYM": [
+        "INTNUM"
+      ],
+      "DESC": [
+        "number"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "INTDIR",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "SYNONYM": [
+        "INTDIR"
+      ],
+      "ADJECTIVE": [
+        "NORTH",
+        "EAST",
+        "SOUTH",
+        "WEST",
+        "NE",
+        "NW",
+        "SE",
+        "SW"
+      ],
+      "FLAGS": [
+        "TOOLBIT"
+      ],
+      "DESC": [
+        "direction"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "PSEUDO-OBJECT",
+    "Properties": {
+      "DESC": [
+        "pseudo"
+      ],
+      "ACTION": [
+        {
+          "A": "CRETIN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "IT",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "SYNONYM": [
+        "IT",
+        "THAT"
+      ],
+      "DESC": [
+        "random object"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "TOUCHBIT"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "AIR",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "DESC": [
+        "air"
+      ],
+      "FLAGS": [
+        "VOWELBIT",
+        "CONTBIT",
+        "OPENBIT"
+      ],
+      "SYNONYM": [
+        "AIR",
+        "OXYGEN",
+        "SKY"
+      ],
+      "TEXT": [
+        "The air is as clear as any Egyptian air can be."
+      ],
+      "ACTION": [
+        {
+          "A": "AIR-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "GROUND",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "SYNONYM": [
+        "FLOOR",
+        "GROUND"
+      ],
+      "DESC": [
+        "floor"
+      ],
+      "ACTION": [
+        {
+          "A": "READ-FLOOR-F"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "CRACK",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "FLAGS": [
+        "NDESCBIT",
+        "CONTBIT",
+        "OPENBIT"
+      ],
+      "DESC": [
+        "crack"
+      ],
+      "SYNONYM": [
+        "CRACK"
+      ],
+      "TEXT": [
+        "It's just a crack in the floor where the stones meet."
+      ],
+      "ACTION": [
+        {
+          "A": "CRACK-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SAND",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "FLAGS": [
+        "NDESCBIT"
+      ],
+      "DESC": [
+        "sand"
+      ],
+      "SYNONYM": [
+        "DESERT",
+        "SAND",
+        "GROUND"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "HOLE",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "FLAGS": [
+        "NDESCBIT"
+      ],
+      "DESC": [
+        "hole"
+      ],
+      "SYNONYM": [
+        "HOLE"
+      ],
+      "ADJECTIVE": [
+        "SMALL",
+        "ENLARG",
+        "SIZABL",
+        "KNEE-",
+        "DEEP"
+      ],
+      "ACTION": [
+        {
+          "A": "HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "PEN-PENCIL",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "DESC": [
+        "writing implement"
+      ],
+      "SYNONYM": [
+        "PEN",
+        "PENCIL"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "STONES",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "SYNONYM": [
+        "STONES",
+        "BLOCKS"
+      ],
+      "DESC": [
+        "stones"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "KEY",
+    "Properties": {
+      "#IN": "GLOBALS",
+      "FLAGS": [
+        "NDESCBIT"
+      ],
+      "DESC": [
+        "key"
+      ],
+      "SYNONYM": [
+        "KEY"
+      ],
+      "ADJECTIVE": [
+        "TRUNK"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BULKHEADS",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "FLAGS": [
+        "NDESCBIT",
+        "TOUCHBIT"
+      ],
+      "DESC": [
+        "bulkhead"
+      ],
+      "SYNONYM": [
+        "BULKHE"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "WALLS",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "FLAGS": [
+        "NDESCBIT",
+        "TOUCHBIT"
+      ],
+      "DESC": [
+        "wall"
+      ],
+      "SYNONYM": [
+        "WALL",
+        "WALLS"
+      ],
+      "ADJECTIVE": [
+        "STONE"
+      ],
+      "ACTION": [
+        {
+          "A": "WALL-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "CEILING",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "FLAGS": [
+        "NDESCBIT",
+        "TOUCHBIT"
+      ],
+      "DESC": [
+        "ceiling"
+      ],
+      "SYNONYM": [
+        "CEILIN"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "HANDS",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "SYNONYM": [
+        "HANDS"
+      ],
+      "DESC": [
+        "empty hands"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "TOOLBIT",
+        "TOUCHBIT",
+        "VOWELBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "READ-PALMS-F"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "ADVENTURER",
+    "Properties": {
+      "#IN": "TOP-OF-STAIRWAY",
+      "SYNONYM": [
+        "PLAYER",
+        "ADVENT",
+        "CRETIN"
+      ],
+      "DESC": [
+        "cretin"
+      ],
+      "FLAGS": [
+        "ACTORBIT",
+        "NDESCBIT",
+        "INVISIBLE"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "ME",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "SYNONYM": [
+        "ME",
+        "MYSELF",
+        "SELF",
+        "BACK"
+      ],
+      "DESC": [
+        "you"
+      ],
+      "FLAGS": [
+        "ACTORBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "CRETIN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "DOORWAY",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "FLAGS": [
+        "NDESCBIT",
+        "CONTBIT",
+        "OPENBIT"
+      ],
+      "DESC": [
+        "doorway"
+      ],
+      "SYNONYM": [
+        "DOORWAY",
+        "OPENIN"
+      ],
+      "ADJECTIVE": [
+        "ARCHED",
+        "TIMBER"
+      ],
+      "ACTION": [
+        {
+          "A": "DOORWAY-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "PICTURE-PANELS",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "DESC": [
+        "panel"
+      ],
+      "FLAGS": [
+        "NDESCBIT"
+      ],
+      "SYNONYM": [
+        "PANEL",
+        "PANELS"
+      ],
+      "ADJECTIVE": [
+        "GOLD",
+        "RED",
+        "CLAY",
+        "BEATEN"
+      ],
+      "ACTION": [
+        {
+          "A": "PANEL-ON-WALL-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "STAIRS",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "SYNONYM": [
+        "STAIRS",
+        "STEPS",
+        "LADDER",
+        "STAIRWAY"
+      ],
+      "DESC": [
+        "stairs"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "CLIMBBIT",
+        "TOUCHBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "DESC-STAIRS-F"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "PARACHUTE",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "SYNONYM": [
+        "PARACH",
+        "CHUTE"
+      ],
+      "DESC": [
+        "parachute"
+      ],
+      "ACTION": [
+        {
+          "A": "GOOD-LUCK-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "PLANE",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "DESC": [
+        "airplane"
+      ],
+      "SYNONYM": [
+        "PLANE",
+        "AIRPLA",
+        "PILOT"
+      ],
+      "TEXT": [
+        "Its a small, one-engine plane, similar in shape to the old Piper Cubs."
+      ],
+      "ACTION": [
+        {
+          "A": "PLANE-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SIP",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "FLAGS": [
+        "TAKEBIT"
+      ],
+      "DESC": [
+        "sip of water"
+      ],
+      "SYNONYM": [
+        "SIP"
+      ],
+      "ACTION": [
+        {
+          "A": "SIP-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "HIEROGLYPHS",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "DESC": [
+        "hieroglyphs"
+      ],
+      "FLAGS": [
+        "NDESCBIT"
+      ],
+      "SYNONYM": [
+        "SYMBOL",
+        "HIEROG",
+        "GLYPHS"
+      ],
+      "ADJECTIVE": [
+        "STRANGE"
+      ],
+      "ACTION": [
+        {
+          "A": "HIERO-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "PICTURES",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "FLAGS": [
+        "NDESCBIT"
+      ],
+      "DESC": [
+        "decorations"
+      ],
+      "SYNONYM": [
+        "PAINTI",
+        "PICTUR",
+        "SCROLL"
+      ],
+      "ADJECTIVE": [
+        "SMALL",
+        "LARGE"
+      ],
+      "TEXT": [
+        "Quite beautiful, no?"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "PILLARS",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "FLAGS": [
+        "NDESCBIT"
+      ],
+      "DESC": [
+        "pillars"
+      ],
+      "SYNONYM": [
+        "PILLARS"
+      ],
+      "TEXT": [
+        "They're quite huge, aren't they?"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BOAT",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "FLAGS": [
+        "VEHBIT"
+      ],
+      "DESC": [
+        "barge"
+      ],
+      "SYNONYM": [
+        "BARGE",
+        "BOAT",
+        "SHIP",
+        "WOOD"
+      ],
+      "ADJECTIVE": [
+        "WOODEN",
+        "WOOD"
+      ],
+      "ACTION": [
+        {
+          "A": "BOARD-BARGE-F"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "DECK",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "DESC": [
+        "deck"
+      ],
+      "SYNONYM": [
+        "DECK",
+        "DECKIN"
+      ],
+      "ACTION": [
+        {
+          "A": "JUMP-OFF-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "FLAPS",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "DESC": [
+        "flap"
+      ],
+      "SYNONYM": [
+        "FLAP",
+        "FLAPS"
+      ],
+      "ACTION": [
+        {
+          "A": "FLAP-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "THICKET",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "DESC": [
+        "thicket"
+      ],
+      "SYNONYM": [
+        "THICKE"
+      ],
+      "ACTION": [
+        {
+          "A": "THICKET-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "NOT-HERE-OBJECT",
+    "Properties": {
+      "DESC": [
+        "such thing"
+      ],
+      "ACTION": [
+        {
+          "A": "NOT-HERE-OBJECT-F"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "NORTH-STAIRS",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "FLAGS": [
+        "NDESCBIT",
+        "CLIMBBIT"
+      ],
+      "DESC": [
+        "steep staircase"
+      ],
+      "SYNONYM": [
+        "STAIRC",
+        "STAIRS",
+        "STEPS",
+        "STAIR"
+      ],
+      "ADJECTIVE": [
+        "STEEP",
+        "NORTH"
+      ],
+      "ACTION": [
+        {
+          "A": "RA-STAIRS-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "EAST-STAIRS",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "FLAGS": [
+        "NDESCBIT",
+        "CLIMBBIT"
+      ],
+      "DESC": [
+        "wide staircase"
+      ],
+      "SYNONYM": [
+        "STAIRC",
+        "STAIRS",
+        "STEPS",
+        "STAIR"
+      ],
+      "ADJECTIVE": [
+        "WIDE",
+        "EAST"
+      ],
+      "ACTION": [
+        {
+          "A": "RA-STAIRS-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SOUTH-STAIRS",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "FLAGS": [
+        "NDESCBIT",
+        "CLIMBBIT"
+      ],
+      "DESC": [
+        "winding staircase"
+      ],
+      "SYNONYM": [
+        "STAIRC",
+        "STAIRS",
+        "STEPS",
+        "STAIR"
+      ],
+      "ADJECTIVE": [
+        "WINDIN",
+        "SOUTH"
+      ],
+      "ACTION": [
+        {
+          "A": "RA-STAIRS-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "WEST-STAIRS",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "FLAGS": [
+        "NDESCBIT",
+        "CLIMBBIT"
+      ],
+      "DESC": [
+        "narrow staircase"
+      ],
+      "SYNONYM": [
+        "STAIRC",
+        "STAIRS",
+        "STEPS",
+        "STAIR"
+      ],
+      "ADJECTIVE": [
+        "NARROW",
+        "WEST"
+      ],
+      "ACTION": [
+        {
+          "A": "RA-STAIRS-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "FEW-STEPS",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "FLAGS": [
+        "NDESCBIT",
+        "CLIMBBIT"
+      ],
+      "DESC": [
+        "few steps"
+      ],
+      "SYNONYM": [
+        "STEPS",
+        "STAIRS"
+      ],
+      "ADJECTIVE": [
+        "FEW",
+        "FIRST"
+      ],
+      "ACTION": [
+        {
+          "A": "FEW-STEPS-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "ALTAR",
+    "Properties": {
+      "#IN": "CHAMBER-OF-RA",
+      "DESC": [
+        "stone altar"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "CONTBIT",
+        "OPENBIT",
+        "SURFACEBIT",
+        "VEHBIT",
+        "DONTTAKE",
+        "TRANSBIT",
+        "TRYTAKEBIT"
+      ],
+      "CAPACITY": [
+        1000
+      ],
+      "SYNONYM": [
+        "ALTAR"
+      ],
+      "ADJECTIVE": [
+        "LARGE",
+        "STONE"
+      ],
+      "TEXT": [
+        "The altar is three feet by five feet and is mounted firmly in the solid floor."
+      ],
+      "ACTION": [
+        {
+          "A": "ALTAR-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "TORCH",
+    "Properties": {
+      "#IN": "CHAMBER-OF-RA",
+      "FLAGS": [
+        "BURNBIT",
+        "TAKEBIT"
+      ],
+      "DESC": [
+        "bronze torch"
+      ],
+      "SYNONYM": [
+        "TORCH",
+        "WICK"
+      ],
+      "ADJECTIVE": [
+        "BRONZE"
+      ],
+      "FDESC": [
+        "Leaning against the altar is a bronze torch."
+      ],
+      "TEXT": [
+        "The torch has a tapered tip, much like a wick, which should be able to hold\r\na large amount of oil."
+      ],
+      "ACTION": [
+        {
+          "A": "TORCH-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "OIL-JAR",
+    "Properties": {
+      "#IN": "CHAMBER-OF-RA",
+      "SYNONYM": [
+        "JAR"
+      ],
+      "ADJECTIVE": [
+        "PINK",
+        "SMALL",
+        "ALABAS"
+      ],
+      "DESC": [
+        "pink jar"
+      ],
+      "FLAGS": [
+        "CONTBIT",
+        "TAKEBIT",
+        "BURNBIT"
+      ],
+      "CAPACITY": [
+        4
+      ],
+      "FDESC": [
+        "Lying on the floor, partially covered with dust, is a small pink alabaster\r\njar."
+      ],
+      "ACTION": [
+        {
+          "A": "OIL-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "LIQUID",
+    "Properties": {
+      "#IN": "OIL-JAR",
+      "FLAGS": [
+        "DONTTAKE"
+      ],
+      "DESC": [
+        "liquid"
+      ],
+      "TEXT": [
+        "The liquid is oily to the touch and smells as if it could be highly volatile."
+      ],
+      "SYNONYM": [
+        "LIQUID",
+        "OIL"
+      ],
+      "ACTION": [
+        {
+          "A": "LIQUID-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "T-LINTEL",
+    "Properties": {
+      "#IN": "NORTH-ANTECHAMBER",
+      "FLAGS": [
+        "NDESCBIT",
+        "DONTTAKE"
+      ],
+      "DESC": [
+        "timber lintel"
+      ],
+      "SYNONYM": [
+        "LINTEL"
+      ],
+      "ADJECTIVE": [
+        "TIMBER"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "TILES",
+    "Properties": {
+      "#IN": "MID-ANTECHAMBER",
+      "DESC": [
+        "tiles"
+      ],
+      "FLAGS": [
+        "DONTTAKE",
+        "TRYTAKEBIT",
+        "NDESCBIT"
+      ],
+      "SYNONYM": [
+        "TILES",
+        "IVORY"
+      ],
+      "TEXT": [
+        "Quite beautiful, no?"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "PIT",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "DESC": [
+        "deep pit"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "INVISIBLE"
+      ],
+      "SYNONYM": [
+        "PIT"
+      ],
+      "ADJECTIVE": [
+        "DEEP"
+      ],
+      "ACTION": [
+        {
+          "A": "PIT-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "LINTEL",
+    "Properties": {
+      "#IN": "WEST-END-OF-PASSAGE",
+      "FLAGS": [
+        "NDESCBIT",
+        "CONTBIT",
+        "OPENBIT",
+        "DONTTAKE"
+      ],
+      "DESC": [
+        "timber frame"
+      ],
+      "SYNONYM": [
+        "FRAME"
+      ],
+      "ADJECTIVE": [
+        "TIMBER"
+      ],
+      "TEXT": [
+        "The timber frame surrounds the doorway."
+      ],
+      "ACTION": [
+        {
+          "A": "BURN-FRAME-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "ROCKS",
+    "Properties": {
+      "#IN": "SOUTH-ANTECHAMBER",
+      "FLAGS": [
+        "NDESCBIT",
+        "DONTTAKE",
+        "CONTBIT",
+        "OPENBIT",
+        "SURFACEBIT"
+      ],
+      "DESC": [
+        "rocks"
+      ],
+      "CAPACITY": [
+        35
+      ],
+      "SYNONYM": [
+        "ROCKS"
+      ],
+      "ACTION": [
+        {
+          "A": "ROCKS-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "CHIPS1",
+    "Properties": {
+      "FLAGS": [
+        "NDESCBIT",
+        "TAKEBIT",
+        "DONTTAKE",
+        "TOUCHBIT"
+      ],
+      "DESC": [
+        "plaster dust"
+      ],
+      "SYNONYM": [
+        "DUST",
+        "CHIP",
+        "CHIPS"
+      ],
+      "TEXT": [
+        "The dust and chips are just remnants of your incessant tapping, tapping at the\r\nchamber door. Only this and nothing more."
+      ],
+      "ACTION": [
+        {
+          "A": "TAKE-A-CHIP-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "CHIPS2",
+    "Properties": {
+      "FLAGS": [
+        "NDESCBIT",
+        "TAKEBIT",
+        "DONTTAKE",
+        "TOUCHBIT"
+      ],
+      "DESC": [
+        "plaster dust"
+      ],
+      "SYNONYM": [
+        "DUST",
+        "CHIP",
+        "CHIPS"
+      ],
+      "TEXT": [
+        "The dust and chips are just remnants of your incessant tapping, tapping at the\r\nchamber door. Only this and nothing more."
+      ],
+      "ACTION": [
+        {
+          "A": "TAKE-A-CHIP-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SLAB",
+    "Properties": {
+      "#IN": "ANNEX",
+      "FLAGS": [
+        "DONTTAKE",
+        "CONTBIT",
+        "SURFACEBIT",
+        "OPENBIT"
+      ],
+      "DESC": [
+        "slab"
+      ],
+      "SYNONYM": [
+        "SLAB"
+      ],
+      "ADJECTIVE": [
+        "HUGE",
+        "STONE"
+      ],
+      "CAPACITY": [
+        200
+      ],
+      "DESCFCN": [
+        {
+          "A": "DESCRIBE-SLAB-FCN"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "OPEN-SLAB-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SLAB-SEAM",
+    "Properties": {
+      "#IN": "ANNEX",
+      "FLAGS": [
+        "NDESCBIT",
+        "DONTTAKE",
+        "CONTBIT"
+      ],
+      "DESC": [
+        "thin seam"
+      ],
+      "CAPACITY": [
+        1
+      ],
+      "SYNONYM": [
+        "SEAM"
+      ],
+      "ADJECTIVE": [
+        "THIN"
+      ],
+      "ACTION": [
+        {
+          "A": "SEAM-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "HOLE-4",
+    "Properties": {
+      "#IN": "ANNEX",
+      "FLAGS": [
+        "NDESCBIT",
+        "CONTBIT",
+        "DONTTAKE",
+        "OPENBIT"
+      ],
+      "DESC": [
+        "fourth hole"
+      ],
+      "SYNONYM": [
+        "HOLE",
+        "HOLES"
+      ],
+      "ADJECTIVE": [
+        "FOURTH"
+      ],
+      "CAPACITY": [
+        2
+      ],
+      "MAP": [
+        2
+      ],
+      "CONTFCN": [
+        {
+          "A": "D-HOLE-FCN"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "DIAMOND-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "HOLE-3",
+    "Properties": {
+      "#IN": "ANNEX",
+      "FLAGS": [
+        "NDESCBIT",
+        "CONTBIT",
+        "DONTTAKE",
+        "OPENBIT"
+      ],
+      "DESC": [
+        "third hole"
+      ],
+      "SYNONYM": [
+        "HOLE",
+        "HOLES"
+      ],
+      "ADJECTIVE": [
+        "THIRD"
+      ],
+      "CAPACITY": [
+        2
+      ],
+      "MAP": [
+        2
+      ],
+      "CONTFCN": [
+        {
+          "A": "D-HOLE-FCN"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "DIAMOND-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "HOLE-2",
+    "Properties": {
+      "#IN": "ANNEX",
+      "FLAGS": [
+        "NDESCBIT",
+        "CONTBIT",
+        "DONTTAKE",
+        "OPENBIT"
+      ],
+      "DESC": [
+        "second hole"
+      ],
+      "SYNONYM": [
+        "HOLE",
+        "HOLES"
+      ],
+      "ADJECTIVE": [
+        "SECOND"
+      ],
+      "CAPACITY": [
+        2
+      ],
+      "MAP": [
+        2
+      ],
+      "CONTFCN": [
+        {
+          "A": "D-HOLE-FCN"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "DIAMOND-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "HOLE-1",
+    "Properties": {
+      "#IN": "ANNEX",
+      "FLAGS": [
+        "NDESCBIT",
+        "CONTBIT",
+        "DONTTAKE",
+        "OPENBIT"
+      ],
+      "DESC": [
+        "first hole"
+      ],
+      "SYNONYM": [
+        "HOLE",
+        "HOLES"
+      ],
+      "ADJECTIVE": [
+        "FIRST"
+      ],
+      "CAPACITY": [
+        2
+      ],
+      "MAP": [
+        2
+      ],
+      "CONTFCN": [
+        {
+          "A": "D-HOLE-FCN"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "DIAMOND-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SCARAB-TABLE",
+    "Properties": {
+      "#IN": "TREASURY",
+      "FLAGS": [
+        "CONTBIT",
+        "OPENBIT",
+        "DONTTAKE"
+      ],
+      "DESC": [
+        "granite table"
+      ],
+      "SYNONYM": [
+        "TABLE"
+      ],
+      "ADJECTIVE": [
+        "GRANITE"
+      ],
+      "CAPACITY": [
+        100
+      ],
+      "DESCFCN": [
+        {
+          "A": "PROB-DESC"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "SCARAB-TABLE-F"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "LEFT-DISC",
+    "Properties": {
+      "#IN": "SCARAB-TABLE",
+      "DESC": [
+        "left disc"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "CONTBIT",
+        "OPENBIT",
+        "SURFACEBIT",
+        "DONTTAKE",
+        "TRANSBIT"
+      ],
+      "CAPACITY": [
+        30
+      ],
+      "SYNONYM": [
+        "DISC"
+      ],
+      "ADJECTIVE": [
+        "LEFT"
+      ],
+      "CONTFCN": [
+        {
+          "A": "DISC-CONTFCN"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "PUSH-DISC-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "RIGHT-DISC",
+    "Properties": {
+      "#IN": "SCARAB-TABLE",
+      "DESC": [
+        "right disc"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "CONTBIT",
+        "OPENBIT",
+        "SURFACEBIT",
+        "DONTTAKE",
+        "TRANSBIT"
+      ],
+      "CAPACITY": [
+        30
+      ],
+      "SYNONYM": [
+        "DISC"
+      ],
+      "ADJECTIVE": [
+        "RIGHT"
+      ],
+      "CONTFCN": [
+        {
+          "A": "DISC-CONTFCN"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "PUSH-DISC-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "MID-DISC",
+    "Properties": {
+      "#IN": "SCARAB-TABLE",
+      "DESC": [
+        "middle disc"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "CONTBIT",
+        "OPENBIT",
+        "SURFACEBIT",
+        "DONTTAKE",
+        "TRANSBIT"
+      ],
+      "CAPACITY": [
+        30
+      ],
+      "SYNONYM": [
+        "DISC"
+      ],
+      "ADJECTIVE": [
+        "MIDDLE"
+      ],
+      "ACTION": [
+        {
+          "A": "PUSH-DISC-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "NICHES",
+    "Properties": {
+      "#IN": "WEST-END-OF-PASSAGE",
+      "FLAGS": [
+        "NDESCBIT",
+        "DONTTAKE",
+        "CONTBIT",
+        "OPENBIT"
+      ],
+      "DESC": [
+        "small niche"
+      ],
+      "TEXT": [
+        "Each small niche rests about three inches off the floor. They are recessed\r\ninto the walls, one on either side of the passageway."
+      ],
+      "SYNONYM": [
+        "NICHE",
+        "NICHES"
+      ],
+      "ADJECTIVE": [
+        "SMALL"
+      ],
+      "CAPACITY": [
+        1
+      ],
+      "ACTION": [
+        {
+          "A": "NICHE-F"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "PLASTER1",
+    "Properties": {
+      "#IN": "STAIRS-BOTTOM",
+      "FLAGS": [
+        "NDESCBIT",
+        "TAKEBIT",
+        "TRYTAKEBIT",
+        "DONTTAKE"
+      ],
+      "DESC": [
+        "plaster"
+      ],
+      "SYNONYM": [
+        "PLASTE"
+      ],
+      "SIZE": [
+        5
+      ],
+      "ACTION": [
+        {
+          "A": "PLASTER1-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "INNER-DOOR",
+    "Properties": {
+      "#IN": "WEST-END-OF-PASSAGE",
+      "FLAGS": [
+        "NDESCBIT",
+        "DOORBIT",
+        "VOWELBIT",
+        "DONTTAKE"
+      ],
+      "SYNONYM": [
+        "DOOR"
+      ],
+      "ADJECTIVE": [
+        "INNER"
+      ],
+      "DESC": [
+        "inner door"
+      ],
+      "ACTION": [
+        {
+          "A": "INNER-DOOR-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "PLASTER",
+    "Properties": {
+      "FLAGS": [
+        "NDESCBIT",
+        "TAKEBIT",
+        "DONTTAKE",
+        "TRYTAKEBIT"
+      ],
+      "SYNONYM": [
+        "PLASTE"
+      ],
+      "DESC": [
+        "plaster"
+      ],
+      "TEXT": [
+        "The plaster is ancient, applied to the door behind it to prevent people from\r\nentering the resting place of the Queen. Some hieroglyphs are etched into the\r\nplaster."
+      ],
+      "SIZE": [
+        5
+      ],
+      "ACTION": [
+        {
+          "A": "PLASTER-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "NORTH-ANTE-DOOR",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "FLAGS": [
+        "NDESCBIT",
+        "DOORBIT"
+      ],
+      "SYNONYM": [
+        "DOOR"
+      ],
+      "ADJECTIVE": [
+        "BURIAL"
+      ],
+      "DESC": [
+        "burial door"
+      ],
+      "ACTION": [
+        {
+          "A": "NORTH-ANTE-DOOR-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "N-ANTE-SEAL",
+    "Properties": {
+      "#IN": "NORTH-ANTECHAMBER",
+      "FLAGS": [
+        "NDESCBIT"
+      ],
+      "DESC": [
+        "seal"
+      ],
+      "SYNONYM": [
+        "SEALS",
+        "SEAL"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "ANNEX-DOOR",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "FLAGS": [
+        "NDESCBIT",
+        "DOORBIT",
+        "VOWELBIT"
+      ],
+      "SYNONYM": [
+        "DOOR"
+      ],
+      "ADJECTIVE": [
+        "ANNEX"
+      ],
+      "DESC": [
+        "annex door"
+      ],
+      "ACTION": [
+        {
+          "A": "ANNEX-DOOR-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "ISIS",
+    "Properties": {
+      "#IN": "BURIAL-CHAMBER",
+      "DESC": [
+        "Isis statue"
+      ],
+      "SYNONYM": [
+        "STATUE"
+      ],
+      "ADJECTIVE": [
+        "ISIS"
+      ],
+      "FLAGS": [
+        "CLAMPBIT",
+        "TURNBIT",
+        "NDESCBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "TURN-STATUES-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "NEPHTHYS",
+    "Properties": {
+      "#IN": "BURIAL-CHAMBER",
+      "DESC": [
+        "Nephthys statue"
+      ],
+      "SYNONYM": [
+        "STATUE"
+      ],
+      "ADJECTIVE": [
+        "NEPHTH"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "CLAMPBIT",
+        "TURNBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "TURN-STATUES-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "NEITH",
+    "Properties": {
+      "#IN": "BURIAL-CHAMBER",
+      "DESC": [
+        "Neith statue"
+      ],
+      "SYNONYM": [
+        "STATUE"
+      ],
+      "ADJECTIVE": [
+        "NEITH"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "CLAMPBIT",
+        "TURNBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "TURN-STATUES-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SELKIS",
+    "Properties": {
+      "#IN": "BURIAL-CHAMBER",
+      "DESC": [
+        "Selkis statue"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "CLAMPBIT",
+        "TURNBIT"
+      ],
+      "SYNONYM": [
+        "STATUE"
+      ],
+      "ADJECTIVE": [
+        "SELKIS"
+      ],
+      "ACTION": [
+        {
+          "A": "TURN-STATUES-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "ARMS",
+    "Properties": {
+      "#IN": "BURIAL-CHAMBER",
+      "DESC": [
+        "arms"
+      ],
+      "SYNONYM": [
+        "ARM",
+        "ARMS"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "DONTTAKE"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SARCOPH",
+    "Properties": {
+      "#IN": "BURIAL-CHAMBER",
+      "DESC": [
+        "sarcophagus"
+      ],
+      "FLAGS": [
+        "CONTBIT",
+        "NDESCBIT",
+        "DONTTAKE"
+      ],
+      "CAPACITY": [
+        1000
+      ],
+      "SIZE": [
+        500
+      ],
+      "SYNONYM": [
+        "SARCOP",
+        "COFFIN"
+      ],
+      "ACTION": [
+        {
+          "A": "SARCOPH-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SARCOPH-COVER",
+    "Properties": {
+      "#IN": "BURIAL-CHAMBER",
+      "SIZE": [
+        150
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "CONTBIT",
+        "SURFACEBIT",
+        "OPENBIT",
+        "DONTTAKE"
+      ],
+      "SYNONYM": [
+        "COVER",
+        "QUARTZ"
+      ],
+      "ADJECTIVE": [
+        "QUARTZ"
+      ],
+      "DESC": [
+        "quartz cover"
+      ],
+      "CAPACITY": [
+        200
+      ],
+      "ACTION": [
+        {
+          "A": "SARCOPH-COVER-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "S-AREA",
+    "Properties": {
+      "#IN": "SARCOPH-COVER",
+      "FLAGS": [
+        "CONTBIT",
+        "SURFACEBIT",
+        "OPENBIT",
+        "NDESCBIT",
+        "DONTTAKE"
+      ],
+      "DESC": [
+        "smaller recess"
+      ],
+      "SYNONYM": [
+        "RECESS",
+        "AREA",
+        "AREAS"
+      ],
+      "ADJECTIVE": [
+        "SMALLE",
+        "SMALL"
+      ],
+      "CAPACITY": [
+        100
+      ],
+      "MAP": [
+        3
+      ],
+      "CONTFCN": [
+        {
+          "A": "RECESS-CONTFCN"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "SETBIT-FCN"
+        }
+      ],
+      "SIZE": [
+        1
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "L-AREA",
+    "Properties": {
+      "#IN": "SARCOPH-COVER",
+      "FLAGS": [
+        "CONTBIT",
+        "SURFACEBIT",
+        "OPENBIT",
+        "NDESCBIT",
+        "DONTTAKE"
+      ],
+      "DESC": [
+        "larger recess"
+      ],
+      "SYNONYM": [
+        "RECESS",
+        "AREA",
+        "AREAS"
+      ],
+      "ADJECTIVE": [
+        "LARGE",
+        "LARGER"
+      ],
+      "CAPACITY": [
+        100
+      ],
+      "CONTFCN": [
+        {
+          "A": "RECESS-CONTFCN"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "SETBIT-FCN"
+        }
+      ],
+      "SIZE": [
+        1
+      ],
+      "MAP": [
+        4
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SCARAB",
+    "Properties": {
+      "#IN": "MID-DISC",
+      "FLAGS": [
+        "TAKEBIT",
+        "TRYTAKEBIT",
+        "READBIT"
+      ],
+      "DESC": [
+        "scarab"
+      ],
+      "VALUE": [
+        10
+      ],
+      "SYNONYM": [
+        "SCARAB"
+      ],
+      "SIZE": [
+        8
+      ],
+      "MAP": [
+        3
+      ],
+      "ACTION": [
+        {
+          "A": "SCARAB-CHECK-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "DEAD-BOOK",
+    "Properties": {
+      "FLAGS": [
+        "READBIT",
+        "CONTBIT",
+        "TAKEBIT",
+        "VOWELBIT"
+      ],
+      "DESC": [
+        "ancient book"
+      ],
+      "SYNONYM": [
+        "BOOK"
+      ],
+      "ADJECTIVE": [
+        "ANCIEN"
+      ],
+      "ACTION": [
+        {
+          "A": "DEAD-BOOK-FCN"
+        }
+      ],
+      "SIZE": [
+        5
+      ],
+      "MAP": [
+        4
+      ],
+      "CAPACITY": [
+        1
+      ],
+      "VALUE": [
+        10
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "PAGE",
+    "Properties": {
+      "#IN": "DEAD-BOOK",
+      "DESC": [
+        "page"
+      ],
+      "SYNONYM": [
+        "PAGE"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "READBIT",
+        "BURNBIT",
+        "TURNBIT",
+        "DONTTAKE",
+        "TRYTAKEBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "PAGE-FCN"
+        }
+      ],
+      "SIZE": [
+        1
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "CRUMBLED-BOOK",
+    "Properties": {
+      "FLAGS": [
+        "INVISIBLE",
+        "BURNBIT",
+        "TAKEBIT",
+        "CONTBIT",
+        "READBIT",
+        "VOWELBIT",
+        "OPENBIT"
+      ],
+      "DESC": [
+        "ancient book"
+      ],
+      "SYNONYM": [
+        "BOOK",
+        "DEAD"
+      ],
+      "SIZE": [
+        5
+      ],
+      "TEXT": [
+        "This is what is left of the ancient Book of the Dead. Like the Queen it once\r\nreferred to, it too has seen better days."
+      ],
+      "VALUE": [
+        -20
+      ],
+      "MAP": [
+        4
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SPATULA",
+    "Properties": {
+      "FLAGS": [
+        "TAKEBIT",
+        "TOOLBIT",
+        "TOUCHBIT"
+      ],
+      "DESC": [
+        "small spatula"
+      ],
+      "SYNONYM": [
+        "SPATUL"
+      ],
+      "ADJECTIVE": [
+        "SMALL"
+      ],
+      "TEXT": [
+        "This spatula was originally used for opening books and turning their pages."
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "NEPHTH-JEWEL",
+    "Properties": {
+      "#IN": "ROOM-OF-NEPHTHYS",
+      "FLAGS": [
+        "TAKEBIT"
+      ],
+      "DESC": [
+        "diamond cluster"
+      ],
+      "VALUE": [
+        5
+      ],
+      "SIZE": [
+        2
+      ],
+      "FDESC": [
+        "A large diamond cluster, glittering in your light, sits on the floor directly\r\nunder the hieroglyphs."
+      ],
+      "SYNONYM": [
+        "CLUSTE"
+      ],
+      "MAP": [
+        2
+      ],
+      "ADJECTIVE": [
+        "DIAMON"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "HERRING-JEWEL",
+    "Properties": {
+      "#IN": "LANDING-ZERO",
+      "FLAGS": [
+        "TAKEBIT"
+      ],
+      "DESC": [
+        "golden cluster"
+      ],
+      "SIZE": [
+        2
+      ],
+      "FDESC": [
+        "A large golden cluster sits on the floor."
+      ],
+      "SYNONYM": [
+        "CLUSTE"
+      ],
+      "MAP": [
+        2
+      ],
+      "ADJECTIVE": [
+        "GOLDEN",
+        "GOLD"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SELKIS-JEWEL",
+    "Properties": {
+      "#IN": "ROOM-OF-SELKIS",
+      "FLAGS": [
+        "TAKEBIT"
+      ],
+      "VALUE": [
+        5
+      ],
+      "SIZE": [
+        2
+      ],
+      "DESC": [
+        "ruby cluster"
+      ],
+      "FDESC": [
+        "A beautiful ruby cluster, sparkling like fire, sits on the floor."
+      ],
+      "MAP": [
+        2
+      ],
+      "SYNONYM": [
+        "CLUSTE"
+      ],
+      "ADJECTIVE": [
+        "RUBY"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "ISIS-JEWEL",
+    "Properties": {
+      "#IN": "ROOM-OF-ISIS",
+      "FLAGS": [
+        "TAKEBIT",
+        "VOWELBIT"
+      ],
+      "VALUE": [
+        5
+      ],
+      "SIZE": [
+        2
+      ],
+      "DESC": [
+        "emerald cluster"
+      ],
+      "FDESC": [
+        "Lying on the ground is a brilliant, glowing emerald cluster."
+      ],
+      "MAP": [
+        2
+      ],
+      "SYNONYM": [
+        "CLUSTE"
+      ],
+      "ADJECTIVE": [
+        "EMERAL"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "NEITH-JEWEL",
+    "Properties": {
+      "#IN": "ROOM-OF-NEITH",
+      "FLAGS": [
+        "TAKEBIT",
+        "VOWELBIT"
+      ],
+      "DESC": [
+        "opal cluster"
+      ],
+      "FDESC": [
+        "An opal cluster, glistening with the light of a thousand fires, lies on the\r\nfloor."
+      ],
+      "SYNONYM": [
+        "CLUSTE"
+      ],
+      "ADJECTIVE": [
+        "OPAL"
+      ],
+      "VALUE": [
+        5
+      ],
+      "MAP": [
+        2
+      ],
+      "SIZE": [
+        2
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "TWINKLERS",
+    "Properties": {
+      "#IN": "ROOM-OF-ISIS",
+      "FLAGS": [
+        "NDESCBIT",
+        "DONTTAKE"
+      ],
+      "DESC": [
+        "quartz"
+      ],
+      "SYNONYM": [
+        "LIGHTS",
+        "QUARTZ",
+        "CHIPS",
+        "PATTER"
+      ],
+      "ADJECTIVE": [
+        "THOUSA",
+        "TINY"
+      ],
+      "TEXT": [
+        "They twinkle in the light, making beautiful patterns."
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "GEMS",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "DESC": [
+        "gem"
+      ],
+      "FLAGS": [
+        "NDESCBIT"
+      ],
+      "SYNONYM": [
+        "LAZULI",
+        "OBSIDI",
+        "JASPER",
+        "GEMS"
+      ],
+      "ADJECTIVE": [
+        "LAPIS",
+        "RED",
+        "INKY-",
+        "BLUE",
+        "JET-B"
+      ],
+      "TEXT": [
+        "The gems are quite remarkable, forming a delicate piece of art. To remove\r\nany of them would be beyond thinking. Even for you."
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "GEMS-2",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "DESC": [
+        "tile"
+      ],
+      "FLAGS": [
+        "NDESCBIT"
+      ],
+      "SYNONYM": [
+        "CARNEL",
+        "FELDSP",
+        "GEMS",
+        "TILES"
+      ],
+      "ADJECTIVE": [
+        "RED",
+        "YELLOW",
+        "BLUE",
+        "GREEN",
+        "BRIGHT"
+      ],
+      "TEXT": [
+        "They are quite remarkable, forming a delicate piece of art. To remove\r\nany of them would be beyond thinking. Even for you."
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "HUGE-STATUE",
+    "Properties": {
+      "#IN": "LANDING-ZERO",
+      "DESC": [
+        "large statue"
+      ],
+      "FDESC": [
+        "Sitting in the middle of the floor is a large statue, about two feet shorter\r\nthan you. It reminds you a little of Miss Ellingsworth."
+      ],
+      "FLAGS": [
+        "TAKEBIT",
+        "TRYTAKEBIT"
+      ],
+      "SIZE": [
+        281
+      ],
+      "SYNONYM": [
+        "STATUE"
+      ],
+      "ADJECTIVE": [
+        "HUGE"
+      ],
+      "ACTION": [
+        {
+          "A": "HUGE-STATUE-FCN"
+        }
+      ],
+      "TEXT": [
+        "It is carved out of dark gray basalt and its features resemble a woman at the\r\nheight of her beauty, most probably the ancient Queen. The statue itself must\r\nweigh more than you do."
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "HEAD",
+    "Properties": {
+      "#IN": "HUGE-STATUE",
+      "FLAGS": [
+        "INVISIBLE",
+        "TAKEBIT"
+      ],
+      "DESC": [
+        "broken head"
+      ],
+      "SYNONYM": [
+        "HEAD"
+      ],
+      "SIZE": [
+        20
+      ],
+      "ADJECTIVE": [
+        "BROKEN"
+      ],
+      "TEXT": [
+        "This head was once part of the magnificent statue of the Queen."
+      ],
+      "ACTION": [
+        {
+          "A": "HEAD-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "NEPHTH-DOOR",
+    "Properties": {
+      "#IN": "A-PRIME",
+      "FLAGS": [
+        "DOORBIT",
+        "NDESCBIT"
+      ],
+      "DESC": [
+        "stone door"
+      ],
+      "SYNONYM": [
+        "DOOR"
+      ],
+      "ADJECTIVE": [
+        "STONE"
+      ],
+      "ACTION": [
+        {
+          "A": "STONE-DOOR-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SELKIS-DOOR",
+    "Properties": {
+      "FLAGS": [
+        "DOORBIT",
+        "NDESCBIT"
+      ],
+      "DESC": [
+        "stone door"
+      ],
+      "SYNONYM": [
+        "DOOR"
+      ],
+      "ADJECTIVE": [
+        "STONE"
+      ],
+      "ACTION": [
+        {
+          "A": "STONE-DOOR-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "ISIS-DOOR",
+    "Properties": {
+      "FLAGS": [
+        "DOORBIT",
+        "NDESCBIT"
+      ],
+      "DESC": [
+        "stone door"
+      ],
+      "SYNONYM": [
+        "DOOR"
+      ],
+      "ADJECTIVE": [
+        "STONE"
+      ],
+      "ACTION": [
+        {
+          "A": "STONE-DOOR-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "NEITH-DOOR",
+    "Properties": {
+      "FLAGS": [
+        "DOORBIT",
+        "NDESCBIT"
+      ],
+      "DESC": [
+        "stone door"
+      ],
+      "SYNONYM": [
+        "DOOR"
+      ],
+      "ADJECTIVE": [
+        "STONE"
+      ],
+      "ACTION": [
+        {
+          "A": "STONE-DOOR-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "PLANK",
+    "Properties": {
+      "#IN": "BARGE-CENTER",
+      "SYNONYM": [
+        "LADDER",
+        "PLANK"
+      ],
+      "DESC": [
+        "plank"
+      ],
+      "FDESC": [
+        "A long wooden plank connects the barge and the entry area."
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "CLIMBBIT",
+        "DONTTAKE",
+        "TRYTAKEBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "PLANK-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "MAST-HOLE",
+    "Properties": {
+      "#IN": "BARGE-CENTER",
+      "DESC": [
+        "mast hole"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "OPENBIT",
+        "CONTBIT",
+        "TRANSBIT",
+        "DONTTAKE",
+        "TRYTAKEBIT",
+        "VEHBIT"
+      ],
+      "CAPACITY": [
+        34
+      ],
+      "SYNONYM": [
+        "HOLE"
+      ],
+      "ADJECTIVE": [
+        "MAST"
+      ],
+      "ACTION": [
+        {
+          "A": "MAST-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "TORCH-HOLDER",
+    "Properties": {
+      "#IN": "BELOW-MAST",
+      "DESC": [
+        "knothole"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "CONTBIT",
+        "TRANSBIT",
+        "OPENBIT",
+        "DONTTAKE",
+        "TRYTAKEBIT"
+      ],
+      "CAPACITY": [
+        5
+      ],
+      "ACTION": [
+        {
+          "A": "TORCH-HOLDER-FCN"
+        }
+      ],
+      "SYNONYM": [
+        "KNOTHO",
+        "HOLE"
+      ],
+      "ADJECTIVE": [
+        "KNOT"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SLOT",
+    "Properties": {
+      "#IN": "BELOW-MAST",
+      "FLAGS": [
+        "NDESCBIT",
+        "CONTBIT",
+        "OPENBIT",
+        "DONTTAKE",
+        "TRYTAKEBIT"
+      ],
+      "CAPACITY": [
+        9
+      ],
+      "DESC": [
+        "slot"
+      ],
+      "SYNONYM": [
+        "SLOT"
+      ],
+      "ADJECTIVE": [
+        "SMALL"
+      ],
+      "ACTION": [
+        {
+          "A": "SLOT-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SHIM",
+    "Properties": {
+      "#IN": "BELOW-MAST",
+      "FLAGS": [
+        "TAKEBIT",
+        "DONTTAKE",
+        "NDESCBIT",
+        "BURNBIT",
+        "TRYTAKEBIT"
+      ],
+      "DESC": [
+        "shim"
+      ],
+      "SIZE": [
+        4
+      ],
+      "SYNONYM": [
+        "SHIM",
+        "WEDGE"
+      ],
+      "ADJECTIVE": [
+        "WOOD"
+      ],
+      "TEXT": [
+        "It's a small piece of wood, used as a wedge."
+      ],
+      "ACTION": [
+        {
+          "A": "SHIM-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BEAM",
+    "Properties": {
+      "#IN": "BARGE-CENTER",
+      "FLAGS": [
+        "BURNBIT",
+        "TAKEBIT",
+        "VEHBIT",
+        "TRYTAKEBIT",
+        "SURFACEBIT",
+        "CONTBIT",
+        "OPENBIT"
+      ],
+      "DESC": [
+        "wooden beam"
+      ],
+      "FDESC": [
+        "Before you, running down through a hole in the deck, is a sturdy beam made of\r\nwood. Although only a few feet of it rise above the deck, it was probably used\r\nat one time as a mast."
+      ],
+      "SYNONYM": [
+        "BEAM",
+        "MAST"
+      ],
+      "ADJECTIVE": [
+        "WOODEN",
+        "STURDY"
+      ],
+      "SIZE": [
+        10
+      ],
+      "VALUE": [
+        15
+      ],
+      "ACTION": [
+        {
+          "A": "BEAM-FCN"
+        }
+      ],
+      "CAPACITY": [
+        30
+      ],
+      "DESCFCN": [
+        {
+          "A": "DESCRIBE-BEAM-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SCROLL",
+    "Properties": {
+      "#IN": "FORE-CABIN",
+      "FLAGS": [
+        "TAKEBIT",
+        "READBIT",
+        "BURNBIT"
+      ],
+      "DESC": [
+        "papyrus scroll"
+      ],
+      "FDESC": [
+        "Sitting on the deck is a papyrus scroll."
+      ],
+      "SIZE": [
+        1
+      ],
+      "TEXT": [
+        "This scroll was placed here for the Queen's passage to the afterlife."
+      ],
+      "SYNONYM": [
+        "SCROLL"
+      ],
+      "ADJECTIVE": [
+        "PAPYRU"
+      ],
+      "ACTION": [
+        {
+          "A": "READ-SCROLL-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "PUNCH-PANEL",
+    "Properties": {
+      "#IN": "SOUTH-CENTER",
+      "DESC": [
+        "recessed panel"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "OPENBIT",
+        "CONTBIT",
+        "DONTTAKE"
+      ],
+      "SYNONYM": [
+        "PANEL"
+      ],
+      "ADJECTIVE": [
+        "RECESS"
+      ],
+      "CAPACITY": [
+        45
+      ],
+      "ACTION": [
+        {
+          "A": "PUNCH-PANEL-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BRICK-ONE",
+    "Properties": {
+      "#IN": "PUNCH-PANEL",
+      "FLAGS": [
+        "TAKEBIT",
+        "NDESCBIT",
+        "TOUCHBIT",
+        "TRYTAKEBIT"
+      ],
+      "DESC": [
+        "first brick"
+      ],
+      "SYNONYM": [
+        "BRICK",
+        "BRICKS"
+      ],
+      "ADJECTIVE": [
+        "FIRST"
+      ],
+      "BRICK": [
+        1
+      ],
+      "TEXT": [
+        "<.>"
+      ],
+      "ACTION": [
+        {
+          "A": "TAKE-BRICK-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BRICK-NINE",
+    "Properties": {
+      "#IN": "PUNCH-PANEL",
+      "FLAGS": [
+        "TAKEBIT",
+        "NDESCBIT",
+        "TOUCHBIT",
+        "TRYTAKEBIT"
+      ],
+      "DESC": [
+        "ninth brick"
+      ],
+      "SYNONYM": [
+        "BRICK",
+        "BRICKS"
+      ],
+      "ADJECTIVE": [
+        "NINTH"
+      ],
+      "TEXT": [
+        "<::::.>"
+      ],
+      "BRICK": [
+        9
+      ],
+      "ACTION": [
+        {
+          "A": "TAKE-BRICK-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BRICK-EIGHT",
+    "Properties": {
+      "#IN": "PUNCH-PANEL",
+      "FLAGS": [
+        "TAKEBIT",
+        "NDESCBIT",
+        "TOUCHBIT",
+        "VOWELBIT",
+        "TRYTAKEBIT"
+      ],
+      "DESC": [
+        "eighth brick"
+      ],
+      "SYNONYM": [
+        "BRICK",
+        "BRICKS"
+      ],
+      "ADJECTIVE": [
+        "EIGHTH"
+      ],
+      "TEXT": [
+        "<::::>"
+      ],
+      "BRICK": [
+        8
+      ],
+      "ACTION": [
+        {
+          "A": "TAKE-BRICK-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BRICK-SEVEN",
+    "Properties": {
+      "#IN": "PUNCH-PANEL",
+      "FLAGS": [
+        "TAKEBIT",
+        "NDESCBIT",
+        "TOUCHBIT",
+        "TRYTAKEBIT"
+      ],
+      "DESC": [
+        "seventh brick"
+      ],
+      "SYNONYM": [
+        "BRICK",
+        "BRICKS"
+      ],
+      "ADJECTIVE": [
+        "SEVENTH"
+      ],
+      "TEXT": [
+        "<:::.>"
+      ],
+      "BRICK": [
+        7
+      ],
+      "ACTION": [
+        {
+          "A": "TAKE-BRICK-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BRICK-SIX",
+    "Properties": {
+      "#IN": "PUNCH-PANEL",
+      "FLAGS": [
+        "TAKEBIT",
+        "NDESCBIT",
+        "TOUCHBIT",
+        "TRYTAKEBIT"
+      ],
+      "DESC": [
+        "sixth brick"
+      ],
+      "SYNONYM": [
+        "BRICK",
+        "BRICKS"
+      ],
+      "ADJECTIVE": [
+        "SIXTH"
+      ],
+      "TEXT": [
+        "<:::>"
+      ],
+      "BRICK": [
+        6
+      ],
+      "ACTION": [
+        {
+          "A": "TAKE-BRICK-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BRICK-FIVE",
+    "Properties": {
+      "#IN": "PUNCH-PANEL",
+      "FLAGS": [
+        "TAKEBIT",
+        "NDESCBIT",
+        "TOUCHBIT",
+        "TRYTAKEBIT"
+      ],
+      "DESC": [
+        "fifth brick"
+      ],
+      "SYNONYM": [
+        "BRICK",
+        "BRICKS"
+      ],
+      "ADJECTIVE": [
+        "FIFTH"
+      ],
+      "TEXT": [
+        "<::.>"
+      ],
+      "BRICK": [
+        5
+      ],
+      "ACTION": [
+        {
+          "A": "TAKE-BRICK-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BRICK-FOUR",
+    "Properties": {
+      "#IN": "PUNCH-PANEL",
+      "FLAGS": [
+        "TAKEBIT",
+        "NDESCBIT",
+        "TOUCHBIT",
+        "TRYTAKEBIT"
+      ],
+      "DESC": [
+        "fourth brick"
+      ],
+      "SYNONYM": [
+        "BRICK",
+        "BRICKS"
+      ],
+      "ADJECTIVE": [
+        "FOURTH"
+      ],
+      "TEXT": [
+        "<::>"
+      ],
+      "BRICK": [
+        4
+      ],
+      "ACTION": [
+        {
+          "A": "TAKE-BRICK-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BRICK-THREE",
+    "Properties": {
+      "#IN": "PUNCH-PANEL",
+      "FLAGS": [
+        "TAKEBIT",
+        "NDESCBIT",
+        "TOUCHBIT",
+        "TRYTAKEBIT"
+      ],
+      "DESC": [
+        "third brick"
+      ],
+      "SYNONYM": [
+        "BRICK",
+        "BRICKS"
+      ],
+      "ADJECTIVE": [
+        "THIRD"
+      ],
+      "TEXT": [
+        "<:.>"
+      ],
+      "BRICK": [
+        3
+      ],
+      "ACTION": [
+        {
+          "A": "TAKE-BRICK-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BRICK-TWO",
+    "Properties": {
+      "#IN": "PUNCH-PANEL",
+      "FLAGS": [
+        "TAKEBIT",
+        "NDESCBIT",
+        "TOUCHBIT",
+        "TRYTAKEBIT"
+      ],
+      "DESC": [
+        "second brick"
+      ],
+      "SYNONYM": [
+        "BRICK",
+        "BRICKS"
+      ],
+      "ADJECTIVE": [
+        "SECOND"
+      ],
+      "TEXT": [
+        "<:>"
+      ],
+      "BRICK": [
+        2
+      ],
+      "ACTION": [
+        {
+          "A": "TAKE-BRICK-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "NASTY-CROC",
+    "Properties": {
+      "#IN": "RIVER-BANK",
+      "DESC": [
+        "crocodile"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "TOUCHBIT",
+        "DONTTAKE"
+      ],
+      "SYNONYM": [
+        "CROC",
+        "CROCS",
+        "CROCOD",
+        "REPTIL"
+      ],
+      "ACTION": [
+        {
+          "A": "CROC-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "NILE-RIBBAH",
+    "Properties": {
+      "#IN": "RIVER-BANK",
+      "DESC": [
+        "Nile"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "TOUCHBIT",
+        "CONTBIT",
+        "OPENBIT",
+        "DONTTAKE"
+      ],
+      "CAPACITY": [
+        1000
+      ],
+      "SYNONYM": [
+        "RIVER",
+        "NILE"
+      ],
+      "ACTION": [
+        {
+          "A": "GET-WET-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "THICKETS",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "DESC": [
+        "thicket"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "DONTTAKE"
+      ],
+      "SYNONYM": [
+        "THICKE"
+      ],
+      "TEXT": [
+        "They're about as yielding as you were with your helpers. What else can I say\r\nabout them?"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "FIREPIT",
+    "Properties": {
+      "#IN": "FIRE",
+      "FLAGS": [
+        "NDESCBIT",
+        "TOUCHBIT",
+        "CONTBIT",
+        "OPENBIT",
+        "DONTTAKE",
+        "TRANSBIT"
+      ],
+      "DESC": [
+        "pit"
+      ],
+      "SYNONYM": [
+        "PIT"
+      ],
+      "ADJECTIVE": [
+        "CHARRE"
+      ],
+      "CAPACITY": [
+        200
+      ],
+      "ACTION": [
+        {
+          "A": "FIREPIT-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "ROCK",
+    "Properties": {
+      "#IN": "FIRE",
+      "FLAGS": [
+        "NDESCBIT",
+        "TAKEBIT"
+      ],
+      "DESC": [
+        "blackened rock"
+      ],
+      "SYNONYM": [
+        "ROCK",
+        "STONE"
+      ],
+      "ADJECTIVE": [
+        "BLACKE"
+      ],
+      "ACTION": [
+        {
+          "A": "TAKE-ROCK-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "TENT-OBJ",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "FLAGS": [
+        "NDESCBIT",
+        "TOUCHBIT",
+        "DONTTAKE"
+      ],
+      "DESC": [
+        "tent"
+      ],
+      "SYNONYM": [
+        "TENT"
+      ],
+      "ADJECTIVE": [
+        "YOUR",
+        "SUPPLY",
+        "WORK"
+      ],
+      "ACTION": [
+        {
+          "A": "ENTER-TENT-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "PYRAMID",
+    "Properties": {
+      "FLAGS": [
+        "NDESCBIT",
+        "TOUCHBIT"
+      ],
+      "DESC": [
+        "pyramid"
+      ],
+      "SYNONYM": [
+        "PYRAMI"
+      ],
+      "ACTION": [
+        {
+          "A": "ENTER-PYRAMID-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "ROCK-S",
+    "Properties": {
+      "#IN": "FIRE",
+      "FLAGS": [
+        "DONTTAKE",
+        "NDESCBIT",
+        "TRYTAKEBIT"
+      ],
+      "DESC": [
+        "blackened rocks"
+      ],
+      "SYNONYM": [
+        "ROCKS"
+      ],
+      "ADJECTIVE": [
+        "BLACKE"
+      ],
+      "TEXT": [
+        "They form a ring around the firepit."
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "ROCK-LOCK",
+    "Properties": {
+      "#IN": "EX8",
+      "FLAGS": [
+        "INVISIBLE",
+        "NDESCBIT",
+        "CONTBIT",
+        "OPENBIT",
+        "DONTTAKE",
+        "VOWELBIT"
+      ],
+      "DESC": [
+        "opening"
+      ],
+      "SYNONYM": [
+        "OPENIN",
+        "BLOCK",
+        "HOLE"
+      ],
+      "ADJECTIVE": [
+        "SQUARE"
+      ],
+      "CAPACITY": [
+        5
+      ],
+      "MAP": [
+        3
+      ],
+      "ACTION": [
+        {
+          "A": "ENTER-OPENING-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "COT",
+    "Properties": {
+      "#IN": "TENT",
+      "FLAGS": [
+        "TAKEBIT",
+        "TRYTAKEBIT",
+        "CONTBIT",
+        "OPENBIT",
+        "SURFACEBIT",
+        "VEHBIT",
+        "VOWELBIT",
+        "TRANSBIT"
+      ],
+      "DESC": [
+        "army cot"
+      ],
+      "ACTION": [
+        {
+          "A": "COT-FCN"
+        }
+      ],
+      "CAPACITY": [
+        100
+      ],
+      "SYNONYM": [
+        "COT"
+      ],
+      "ADJECTIVE": [
+        "ARMY"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "FOLDED-COT",
+    "Properties": {
+      "FLAGS": [
+        "TAKEBIT"
+      ],
+      "DESC": [
+        "folded cot"
+      ],
+      "ACTION": [
+        {
+          "A": "COT-FCN"
+        }
+      ],
+      "SIZE": [
+        9
+      ],
+      "SYNONYM": [
+        "COT"
+      ],
+      "ADJECTIVE": [
+        "ARMY",
+        "FOLDED"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "MATCHES",
+    "Properties": {
+      "#IN": "FIRE",
+      "DESC": [
+        "matchbook"
+      ],
+      "FDESC": [
+        "Sitting by a rock is what looks like a matchbook."
+      ],
+      "SYNONYM": [
+        "MATCHB",
+        "MATCHE",
+        "COVER"
+      ],
+      "FLAGS": [
+        "BURNBIT",
+        "TAKEBIT",
+        "READBIT",
+        "CONTBIT"
+      ],
+      "SIZE": [
+        1
+      ],
+      "CAPACITY": [
+        1
+      ],
+      "GENERIC": [
+        {
+          "A": "DIASMBIGUATE-FCN"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "READ-MATCHES-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "MANY-MATCHES",
+    "Properties": {
+      "#IN": "MATCHES",
+      "FLAGS": [
+        "TAKEBIT",
+        "BURNBIT",
+        "TRYTAKEBIT"
+      ],
+      "DESC": [
+        "few matches"
+      ],
+      "SYNONYM": [
+        "MATCH"
+      ],
+      "GENERIC": [
+        {
+          "A": "DIASMBIGUATE-FCN"
+        }
+      ],
+      "ADJECTIVE": [
+        "ONE",
+        "SINGLE"
+      ],
+      "SIZE": [
+        1
+      ],
+      "ACTION": [
+        {
+          "A": "TAKE-ONE-MATCH-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SINGLE-MATCH",
+    "Properties": {
+      "FLAGS": [
+        "TAKEBIT",
+        "BURNBIT",
+        "TRYTAKEBIT"
+      ],
+      "DESC": [
+        "single match"
+      ],
+      "SYNONYM": [
+        "MATCH"
+      ],
+      "GENERIC": [
+        {
+          "A": "DIASMBIGUATE-FCN"
+        }
+      ],
+      "ADJECTIVE": [
+        "ONE",
+        "SINGLE"
+      ],
+      "SIZE": [
+        1
+      ],
+      "ACTION": [
+        {
+          "A": "TAKE-ONE-MATCH-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "ONE-MATCH",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "FLAGS": [
+        "BURNBIT"
+      ],
+      "DESC": [
+        "match"
+      ],
+      "GENERIC": [
+        {
+          "A": "DIASMBIGUATE-FCN"
+        }
+      ],
+      "SYNONYM": [
+        "MATCH"
+      ],
+      "SIZE": [
+        1
+      ],
+      "ACTION": [
+        {
+          "A": "DROP-ONE-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BURNED-MATCHBOOK",
+    "Properties": {
+      "FLAGS": [
+        "CONTBIT",
+        "TAKEBIT"
+      ],
+      "DESC": [
+        "burned matchbook"
+      ],
+      "SYNONYM": [
+        "MATCHB"
+      ],
+      "ADJECTIVE": [
+        "BURNED"
+      ],
+      "CAPACITY": [
+        1
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "EMPTY-MATCHES",
+    "Properties": {
+      "FLAGS": [
+        "CONTBIT",
+        "OPENBIT",
+        "BURNBIT",
+        "READBIT",
+        "TAKEBIT"
+      ],
+      "DESC": [
+        "matchbook"
+      ],
+      "SYNONYM": [
+        "MATCHB",
+        "MATCHE"
+      ],
+      "GENERIC": [
+        {
+          "A": "DIASMBIGUATE-FCN"
+        }
+      ],
+      "ADJECTIVE": [
+        "EMPTY"
+      ],
+      "CAPACITY": [
+        1
+      ],
+      "ACTION": [
+        {
+          "A": "LAST-MATCH-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "MANUAL",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "DESC": [
+        "manual"
+      ],
+      "FLAGS": [
+        "READBIT",
+        "DONTTAKE"
+      ],
+      "ADJECTIVE": [
+        "INSTRU"
+      ],
+      "SYNONYM": [
+        "MANUAL",
+        "COUPON"
+      ],
+      "ACTION": [
+        {
+          "A": "SEND-FOR-IT-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BURNED-PACK",
+    "Properties": {
+      "FLAGS": [
+        "INVISIBLE",
+        "TAKEBIT",
+        "READBIT",
+        "NDESCBIT"
+      ],
+      "DESC": [
+        "burned wrapper"
+      ],
+      "SYNONYM": [
+        "WRAPPE",
+        "PACK"
+      ],
+      "ADJECTIVE": [
+        "BURNED"
+      ],
+      "TEXT": [
+        "There's not much left to the outside of this package that's distinguishable."
+      ],
+      "ACTION": [
+        {
+          "A": "HUH?"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "CIG-WRAPPER",
+    "Properties": {
+      "#IN": "FIRE",
+      "FLAGS": [
+        "TAKEBIT",
+        "READBIT",
+        "BURNBIT",
+        "CONTBIT",
+        "OPENBIT"
+      ],
+      "DESC": [
+        "cigarette pack"
+      ],
+      "FDESC": [
+        "Half covered with sand is a bright piece of foil which catches your eye."
+      ],
+      "SYNONYM": [
+        "PACK",
+        "FOIL"
+      ],
+      "ADJECTIVE": [
+        "CIGARE",
+        "BRIGHT"
+      ],
+      "TEXT": [
+        "It's an empty pack of Camel cigarettes."
+      ],
+      "SIZE": [
+        3
+      ],
+      "CAPACITY": [
+        2
+      ],
+      "ACTION": [
+        {
+          "A": "BURN-FOO-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BROKEN-LOCK",
+    "Properties": {
+      "#IN": "TENT",
+      "FLAGS": [
+        "INVISIBLE",
+        "TAKEBIT",
+        "TRYTAKEBIT",
+        "NDESCBIT"
+      ],
+      "DESC": [
+        "broken lock"
+      ],
+      "SYNONYM": [
+        "LOCK",
+        "PADLOC"
+      ],
+      "ADJECTIVE": [
+        "BROKEN"
+      ],
+      "TEXT": [
+        "This is a slightly messed-up lock which once functioned. Alas, like your\r\npersonality, it has seen better days."
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "TRUNK",
+    "Properties": {
+      "#IN": "TENT",
+      "FLAGS": [
+        "CONTBIT",
+        "TRANSBIT",
+        "SURFACEBIT",
+        "OPENBIT"
+      ],
+      "DESC": [
+        "trunk"
+      ],
+      "DESCFCN": [
+        {
+          "A": "DESCRIBE-TRUNK-FCN"
+        }
+      ],
+      "SYNONYM": [
+        "TRUNK"
+      ],
+      "ADJECTIVE": [
+        "LARGE",
+        "UNWIEL"
+      ],
+      "CAPACITY": [
+        100
+      ],
+      "ACTION": [
+        {
+          "A": "TRUNK-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "LOCK",
+    "Properties": {
+      "#IN": "TENT",
+      "DESC": [
+        "padlock"
+      ],
+      "SYNONYM": [
+        "PADLOC",
+        "LOCK"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "CONTBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "LOCK-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "PICK-AXE",
+    "Properties": {
+      "#IN": "SUPPLY-TENT",
+      "FLAGS": [
+        "TOOLBIT",
+        "TAKEBIT"
+      ],
+      "DESC": [
+        "pick axe"
+      ],
+      "FDESC": [
+        "Stuck in the sand, handle down, is a small pick axe."
+      ],
+      "SYNONYM": [
+        "AXE",
+        "PICKAX",
+        "AX"
+      ],
+      "ADJECTIVE": [
+        "PICK"
+      ],
+      "TEXT": [
+        "It's a small hand axe, similar to those used in mountain climbing."
+      ],
+      "SIZE": [
+        10
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "STONE-KEY",
+    "Properties": {
+      "#IN": "MAP",
+      "FLAGS": [
+        "TAKEBIT",
+        "READBIT"
+      ],
+      "DESC": [
+        "stone cube"
+      ],
+      "SYNONYM": [
+        "CUBE"
+      ],
+      "MAP": [
+        3
+      ],
+      "ADJECTIVE": [
+        "SMALL",
+        "STONE"
+      ],
+      "ACTION": [
+        {
+          "A": "STONE-KEY-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "FOOD",
+    "Properties": {
+      "FLAGS": [
+        "FOODBIT",
+        "TAKEBIT",
+        "TOUCHBIT",
+        "TRYTAKEBIT"
+      ],
+      "DESC": [
+        "piece of dried beef"
+      ],
+      "SYNONYM": [
+        "BEEF",
+        "FOOD",
+        "MEAT"
+      ],
+      "ADJECTIVE": [
+        "DRIED",
+        "PIECE"
+      ],
+      "ACTION": [
+        {
+          "A": "EDIBLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "MAP",
+    "Properties": {
+      "FLAGS": [
+        "CONTBIT",
+        "TAKEBIT",
+        "VOWELBIT",
+        "BURNBIT"
+      ],
+      "DESC": [
+        "ancient map"
+      ],
+      "SYNONYM": [
+        "MAP"
+      ],
+      "ADJECTIVE": [
+        "ANCIEN"
+      ],
+      "CAPACITY": [
+        5
+      ],
+      "ACTION": [
+        {
+          "A": "MAP-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SHOVEL",
+    "Properties": {
+      "#IN": "SUPPLY-TENT",
+      "FLAGS": [
+        "TOOLBIT",
+        "TAKEBIT"
+      ],
+      "DESC": [
+        "shovel"
+      ],
+      "FDESC": [
+        "Half buried in the sand, in the corner of the tent, is a shovel."
+      ],
+      "TEXT": [
+        "It's a standard-issue garden shovel."
+      ],
+      "SYNONYM": [
+        "SHOVEL"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "ROPE",
+    "Properties": {
+      "#IN": "KNAPSACK",
+      "DESC": [
+        "rope"
+      ],
+      "FLAGS": [
+        "TAKEBIT",
+        "CLIMBBIT",
+        "BURNBIT",
+        "TOUCHBIT"
+      ],
+      "SYNONYM": [
+        "ROPE",
+        "COIL",
+        "ASP"
+      ],
+      "SIZE": [
+        4
+      ],
+      "ADJECTIVE": [
+        "BUNCH"
+      ],
+      "TEXT": [
+        "This rope is made of the finest Manila hemp and guaranteed to hold at least\r\n250 pounds of weight. There's about thirty feet of it. Be glad the workers\r\ndidn't hang you with it."
+      ],
+      "ACTION": [
+        {
+          "A": "ROPE-FCN"
+        }
+      ],
+      "DESCFCN": [
+        {
+          "A": "DESCRIBE-ROPE-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "NOTE",
+    "Properties": {
+      "#IN": "TENT2",
+      "FLAGS": [
+        "READBIT",
+        "BURNBIT",
+        "TAKEBIT"
+      ],
+      "DESC": [
+        "farewell note"
+      ],
+      "FDESC": [
+        "Tacked up to the inside of one of the tent flaps is a note."
+      ],
+      "TEXT": [
+        "The note reads:|\r\n|\r\nFi aman Allah!|\r\n|\r\nHereafter you shall pursue your fool dream of the hidden pyramid and its riches\r\nalone. May the jackals feed well on your bones. We have left you what you need\r\nto get back, though we hope you do not. We put several things you treasure\r\nabove life itself inside your trunk, locked with your precious padlock, but we\r\ncould not bear to part with the key. Especially after what you said of our\r\nrites. We hope the drug we placed in your drink did you harm. If not, we are at\r\nleast satisfied you slept especially soundly while we cleaned out the camp.|\r\n|\r\nFarewell"
+      ],
+      "SYNONYM": [
+        "NOTE"
+      ],
+      "ADJECTIVE": [
+        "FAREWE"
+      ],
+      "SIZE": [
+        1
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "GLOBAL-WATER",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "FLAGS": [
+        "DRINKBIT",
+        "NDESCBIT"
+      ],
+      "DESC": [
+        "quantity of water"
+      ],
+      "SYNONYM": [
+        "WATER"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "WATER",
+    "Properties": {
+      "#IN": "CANTEEN",
+      "FLAGS": [
+        "DRINKBIT"
+      ],
+      "DESC": [
+        "quantity of water"
+      ],
+      "SYNONYM": [
+        "WATER"
+      ],
+      "SIZE": [
+        3
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "CANTEEN",
+    "Properties": {
+      "#IN": "KNAPSACK",
+      "FLAGS": [
+        "CONTBIT",
+        "TAKEBIT",
+        "TOUCHBIT"
+      ],
+      "DESC": [
+        "canteen"
+      ],
+      "SYNONYM": [
+        "CANTEE"
+      ],
+      "ADJECTIVE": [
+        "SMALL"
+      ],
+      "CAPACITY": [
+        5
+      ],
+      "SIZE": [
+        6
+      ],
+      "ACTION": [
+        {
+          "A": "CANTEEN-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SMALL-SLIP",
+    "Properties": {
+      "FLAGS": [
+        "READBIT",
+        "TAKEBIT",
+        "BURNBIT",
+        "VOWELBIT"
+      ],
+      "DESC": [
+        "inspection sticker"
+      ],
+      "TEXT": [
+        "The small inspection sticker says:\r\n|\r\nThis trunk inspected by numbers 8 and 6.5. This reality was manufactured by\r\ntiny elves from the Bozbar Pyramid Construction Company, a jointly-owned\r\nsubsidiary of the FrobozzCo Magic Village Industries, Michael Berlyn and\r\nPatricia Fogleman, Chief Engineers."
+      ],
+      "SYNONYM": [
+        "STICKE"
+      ],
+      "ADJECTIVE": [
+        "INSPEC"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "MIRAGES",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "DESC": [
+        "mirage"
+      ],
+      "FLAGS": [
+        "NDESCBIT"
+      ],
+      "SYNONYM": [
+        "GORT",
+        "KLAATU",
+        "FISH",
+        "BUFFAL"
+      ],
+      "ADJECTIVE": [
+        "LIZARD",
+        "MAIDS",
+        "SNAIL",
+        "GYROCO"
+      ],
+      "ACTION": [
+        {
+          "A": "MIRAGES-F"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "C-SAND",
+    "Properties": {
+      "FLAGS": [
+        "NDESCBIT"
+      ],
+      "DESC": [
+        "quantity of sand"
+      ],
+      "SYNONYM": [
+        "SAND"
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "KNAPSACK",
+    "Properties": {
+      "#IN": "TENT2",
+      "DESC": [
+        "knapsack"
+      ],
+      "FLAGS": [
+        "TRYTAKEBIT",
+        "TAKEBIT",
+        "CONTBIT",
+        "SEARCHBIT"
+      ],
+      "SIZE": [
+        5
+      ],
+      "CAPACITY": [
+        60
+      ],
+      "SYNONYM": [
+        "SACK",
+        "KNAPSA"
+      ],
+      "ADJECTIVE": [
+        "KNAP"
+      ],
+      "FDESC": [
+        "Sitting in the sand, bulging a little, is a beaten-up knapsack."
+      ],
+      "ACTION": [
+        {
+          "A": "WEAR-THE-SACK"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "CRATE",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "DESC": [
+        "packing crate"
+      ],
+      "FLAGS": [
+        "CONTBIT",
+        "TRANSBIT",
+        "TAKEBIT",
+        "BURNBIT",
+        "SEARCHBIT",
+        "READBIT",
+        "SURFACEBIT",
+        "OPENBIT"
+      ],
+      "CAPACITY": [
+        10
+      ],
+      "SIZE": [
+        10
+      ],
+      "SYNONYM": [
+        "CRATE",
+        "LABEL"
+      ],
+      "ADJECTIVE": [
+        "PACKIN"
+      ],
+      "FDESC": [
+        "Lying in the sand is a wooden packing crate."
+      ],
+      "ACTION": [
+        {
+          "A": "CRATE-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BLACK-BOX",
+    "Properties": {
+      "FLAGS": [
+        "TAKEBIT",
+        "TRYTAKEBIT",
+        "CONTBIT",
+        "OPENBIT",
+        "SURFACEBIT"
+      ],
+      "DESC": [
+        "navigation box"
+      ],
+      "SYNONYM": [
+        "BOX"
+      ],
+      "ADJECTIVE": [
+        "NAVIGA",
+        "BLACK"
+      ],
+      "CAPACITY": [
+        10
+      ],
+      "TEXT": [
+        "This is an expensive, state-of-the-art piece of electronic equipment. It was\r\ndesigned to automatically determine longitude and latitude when the button on\r\nit is pressed. Thankfully, it has at last arrived."
+      ],
+      "ACTION": [
+        {
+          "A": "BOX-OPENER-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "BUTTON",
+    "Properties": {
+      "#IN": "BLACK-BOX",
+      "FLAGS": [
+        "NDESCBIT"
+      ],
+      "DESC": [
+        "button"
+      ],
+      "SYNONYM": [
+        "BUTTON"
+      ],
+      "ADJECTIVE": [
+        "NAVIGA"
+      ],
+      "ACTION": [
+        {
+          "A": "PRESS-BUTTON-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "GOLD-LEAF",
+    "Properties": {
+      "#IN": "LOCAL-GLOBALS",
+      "FLAGS": [
+        "NDESCBIT",
+        "DONTTAKE",
+        "TOUCHBIT"
+      ],
+      "DESC": [
+        "glittering leaf"
+      ],
+      "SYNONYM": [
+        "LEAF"
+      ],
+      "ADJECTIVE": [
+        "GOLD",
+        "SILVER"
+      ],
+      "TEXT": [
+        "The walls are covered with it. And it's very beautiful."
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "GOLD-TABLE",
+    "Properties": {
+      "#IN": "GCUP-ROOM",
+      "FLAGS": [
+        "CONTBIT",
+        "SURFACEBIT",
+        "OPENBIT",
+        "NDESCBIT",
+        "TRANSBIT",
+        "DONTTAKE"
+      ],
+      "DESC": [
+        "granite table"
+      ],
+      "SYNONYM": [
+        "TABLE",
+        "SLAB"
+      ],
+      "ADJECTIVE": [
+        "GRANITE"
+      ],
+      "CAPACITY": [
+        100
+      ],
+      "ACTION": [
+        {
+          "A": "HUH?"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "GOLD-CUP",
+    "Properties": {
+      "#IN": "GOLD-TABLE",
+      "FLAGS": [
+        "CONTBIT",
+        "OPENBIT",
+        "TAKEBIT",
+        "SEARCHBIT"
+      ],
+      "DESC": [
+        "golden chalice"
+      ],
+      "FDESC": [
+        "Sitting in the middle of the granite table is a gleaming chalice made\r\nof gold."
+      ],
+      "TEXT": [
+        "The cup is heavier than you thought it might be. The outside of it is\r\nbeautifully etched with scenes of the Queen and her handmaidens."
+      ],
+      "SYNONYM": [
+        "CUP",
+        "CHALIC"
+      ],
+      "ADJECTIVE": [
+        "GOLD",
+        "GOLDEN"
+      ],
+      "VALUE": [
+        15
+      ],
+      "CAPACITY": [
+        5
+      ],
+      "SIZE": [
+        8
+      ],
+      "MAP": [
+        1
+      ],
+      "ACTION": [
+        {
+          "A": "CUP-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SILVER-CUP",
+    "Properties": {
+      "#IN": "SILVER-TABLE",
+      "FLAGS": [
+        "CONTBIT",
+        "OPENBIT",
+        "TAKEBIT",
+        "SEARCHBIT"
+      ],
+      "DESC": [
+        "silver chalice"
+      ],
+      "TEXT": [
+        "There's a thin line etched inside the chalice which travels all the way\r\naround it. The chalice is not very heavy."
+      ],
+      "FDESC": [
+        "Sitting in the middle of the granite table is a chalice made of gleaming silver."
+      ],
+      "SYNONYM": [
+        "CUP",
+        "CHALIC"
+      ],
+      "ADJECTIVE": [
+        "SILVER"
+      ],
+      "VALUE": [
+        15
+      ],
+      "SIZE": [
+        5
+      ],
+      "CAPACITY": [
+        5
+      ],
+      "MAP": [
+        1
+      ],
+      "ACTION": [
+        {
+          "A": "CUP-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "LINE",
+    "Properties": {
+      "#IN": "GLOBAL-OBJECTS",
+      "FLAGS": [
+        "NDESCBIT",
+        "TOUCHBIT"
+      ],
+      "DESC": [
+        "line"
+      ],
+      "SYNONYM": [
+        "LINE"
+      ],
+      "ADJECTIVE": [
+        "THIN"
+      ],
+      "TEXT": [
+        "The line goes around the interior of the silver cup."
+      ],
+      "ACTION": [
+        {
+          "A": "LINE-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SILVER-TABLE",
+    "Properties": {
+      "#IN": "SCUP-ROOM",
+      "FLAGS": [
+        "CONTBIT",
+        "SURFACEBIT",
+        "TRANSBIT",
+        "OPENBIT",
+        "NDESCBIT",
+        "DONTTAKE"
+      ],
+      "DESC": [
+        "granite table"
+      ],
+      "SYNONYM": [
+        "TABLE",
+        "SLAB"
+      ],
+      "ADJECTIVE": [
+        "GRANITE"
+      ],
+      "CAPACITY": [
+        100
+      ],
+      "ACTION": [
+        {
+          "A": "HUH?"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "SKELETON",
+    "Properties": {
+      "#IN": "SKELETON-ROOM",
+      "DESC": [
+        "skeleton"
+      ],
+      "FDESC": [
+        "Lying before you in tortured repose are the bony remains of a former\r\nadventurer, someone who tried looting the pyramid long, long ago. As you bend\r\nover to pay your respects, something glitters, catching your eye as you move\r\nyour head."
+      ],
+      "SYNONYM": [
+        "SKELET",
+        "REMAIN",
+        "BONES",
+        "ADVENT"
+      ],
+      "ADJECTIVE": [
+        "BONY"
+      ],
+      "FLAGS": [
+        "TRYTAKEBIT",
+        "TAKEBIT",
+        "CONTBIT",
+        "OPENBIT",
+        "SEARCHBIT"
+      ],
+      "CAPACITY": [
+        15
+      ],
+      "ACTION": [
+        {
+          "A": "SKELETON-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "DIGITS",
+    "Properties": {
+      "#IN": "SKELETON",
+      "DESC": [
+        "calcified hand"
+      ],
+      "FLAGS": [
+        "NDESCBIT",
+        "CONTBIT",
+        "OPENBIT",
+        "SEARCHBIT"
+      ],
+      "SYNONYM": [
+        "DIGITS",
+        "HAND"
+      ],
+      "ADJECTIVE": [
+        "BONY",
+        "CALCIF"
+      ],
+      "ACTION": [
+        {
+          "A": "DIGIT-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "RING",
+    "Properties": {
+      "#IN": "DIGITS",
+      "FLAGS": [
+        "TAKEBIT",
+        "DONTTAKE",
+        "NDESCBIT",
+        "CONTBIT",
+        "OPENBIT",
+        "SEARCHBIT"
+      ],
+      "DESC": [
+        "jeweled ring"
+      ],
+      "SYNONYM": [
+        "RING"
+      ],
+      "ADJECTIVE": [
+        "JEWELE"
+      ],
+      "TEXT": [
+        "At first glance, you are overwhelmed with the beauty and richness of the ring.\r\nOn close examination you notice the ring has a tiny needle on the inside of\r\nthe band."
+      ],
+      "SIZE": [
+        1
+      ],
+      "ACTION": [
+        {
+          "A": "WEAR-RING-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  },
+  {
+    "Name": "NEEDLE",
+    "Properties": {
+      "#IN": "RING",
+      "FLAGS": [
+        "NDESCBIT",
+        "INVISIBLE",
+        "DONTTAKE",
+        "TRYTAKEBIT"
+      ],
+      "DESC": [
+        "tiny needle"
+      ],
+      "SYNONYM": [
+        "NEEDLE"
+      ],
+      "ADJECTIVE": [
+        "TINY"
+      ],
+      "SIZE": [
+        1
+      ],
+      "TEXT": [
+        "Inside the band is a small needle set at an angle designed to pierce the skin."
+      ],
+      "ACTION": [
+        {
+          "A": "TOUCH-NEEDLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": false
+  }
+]

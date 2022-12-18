@@ -1,0 +1,6480 @@
+[
+  {
+    "Name": "CHAMBER-OF-RA",
+    "Exits": {
+      "NORTH": {
+        "PER": "ROPE-HOOK-FCN",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "TELL-STAIRS-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "TELL-STAIRS-FCN",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "PER": "TELL-STAIRS-FCN",
+        "TYPE": "FEXIT"
+      },
+      "DOWN": {
+        "PER": "ROPE-DOWN-FCN",
+        "TYPE": "FEXIT"
+      },
+      "UP": {
+        "PER": "RE-ENABLE-FCN",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "PER": "RE-ENABLE-FCN",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Chamber of Ra"
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ROPE-HOOK-FCN"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TELL-STAIRS-FCN"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TELL-STAIRS-FCN"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "TELL-STAIRS-FCN"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ROPE-DOWN-FCN"
+        }
+      ],
+      "UP": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "RE-ENABLE-FCN"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "RE-ENABLE-FCN"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "NORTH-STAIRS"
+        },
+        {
+          "A": "EAST-STAIRS"
+        },
+        {
+          "A": "SOUTH-STAIRS"
+        },
+        {
+          "A": "WEST-STAIRS"
+        },
+        {
+          "A": "FEW-STEPS"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "MOVE-ROPE-RA"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "TINY-LANDING",
+    "Exits": {
+      "DOWN": {
+        "PER": "ROPE-DOWN-FCN",
+        "TYPE": "FEXIT"
+      },
+      "UP": {
+        "TO": "CHAMBER-OF-RA",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "On the Steep Stairs"
+      ],
+      "LDESC": [
+        "You are two steps down the steep staircase when you see before you a deep\r\ndropoff going down into nothingness. To go down any further would be suicide."
+      ],
+      "DOWN": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "ROPE-DOWN-FCN"
+        }
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CHAMBER-OF-RA"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "NORTH-STAIRS"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "NORTH-ANTECHAMBER",
+    "Exits": {
+      "SOUTH": {
+        "TO": "MID-ANTECHAMBER",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "BURIAL-CHAMBER",
+        "DOOR": "NORTH-ANTE-DOOR",
+        "ELSE": "There's no way you can walk through the door.",
+        "TYPE": "DEXIT"
+      },
+      "IN": {
+        "TO": "BURIAL-CHAMBER",
+        "DOOR": "NORTH-ANTE-DOOR",
+        "ELSE": "There's no way you can walk through the door.",
+        "TYPE": "DEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Antechamber"
+      ],
+      "LDESC": [
+        "You are in the north end of the Chamber of Eternal Royalty. On the eastern\r\nand western walls are scenes carved in high relief depicting a royal figure,\r\npossibly meant to represent a new ruler, performing the ritual of the\r\n\"opening of the mouth and eyes\", the ceremony of restoring to the mummy\r\nof the departed Queen the use of its senses. The north wall of this area is\r\na thick, solid wall of stone. In the center of this wall is a timber lintel\r\non top of a doorway."
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MID-ANTECHAMBER"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BURIAL-CHAMBER"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "NORTH-ANTE-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        },
+        {
+          "A": "ELSE"
+        },
+        "There's no way you can walk through the door."
+      ],
+      "IN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BURIAL-CHAMBER"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "NORTH-ANTE-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        },
+        {
+          "A": "ELSE"
+        },
+        "There's no way you can walk through the door."
+      ],
+      "GLOBAL": [
+        {
+          "A": "NORTH-ANTE-DOOR"
+        },
+        {
+          "A": "DOORWAY"
+        },
+        {
+          "A": "HIEROGLYPHS"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "NORTH-ANTE-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MID-ANTECHAMBER",
+    "Exits": {
+      "NORTH": {
+        "TO": "NORTH-ANTECHAMBER",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "SOUTH-ANTECHAMBER",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "PER": "WALK-BEAM-FCN",
+        "TYPE": "FEXIT"
+      },
+      "OUT": {
+        "PER": "WALK-BEAM-FCN",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Antechamber"
+      ],
+      "LDESC": [
+        "You are in the middle of the Chamber of Eternal Royalty, the antechamber. The\r\nwalls in this section of the antechamber are covered with beveled tiles of deep\r\nblue lapis lazuli and pink alabaster. At ceiling height, on the west wall, are\r\npaintings depicting the marriage of the goddess Isis and the god Osiris. The\r\nAntechamber stretches out to the north and the south. There's just enough light\r\ncast for you to see the outline of the bottomless pit in the passage to the\r\neast."
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NORTH-ANTECHAMBER"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SOUTH-ANTECHAMBER"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "WALK-BEAM-FCN"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "WALK-BEAM-FCN"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "DOORWAY"
+        },
+        {
+          "A": "PIT"
+        },
+        {
+          "A": "PICTURE-PANELS"
+        },
+        {
+          "A": "GEMS"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "MOVE-PLANK-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "SOUTH-ANTECHAMBER",
+    "Exits": {
+      "NORTH": {
+        "TO": "MID-ANTECHAMBER",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "ANNEX",
+        "DOOR": "ANNEX-DOOR",
+        "ELSE": "The way to the west is blocked by a closed door.",
+        "TYPE": "DEXIT"
+      },
+      "IN": {
+        "TO": "ANNEX",
+        "DOOR": "ANNEX-DOOR",
+        "ELSE": "The way to the west is blocked by a closed door.",
+        "TYPE": "DEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Antechamber"
+      ],
+      "LDESC": [
+        "You are in the southern end of the Chamber of Eternal Royalty. From here you\r\ncan see the room stretching out towards the north. The south wall is painted to\r\nresemble large baskets of lotus flowers with their blue petals framing an image\r\nof the Sun God, Amun Ra. The west wall has a timber doorway, inset several feet\r\ninto the rocks, outlining a door."
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MID-ANTECHAMBER"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ANNEX"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "ANNEX-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        },
+        {
+          "A": "ELSE"
+        },
+        "The way to the west is blocked by a closed door."
+      ],
+      "IN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ANNEX"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "ANNEX-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        },
+        {
+          "A": "ELSE"
+        },
+        "The way to the west is blocked by a closed door."
+      ],
+      "GLOBAL": [
+        {
+          "A": "HIEROGLYPHS"
+        },
+        {
+          "A": "DOORWAY"
+        },
+        {
+          "A": "ANNEX-DOOR"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "ANNEX-BEAM-MOVER"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "ANNEX",
+    "Exits": {
+      "EAST": {
+        "TO": "SOUTH-ANTECHAMBER",
+        "DOOR": "ANNEX-DOOR",
+        "TYPE": "DEXIT"
+      },
+      "OUT": {
+        "TO": "SOUTH-ANTECHAMBER",
+        "DOOR": "ANNEX-DOOR",
+        "TYPE": "DEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Annex"
+      ],
+      "LDESC": [
+        "You are in the Chamber of Rebirth, the Annex. As you gaze about this small\r\nroom, strange kohl-rimmed eyes gaze back at you from the painted figures\r\nwhich cover all of the walls. There are scenes of a great procession, with\r\nwhite-clad princesses offering gifts of precious oils and papyri to the\r\nmummified figure of the Queen. Bastet, the cat goddess, holds the mummy\r\nerect. Above you, painted on the ceiling, is the image of Tueris, the\r\nhippopotamus goddess. The only way out is through the doorway to the east."
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SOUTH-ANTECHAMBER"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "ANNEX-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SOUTH-ANTECHAMBER"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "ANNEX-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "ANNEX-DOOR"
+        },
+        {
+          "A": "DOORWAY"
+        },
+        {
+          "A": "PICTURES"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "ANNEX-BEAM-MOVER"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "BURIAL-CHAMBER",
+    "Exits": {
+      "SOUTH": {
+        "TO": "NORTH-ANTECHAMBER",
+        "DOOR": "NORTH-ANTE-DOOR",
+        "TYPE": "DEXIT"
+      },
+      "EAST": {
+        "TO": "TREASURY",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Burial Chamber"
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NORTH-ANTECHAMBER"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "NORTH-ANTE-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TREASURY"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "ACTION": [
+        {
+          "A": "BURIAL-CHAMBER-DESC"
+        }
+      ],
+      "LDESC": [
+        "LDESC"
+      ],
+      "GLOBAL": [
+        {
+          "A": "NORTH-ANTE-DOOR"
+        },
+        {
+          "A": "DOORWAY"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "TREASURY",
+    "Exits": {
+      "WEST": {
+        "TO": "BURIAL-CHAMBER",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "BURIAL-CHAMBER",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Treasury"
+      ],
+      "LDESC": [
+        "You are in the Chamber of Reconstitution of the Body, the Treasury. To the\r\nwest is a doorway leading back into the Burial Chamber."
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BURIAL-CHAMBER"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BURIAL-CHAMBER"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "TOP-OF-STAIRS",
+    "Exits": {
+      "WEST": {
+        "TO": "STAIRS-BOTTOM",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "TO": "STAIRS-BOTTOM",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "SECRET-PASSAGE",
+        "TYPE": "UEXIT"
+      },
+      "UP": {
+        "TO": "SECRET-PASSAGE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Top of Stairway"
+      ],
+      "LDESC": [
+        "You are at the top of a sixteen-step stairway. It leads west and down. The\r\nstrange passageway into the cube rooms lies to the south. The walls here are\r\npainted in somber colors -- deep ochres, browns and blacks, but the scenes the\r\npaintings depict are oddly gay. Priests smile, their hands lifted up high to\r\nAmun Ra, offering flower petals in their palms, while a young girl, bedecked\r\nin black, stands by watching, a twisted smile on her face."
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "STAIRS-BOTTOM"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "STAIRS-BOTTOM"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SECRET-PASSAGE"
+        }
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SECRET-PASSAGE"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "PICTURES"
+        },
+        {
+          "A": "STAIRS"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "STAIRS-BOTTOM",
+    "Exits": {
+      "WEST": {
+        "TO": "EAST-END-OF-PASSAGE",
+        "COND": "PLASTER-GONE",
+        "ELSE": "Solid plaster is blocking your way.",
+        "TYPE": "CEXIT"
+      },
+      "EAST": {
+        "TO": "TOP-OF-STAIRS",
+        "TYPE": "UEXIT"
+      },
+      "UP": {
+        "TO": "TOP-OF-STAIRS",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Bottom of Stairs"
+      ],
+      "LDESC": [
+        "You are at the bottom of the sixteen-step stairway. The stairway goes up to\r\nthe east, while to the west is solid plaster. Painted on the plaster\r\nare some hieroglyphs."
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EAST-END-OF-PASSAGE"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "PLASTER-GONE"
+        },
+        {
+          "A": "ELSE"
+        },
+        "Solid plaster is blocking your way."
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TOP-OF-STAIRS"
+        }
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TOP-OF-STAIRS"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "HIEROGLYPHS"
+        },
+        {
+          "A": "STAIRS"
+        },
+        {
+          "A": "DOORWAY"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "EAST-END-OF-PASSAGE",
+    "Exits": {
+      "EAST": {
+        "TO": "STAIRS-BOTTOM",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "MID-PASSAGE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Narrow Passageway"
+      ],
+      "LDESC": [
+        "You are at the east end of what seems like a long, straight passageway. After\r\ncarefully looking over the walls, stones and floor, you determine that it is\r\nsafe to proceed."
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "STAIRS-BOTTOM"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MID-PASSAGE"
+        }
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "MID-PASSAGE",
+    "Exits": {
+      "WEST": {
+        "TO": "WEST-END-OF-PASSAGE",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "EAST-END-OF-PASSAGE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Narrow Passageway"
+      ],
+      "LDESC": [
+        "You are in the middle of a long, east/west passage. The passage is narrow and\r\nseems to be little more than a hallway hewn out of stone."
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "WEST-END-OF-PASSAGE"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EAST-END-OF-PASSAGE"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "WEST-END-OF-PASSAGE",
+    "Exits": {
+      "EAST": {
+        "TO": "MID-PASSAGE",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "PER": "JERRY-HACK-F",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Narrow Passageway"
+      ],
+      "LDESC": [
+        "You have reached the west end of the passage. Before you is a door surrounded\r\nby a heavy timber frame. The door is entirely blocked up with plaster. Toward\r\nthe bottom of the north wall and the south wall, about three inches off the\r\nfloor, are two small niches. There are some hieroglyphs on the plaster."
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "MID-PASSAGE"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "JERRY-HACK-F"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "DOORWAY"
+        },
+        {
+          "A": "HIEROGLYPHS"
+        },
+        {
+          "A": "PIT"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "MOVE-PLANK-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "ROOM-OF-NEPHTHYS",
+    "Exits": {
+      "SE": {
+        "TO": "A-PRIME",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "A-PRIME",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Room of Nephthys"
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "LDESC": [
+        "You have entered the room of the protective goddess Nephthys. The walls here\r\nare cut from pink granite, elaborately decorated with bright red carnelian and\r\npale yellow feldspar. Along the northeast wall are panels of beaten gold, and\r\nmidway up this wall, under the winged symbol of Nephthys, you can see some\r\nhieroglyphs. To the southeast, an opening has been cut in the thick granite\r\nwall."
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "A-PRIME"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "A-PRIME"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "HIEROGLYPHS"
+        },
+        {
+          "A": "DOORWAY"
+        },
+        {
+          "A": "PICTURE-PANELS"
+        },
+        {
+          "A": "GEMS-2"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "SCORE-RMS"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "ROOM-OF-SELKIS",
+    "Exits": {
+      "SW": {
+        "TO": "B-PRIME",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "B-PRIME",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Room of Selkis"
+      ],
+      "LDESC": [
+        "You are standing in a small room, that of the protective goddess Selkis.\r\nThere are red, blue and green patterns on the walls formed from small glazed\r\ntiles that have been carefully arranged in order of shade. The darkest tiles\r\nborder the floor, and become lightest near the ceiling. On one wall,\r\ninscribed in a beaten gold panel, is the symbol of Selkis, under which you can\r\nsee some hieroglyphic text. An opening through the southwest wall leads out\r\nof this room."
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "B-PRIME"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "B-PRIME"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "HIEROGLYPHS"
+        },
+        {
+          "A": "DOORWAY"
+        },
+        {
+          "A": "GEMS-2"
+        },
+        {
+          "A": "PICTURE-PANELS"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "SCORE-RMS"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "ROOM-OF-ISIS",
+    "Exits": {
+      "NE": {
+        "TO": "D-PRIME",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "D-PRIME",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Room of Isis"
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "LDESC": [
+        "This is the room of the protective goddess Isis. You stand in amazement\r\nin the center of the room as thousands of tiny lights twinkle around you.\r\nWith great surprise you realize that the light from your torch is being\r\nreflected by the mirror-like surfaces of innumerable quartzite chips.\r\nThese are set artfully into red clay panels in the walls, and are surrounded\r\nby shiny red jasper fragments. On the southwest wall, under the winged symbol\r\nof Isis, some hieroglyphic text is inscribed in a gold panel. To the northeast\r\nis an arched opening, and, looking through it, you can barely make out a\r\nhallway."
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "D-PRIME"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "D-PRIME"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "HIEROGLYPHS"
+        },
+        {
+          "A": "PICTURE-PANELS"
+        },
+        {
+          "A": "GEMS"
+        },
+        {
+          "A": "DOORWAY"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "SCORE-RMS"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "ROOM-OF-NEITH",
+    "Exits": {
+      "NW": {
+        "TO": "E-PRIME",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "E-PRIME",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Room of Neith"
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "LDESC": [
+        "You are standing in the room of the protective goddess Neith. This room\r\nseems dark and mysterious with its decorations of inky-blue lapis lazuli\r\nand jet-black obsidian. Gold scrollwork defines an area on one of the\r\nwalls, in the center of which is the symbol of Neith. Below this you can\r\nsee some hieroglyphs etched into a beaten gold panel. There is a door in\r\nthe northwest wall leading out of the room."
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "E-PRIME"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "E-PRIME"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "HIEROGLYPHS"
+        },
+        {
+          "A": "PICTURE-PANELS"
+        },
+        {
+          "A": "PICTURES"
+        },
+        {
+          "A": "GEMS"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "SCORE-RMS"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "LANDING-ZERO",
+    "Exits": {
+      "NW": {
+        "TO": "A-PRIME",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "TO": "B-PRIME",
+        "TYPE": "UEXIT"
+      },
+      "SW": {
+        "TO": "D-PRIME",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "TO": "E-PRIME",
+        "TYPE": "UEXIT"
+      },
+      "UP": {
+        "TO": "CHAMBER-OF-RA",
+        "COND": "ROPE-TIED",
+        "ELSE": "There's no way to get back up there.",
+        "TYPE": "CEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Circular Room"
+      ],
+      "LDESC": [
+        "You are in a strange, round room which sits in the center of four hallways.\r\nThese hallways lead off to the northeast, southeast, southwest and northwest\r\nlike the spokes of a wheel. Above your head is a long tunnel which stretches up\r\nand out of sight."
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "A-PRIME"
+        }
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "B-PRIME"
+        }
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "D-PRIME"
+        }
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "E-PRIME"
+        }
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CHAMBER-OF-RA"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "ROPE-TIED"
+        },
+        {
+          "A": "ELSE"
+        },
+        "There's no way to get back up there."
+      ],
+      "ACTION": [
+        {
+          "A": "CIRCULAR-ROOM-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "A-PRIME",
+    "Exits": {
+      "SE": {
+        "TO": "LANDING-ZERO",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "TO": "ROOM-OF-NEPHTHYS",
+        "DOOR": "NEPHTH-DOOR",
+        "ELSE": "There's no way to get through the stone door.",
+        "TYPE": "DEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Northwest Hallway"
+      ],
+      "LDESC": [
+        "You are standing in the middle of the Northwest Hallway. The walls here are\r\nsmooth and undecorated, carved out of granite. The hallway continues to the\r\nnorthwest and to the southeast."
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "LANDING-ZERO"
+        }
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROOM-OF-NEPHTHYS"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "NEPHTH-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        },
+        {
+          "A": "ELSE"
+        },
+        "There's no way to get through the stone door."
+      ],
+      "ACTION": [
+        {
+          "A": "CLOSE-DEM-DOOAHS"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "B-PRIME",
+    "Exits": {
+      "SW": {
+        "TO": "LANDING-ZERO",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "TO": "ROOM-OF-SELKIS",
+        "DOOR": "SELKIS-DOOR",
+        "ELSE": "There's no way to get through the stone door.",
+        "TYPE": "DEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Northeast Hallway"
+      ],
+      "LDESC": [
+        "You are standing midway down the long Northeast Hallway. The high walls\r\nare undecorated, but bear the marks of the stonecarver's tool. The hallway\r\ncontinues to the northeast and the southwest."
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "LANDING-ZERO"
+        }
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROOM-OF-SELKIS"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "SELKIS-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        },
+        {
+          "A": "ELSE"
+        },
+        "There's no way to get through the stone door."
+      ],
+      "ACTION": [
+        {
+          "A": "CLOSE-DEM-DOOAHS"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "D-PRIME",
+    "Exits": {
+      "NE": {
+        "TO": "LANDING-ZERO",
+        "TYPE": "UEXIT"
+      },
+      "SW": {
+        "TO": "ROOM-OF-ISIS",
+        "DOOR": "ISIS-DOOR",
+        "ELSE": "There's no way to get through the stone door.",
+        "TYPE": "DEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Southwest Hallway"
+      ],
+      "LDESC": [
+        "You are midway down the Southwest Hallway. The walls of this narrow passage\r\nare unadorned and smooth. The hallway continues to the southwest and the\r\nnortheast."
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "LANDING-ZERO"
+        }
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROOM-OF-ISIS"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "ISIS-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        },
+        {
+          "A": "ELSE"
+        },
+        "There's no way to get through the stone door."
+      ],
+      "ACTION": [
+        {
+          "A": "CLOSE-DEM-DOOAHS"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "E-PRIME",
+    "Exits": {
+      "NW": {
+        "TO": "LANDING-ZERO",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "TO": "ROOM-OF-NEITH",
+        "DOOR": "NEITH-DOOR",
+        "ELSE": "There's no way to get through the stone door.",
+        "TYPE": "DEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Southeast Hallway"
+      ],
+      "LDESC": [
+        "You are midway down the Southeast Hallway. This corridor is undecorated and\r\nthe walls are polished to a smooth lustre. The hallway continues to the\r\nsoutheast and the northwest."
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "LANDING-ZERO"
+        }
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "ROOM-OF-NEITH"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "NEITH-DOOR"
+        },
+        {
+          "A": "IS"
+        },
+        {
+          "A": "OPEN"
+        },
+        {
+          "A": "ELSE"
+        },
+        "There's no way to get through the stone door."
+      ],
+      "ACTION": [
+        {
+          "A": "CLOSE-DEM-DOOAHS"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "LANDING-TWO",
+    "Exits": {
+      "UP": {
+        "TO": "CHAMBER-OF-RA",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "CHAMBER-OF-RA",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "TO": "NARROW-HALL",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "NARROW-HALL",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "South Landing"
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "LDESC": [
+        "You are on a landing in the middle of a set of stairs. The staircase goes down\r\nto the south and up to the north. The walls here are undistinguished, formed by\r\nthe stones of which the pyramid was built."
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CHAMBER-OF-RA"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CHAMBER-OF-RA"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NARROW-HALL"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NARROW-HALL"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "SOUTH-STAIRS"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "MOVE-ROPE-HERE"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "NARROW-HALL",
+    "Exits": {
+      "UP": {
+        "TO": "LANDING-TWO",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "TO": "BEND-HALL",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "LANDING-TWO",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Narrow Hallway"
+      ],
+      "LDESC": [
+        "You are at the entrance of a narrow hallway which goes to the northeast. A\r\nstaircase goes up to the north."
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "LANDING-TWO"
+        }
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BEND-HALL"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "LANDING-TWO"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "BEND-HALL",
+    "Exits": {
+      "NW": {
+        "TO": "BARGE-ENTRANCE",
+        "TYPE": "UEXIT"
+      },
+      "SW": {
+        "TO": "NARROW-HALL",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Narrow Hallway"
+      ],
+      "LDESC": [
+        "You are at a bend in the Narrow Hallway. The hallway continues to the\r\nnorthwest and to the southwest. Inscribed on the wall are some hieroglyphs."
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BARGE-ENTRANCE"
+        }
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NARROW-HALL"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "HIEROGLYPHS"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "BARGE-ENTRANCE",
+    "Exits": {
+      "UP": {
+        "TO": "BARGE-CENTER",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "BARGE-CENTER",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "SW-CORNER",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "SE-CORNER",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "TO": "BEND-HALL",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Barge Chamber"
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "LDESC": [
+        "You are in the southern section of a huge room which holds the royal barge.\r\nBefore you, to the north, is a plank which provides entrance to the barge.\r\nThere is room to move around the barge to the east and west, while a doorway\r\nto the southeast leads into a darkened corridor."
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BARGE-CENTER"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BARGE-CENTER"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SW-CORNER"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SE-CORNER"
+        }
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BEND-HALL"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "BOAT"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "MOVE-THE-PLANK-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "SE-CORNER",
+    "Exits": {
+      "WEST": {
+        "TO": "BARGE-ENTRANCE",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "NE-CORNER",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Barge Chamber"
+      ],
+      "LDESC": [
+        "You are in the southeast corner of the Barge Chamber. There's enough room to\r\nbypass the stern of the barge and continue to the north. To the west you can\r\nsee the entrance to the barge."
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BARGE-ENTRANCE"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NE-CORNER"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "BOAT"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "NE-CORNER",
+    "Exits": {
+      "WEST": {
+        "TO": "BARGE-EXIT",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "SE-CORNER",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Barge Chamber"
+      ],
+      "LDESC": [
+        "You're standing in the northeast corner of the Barge Chamber. You can get\r\naround the stern of the barge to the south, while there's enough room to\r\ncontinue around the barge to the west."
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BARGE-EXIT"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SE-CORNER"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "BOAT"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "SW-CORNER",
+    "Exits": {
+      "NORTH": {
+        "TO": "NW-CORNER",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "BARGE-ENTRANCE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Barge Chamber"
+      ],
+      "LDESC": [
+        "You're in the southwest corner of the Barge Chamber. You can still see the\r\nbarge entrance to the east, while there's enough room to continue to the north,\r\naround the barge."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NW-CORNER"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BARGE-ENTRANCE"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "BOAT"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "NW-CORNER",
+    "Exits": {
+      "SOUTH": {
+        "TO": "SW-CORNER",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "BARGE-EXIT",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Barge Chamber"
+      ],
+      "LDESC": [
+        "You're in the northwest corner of the Barge Chamber. You can see by your light\r\nthat there's room enough to continue around the back of the barge by going to\r\nthe east, while you can bypass the bow of the boat by going south."
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SW-CORNER"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BARGE-EXIT"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "BOAT"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "BARGE-EXIT",
+    "Exits": {
+      "EAST": {
+        "TO": "NE-CORNER",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "NW-CORNER",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "IN-THE-HALL",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Barge Chamber"
+      ],
+      "LDESC": [
+        "You're at the start of a hallway which goes off to the north. To the south,\r\ndirectly behind you, is the back side of the barge. There's enough room to get\r\naround it to the east and west."
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NE-CORNER"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NW-CORNER"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "IN-THE-HALL"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "BOAT"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "BARGE-CENTER",
+    "Exits": {
+      "WEST": {
+        "TO": "FORE-CABIN",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "AFT-CABIN",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "TO": "BARGE-ENTRANCE",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "BARGE-ENTRANCE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Center of Barge"
+      ],
+      "LDESC": [
+        "You are standing on the deck of an ancient wooden barge. Before you, cut into\r\nthe deck, is a hole. To the south is a plank which leads down off the barge.\r\nYou can see two cabins on the deck, one to the west and the other to the east."
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "FORE-CABIN"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "AFT-CABIN"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BARGE-ENTRANCE"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BARGE-ENTRANCE"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "HOLE"
+        },
+        {
+          "A": "BOAT"
+        },
+        {
+          "A": "DECK"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "BURN-THE-BARGE"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "FORE-CABIN",
+    "Exits": {
+      "EAST": {
+        "TO": "BARGE-CENTER",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BARGE-CENTER"
+        }
+      ],
+      "DESC": [
+        "Fore Cabin"
+      ],
+      "LDESC": [
+        "You are in the forward cabin aboard the barge. The cabin is bare with none of\r\nthe luxuries you expected to see. You close your eyes for a moment, picturing\r\nthe barge you'll someday own, the yacht fully rigged and crewed. You open your\r\neyes and shake your head, anxious to make your dream reality. There's a doorway\r\nto the east leading out onto the deck."
+      ],
+      "GLOBAL": [
+        {
+          "A": "BOAT"
+        },
+        {
+          "A": "DECK"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "BURN-THE-BARGE"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "AFT-CABIN",
+    "Exits": {
+      "WEST": {
+        "TO": "BARGE-CENTER",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "TO": "BELOW-DECK",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Aft Cabin"
+      ],
+      "LDESC": [
+        "You are in the aft cabin aboard the barge. There's a door to the west which\r\nleads out to the deck, and a short ladder, permanently mounted to the deck,\r\ngoing down into the depths of the barge itself."
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BARGE-CENTER"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BELOW-DECK"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "STAIRS"
+        },
+        {
+          "A": "BOAT"
+        },
+        {
+          "A": "DECK"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "BURN-THE-BARGE"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "BELOW-DECK",
+    "Exits": {
+      "UP": {
+        "TO": "AFT-CABIN",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "AFT-CABIN",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "BELOW-MAST",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Below Deck"
+      ],
+      "LDESC": [
+        "You are below the deck of the barge in what looks like a huge hold. To the\r\nwest you can see the hold continuing, while a ladder leads up and out from\r\nhere."
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "AFT-CABIN"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "AFT-CABIN"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BELOW-MAST"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "BURN-THE-BARGE"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "BOAT"
+        },
+        {
+          "A": "STAIRS"
+        },
+        {
+          "A": "DECK"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "BELOW-MAST",
+    "Exits": {
+      "EAST": {
+        "TO": "BELOW-DECK",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "West End of Hold"
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "LDESC": [
+        "You are in the westmost portion of the hold, below the deck of the barge.\r\nOn the north side of the hull is a small knothole about three feet off the\r\ndeck. Overhead you can see a hole going through the deck while, directly\r\nbelow this hole, on the deck by your feet, is a slot."
+      ],
+      "ACTION": [
+        {
+          "A": "BURN-THE-BARGE"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BELOW-DECK"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "BOAT"
+        },
+        {
+          "A": "HOLE"
+        },
+        {
+          "A": "DECK"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "LANDING-ONE",
+    "Exits": {
+      "UP": {
+        "TO": "CHAMBER-OF-RA",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "NE-BEND",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "CENTRAL-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "CHAMBER-OF-RA",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Cube"
+      ],
+      "LDESC": [
+        "You are in a room whose symmetry is uncanny, at least to the unaided eye: the\r\ndimensions of the room seem to form a perfect cube. There are three square\r\ndoorways cut into the walls -- one to the north, and another to the west. A\r\nwide staircase leads up through the square doorway to the east."
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CHAMBER-OF-RA"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NE-BEND"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CENTRAL-ROOM"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CHAMBER-OF-RA"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "EAST-STAIRS"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "MOVE-PANEL-HERE"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "LANDING-THREE",
+    "Exits": {
+      "UP": {
+        "TO": "CHAMBER-OF-RA",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "CHAMBER-OF-RA",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "NW-BEND",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "SW-BEND",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "CENTRAL-ROOM",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Cube"
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "LDESC": [
+        "You are in a room whose walls, floor and ceiling seem to form a perfect cube.\r\nThere are four square doorways cut into the walls -- to the north, the south,\r\nthe east and the west. Through the west doorway you can see a flight of stairs\r\nheading up."
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CHAMBER-OF-RA"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CHAMBER-OF-RA"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NW-BEND"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SW-BEND"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CENTRAL-ROOM"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "WEST-STAIRS"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "MOVE-PANEL-HERE"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "CENTRAL-ROOM",
+    "Exits": {
+      "NORTH": {
+        "TO": "NORTH-CENTER",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "SOUTH-CENTER",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "LANDING-ONE",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "LANDING-THREE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Cube"
+      ],
+      "LDESC": [
+        "You are in a room whose dimensions seem to measure a perfect cube. On the\r\nfloor of this room is a series of symbols, inscribed in the stone. The walls\r\nbear strange pictures of a Queen, one of which shows her being wrapped in\r\nlinen, another one showing her being lowered into what appears to be a solid\r\ngold sarcophagus. Four identical square doorways lead out of this chamber to\r\nthe north, south, east and west."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NORTH-CENTER"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SOUTH-CENTER"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "LANDING-ONE"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "LANDING-THREE"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "HIEROGLYPHS"
+        },
+        {
+          "A": "PICTURES"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "NORTH-CENTER",
+    "Exits": {
+      "EAST": {
+        "TO": "NE-BEND",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "NW-BEND",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "CENTRAL-ROOM",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Cube"
+      ],
+      "LDESC": [
+        "You are in a room in the shape of a perfect cube. There are three square\r\ndoorways cut into the walls -- one to the west, one to the east, and another\r\nto the south."
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NE-BEND"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NW-BEND"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CENTRAL-ROOM"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "SOUTH-CENTER",
+    "Exits": {
+      "NORTH": {
+        "TO": "CENTRAL-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "SW-BEND",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "SECRET-PASSAGE",
+        "COND": "BRICKS-PRESSED",
+        "ELSE": "You can't go that way.",
+        "TYPE": "CEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Cube"
+      ],
+      "LDESC": [
+        "You are in a room whose symmetry is uncanny, at least to the unaided eye: the\r\ndimensions of the room seem to form a perfect cube. There are two square\r\ndoorways cut into the walls -- one to the north, and another to the west.\r\nA panel, recessed into a wall, glows softly in your reflected light,\r\nwhile some hieroglyphs are visible above it."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CENTRAL-ROOM"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SW-BEND"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SECRET-PASSAGE"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "BRICKS-PRESSED"
+        },
+        {
+          "A": "ELSE"
+        },
+        "You can't go that way."
+      ],
+      "GLOBAL": [
+        {
+          "A": "HIEROGLYPHS"
+        }
+      ],
+      "ACTION": [
+        {
+          "A": "SOUTH-CENTER-F"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "SW-BEND",
+    "Exits": {
+      "NORTH": {
+        "TO": "LANDING-THREE",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "SOUTH-CENTER",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Cube"
+      ],
+      "LDESC": [
+        "You are in a room whose symmetry is uncanny, at least to the unaided eye: the\r\ndimensions of the room seem to form a perfect cube. There are two square\r\ndoorways cut into the walls -- one to the north, and another to the east. The\r\nuncannily-shaped room seems to form a corner for this entire area."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "LANDING-THREE"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SOUTH-CENTER"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "NE-BEND",
+    "Exits": {
+      "WEST": {
+        "TO": "NORTH-CENTER",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "LANDING-ONE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Cube"
+      ],
+      "LDESC": [
+        "You are in a room whose dimensions seem to form a perfect cube. There are two\r\nsquare doorways cut into the walls -- one to the south, and another to the\r\nwest. This room seems to form a corner for this entire area."
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NORTH-CENTER"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "LANDING-ONE"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "NW-BEND",
+    "Exits": {
+      "SOUTH": {
+        "TO": "LANDING-THREE",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "NORTH-CENTER",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Cube"
+      ],
+      "LDESC": [
+        "You are in a room whose shape is that of a perfect cube. There are two square\r\ndoorways cut into the walls -- one to the south, and another to the east."
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "LANDING-THREE"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "NORTH-CENTER"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "SECRET-PASSAGE",
+    "Exits": {
+      "NORTH": {
+        "TO": "TOP-OF-STAIRS",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "SOUTH-CENTER",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "TO": "TOP-OF-STAIRS",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "SOUTH-CENTER",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Turning Passage"
+      ],
+      "LDESC": [
+        "You are in a strange, turning passageway. The floor here descends, reminding\r\nyou of a ramp Craige once told you about -- a deep entrance into the depths of\r\nan Incan tomb. The ramp turns off toward the north. Judging from what you\r\nremember of the cube rooms, the ramp most probably passes beneath the\r\nascending east staircase. Through the open doorway to the west you can still\r\nsee one of the cube rooms."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TOP-OF-STAIRS"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SOUTH-CENTER"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TOP-OF-STAIRS"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SOUTH-CENTER"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "RIVER-BANK",
+    "Exits": {
+      "EAST": {
+        "TO": "P1",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "MESSAGE": "The thickets chew on your skin as you attempt to make a path through them. You finally give up.",
+        "TYPE": "NEXIT"
+      },
+      "SOUTH": {
+        "MESSAGE": "The thickets chew on your skin as you attempt to make a path through them. You finally give up.",
+        "TYPE": "NEXIT"
+      },
+      "WEST": {
+        "MESSAGE": "Can't you see the crocs? If you insist on entering the water, you'll have to swim.",
+        "TYPE": "NEXIT"
+      },
+      "NW": {
+        "MESSAGE": "Can't you see the crocs? If you insist on entering the water, you'll have to swim.",
+        "TYPE": "NEXIT"
+      },
+      "SW": {
+        "MESSAGE": "Can't you see the crocs? If you insist on entering the water, you'll have to swim.",
+        "TYPE": "NEXIT"
+      },
+      "OUT": {
+        "TO": "P1",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "River Bank"
+      ],
+      "LDESC": [
+        "You are on the bank of the river Nile. The shoreline is sandy and cool, and\r\nreeds wave in a light but warm breeze. Directly to the north and the south\r\nthickets make strolling along the bank impossible. You're hot, and the cool\r\nrippling water to the west looks inviting, but you're not alone in that\r\nthought -- crocodiles bask on the west bank, eyeing you hungrily, just\r\nwaiting for you to enter their watery domain. Things were never like this when\r\nCraige was around."
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P1"
+        }
+      ],
+      "NORTH": [
+        "The thickets chew on your skin as you attempt to make a path through them. You finally give up."
+      ],
+      "SOUTH": [
+        "The thickets chew on your skin as you attempt to make a path through them. You finally give up."
+      ],
+      "WEST": [
+        "Can't you see the crocs? If you insist on entering the water, you'll have to swim."
+      ],
+      "NW": [
+        "Can't you see the crocs? If you insist on entering the water, you'll have to swim."
+      ],
+      "SW": [
+        "Can't you see the crocs? If you insist on entering the water, you'll have to swim."
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P1"
+        }
+      ],
+      "MAP": [
+        1
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        },
+        {
+          "A": "GLOBAL-WATER"
+        },
+        {
+          "A": "THICKETS"
+        }
+      ],
+      "CAPACITY": [
+        0
+      ],
+      "ACTION": [
+        {
+          "A": "DESCRIBE-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "P1",
+    "Exits": {
+      "NORTH": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "NE": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "NW": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "TO": "RIVER-BANK",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "P2",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "P4",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "TO": "FIRE",
+        "TYPE": "UEXIT"
+      },
+      "SW": {
+        "MESSAGE": "Some thickets near the river chew on your skin as you attempt to make a path through them. You finally give up.",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Near the Nile"
+      ],
+      "LDESC": [
+        "You are on an east/west path on the north side of the encampment. A path to\r\nthe south starts here, and you can see the riverbank clearly to the west. A\r\nwarm, light breeze reaches your face, drying your sweat into a thin mask of\r\nsalt. You glance to the north and are greeted by a disheartening sight: an\r\nendless stretch of searing desert."
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "NE": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "NW": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "RIVER-BANK"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P2"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P4"
+        }
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "FIRE"
+        }
+      ],
+      "SW": [
+        "Some thickets near the river chew on your skin as you attempt to make a path through them. You finally give up."
+      ],
+      "MAP": [
+        2
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        }
+      ],
+      "CAPACITY": [
+        1
+      ],
+      "ENDLESS": [
+        651
+      ],
+      "ACTION": [
+        {
+          "A": "CREATE-THIRST-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "P2",
+    "Exits": {
+      "NORTH": {
+        "TO": "TENT",
+        "TYPE": "UEXIT"
+      },
+      "IN": {
+        "TO": "TENT",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "P1",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "P3",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "NE": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SW": {
+        "TO": "P4",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "TO": "P5",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "FIRE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Outside Your Tent"
+      ],
+      "LDESC": [
+        "You are on an east/west path on the north side of the encampment. To the south\r\nyou can see a firepit and to the north is the entrance to your tent. Everything\r\nis oddly quiet, unsettling, creating a feeling of floating anxiety. The\r\nstillness seems to enhance the eerie quality of the desert, the feeling of\r\nbeing truly alone."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TENT"
+        }
+      ],
+      "IN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TENT"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P1"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P3"
+        }
+      ],
+      "NW": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "NE": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P4"
+        }
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P5"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "FIRE"
+        }
+      ],
+      "MAP": [
+        3
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        },
+        {
+          "A": "FLAPS"
+        }
+      ],
+      "CAPACITY": [
+        3
+      ],
+      "ENDLESS": [
+        652
+      ],
+      "ACTION": [
+        {
+          "A": "CREATE-THIRST-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "TENT",
+    "Exits": {
+      "SOUTH": {
+        "TO": "P2",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "P2",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Your Tent"
+      ],
+      "LDESC": [
+        "You are in your tent. Golden rays of the sun filter through the open tent\r\nflaps on the southern wall, but no breeze makes its way through. The dry,\r\nsearing heat in the tent would be bearable if only the air stirred, even a\r\nlittle."
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P2"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P2"
+        }
+      ],
+      "MAP": [
+        4
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        },
+        {
+          "A": "FLAPS"
+        }
+      ],
+      "CAPACITY": [
+        0
+      ],
+      "ACTION": [
+        {
+          "A": "DESCRIBE-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "P3",
+    "Exits": {
+      "NORTH": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "NW": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "NE": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "TO": "EX1",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "TO": "EX4",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "P5",
+        "TYPE": "UEXIT"
+      },
+      "SW": {
+        "TO": "FIRE",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "P2",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Northern Path"
+      ],
+      "LDESC": [
+        "You are on an east/west path on the northern side of the encampment. To the\r\neast you can see the sites of previous excavations your workers had\r\nbegun before they deserted you. Low, gentle sand dunes roll out of sight to\r\nthe north, but your camp's eastern border has a path, heading off to the south,\r\nwhich starts here."
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "NW": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "NE": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX1"
+        }
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX4"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P5"
+        }
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "FIRE"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P2"
+        }
+      ],
+      "MAP": [
+        1
+      ],
+      "ACTION": [
+        {
+          "A": "CREATE-THIRST-FCN"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        }
+      ],
+      "ENDLESS": [
+        653
+      ],
+      "CAPACITY": [
+        2
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "SUPPLY-TENT",
+    "Exits": {
+      "EAST": {
+        "TO": "P4",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "P4",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Supply Tent"
+      ],
+      "LDESC": [
+        "You are in a tent, very much like your own -- a tent which had originally\r\ncontained the supplies for your expedition. You notice, however, that most of\r\nthe items which were here just yesterday have vanished with your workers. The\r\ntent looks as if it's been cleaned out and, as your stomach growls, the empty\r\ntent ironically reminds you of a turkey carcass picked clean after a huge\r\nThanksgiving meal. Through the open tent flaps to the east you can see the\r\nfirepit. If only one of the workers had remained behind, you would make him\r\npay."
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P4"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P4"
+        }
+      ],
+      "MAP": [
+        1
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        },
+        {
+          "A": "FLAPS"
+        }
+      ],
+      "CAPACITY": [
+        0
+      ],
+      "ACTION": [
+        {
+          "A": "DESCRIBE-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "P4",
+    "Exits": {
+      "NORTH": {
+        "TO": "P1",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "TO": "P2",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "MESSAGE": "The thickets chew on your skin as you attempt to make a path through them. You finally give up.",
+        "TYPE": "NEXIT"
+      },
+      "SW": {
+        "MESSAGE": "The thickets chew on your skin as you attempt to make a path through them. You finally give up.",
+        "TYPE": "NEXIT"
+      },
+      "WEST": {
+        "TO": "SUPPLY-TENT",
+        "TYPE": "UEXIT"
+      },
+      "IN": {
+        "TO": "SUPPLY-TENT",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "P6",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "FIRE",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "TO": "P7",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Outside Supply Tent"
+      ],
+      "LDESC": [
+        "You're on a north/south path on the west edge of the encampment. Directly to\r\nthe west is the supply tent, its flaps open, still in the hot, quiet air. To\r\nthe east you can see the central firepit, a reminder of your being alone. A row\r\nof thickets, impossible to make any progress through even with a machete,\r\ngrows along the western edge of the camp directly to the north and south of the\r\ntent."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P1"
+        }
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P2"
+        }
+      ],
+      "NW": [
+        "The thickets chew on your skin as you attempt to make a path through them. You finally give up."
+      ],
+      "SW": [
+        "The thickets chew on your skin as you attempt to make a path through them. You finally give up."
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SUPPLY-TENT"
+        }
+      ],
+      "IN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SUPPLY-TENT"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P6"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "FIRE"
+        }
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P7"
+        }
+      ],
+      "MAP": [
+        1
+      ],
+      "ACTION": [
+        {
+          "A": "CREATE-THIRST-FCN"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        },
+        {
+          "A": "FLAPS"
+        },
+        {
+          "A": "THICKETS"
+        }
+      ],
+      "CAPACITY": [
+        1
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "FIRE",
+    "Exits": {
+      "NORTH": {
+        "TO": "P2",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "TO": "P3",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "P5",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "TO": "P8",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "P7",
+        "TYPE": "UEXIT"
+      },
+      "SW": {
+        "TO": "P6",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "P4",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "TO": "P1",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Fire Pit"
+      ],
+      "LDESC": [
+        "You are in the center of the encampment, standing before a charred pit, a hole\r\ndug in the sand surrounded by blackened rocks. The night breezes have already\r\nstarted the reclamation work of the desert, covering most of the pit's bottom.\r\nYou can see your tent to the north, the work tent to the south, and the supply\r\ntent to the west. Far off to the east, through the heat waves rising off the\r\nshifting sands, you can see gentle, rolling dunes."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P2"
+        }
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P3"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P5"
+        }
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P8"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P7"
+        }
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P6"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P4"
+        }
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P1"
+        }
+      ],
+      "MAP": [
+        1
+      ],
+      "ACTION": [
+        {
+          "A": "CREATE-THIRST-FCN"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        }
+      ],
+      "CAPACITY": [
+        0
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "P5",
+    "Exits": {
+      "NORTH": {
+        "TO": "P3",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "TO": "EX1",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "EX4",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "TO": "EX7",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "P8",
+        "TYPE": "UEXIT"
+      },
+      "SW": {
+        "TO": "P7",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "FIRE",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "TO": "P2",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Middle Path"
+      ],
+      "LDESC": [
+        "You are at the eastern edge of an east/west path in the middle of the camp.\r\nTo the west you can see the firepit and beyond that the supply tent. To the\r\neast you can see the desert -- a vista difficult to avoid seeing from just\r\nabout anywhere in the camp. A north/south path intersects here, traveling along\r\nthe eastern border of the camp."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P3"
+        }
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX1"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX4"
+        }
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX7"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P8"
+        }
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P7"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "FIRE"
+        }
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P2"
+        }
+      ],
+      "MAP": [
+        2
+      ],
+      "ACTION": [
+        {
+          "A": "CREATE-THIRST-FCN"
+        }
+      ],
+      "ENDLESS": [
+        706
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        }
+      ],
+      "CAPACITY": [
+        4
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "P6",
+    "Exits": {
+      "NORTH": {
+        "TO": "P4",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "TO": "FIRE",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "P7",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SW": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "MESSAGE": "You scratch yourself on the thickets as you attempt this.",
+        "TYPE": "NEXIT"
+      },
+      "NW": {
+        "MESSAGE": "You scratch yourself on the thickets as you attempt this.",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Southern Path"
+      ],
+      "LDESC": [
+        "You are at the west edge of an east/west path on the southern side of the\r\nencampment. Directly to the west is a heavy growth of thickets, making any\r\nattempt at western movement a painful and futile task. Through the thickets you\r\ncan hear the sound of water running gently by."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P4"
+        }
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "FIRE"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P7"
+        }
+      ],
+      "SE": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SW": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "WEST": [
+        "You scratch yourself on the thickets as you attempt this."
+      ],
+      "NW": [
+        "You scratch yourself on the thickets as you attempt this."
+      ],
+      "MAP": [
+        2
+      ],
+      "ACTION": [
+        {
+          "A": "CREATE-THIRST-FCN"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        },
+        {
+          "A": "THICKETS"
+        }
+      ],
+      "ENDLESS": [
+        751
+      ],
+      "CAPACITY": [
+        0
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "P7",
+    "Exits": {
+      "NORTH": {
+        "TO": "FIRE",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "TO": "P5",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "P8",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "TO": "TENT2",
+        "TYPE": "UEXIT"
+      },
+      "SW": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "TO": "P6",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "TO": "P4",
+        "TYPE": "UEXIT"
+      },
+      "IN": {
+        "TO": "TENT2",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Outside Work Tent"
+      ],
+      "LDESC": [
+        "You are on an east/west path, directly to the north of the work tent. To the\r\nnorth you can see the firepit and, beyond that, your tent. The work tent\r\nborders an endless vista of fine, burning sand stretching out to the south."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "FIRE"
+        }
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P5"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P8"
+        }
+      ],
+      "SE": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TENT2"
+        }
+      ],
+      "SW": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P6"
+        }
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P4"
+        }
+      ],
+      "IN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TENT2"
+        }
+      ],
+      "MAP": [
+        2
+      ],
+      "ACTION": [
+        {
+          "A": "CREATE-THIRST-FCN"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        },
+        {
+          "A": "FLAPS"
+        }
+      ],
+      "ENDLESS": [
+        752
+      ],
+      "CAPACITY": [
+        1
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "P8",
+    "Exits": {
+      "NORTH": {
+        "TO": "P5",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "TO": "EX4",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "EX7",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SW": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "TO": "P7",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "TO": "FIRE",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Southern Path"
+      ],
+      "LDESC": [
+        "You are at the start of a path which heads north along the eastern border of\r\nthe encampment. To the east you can see the horror and the beauty which brought\r\nyou here, the desert sand and its hidden treasure. The firepit is visible to\r\nthe northwest."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P5"
+        }
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX4"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX7"
+        }
+      ],
+      "SE": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SW": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P7"
+        }
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "FIRE"
+        }
+      ],
+      "MAP": [
+        2
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        }
+      ],
+      "CAPACITY": [
+        2
+      ],
+      "ENDLESS": [
+        753
+      ],
+      "ACTION": [
+        {
+          "A": "CREATE-THIRST-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "TENT2",
+    "Exits": {
+      "NORTH": {
+        "TO": "P7",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "P7",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Work Tent"
+      ],
+      "LDESC": [
+        "You are in a tent which used to house the workers and\r\ntheir personal effects. Looking around, taking in the stripped and bare\r\nsurroundings, you feel surprised that they even left the canvas walls.\r\nYou quickly realize that they took what they needed -- taking everything\r\nwould have been more trouble than it was worth. From the looks of things\r\nthey cleared out quickly but quietly."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P7"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P7"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        },
+        {
+          "A": "FLAPS"
+        }
+      ],
+      "CAPACITY": [
+        0
+      ],
+      "MAP": [
+        2
+      ],
+      "ACTION": [
+        {
+          "A": "DESCRIBE-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "EX1",
+    "Exits": {
+      "NORTH": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "NE": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "TO": "EX2",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "TO": "EX5",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "EX4",
+        "TYPE": "UEXIT"
+      },
+      "SW": {
+        "TO": "P5",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "P3",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Desert"
+      ],
+      "LDESC": [
+        "You are in the broiling sands of the desert, a short distance from the camp.\r\nOff to the west you can just make out a slight discoloration in the sand, the\r\nstart of an east/west path which borders the northern edge of the camp."
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "NE": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX2"
+        }
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX5"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX4"
+        }
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P5"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P3"
+        }
+      ],
+      "NW": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        }
+      ],
+      "CAPACITY": [
+        3
+      ],
+      "MAP": [
+        2
+      ],
+      "DESERT": [
+        1
+      ],
+      "ENDLESS": [
+        654
+      ],
+      "ACTION": [
+        {
+          "A": "DESCRIBE-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "EX2",
+    "Exits": {
+      "NORTH": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "NE": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "TO": "EX3",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "TO": "EX6",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "EX5",
+        "TYPE": "UEXIT"
+      },
+      "SW": {
+        "TO": "EX4",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "EX1",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Desert"
+      ],
+      "LDESC": [
+        "You are in the desert, almost out of sight of the encampment, your only link\r\nwith civilization. You are just close enough to make out a tiny dot on the\r\nwestern horizon which could be one of the tents. The searing sand is making\r\nwalking a difficult and painful experience, something alien to you."
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "NE": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX3"
+        }
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX6"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX5"
+        }
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX4"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX1"
+        }
+      ],
+      "NW": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        }
+      ],
+      "CAPACITY": [
+        2
+      ],
+      "MAP": [
+        1
+      ],
+      "DESERT": [
+        1
+      ],
+      "ENDLESS": [
+        655
+      ],
+      "ACTION": [
+        {
+          "A": "DESCRIBE-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "EX3",
+    "Exits": {
+      "NORTH": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "NE": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SE": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "TO": "EX6",
+        "TYPE": "UEXIT"
+      },
+      "SW": {
+        "TO": "EX5",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "EX2",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Desert"
+      ],
+      "LDESC": [
+        "You are deep in desert, the encampment little more than a memory. You think\r\nfor a moment, closing your eyes, trying to picture the coolness of the Nile,\r\nthe comfort of your cot, and are overcome with doubts. When you open your eyes\r\nagain you are greeted with the same nightmare: All around you, all you can see\r\nfor mile after mile is sand and more sand."
+      ],
+      "NORTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "NE": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SE": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX6"
+        }
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX5"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX2"
+        }
+      ],
+      "NW": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        }
+      ],
+      "CAPACITY": [
+        1
+      ],
+      "MAP": [
+        2
+      ],
+      "DESERT": [
+        1
+      ],
+      "ENDLESS": [
+        656
+      ],
+      "ACTION": [
+        {
+          "A": "DESCRIBE-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "EX4",
+    "Exits": {
+      "NORTH": {
+        "TO": "EX1",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "TO": "EX2",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "EX5",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "TO": "EX8",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "EX7",
+        "TYPE": "UEXIT"
+      },
+      "SW": {
+        "TO": "P8",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "P5",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "TO": "P3",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Desert"
+      ],
+      "LDESC": [
+        "You are in the desert, still within sight of the encampment, just a tiny\r\noasis to the west. The tents, shimmering behind the heat waves rising from the\r\nsand, seem to be calling you back, beckoning, offering safety and refuge."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX1"
+        }
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX2"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX5"
+        }
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX8"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX7"
+        }
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P8"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P5"
+        }
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P3"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        }
+      ],
+      "CAPACITY": [
+        1
+      ],
+      "MAP": [
+        1
+      ],
+      "DESERT": [
+        1
+      ],
+      "ACTION": [
+        {
+          "A": "DESCRIBE-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "EX5",
+    "Exits": {
+      "NORTH": {
+        "TO": "EX2",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "TO": "EX3",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "EX6",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "TO": "EX9",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "EX8",
+        "TYPE": "UEXIT"
+      },
+      "SW": {
+        "TO": "EX7",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "EX4",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "TO": "EX1",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Desert"
+      ],
+      "LDESC": [
+        "You are standing on the top of a sand dune, looking all around at a place on\r\nEarth where man was never meant to be. That is the only conclusion you can draw\r\nas you force yourself to breathe the hot, arid air of the desert through your\r\nnose. Breathing through your mouth makes you instantly thirsty, a dangerous\r\nstate to find yourself in while surrounded by sand. You curse Craige, then\r\nfind yourself cursing Ellingsworth, too."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX2"
+        }
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX3"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX6"
+        }
+      ],
+      "SE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX9"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX8"
+        }
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX7"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX4"
+        }
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX1"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        }
+      ],
+      "CAPACITY": [
+        2
+      ],
+      "MAP": [
+        2
+      ],
+      "DESERT": [
+        1
+      ],
+      "ACTION": [
+        {
+          "A": "DESCRIBE-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "EX6",
+    "Exits": {
+      "NORTH": {
+        "TO": "EX3",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SE": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "TO": "EX9",
+        "TYPE": "UEXIT"
+      },
+      "SW": {
+        "TO": "EX8",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "EX5",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "TO": "EX2",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Desert"
+      ],
+      "LDESC": [
+        "You are deep into the desert, as deep as anyone in his right mind would ever\r\ncare to venture. A small but strong gust of wind reaches your face, pelting you\r\nwith grains of sand so small they remind you of fine sugar. Even with your lips\r\ntightly closed, the wind manages to drive a few grains into your mouth. You are\r\nthankful that none got into your eyes."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX3"
+        }
+      ],
+      "NE": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SE": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX9"
+        }
+      ],
+      "SW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX8"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX5"
+        }
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX2"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        }
+      ],
+      "CAPACITY": [
+        3
+      ],
+      "MAP": [
+        2
+      ],
+      "DESERT": [
+        1
+      ],
+      "ENDLESS": [
+        706
+      ],
+      "ACTION": [
+        {
+          "A": "DESCRIBE-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "EX7",
+    "Exits": {
+      "NORTH": {
+        "TO": "EX4",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "TO": "EX5",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "EX8",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SW": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "TO": "P8",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "TO": "P5",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Desert"
+      ],
+      "LDESC": [
+        "You are in the desert, east of the encampment. From this distance the camp\r\nseems little more than a mirage, an image of another reality which has little\r\nto do with the brutal, searing reality of the desert, your quickly dehydrating\r\nbody, or your painfully broiling feet."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX4"
+        }
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX5"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX8"
+        }
+      ],
+      "SE": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SW": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P8"
+        }
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "P5"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        }
+      ],
+      "CAPACITY": [
+        1
+      ],
+      "MAP": [
+        2
+      ],
+      "DESERT": [
+        1
+      ],
+      "ENDLESS": [
+        754
+      ],
+      "ACTION": [
+        {
+          "A": "DESCRIBE-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "EX8",
+    "Exits": {
+      "NORTH": {
+        "TO": "EX5",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "TO": "EX6",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "EX9",
+        "TYPE": "UEXIT"
+      },
+      "SE": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SW": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "TO": "EX7",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "TO": "EX4",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "TO": "CHAMBER-OF-RA",
+        "COND": "PYRAMID-OPENED",
+        "TYPE": "CEXIT"
+      },
+      "IN": {
+        "TO": "CHAMBER-OF-RA",
+        "COND": "PYRAMID-OPENED",
+        "TYPE": "CEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Desert"
+      ],
+      "LDESC": [
+        "You are in the desert, out of sight of the encampment. You are thankful\r\nthere's no wind, even though a cooling breeze would be welcomed, since the\r\nfine sand particles would sting your face and hands. All around is the desert,\r\na sweeping expanse of disheartening sand."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX5"
+        }
+      ],
+      "NE": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX6"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX9"
+        }
+      ],
+      "SE": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SW": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX7"
+        }
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX4"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CHAMBER-OF-RA"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "PYRAMID-OPENED"
+        }
+      ],
+      "IN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "CHAMBER-OF-RA"
+        },
+        {
+          "A": "IF"
+        },
+        {
+          "A": "PYRAMID-OPENED"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        }
+      ],
+      "CAPACITY": [
+        1
+      ],
+      "MAP": [
+        2
+      ],
+      "DESERT": [
+        1
+      ],
+      "ENDLESS": [
+        755
+      ],
+      "ACTION": [
+        {
+          "A": "DESCRIBE-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "EX9",
+    "Exits": {
+      "NORTH": {
+        "TO": "EX6",
+        "TYPE": "UEXIT"
+      },
+      "NE": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "EAST": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SE": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SOUTH": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "SW": {
+        "PER": "GET-LOST-FCN",
+        "TYPE": "FEXIT"
+      },
+      "WEST": {
+        "TO": "EX8",
+        "TYPE": "UEXIT"
+      },
+      "NW": {
+        "TO": "EX5",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "DESC": [
+        "Desert"
+      ],
+      "LDESC": [
+        "You are far into the desert, sand and more sand stretching out endlessly\r\naround you in all directions. You think of going back, of giving up this\r\nattempt at riches, but what awaits you back in the States? What is there worth\r\ngoing back to, with nothing to show for this quest? And how could you go back\r\nnow, after the things you'd said to Craige? You glance around\r\nat the rolling dunes and force back the fear eating away your confidence."
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX6"
+        }
+      ],
+      "NE": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SE": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "SW": [
+        {
+          "A": "PER"
+        },
+        {
+          "A": "GET-LOST-FCN"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX8"
+        }
+      ],
+      "NW": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "EX5"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TENT-OBJ"
+        },
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "HOLE"
+        }
+      ],
+      "CAPACITY": [
+        1
+      ],
+      "MAP": [
+        1
+      ],
+      "DESERT": [
+        1
+      ],
+      "ENDLESS": [
+        756
+      ],
+      "ACTION": [
+        {
+          "A": "DESCRIBE-HOLE-FCN"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "ENDLESS-DESERT",
+    "Exits": {
+      "UP": {
+        "MESSAGE": "Without a helicopter?",
+        "TYPE": "NEXIT"
+      },
+      "DOWN": {
+        "MESSAGE": "Let's not rush things.",
+        "TYPE": "NEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Desert"
+      ],
+      "FLAGS": [
+        "RLANDBIT",
+        "ONBIT"
+      ],
+      "LDESC": [
+        "You are in the desert, a vast wasteland of sand and heat."
+      ],
+      "UP": [
+        "Without a helicopter?"
+      ],
+      "DOWN": [
+        "Let's not rush things."
+      ],
+      "ACTION": [
+        {
+          "A": "DESERT-EXIT-FCN"
+        }
+      ],
+      "CAPACITY": [
+        0
+      ],
+      "GLOBAL": [
+        {
+          "A": "SAND"
+        },
+        {
+          "A": "MIRAGES"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "IN-THE-HALL",
+    "Exits": {
+      "SOUTH": {
+        "TO": "BARGE-EXIT",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "TO": "S-END",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "S-END",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "BARGE-EXIT",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "DESC": [
+        "Steep Passageway"
+      ],
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "LDESC": [
+        "You are at the top of a steep, descending passage that plunges down to the\r\nnorth. Although the angle is steep, it looks as if you should have firm enough\r\nfooting to travel safely. From the angle, it appears as though the passage\r\nis actually leaving the pyramid, cutting down through the sand high overhead\r\nto an adjoining building."
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BARGE-EXIT"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "S-END"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "S-END"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "BARGE-EXIT"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "S-END",
+    "Exits": {
+      "SOUTH": {
+        "TO": "IN-THE-HALL",
+        "TYPE": "UEXIT"
+      },
+      "UP": {
+        "TO": "IN-THE-HALL",
+        "TYPE": "UEXIT"
+      },
+      "DOWN": {
+        "TO": "N-END",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "N-END",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Steep Passageway"
+      ],
+      "LDESC": [
+        "You are about midway down a steep, descending, north/south passageway which\r\nseems to lead out of the pyramid to the north. The walls of stone are polished\r\nand as smooth as glass, glistening in your light, lighting the passage far to\r\nthe north and the south."
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "IN-THE-HALL"
+        }
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "IN-THE-HALL"
+        }
+      ],
+      "DOWN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "N-END"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "N-END"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "N-END",
+    "Exits": {
+      "SOUTH": {
+        "TO": "S-END",
+        "TYPE": "UEXIT"
+      },
+      "UP": {
+        "TO": "S-END",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "TEMPLE-ENTER",
+        "TYPE": "UEXIT"
+      },
+      "IN": {
+        "TO": "TEMPLE-ENTER",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Steep Passageway"
+      ],
+      "LDESC": [
+        "You are at the north end of a descending passageway. You can see the smoothly\r\npolished passageway rising up and out of sight to the south, heading back into\r\nthe pyramid. A large doorway cut into the stone walls lies to the north and,\r\nthrough it, you can see an immense chamber."
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "S-END"
+        }
+      ],
+      "UP": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "S-END"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TEMPLE-ENTER"
+        }
+      ],
+      "IN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TEMPLE-ENTER"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "DOORWAY"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "TEMPLE-ENTER",
+    "Exits": {
+      "SOUTH": {
+        "TO": "N-END",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "SKELETON-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "N-END",
+        "TYPE": "UEXIT"
+      },
+      "IN": {
+        "TO": "SKELETON-ROOM",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Temple Chamber"
+      ],
+      "LDESC": [
+        "You are in a huge chamber, immense in its size and scope, especially since it\r\nis far underground. Your light seems to climb and fall from the high walls,\r\nmaking their top boundaries undefined as they melt into inky darkness,\r\nflickering into the unknown reaches high overhead. There is a huge doorway\r\ncarved out of the south wall, the arch at its top barely discernible in your\r\nlight. To the north is a similar doorway, slightly scaled down, with pillars on\r\neither side of it, their shadows playing strange tricks on the wall behind\r\nthem. You can just barely make out the paintings on the walls, pictures of the\r\nancient Queen, her servants, and the priests in attendance."
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "N-END"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SKELETON-ROOM"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "N-END"
+        }
+      ],
+      "IN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SKELETON-ROOM"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "PICTURES"
+        },
+        {
+          "A": "PILLARS"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "SKELETON-ROOM",
+    "Exits": {
+      "OUT": {
+        "TO": "TEMPLE-ENTER",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "TEMPLE-ENTER",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "GOLDEN-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "EAST": {
+        "TO": "SILVER-ROOM",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Inner Chamber"
+      ],
+      "LDESC": [
+        "You are in the temple's inner chamber. The ceiling here is lower, low enough\r\nfor your light to reach it. There are openings in the east and west walls, and\r\na large, arched doorway to the south. The walls are covered with paintings,\r\nmost of which depict the Queen in different stages of preparation for her trip\r\non the royal barge. One in particular, larger than any of the others, shows the\r\nQueen and all of her attendants aboard the barge, floating through the air on\r\ntheir way to the netherworld. There are some detailed hieroglyphs on one of the\r\nwalls."
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TEMPLE-ENTER"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "TEMPLE-ENTER"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "GOLDEN-ROOM"
+        }
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SILVER-ROOM"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "HIEROGLYPHS"
+        },
+        {
+          "A": "PICTURES"
+        },
+        {
+          "A": "DOORWAY"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "GOLDEN-ROOM",
+    "Exits": {
+      "EAST": {
+        "TO": "SKELETON-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "GCUP-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "OUT": {
+        "TO": "SKELETON-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "IN": {
+        "TO": "GCUP-ROOM",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Golden Room"
+      ],
+      "LDESC": [
+        "You are in a room whose walls are covered with gold leaf. Your light reflects\r\noff the walls with a rich, warm tone and reveals the outlines of hieroglyphics\r\nengraved in the gold itself. There is a doorway cut into the south wall and,\r\nthrough the reflected light, you can tell it leads into a small chamber. There\r\nis another doorway leading out to the east."
+      ],
+      "EAST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SKELETON-ROOM"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "GCUP-ROOM"
+        }
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SKELETON-ROOM"
+        }
+      ],
+      "IN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "GCUP-ROOM"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "HIEROGLYPHS"
+        },
+        {
+          "A": "GOLD-LEAF"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "GCUP-ROOM",
+    "Exits": {
+      "OUT": {
+        "TO": "GOLDEN-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "GOLDEN-ROOM",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Golden Alcove"
+      ],
+      "LDESC": [
+        "You are in a small alcove off the Golden Room. Sitting in the middle of this\r\nsmall room is a roughly-hewn slab of granite, much like a legless table."
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "GOLDEN-ROOM"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "GOLDEN-ROOM"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TABLE"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "SILVER-ROOM",
+    "Exits": {
+      "OUT": {
+        "TO": "SKELETON-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "WEST": {
+        "TO": "SKELETON-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "IN": {
+        "TO": "SCUP-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "SOUTH": {
+        "TO": "SCUP-ROOM",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Silver Room"
+      ],
+      "LDESC": [
+        "You are in the Silver Chamber, a room whose walls reflect your light\r\nbrilliantly due to their silver surface. A doorway leads west and out, while\r\nanother doorway leads into a smaller room to the south."
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SKELETON-ROOM"
+        }
+      ],
+      "WEST": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SKELETON-ROOM"
+        }
+      ],
+      "IN": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SCUP-ROOM"
+        }
+      ],
+      "SOUTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SCUP-ROOM"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "HIEROGLYPHS"
+        },
+        {
+          "A": "GOLD-LEAF"
+        }
+      ]
+    },
+    "IsRoom": true
+  },
+  {
+    "Name": "SCUP-ROOM",
+    "Exits": {
+      "OUT": {
+        "TO": "SILVER-ROOM",
+        "TYPE": "UEXIT"
+      },
+      "NORTH": {
+        "TO": "SILVER-ROOM",
+        "TYPE": "UEXIT"
+      }
+    },
+    "Properties": {
+      "#IN": "ROOMS",
+      "FLAGS": [
+        "RLANDBIT"
+      ],
+      "DESC": [
+        "Silver Alcove"
+      ],
+      "LDESC": [
+        "You are in a small alcove off the Silver Room. Sitting in the middle of this\r\nsmall room is a roughly-hewn slab of granite, much like a legless table."
+      ],
+      "OUT": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SILVER-ROOM"
+        }
+      ],
+      "NORTH": [
+        {
+          "A": "TO"
+        },
+        {
+          "A": "SILVER-ROOM"
+        }
+      ],
+      "GLOBAL": [
+        {
+          "A": "TABLE"
+        }
+      ]
+    },
+    "IsRoom": true
+  }
+]

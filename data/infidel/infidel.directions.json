@@ -1,0 +1,14 @@
+[
+  "NORTH",
+  "EAST",
+  "WEST",
+  "SOUTH",
+  "UP",
+  "DOWN",
+  "IN",
+  "OUT",
+  "SE",
+  "SW",
+  "NE",
+  "NW"
+]
