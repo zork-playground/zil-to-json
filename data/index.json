@@ -54,5 +54,13 @@
         "rank": 7,
         "zil": "https://github.com/historicalsource/wishbringer/blob/master",
         "src": "wishbringer/wishbringer.all.json"
+    },
+    "infidel": {
+        "name": "Infidel",
+        "genre": "unknown",
+        "series": "INFIDEL",
+        "rank": 8,
+        "zil": "https://github.com/historicalsource/infidel/blob/master",
+        "src": "infidel/infidel.all.json"
     }
 }
